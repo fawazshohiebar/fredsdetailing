@@ -1,0 +1,36 @@
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+
+    <div class="adnec-container py-15">
+        <div class="flex flex-row items-center gap-3 pb-10">
+            <div class="text-primary font-semibold">{{ bread_crumb }}</div>
+            <div class="w-full h-[1px] bg-semiblack"></div>
+        </div>
+
+        <div class="grid grid-cols-[20%_40%_30%] gap-[5%] ">
+            <div class="custom">
+                {{ heading }}
+            </div>
+
+            <div>
+                <div class="custom pb-10">{{ description }}</div>
+
+                {{ fancy_button_group }}
+                    {{ partial:partials/sets/fancy_button }}
+                {{ /fancy_button_group }}
+            </div>
+
+            <div class="gap-5 flex flex-col ">
+                {{ registration_button }}
+                    {{ partial:partials/sets/fancy_button }}
+                {{ /registration_button }}
+                <div>
+                    {{ button_redirecting }}
+                        {{ partial:partials/sets/fancy_button }}
+                    {{ /button_redirecting }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

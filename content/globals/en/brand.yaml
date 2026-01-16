@@ -1,6 +1,5 @@
-title: 'Challenge Sir Bani Yas'
-logo: brand/d314715949800652df7c75645a976b97fa619889.png
-patronage: 'Held Under the Patronage of H.H Sheikh Mansour Bin Zayed Al Nahyan, Vice President, Deputy Prime Minister, Chairman of the Presidential Court, and Chairman of the Board of Directors of the Abu Dhabi Agriculture and Food Safety Authority (ADAFSA)'
+title: 'Make it in the Emirates 2026'
+logo: brand/mittelogo.png
 location: 'ADNEC Centre Abu Dhabi'
 location_link: 'https://maps.app.goo.gl/QfKJxAySQC8fabao9?g_st=iw'
 date: '29 Aug - 6 Sept'
@@ -14,7 +13,10 @@ button_replicator:
     button_size: fit
     type: button
     enabled: false
-countdown_date_picker: '2026-02-01 08:00:00'
+navbar_text:
+  left_text: 'PART OF THE <br> UAE’s OPERATION'
+  middle_text: 300Bn
+  right_text: 'Transformation <br> STRATEGY'
 logos_and_partners:
   -
     id: mke1fi5t
@@ -22,8 +24,6 @@ logos_and_partners:
     logo:
       -
         id: mke1fj81
-        image:
-          - adnoclogowhite-(2).png
         type: new_set
         enabled: true
     type: new_set
@@ -34,18 +34,15 @@ logos_and_partners:
     logo:
       -
         id: mke1g1o8
-        image:
-          - 6207aea41e28e3aa10c4113cb87c9c09e2933897-(1).png
         type: new_set
         enabled: true
       -
         id: mke1gnye
-        image:
-          - 6207aea41e28e3aa10c4113cb87c9c09e2933897-(2).png
         type: new_set
         enabled: true
     type: new_set
     enabled: true
+ai_search_url: 'https://aisearch.miite.ae/'
 footer_sales:
   -
     id: mglexqz2

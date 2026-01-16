@@ -3,9 +3,20 @@ fields:
   -
     handle: heading
     field:
-      type: text
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
       display: Heading
-      localizable: true
+      localizable: false
   -
     handle: subheading
     field:
@@ -55,48 +66,53 @@ fields:
       unless:
         video: 'contains http'
   -
-    handle: icons
+    handle: first_button
     field:
-      type: grid
-      display: Icons
-      localizable: true
+      type: group
+      display: 'first Button'
+      localizable: false
       fields:
         -
-          handle: icon
-          field: basics.icon
-          config:
-            width: 33
+          import: fancy_button
+  -
+    handle: second_button
+    field:
+      type: group
+      display: 'Second Button'
+      localizable: false
+      fields:
         -
-          handle: label
+          import: fancy_button
+  -
+    handle: more_info
+    field:
+      type: group
+      display: 'More Info'
+      localizable: false
+      fields:
+        -
+          handle: info_year
           field:
             type: text
-            display: Label
+            display: 'Info Year'
             localizable: false
-            width: 33
         -
-          handle: link
+          handle: info_date
           field:
-            type: link
-            display: Link
+            type: text
+            display: 'Info Date'
             localizable: false
-            width: 33
-  -
-    handle: hero_actions
-    field: basics.buttons
-    config:
-      display: 'Hero Actions'
-      sets:
-        new_set_group:
-          display: 'New Set Group'
-          instructions: null
-          icon: null
-          sets:
-            button:
-              display: Button
-              instructions: null
-              icon: null
-              hide: null
-              fields:
-                -
-                  import: fancy_button
-      width: 100
+        -
+          handle: info_location
+          field:
+            buttons:
+              - h2
+              - h3
+              - bold
+              - color
+              - h1
+              - h4
+            remove_empty_nodes: false
+            type: bard
+            display: 'Info Location'
+            localizable: false

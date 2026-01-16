@@ -1,131 +1,129 @@
-<header class="sticky top-0 left-0 flex flex-col w-full z-40 h-auto"
-    {{# x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" #}}
-class="opacity-60 bg-slate-900"
->
-{{# {{ partial:patronage }} #}}
-<nav class="w-full {{if !is_homepage}} bg-back-gradient {{/if}} flex-grow transition-all duration-300 ease-in-out" x-data="{ scrolled: false }"
-    x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
-    {{if is_homepage}}
-    :class="scrolled ? 'bg-back-gradient' : 'bg-slate-900/60 '"
-    {{/if}}
+    <header class="sticky top-0 left-0 flex flex-col w-full z-40 h-auto"
+        {{# x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" #}}
+    class="opacity-60 bg-slate-900"
     >
-    <div
-        class="adnec-container h-full pt-0 gap-2 mx-auto lg:grid lg:grid-cols-[250px_auto] md:items-center md:justify-between grid grid-cols-[65%_35%]">
-        <!-- Logo and Event Info -->
+    {{# {{ partial:patronage }} #}}
+    <nav class="w-full {{if !is_homepage}} bg-back-gradient {{/if}} flex-grow transition-all duration-300 ease-in-out"
+        x-data="{ scrolled: false }"
+        x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
+        {{if is_homepage}}
+    :class="scrolled ? 'bg-back-gradient' : 'bg-slate-900/60 '"
+    {{/if}}>
+        <div class="adnec-container h-full pt-0 gap-2 mx-auto  flex flex-row md:items-center justify-between ">
+            <!-- Logo and Event Info -->
 
-        <div class="flex items-center">
-            <a href="{{ site:url }}" title="{{brand:title}}" class="">
-                {{ brand:logo }}
-                    <img src="{{ url }}" alt="{{brand:title}}" class="xl:w-80 md:w-55 w-40 h-full object-contain">
-                {{ /brand:logo }}
-            </a>
+            <div class="flex items-center">
+                <a href="{{ site:url }}" title="{{ brand:title }}" class="">
+                    {{ brand:logo }}
+                        <img src="{{ url }}" alt="{{ brand:title }}"
+                            class="xl:w-56 md:w-55 w-40 h-25 object-contain py-5">
+                    {{ /brand:logo }}
+                </a>
 
-        </div>
-       <div class="lg:grid grid-cols-[auto_auto] items-center py-4  gap-2 xl:gap-5 hidden">
-
-
-        
-        {{# <div class="flex flex-row  flex-wrap xl:gap-4 gap-3">
-            {{ nav:main_nav }}
-                <div class="relative dropdown-item">
-                    {{ if children }}
-                        <!-- Hidden checkbox -->
-                        <input type="radio" name="nav-dropdown" id="dropdown-{{ index }}" class="dropdown-checkbox">
-
-                        <!-- Label acts as clickable parent -->
-                        <label for="dropdown-{{ index }}"
-                            class="dropdown-label text-white xl:text-base lg:text-sm font-medium leading-relaxed  cursor-pointer flex items-center gap-1">
-                            <p>{{ title }}</p>
-                            {{ heroicon variant="outline" icon="chevron-down" class="h-5 w-5 text-white" }}
-                        </label>
-
-                        <!-- Dropdown menu -->
-                        <div
-                            class="dropdown-content hidden absolute bg-white mt-2 rounded-lg shadow-lg min-w-[200px] z-10">
-                            {{ children }}
-                                <a href="{{ url }}"
-                                    class="block px-4 py-2 xl:text-base lg:text-sm text-gray-800 hover:bg-gray-100 transition-colors font-outfit font-light">
-                                    {{ title }}
-                                </a>
-                            {{ /children }}
-                        </div>
-                    {{ else }}
-                        <h3 class="text-white xl:text-base lg:text-sm font-medium">
-                            <a href="{{ url }}" class="hover:text-gray-300 transition-colors">
-                                {{ title }}
-                            </a>
-                        </h3>
-                    {{ /if }}
-                </div>
-            {{ /nav:main_nav }}
-        </div> #}}
-
-
-
-<div class="flex flex-row gap-y-1 flex-wrap xl:gap-4 gap-3">
-  {{ nav:main_nav }}
-    <div class="relative dropdown-item">
-      {{ if children }}
-        <input type="checkbox" id="dropdown-{{ index }}" class="dropdown-checkbox">
-
-        <label for="dropdown-{{ index }}" tabindex="0"
-          class="dropdown-label py-3 text-white xl:text-base lg:text-sm font-medium leading-relaxed cursor-pointer flex items-center gap-1">
-          <p>{{ title }}</p>
-          {{ heroicon variant="outline" icon="chevron-down" class="h-5 w-5 text-white transition-transform duration-300" }}
-        </label>
-
-        <div class="dropdown-content absolute bg-white mt-2 rounded-lg shadow-lg min-w-[200px] md:min-w-[300px] z-10 overflow-hidden">
-          {{ children }}
-            <a href="{{ url }}"
-              class="block px-4 py-2 xl:text-base lg:text-sm text-gray-800 hover:bg-gray-100 transition-colors font-outfit font-light">
-              {{ title }}
-            </a>
-          {{ /children }}
-        </div>
-      {{ else }}
-        <h3 class="text-white py-3 xl:text-base lg:text-sm font-medium">
-          <a href="{{ url }}" class="hover:text-gray-300 transition-colors">
-            {{ title }}
-          </a>
-        </h3>
-      {{ /if }}
-    </div>
-  {{ /nav:main_nav }}
-</div>
-
-
-
-
-
-        {{ brand:button_replicator }}
-            {{ partial:partials/sets/fancy_button }}
-        {{ /brand:button_replicator }}
-
-        </div>
-
-
-        <!-- Mobile Menu Button -->
-       <div class="lg:hidden items-center py-4 gap-2 block">
-
-            <div class="flex justify-end gap-2 lg:gap-4 items-center">
-                {{# {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }} #}}
- 
-                {{ if brand:ai_search_url }}
-                    <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
-                        class="text-white hover:underline flex gap-2 items-center">
-                        <span class="sr-only">{{ 'AI Search' | trans }}</span>
-                        {{ heroicon variant="outline" icon="magnifying-glass" class="w-8 h-8" /}}
-                    </a>
-                {{ /if }}
-                {{# {{ partial:language-switcher /}} #}}
-                <button command="show-modal" commandfor="drawer" class=" focus:outline-none"
-                    :class="scrolled ? 'text-white' : 'text-white'" aria-label="Toggle mobile menu">
-                    {{ heroicon variant="outline" icon="bars-3" class=" w-8 h-8" /}}
-                </button>
             </div>
-        {{ partial:partials/header/menu_drawer }}
-    </div>
+            <div>
+                {{ brand:navbar_text }}
+                    <div class="flex flex-row gap-2">
+                        <div class="text-white font-semibold text-sm text-right">{{ left_text }}</div>
+                        <div class="text-secondary font-semibold text-4xl">{{ middle_text }}</div>
+                        <div class="text-white  font-semibold text-sm">{{ right_text }}</div>
+                    </div>
+                {{ /brand:navbar_text }}
 
-   
-</nav>
-</header>
+
+            </div>
+            <div class=" hidden">
+                {{#
+                    <div class="flex flex-row  flex-wrap xl:gap-4 gap-3">
+                        {{ nav:main_nav }}
+                            <div class="relative dropdown-item">
+                                {{ if children }}
+                                    <!-- Hidden checkbox -->
+                                    <input type="radio" name="nav-dropdown" id="dropdown-{{ index }}" class="dropdown-checkbox">
+                    
+                                    <!-- Label acts as clickable parent -->
+                                    <label for="dropdown-{{ index }}"
+                                        class="dropdown-label text-white xl:text-base lg:text-sm font-medium leading-relaxed  cursor-pointer flex items-center gap-1">
+                                        <p>{{ title }}</p>
+                                        {{ heroicon variant="outline" icon="chevron-down" class="h-5 w-5 text-white" }}
+                                    </label>
+                    
+                                    <!-- Dropdown menu -->
+                                    <div class="dropdown-content hidden absolute bg-white mt-2 rounded-lg shadow-lg min-w-[200px] z-10">
+                                        {{ children }}
+                                            <a href="{{ url }}"
+                                                class="block px-4 py-2 xl:text-base lg:text-sm text-gray-800 hover:bg-gray-100 transition-colors font-outfit font-light">
+                                                {{ title }}
+                                            </a>
+                                        {{ /children }}
+                                    </div>
+                                {{ else }}
+                                    <h3 class="text-white xl:text-base lg:text-sm font-medium">
+                                        <a href="{{ url }}" class="hover:text-gray-300 transition-colors">
+                                            {{ title }}
+                                        </a>
+                                    </h3>
+                                {{ /if }}
+                            </div>
+                        {{ /nav:main_nav }}
+                    </div>
+                #}}
+                <div class=" hidden flex flex-row gap-y-1 flex-wrap xl:gap-4 gap-3">
+                    {{ nav:main_nav }}
+                        <div class="relative dropdown-item">
+                            {{ if children }}
+                                <input type="checkbox" id="dropdown-{{ index }}" class="dropdown-checkbox">
+
+                                <label for="dropdown-{{ index }}" tabindex="0"
+                                    class="dropdown-label py-3 text-white xl:text-base lg:text-sm font-medium leading-relaxed cursor-pointer flex items-center gap-1">
+                                    <p>{{ title }}</p>
+                                    {{ heroicon variant="outline" icon="chevron-down" class="h-5 w-5 text-white transition-transform duration-300" }}
+                                </label>
+
+                                <div
+                                    class="dropdown-content absolute bg-white mt-2 rounded-lg shadow-lg min-w-[200px] md:min-w-[300px] z-10 overflow-hidden">
+                                    {{ children }}
+                                        <a href="{{ url }}"
+                                            class="block px-4 py-2 xl:text-base lg:text-sm text-gray-800 hover:bg-gray-100 transition-colors font-outfit font-light">
+                                            {{ title }}
+                                        </a>
+                                    {{ /children }}
+                                </div>
+                            {{ else }}
+                                <h3 class="text-white py-3 xl:text-base lg:text-sm font-medium">
+                                    <a href="{{ url }}" class="hover:text-gray-300 transition-colors">
+                                        {{ title }}
+                                    </a>
+                                </h3>
+                            {{ /if }}
+                        </div>
+                    {{ /nav:main_nav }}
+                </div>
+                {{ brand:button_replicator }}
+                    {{ partial:partials/sets/fancy_button }}
+                {{ /brand:button_replicator }}
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class=" items-center py-4 gap-2 block">
+                <div class="flex justify-end gap-2 lg:gap-4 items-center">
+                    {{# {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }} #}}
+                    {{ if brand:ai_search_url }}
+                        <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
+                            class="text-white hover:underline flex gap-2 items-center">
+                            <span class="sr-only">{{ 'AI Search' | trans }}</span>
+                            {{ heroicon variant="outline" icon="magnifying-glass" class="w-8 h-8" /}}
+                        </a>
+                    {{ /if }}
+                    {{# {{ partial:language-switcher /}} #}}
+                    <button command="show-modal" commandfor="drawer" class=" focus:outline-none flex flex-row items-center bg-white p-[1px] rounded-[15px] "
+                        :class="scrolled ? 'text-white' : 'text-white'" aria-label="Toggle mobile menu">
+                       <div class="bg-primary  p-2 rounded-[15px]">
+                        {{ heroicon variant="outline" icon="bars-3" class=" w-8 h-8" /}}
+                        </div>
+                        <div class="text-primary  text-sm px-4">MENU</div>
+                    </button>
+                </div>
+                {{ partial:partials/header/menu_drawer }}
+            </div>
+    </nav>
+    </header>

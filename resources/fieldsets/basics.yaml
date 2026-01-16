@@ -680,6 +680,80 @@ fields:
                       - alignleft
                       - aligncenter
                       - alignright
+            overview:
+              display: OverView
+              fields:
+                -
+                  import: background_design
+                -
+                  handle: bread_crumb
+                  field:
+                    type: text
+                    display: 'Bread Crumb'
+                    localizable: false
+                -
+                  handle: heading
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                      - h5
+                      - h6
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Heading
+                    localizable: false
+                -
+                  handle: description
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Description
+                    localizable: false
+                -
+                  handle: fancy_button_group
+                  field:
+                    type: group
+                    display: 'Fancy Button Group'
+                    localizable: false
+                    fields:
+                      -
+                        import: fancy_button
+                -
+                  handle: registration_button
+                  field:
+                    type: group
+                    display: 'Registration Button'
+                    localizable: false
+                    fields:
+                      -
+                        import: fancy_button
+                -
+                  handle: button_redirecting
+                  field:
+                    type: replicator
+                    display: 'Button Redirecting'
+                    localizable: false
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            fields:
+                              -
+                                import: fancy_button
         forms:
           display: Forms
           icon: form-drop-down-menu

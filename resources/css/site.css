@@ -15,28 +15,36 @@ html {
 
 :root {
 
-  --color-primary: #211551;
-  --color-secondary: #F2F9FC;
+  --color-primary: #000;
+  --color-secondary: #E7443C;
+  --color-white:#FFFFFF;
   --color-accent: #f47832;
   --color-blue: #0F193C;
-  --color-light-accent: #f7f7f7;
+  --color-light-accent: #EDF1F7;
+  --color-semiblack:#D8DCE3;
   --color-light-secondary: #f0f5ff;
-  --color-gradient : linear-gradient(275deg, #0F193C, #dd001c);
+  --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
+  --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
 
 }
 
 @theme {
   --font-mont: "montserrat", sans-serif;
+  --font-audio:"Audiowide", sans-serif;
   --font-noto: "noto-sans-arabic", sans-serif;
 
-  --color-primary: #211551;
-  --color-secondary: #F2F9FC;
+  --color-primary: #000;
+  --color-secondary: #E7443C;
+  --color-white:#FFFFFF;
   --color-accent: #f47832;
   --color-blue: #0F193C;
-  --color-light-accent: #f7f7f7;
+  --color-semiblack:#D8DCE3;
+  --color-light-accent: #EDF1F7;
   --color-light-secondary: #f0f5ff;
-  --color-gradient : linear-gradient(275deg, #0F193C, #dd001c);
+  /* --color-gradient : linear-gradient(275deg, #0F193C, #dd001c); */
 
+   --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
+  --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
 
   --color-primary-50: #211551;
   --color-primary-100: #211551;
@@ -140,7 +148,9 @@ html {
   .bg-back-gradient {
     background: var(--color-gradient);
   }
-
+.bg-second-gradient{
+  background : var(--color-second-gradient);
+}
   .colored-text-secondary {
     @apply text-secondary-500;
   }
@@ -190,7 +200,7 @@ html {
 }
 
 .custom h2 {
-  @apply xl:text-5xl md:text-4xl text-3xl  font-semibold;
+  @apply xl:text-7xl md:text-5xl text-4xl font-normal  ;
 }
 
 .custom h3 {
@@ -200,6 +210,14 @@ html {
 .custom h4 {
   @apply xl:text-2xl md:text-xl  text-lg;
 }
+.custom h5 {
+  @apply xl:text-2xl md:text-xl  text-lg;
+}
+
+.custom h6 {
+  @apply xl:text-xl md:text-lg  text-base;
+}
+
 
 .custom p {
   @apply xl:!text-base  !text-sm;
@@ -227,8 +245,10 @@ li{
 } */
 
 .customcolors{
-   @apply  bg-gradient-to-r from-[#E2001A] to-[#0F193C] bg-clip-text text-transparent ;
-}
+   /* @apply  bg-gradient-to-r from-[#E2001A] to-[#0F193C] bg-clip-text text-transparent ; */
+   @apply bg-gradient-to-r from-[#ED1F24] via-[#702B8A] to-[#3853A4] bg-clip-text text-transparent;
+
+  }
 
 /* 
 .dropdown-checkbox {
@@ -240,6 +260,7 @@ li{
 } */
 
 
+ 
 
 
 

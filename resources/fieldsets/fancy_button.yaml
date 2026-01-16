@@ -39,6 +39,15 @@ fields:
         -
           key: whiterounded
           value: 'White Filled Rounded'
+        -
+          key: greengradient
+          value: 'Gradient Green'
+        -
+          key: blackbggroup
+          value: 'group black'
+        -
+          key: whitebgblacksvg
+          value: 'White Background Black Bg'
       type: select
       display: Design
       localizable: false

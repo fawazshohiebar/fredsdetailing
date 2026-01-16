@@ -1,0 +1,187 @@
+<style>
+    .tab-list {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        background: #303F51;
+        padding: 5px;
+    }
+
+    .tab {
+        background: none;
+        width: -webkit-fill-available;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 16px;
+        position: relative;
+        color: white;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        font-weight: 600;
+
+
+    }
+
+
+
+    .tab.active {
+        font-weight: 600;
+        color: white;
+        background: linear-gradient(96deg, #B9519F 0%, #3853A4 100.15%);
+    }
+
+    .tab:hover {
+        background: linear-gradient(96deg, #B9519F 0%, #3853A4 100.15%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .tab-panels {
+        margin-top: 20px;
+    }
+
+    .tab-panel {
+        display: none;
+        animation: fade 0.3s ease-in-out;
+    }
+
+    .tab-panel.active {
+        display: block;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+            transform: translateY(6px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full bg-cover bg-center">
+
+    <div class="adnec-container py-15">
+        <div class="custom text-center">{{ heading }}</div>
+
+        <div class="tabs" data-tabs>
+            <!-- Tab List (Navigation) -->
+            <div class="tab-list" role="tablist">
+                {{ tab_creator }}
+                    <button class="py-5  tab {{ if index == 0 }}active{{ /if }} text-white" role="tab"
+                        aria-selected="{{ if index == 0 }}true{{ else }}false{{ /if }}" data-tab="tab-{{ index }}">
+                        {{ tab_title }}
+                    </button>
+                {{ /tab_creator }}
+            </div>
+
+            <!-- Tab Panels (Content) -->
+            <div class="tab-panels">
+                {{ tab_creator }}
+                    <div class="tab-panel {{ if index == 0 }}active{{ /if }}" role="tabpanel" id="tab-{{ index }}">
+
+
+
+                        <div class="grid grid-cols-2 gap-2">
+
+
+                            <div class="flex flex-col gap-7">
+                                <div class="custom">{{ tab_description }}</div>
+                                <div class="custom">{{ tab_information }}</div>
+                                {{ if button_container }}
+                                    <div class="button-wrapper">
+                                        {{ button_container }}
+                                            {{ partial:partials/sets/fancy_button }}
+                                        {{ /button_container }}
+                                    </div>
+                                {{ /if }}
+                            </div>
+
+
+
+
+                            <div>
+                                {{ if accordion_creator }}
+                                    <div
+                                        class="accordion-wrapper w-full mt-5 rounded-2xl border border-[#303F51] overflow-hidden">
+                                        {{ accordion_creator }}
+                                            <div class="relative  overflow-hidden">
+                                                <input type="checkbox"
+                                                    id="tab-{{ index }}-accordion-{{ accordion_title | slugify }}"
+                                                    class="absolute opacity-0 z-[-1] peer" />
+
+                                                <label for="tab-{{ index }}-accordion-{{ accordion_title | slugify }}"
+                                                    class="cursor-pointer border-b border-[#303F51] pl-5 inline-flex justify-between items-center w-full  transition-all duration-500 ease-in-out peer-checked:pb-0">
+                                                    <span
+                                                        class="text-white py-6 xl:text-2xl lg:text-xl text-lg font-medium leading-7">
+                                                        {{ accordion_title }}
+                                                    </span>
+
+                                                    <!-- plus/minus -->
+                                                    <div
+                                                        class="relative w-15 h-[-webkit-fill-available] flex items-center justify-center bg-second-gradient">
+                                                        <div class="absolute w-4 h-0.5 bg-white"></div>
+                                                        <div
+                                                            class="ver absolute w-0.5 h-4 bg-white transition-opacity duration-300">
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                                <div
+                                                    class="max-h-0 overflow-hidden transition-all px-5 border-b border-[#303F51]  duration-500 ease-in-out accordion-content peer-checked:max-h-[fit-content] peer-checked:pb-3 peer-checked:opacity-100 opacity-0">
+                                                    <div
+                                                        class="text-white/80 md:text-lg text-sm font-normal leading-relaxed px-2">
+                                                        {{ description }}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {{ /accordion_creator }}
+                                    </div>
+                                {{ /if }}
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                {{ /tab_creator }}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('[data-tabs]').forEach(function(tabs) {
+        var buttons = tabs.querySelectorAll('[role="tab"]');
+        var panels = tabs.querySelectorAll('[role="tabpanel"]');
+
+        buttons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                var target = this.getAttribute('data-tab');
+
+                buttons.forEach(function(btn) {
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-selected', 'false');
+                });
+
+                panels.forEach(function(panel) {
+                    panel.classList.remove('active');
+                });
+
+                this.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
+                tabs.querySelector('#' + target).classList.add('active');
+            });
+        });
+    });
+</script>

@@ -114,6 +114,31 @@ tabs:
               type: date
               display: 'Countdown Date Picker'
               localizable: false
+          -
+            handle: navbar_text
+            field:
+              type: group
+              display: 'NavBar Text'
+              localizable: false
+              fields:
+                -
+                  handle: left_text
+                  field:
+                    type: text
+                    display: 'Left Text'
+                    localizable: false
+                -
+                  handle: middle_text
+                  field:
+                    type: text
+                    display: 'Middle Text'
+                    localizable: false
+                -
+                  handle: right_text
+                  field:
+                    type: text
+                    display: 'Right Text'
+                    localizable: false
       -
         display: 'Footer Logos'
         fields:

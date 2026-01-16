@@ -10,6 +10,9 @@
   {{ partial:additional_scripts_head /}}
   {{ partial:meta /}}
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -32,4 +35,28 @@
 
   {{ partial:additional_scripts_body_end /}}
 </body>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    function wrapNumbers(node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+            if (/\d/.test(node.nodeValue)) {
+                const span = document.createElement("span");
+                span.innerHTML = node.nodeValue.replace(
+                    /(\d+)/g,
+                    '<span class="font-audio">$1</span>'
+                );
+                node.parentNode.replaceChild(span, node);
+            }
+        } else if (
+            node.nodeType === Node.ELEMENT_NODE &&
+            !["SCRIPT", "STYLE", "NOSCRIPT"].includes(node.tagName)
+        ) {
+            node.childNodes.forEach(wrapNumbers);
+        }
+    }
+
+    wrapNumbers(document.body);
+});
+</script>
+
 </html>

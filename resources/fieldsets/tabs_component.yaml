@@ -1,0 +1,121 @@
+title: 'Tabs Component'
+fields:
+  -
+    import: background_design
+  -
+    handle: heading
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
+      display: Heading
+      localizable: true
+  -
+    handle: tab_creator
+    field:
+      type: replicator
+      display: 'Tab Creator'
+      localizable: true
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            tab_set:
+              display: 'Tab Set'
+              fields:
+                -
+                  handle: tab_title
+                  field:
+                    type: text
+                    display: 'Tab Title'
+                    localizable: false
+                -
+                  handle: tab_description
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                      - h5
+                      - h6
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'Tab Description'
+                    localizable: false
+                -
+                  handle: tab_information
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                      - h5
+                      - h6
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'Tab Information'
+                    localizable: false
+                -
+                  handle: button_container
+                  field:
+                    type: replicator
+                    display: 'Button Container'
+                    localizable: false
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          button_set:
+                            display: 'Button Set'
+                            fields:
+                              -
+                                import: fancy_button
+                -
+                  handle: accordion_creator
+                  field:
+                    type: replicator
+                    display: 'Accordion Creator'
+                    localizable: false
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          accordion_set:
+                            display: 'Accordion Set'
+                            fields:
+                              -
+                                handle: accordion_title
+                                field:
+                                  type: text
+                                  display: 'Accordion Title'
+                                  localizable: false
+                              -
+                                handle: description
+                                field:
+                                  buttons:
+                                    - h2
+                                    - h3
+                                    - bold
+                                    - color
+                                    - h1
+                                    - h4
+                                    - h5
+                                    - h6
+                                  remove_empty_nodes: false
+                                  type: bard
+                                  display: 'Accordion Description'
+                                  localizable: false

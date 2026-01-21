@@ -1,4 +1,3 @@
-{{ nocache }}
     {{ form id="{{form:handle}}" :handle="form" attr:x-ref="form" js="alpine" class="px-2 py-10 lg:px-8" enctype="multipart/form-data" }}
         <div x-data='{
             checkingCaptcha: true,
@@ -200,7 +199,7 @@
             </template>
             <template x-if="!success">
                 <div class="mx-auto">
-                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 formelements">
                         {{ widthClasses = ['100' => 'sm:col-span-2', '50' => 'sm:col-span-1', ] }}
                         {{ fields }}
                             <div class="{{ widthClasses[width] }}">
@@ -256,4 +255,8 @@
             </template>
         </div>
     {{ /form }}
-{{ /nocache }}
+
+
+
+    
+    

@@ -196,6 +196,92 @@ tabs:
                                           display: Url
                                           localizable: false
                                           width: 33
+          -
+            handle: footer_text
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - color
+                - h1
+                - h4
+                - h5
+                - h6
+              remove_empty_nodes: false
+              type: bard
+              display: 'Footer Text'
+              localizable: false
+          -
+            handle: link_bottom_footer
+            field:
+              type: replicator
+              display: 'Link Bottom  Footer'
+              localizable: false
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: footer_botom_links
+                          field:
+                            type: link
+                            display: 'Footer Botom Links'
+                            localizable: false
+                            width: 50
+                        -
+                          handle: bottom_footer_links_text
+                          field:
+                            type: text
+                            display: 'Bottom Footer Links Text'
+                            localizable: false
+                            width: 50
+          -
+            handle: social_media
+            field:
+              type: grid
+              display: 'Social Media'
+              localizable: false
+              fields:
+                -
+                  handle: platform
+                  field:
+                    options:
+                      -
+                        key: facebook
+                        value: null
+                      -
+                        key: twitter
+                        value: null
+                      -
+                        key: instagram
+                        value: null
+                      -
+                        key: linkedin
+                        value: null
+                      -
+                        key: youtube
+                        value: null
+                      -
+                        key: snapchat
+                        value: null
+                      -
+                        key: tiktok
+                        value: null
+                    type: select
+                    display: Platform
+                    localizable: false
+                    width: 50
+                -
+                  handle: social_media_link
+                  field:
+                    type: text
+                    display: 'Social Media Link'
+                    localizable: false
+                    width: 50
       -
         display: 'Extra Event Info'
         fields:
@@ -240,3 +326,13 @@ tabs:
                           field: basics.icon
                           config:
                             width: 33
+      -
+        display: Form
+        fields:
+          -
+            handle: form
+            field:
+              max_items: 1
+              type: form
+              display: Form
+              localizable: false

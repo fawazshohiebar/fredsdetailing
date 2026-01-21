@@ -1,0 +1,122 @@
+
+{{ fullEZoneUrl = (ezone_base_url_duplicate ? ezone_base_url_duplicate : ezone_base_url) + event_id + '?count=' + (count ? count : (pagination_count ? pagination_count : 50)) + '&random=' + (random ? random : (in_random_order ? in_random_order : 'true')) }}
+<section class="bg-light-accent py-10">
+    <div class="adnec-container">
+
+{{partial:partials/sets/heading_group_component}}
+
+</div>
+
+<div class="">
+    <div class="w-full overflow-hidden">
+
+        <!-- Logo Grid with eZone Exhibitors -->
+        <div class="relative overflow-hidden group" x-data="{ 
+            exhibitorsScroll: [],
+            duplicatedExhibitors: [],
+            loadingScroll: true,
+            errorScroll: null,
+            fullEZoneUrl: '{{ fullEZoneUrl }}',
+            rowCount: window.innerWidth < 768 ? 2 : 4,
+            
+            async fetchExhibitorsForScroll() {
+                this.loadingScroll = true;
+                this.errorScroll = null;
+                
+                try {
+                    const response = await fetch(this.fullEZoneUrl);
+                    if (!response.ok) throw new Error('Failed to fetch exhibitors');
+                    
+                    const data = await response.json();
+                    this.exhibitorsScroll = data.data || [];
+                    
+                    // Duplicate the data array for seamless infinite scroll
+                    this.duplicatedExhibitors = [...this.exhibitorsScroll, ...this.exhibitorsScroll];
+                } catch (err) {
+                    this.errorScroll = err.message;
+                    console.error('Error fetching exhibitors for scroll:', err);
+                } finally {
+                    this.loadingScroll = false;
+                }
+            },
+            
+            updateRowCount() {
+                this.rowCount = window.innerWidth < 768 ? 2 : 4;
+            }
+        }" x-init="fetchExhibitorsForScroll(); window.addEventListener('resize', () => updateRowCount())">
+            
+            <!-- Loading State -->
+            <div x-show="loadingScroll" class="text-center py-16">
+                <div class="inline-flex items-center justify-center w-16 h-16 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin"></div>
+                <p class="mt-4 text-gray-600">Loading exhibiting brands...</p>
+            </div>
+
+            <!-- Error State -->
+            <div x-show="errorScroll" class="text-center py-16">
+                <p class="text-red-600 mb-4" x-text="errorScroll"></p>
+                <button @click="fetchExhibitorsForScroll()"
+                    class="bg-primary-600 text-white px-4 py-2 rounded-md hover:bg-primary-700 transition-colors">
+                    Try Again
+                </button>
+            </div>
+
+            <!-- Scrolling Rows -->
+            <template x-if="!loadingScroll && !errorScroll && exhibitorsScroll.length > 0">
+                <div>
+                    <template x-for="rowIndex in rowCount" :key="rowIndex">
+                        <div class="flex gap-3 mb-3 scrolling-row w-max"
+                            :class="rowIndex % 2 === 0 ? 'animate-scroll-left' : 'animate-scroll-right'">
+                            <template x-for="(exhibitor, index) in duplicatedExhibitors" :key="`${rowIndex}-${exhibitor.id}-${index}`">
+                                <div class="bg-white w-[308px] h-[139px] rounded-[26px] flex items-center justify-center px-7 py-8 shrink-0 transition-transform hover:scale-105 duration-300">
+                                    <div class="w-full h-full flex items-center justify-center">
+                                        <img :src="exhibitor.logo_media?.webp || exhibitor.logo_media?.url || exhibitor.logo_media?.fullpath"
+                                            :alt="exhibitor.name"
+                                            loading="lazy"
+                                            class="max-w-full max-h-full object-contain">
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </div>
+
+        <style>
+            @keyframes scroll-left {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            @keyframes scroll-right {
+                0% {
+                    transform: translateX(-50%);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            .animate-scroll-left {
+                animation: scroll-left 40s linear infinite;
+            }
+
+            .animate-scroll-right {
+                animation: scroll-right 40s linear infinite;
+            }
+
+            .group:hover .animate-scroll-left,
+            .group:hover .animate-scroll-right {
+                animation-play-state: paused;
+            }
+        </style>
+    </div>
+</div>
+
+</section>

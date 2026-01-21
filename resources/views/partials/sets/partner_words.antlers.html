@@ -1,0 +1,113 @@
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+
+<div class="adnec-container py-10">
+
+    {{ partial:partials/sets/heading_group_with_breadcrumbs }}
+
+    <!-- Info Cards Carousel -->
+    <div class="partnerwords-carousel mb-0 relative" x-data="{ 
+         swiper: null,
+         initSwiper() {
+             this.$nextTick(() => {
+                 if (window.Swiper && this.$refs.swiperContainer) {
+                     this.swiper = new window.Swiper(this.$refs.swiperContainer, {
+                         slidesPerView: 1.2,
+                         spaceBetween: 16,
+                         grabCursor: true,
+                         autoHeight: false,
+                         centeredSlides: false,
+                         loop: true,
+                         pagination: {
+                             el: '.carousel-pagination',
+                             clickable: true,
+                             dynamicBullets: false,
+                             bulletClass: 'swiper-pagination-bullet custom-bullet',
+                             bulletActiveClass: 'swiper-pagination-bullet-active custom-bullet-active',
+                         },
+                         navigation: {
+                             nextEl: '.carousel-button-next',
+                             prevEl: '.carousel-button-prev',
+                         },
+                         breakpoints: {
+                             640: {
+                                 slidesPerView: 1.2,
+                                 spaceBetween: 20,
+                                 centeredSlides: false,
+                             },
+                             1024: {
+                                 slidesPerView: 2,
+                                 spaceBetween: 24,
+                                 centeredSlides: false,
+                             },
+                         }
+                     });
+                 } else {
+                     console.error('Swiper not loaded or container not found');
+                 }
+             });
+         }
+     }" x-init="initSwiper()">
+
+        <!-- Navigation buttons positioned at top right -->
+
+        <div class="swiper pt-8" x-ref="swiperContainer">
+            <div class="swiper-wrapper">
+
+                {{ partner_words_creator }}
+                    <div class="swiper-slide  ">
+                        <div class="bg-second-gradient p-8 gap-5 flex flex-col rounded-3xl min-h-50">
+                            <div class="flex flex-row gap-5 flex-wrap justify-between">
+
+                                <img  class="w-18 " src="{{ image:url }}" alt="">
+                               <div class="text-white text-base font-bold font-mont"> {{ partner_name }}</div>
+                            </div>
+                           <div class="text-white text-sm"> {{ partner_word }}</div>
+                        </div>
+                    </div>
+                {{ /partner_words_creator }}
+
+            </div>
+            </div>
+            </div>
+
+
+
+
+
+            </div>
+  <!-- Custom pagination styles -->
+    <style>
+        .custom-bullet {
+            width: 8px !important;
+            height: 8px !important;
+            border-radius: 4px !important;
+            background: #d1d5db !important;
+            opacity: 1 !important;
+            margin: 0 4px !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .custom-bullet-active {
+            width: 24px !important;
+            background: #827654 !important;
+            /* Primary color */
+            transform: scale(1.1) !important;
+        }
+
+        .custom-bullet:hover {
+            background: #9ca3af !important;
+        }
+
+        .custom-bullet-active:hover {
+            background: #6b5d42 !important;
+            /* Darker primary color on hover */
+        }
+
+   
+
+ 
+    </style>
+
+
+            </div>

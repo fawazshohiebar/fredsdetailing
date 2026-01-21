@@ -1,0 +1,11 @@
+title: 'Button Group'
+fields:
+  -
+    handle: button_group
+    field:
+      type: group
+      display: 'Button Group'
+      localizable: false
+      fields:
+        -
+          import: fancy_button

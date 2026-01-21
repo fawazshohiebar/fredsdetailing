@@ -1,0 +1,65 @@
+title: 'Awards Component'
+fields:
+  -
+    import: background_design
+  -
+    handle: heading
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - orderedlist
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
+      display: Heading
+      localizable: false
+  -
+    handle: description
+    field:
+      buttons:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+        - bold
+        - color
+      remove_empty_nodes: false
+      type: bard
+      display: Description
+      localizable: false
+  -
+    handle: awards
+    field:
+      type: replicator
+      display: Awards
+      localizable: false
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            award_set:
+              display: 'Award set'
+              fields:
+                -
+                  handle: awards_names
+                  field:
+                    type: text
+                    display: 'Awards Names'
+                    localizable: false
+  -
+    handle: button_group
+    field:
+      type: group
+      display: 'Button Group'
+      localizable: false
+      fields:
+        -
+          import: fancy_button

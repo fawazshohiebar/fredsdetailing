@@ -1,29 +1,13 @@
 title: 'Reusable Content with Info Cards'
 fields:
   -
-    handle: style_config
+    handle: bread_crumb_text
     field:
-      type: style_config
-      display: 'Style Config'
-      localizable: false
-      variant_labels: |-
-        compact|Compact
-        full|Full
-        carousel|Carousel
-        grid|Grid
-      default_variant: full
-  -
-    handle: heading
-    field: basics.heading_group
-    config:
-      width: 100
-  -
-    handle: content
-    field:
-      type: markdown
-      display: Content
-      instructions: 'Main content section in markdown format'
+      type: text
+      display: 'Bread Crumb Text'
       localizable: true
+  -
+    import: heading_group_component
   -
     handle: info_cards
     field:
@@ -87,8 +71,6 @@ fields:
                     type: text
                     display: 'Card Heading'
                     localizable: true
-                    validate:
-                      - required
                 -
                   handle: description
                   field:
@@ -100,4 +82,18 @@ fields:
     field: basics.buttons
     config:
       display: 'Call to Action'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          instructions: null
+          icon: null
+          sets:
+            button:
+              display: Button
+              instructions: null
+              icon: null
+              hide: null
+              fields:
+                -
+                  import: fancy_button
       width: 100

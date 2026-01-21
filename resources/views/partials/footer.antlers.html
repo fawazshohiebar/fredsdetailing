@@ -1,16 +1,18 @@
-<footer class="bg-[linear-gradient(87deg,#E2001A_-156.79%,#0F193C_143.4%)] bg-cover text-white">
+<footer class="bg-light-accent bg-cover text-primary">
 
     <div class="adnec-container mx-auto py-[45px] md:py-[50px] lg:py-[50px] relative">
         <div
-            class="flex flex-col sm:grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-[40px] gap-x-[15px] md:gap-[30px] ">
-            <div class="col-span-2 md:col-span-3 lg:col-span-2 mt-0">
+            class="flex flex-col sm:grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-[40px] gap-x-[15px] md:gap-[30px] ">
+
+            <div class="   mt-0 ">
                 <div class=" flex flex-col md:flex-row gap-5 ">
                     {{ brand:logos_and_partners }}
                         <div class="flex-col  flex">
-                            <div
-                                class="font-semibold text-lg mb-5 text-[#fff] mt-2 group-hover:text-[#fff] transition-colors">
-                                {{ title }}</div>
-
+                            {{#
+                                <div class="font-semibold text-lg mb-5 text-[#fff] mt-2 group-hover:text-[#fff] transition-colors">
+                                    {{ title }}
+                                </div>
+                            #}}
                             <div class="flex   gap-2">
                                 {{ logo }}
                                     <a href="{{ url }}" class="group transition-all duration-300 hover:opacity-80 ">
@@ -24,17 +26,18 @@
                         </div>
                     {{ /brand:logos_and_partners }}
                 </div>
+                {{ brand:footer_text }}
             </div>
 
-            <div>
-                <h3 class="text-xl font-semibold mb-6 relative inline-block">
-                    {{ 'Other Links' | trans }}
+            <div class="col-span-1">
+                <h3 class="text-xl font-semibold mb-6 relative inline-block uppercase text-primary">
+                    {{ 'Useful Links' | trans }}
                 </h3>
-                <ul class="space-y-1">
+                <ul class="columns-2 gap-x-4 space-y-1">
                     {{ nav:footer_nav include_home="false" }}
                         <li>
                             <a href="{{ url }}"
-                                class="text-[#fff] text-base  transition-all transform hover:translate-x-1 inline-block">
+                                class="text-primary text-base transition-all transform hover:translate-x-1 inline-block">
                                 {{ if url == '/' }}
                                     <x-dynamic-component component="icons.home"
                                         class="h-4 w-4 inline-block mr-1 rtl:ml-1 rtl:mr-0" />
@@ -46,23 +49,50 @@
                     {{ /nav:footer_nav }}
                 </ul>
             </div>
-            <div>
-                <h3 class="text-xl font-semibold mb-6 relative inline-block">
-                    {{ 'Get In Touch' | trans }}
-                </h3>
-                <ul class="space-y-4">
-                    {{ brand:footer_sales }}
-                        <li>
-                            <a class="flex items-center flex-row" href="{{ link }}">
-                                {{ heroicon variant="outline" :icon="icon" class="h-5 w-[30px] inline-block mr-2  " /}}
-                                {{ sales_text }}
-                            </a>
-                        </li>
-                    {{ /brand:footer_sales }}
 
-                    {{ < li class="flex items-start" class="text-[#fff]" }}
-                </ul>
+
+
+            <div class="flex flex-col gap-5">
+
+
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 relative inline-block">
+                        {{ 'STAY UPDATED' | trans }}
+                    </h3>
+                    <div class="footer-form" >
+                        {{ brand }}
+                            {{ if form }}
+                                {{ partial:shared.form.form_alpine }}
+                            {{ /if }}
+                        {{ /brand }}
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6 relative inline-block">
+                        {{ 'FOLLOW US' | trans }}
+                    </h3>
+                    {{ partial:footer_social_media }}
+                    {{#
+                        <ul class="space-y-4">
+                            {{ brand:footer_sales }}
+                                <li>
+                                    <a class="flex items-center flex-row" href="{{ link }}">
+                                        {{ heroicon variant="outline" :icon="icon" class="h-5 w-[30px] inline-block mr-2  " /}}
+                                        {{ sales_text }}
+                                    </a>
+                                </li>
+                            {{ /brand:footer_sales }}
+                            {{ < li class="flex items-start" class="text-[#fff]" }}
+                        </ul>
+                    #}}
+                </div>
             </div>
+
+
+
 
         </div>
     </div>
@@ -70,16 +100,29 @@
 
 
 
-    <div class="adnec-container relative z-10   h-[1px] bg-white opacity-20 "></div>
 
+    <div class="adnec-container relative z-10   h-[1px] bg-[#bbcae1]  "></div>
     <div class="  py-6">
-        <div class=" adnec-container  mx-auto flex  flex-row  justify-between items-center">
-            <div class="text-[#fff] text-center text-sm mb-4 md:mb-0 w-full">
-                <a class="text-white text-center" href="https://www.adnecgroup.ae" target="_blank"
-                    rel="noopener noreferrer">
-                    &copy; {{ now format="Y" }} {{ 'ADNEC Group' | trans }}
-                    {{ 'All rights reserved' | trans }}
-                </a>
+        <div class=" adnec-container   flex  flex-row  justify-between items-center">
+
+            <div class="flex flex-col-reverse  md:flex-row justify-between w-full gap-3 md:gap-5">
+                <div class="text-[#fff]  text-sm mb-4 md:mb-0 w-full">
+                    <a class="text-primary text-center" href="https://www.adnecgroup.ae" target="_blank"
+                        rel="noopener noreferrer">
+                        &copy;{{ 'Make it in the Emirates' }} {{ now format="Y" }}
+                        {{ ',organised by Capital Events part of ADNEC Group' | trans }}
+                    </a>
+                </div>
+
+                <div class="flex w-max flex-row gap-2 ">
+                    {{ brand:link_bottom_footer }}
+                        <a class="w-max" href="{{ footer_botom_links }}">
+
+                            {{ bottom_footer_links_text }}
+                        </a>
+                    {{ /brand:link_bottom_footer }}
+                </div>
+
             </div>
         </div>
     </div>

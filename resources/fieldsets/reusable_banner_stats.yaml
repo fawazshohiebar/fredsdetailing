@@ -1,0 +1,77 @@
+title: 'banner Stats'
+fields:
+  -
+    handle: video_intro_text
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
+      display: 'Video Intro Text'
+      localizable: false
+  -
+    handle: video_link
+    field:
+      type: text
+      display: 'Video Link'
+      instructions: 'YouTube ID'
+      localizable: false
+  -
+    handle: video_ending_text
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
+      display: 'Video Ending Text'
+      localizable: false
+  -
+    handle: statistics_creator
+    field:
+      type: replicator
+      display: 'Statistics Creator'
+      localizable: false
+      max_sets: 4
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            stats_set:
+              display: 'Stats Set'
+              fields:
+                -
+                  handle: numbers
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                      - h5
+                      - h6
+                    remove_empty_nodes: false
+                    type: bard
+                    display: Numbers
+                    localizable: false
+                -
+                  handle: stats_intro
+                  field:
+                    type: text
+                    display: 'Stats Intro'
+                    localizable: false

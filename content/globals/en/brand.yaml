@@ -13,6 +13,7 @@ button_replicator:
     button_size: fit
     type: button
     enabled: false
+    icon: none
 navbar_text:
   left_text: 'PART OF THE <br> UAE’s OPERATION'
   middle_text: 300Bn
@@ -26,22 +27,45 @@ logos_and_partners:
         id: mke1fj81
         type: new_set
         enabled: true
+        image:
+          - brand/group-6-(2).png
+    type: new_set
+    enabled: true
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#000'
+        text: "The region's largest industrial gathering, driving growth, innovation, and investment in the UAE's manufacturing sector."
+link_bottom_footer:
+  -
+    id: mkgv7vyw
+    footer_botom_links: Terms
+    bottom_footer_links_text: 'Privacy Policy'
     type: new_set
     enabled: true
   -
-    id: mke1fut7
-    title: 'Strategic Partner & Organiser'
-    logo:
-      -
-        id: mke1g1o8
-        type: new_set
-        enabled: true
-      -
-        id: mke1gnye
-        type: new_set
-        enabled: true
+    id: mkgv8448
+    bottom_footer_links_text: 'Terms of Service'
     type: new_set
     enabled: true
+social_media:
+  -
+    id: mkgvv6rc
+    platform: facebook
+    social_media_link: dsadasdadas
+  -
+    id: mkgvva9a
+    platform: instagram
+    social_media_link: dasdasdas
 ai_search_url: 'https://aisearch.miite.ae/'
 footer_sales:
   -
@@ -58,3 +82,4 @@ footer_sales:
     type: sales_set
     enabled: true
     link: 'tel:+97124063839'
+form: news_letter

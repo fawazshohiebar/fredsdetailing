@@ -16,13 +16,13 @@ html {
 :root {
 
   --color-primary: #000;
-  --color-secondary: #E7443C;
+  --color-secondary: #EFF7FF;
   --color-white:#FFFFFF;
-  --color-accent: #f47832;
+  --color-accent:#D9E4EE;
   --color-blue: #0F193C;
   --color-light-accent: #EDF1F7;
   --color-semiblack:#D8DCE3;
-  --color-light-secondary: #f0f5ff;
+  --color-light-secondary: #E2E7EF;
   --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
   --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
 
@@ -34,13 +34,14 @@ html {
   --font-noto: "noto-sans-arabic", sans-serif;
 
   --color-primary: #000;
-  --color-secondary: #E7443C;
+  --color-secondary:#EFF7FF;
   --color-white:#FFFFFF;
-  --color-accent: #f47832;
+  --color-accent: #D9E4EE;
   --color-blue: #0F193C;
   --color-semiblack:#D8DCE3;
   --color-light-accent: #EDF1F7;
-  --color-light-secondary: #f0f5ff;
+  --color-light-secondary: #E2E7EF;
+
   /* --color-gradient : linear-gradient(275deg, #0F193C, #dd001c); */
 
    --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
@@ -204,11 +205,11 @@ html {
 }
 
 .custom h3 {
-  @apply xl:text-4xl md:text-3xl  text-2xl;
+  @apply xl:text-4xl md:text-3xl  text-2xl font-normal;
 }
 
 .custom h4 {
-  @apply xl:text-2xl md:text-xl  text-lg;
+  @apply xl:text-3xl md:text-2xl  text-lg;
 }
 .custom h5 {
   @apply xl:text-2xl md:text-xl  text-lg;
@@ -350,4 +351,47 @@ border-radius:20px;
   custm:lang(ar) {
   direction: rtl;
   text-align: right;
+}
+
+.footer-form{
+  overflow: hidden;
+}
+.footer-form form{
+  padding: 0px;
+}
+
+.footer-form form .mx-auto{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+.footer-form form .formelements{
+
+}
+.footer-form form .mt-8.flex{
+  margin: 0px!important;
+}
+
+.footer-form form .mt-8.flex button{
+  height: 40px!important;
+  font-size: 16px!important;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #E7443C 0%, #383091 100%);
+  overflow: hidden!important;
+  border: 0px;
+}
+.footer-form form .formelements .sm\:col-span-2 input[type="email"][name="email"] {
+    /* styles here */
+ box-shadow: none !important;
+}
+
+.footer-form{
+  border: 1px solid black;
+  height: 60px;
+  padding: 10px;
+  border-radius: 4px;
+border: 1px solid var(--MidNight-200, #BBCAE1);
+background: var(--MidNight-100, #DFE6F1);
 }

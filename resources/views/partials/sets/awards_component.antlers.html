@@ -1,0 +1,35 @@
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full bg-cover bg-center">
+
+    <div class="adnec-container py-5">
+        <div class="rounded-3xl bg-back-gradient p-8">
+            <div class=" grid md:grid-cols-2 gap-10 ">
+                <div class=" flex flex-col gap-5">
+                    <div class="w-20 h-[3px] bg-white"></div>
+                    <div class="custom"> {{ heading }}</div>
+                    <div class="custom"> {{ description }}</div>
+                </div>
+
+                <div class="flex  flex-row md:flex-row-reverse flex-wrap md:gap-3 gap-2 h-fit">
+                    {{ awards }}
+                        <div
+                            class="h-fit flex items-center text-white text-xs sm:text-sm font-bold px-3 md:px-6 py-2.5 border-white border-1 rounded-3xl ">
+                            {{ awards_names }}
+                        </div>
+                    {{ /awards }}
+                </div>
+            </div>
+            <div class="flex md:mt-0 mt-8 justify-center">
+                {{ button_group }}
+                    {{ partial:partials/sets/fancy_button }}
+                {{ /button_group }}
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</div>

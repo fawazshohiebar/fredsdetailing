@@ -37,11 +37,11 @@
                     {{ /second_button }}
                 </div>
 
-                <div class="flex flex-row bg-back-gradient w-max p-5  gap-5 rounded-2xl ">
+                <div class="grid grid-cols-2 md:flex flex-row bg-back-gradient w-fit p-5   gap-5 rounded-2xl ">
                     {{ more_info }}
                         <div class="text-white text-4xl "> {{ info_year }}</div>
                         <div class="text-white text-sm   "> {{ info_date }}</div>
-                        <div class="h-auto w-[1px] bg-white"></div>
+                        <div class="h-auto w-[1px] md:block  hidden bg-white"></div>
                         <div class=" text-white custom"> {{ info_location }}</div>
                         {{ heroicon variant="outline" icon="arrow-down-left" class="h-full  w-12 text-white " }}
 

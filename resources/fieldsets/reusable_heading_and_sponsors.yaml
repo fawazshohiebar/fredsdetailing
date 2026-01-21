@@ -1,0 +1,16 @@
+title: 'Heading And Sponsors'
+fields:
+  -
+    import: background_design
+  -
+    import: heading_group_with_breadcrumbs
+  -
+    handle: sponsors_entries
+    field:
+      type: entries
+      display: 'Sponsors Entries'
+      localizable: false
+      collections:
+        - sponsors
+  -
+    import: button_group

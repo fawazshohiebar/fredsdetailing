@@ -16,9 +16,6 @@ return [
         '#fff',
         '#000',
         '#E7443C',
-        '#FFFFFF',
-        '#f47832',
-        '#0F193C',
         '#EDF1F7',
         '#D8DCE3',
         'redgrad'

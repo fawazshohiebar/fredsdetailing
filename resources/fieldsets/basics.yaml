@@ -73,10 +73,14 @@ fields:
         -
           key: lock-closed
           value: null
+        -
+          key: arrow-down-right
+          value: null
       type: select
       display: Icon
       taggable: true
       localizable: false
+      default: none
   -
     handle: page_builder
     field:
@@ -242,7 +246,7 @@ fields:
                 -
                   import: background_design
                 -
-                  import: heading_group_component
+                  import: heading_group_with_breadcrumbs
                 -
                   handle: sponsors_entries
                   field:
@@ -251,6 +255,15 @@ fields:
                     type: entries
                     display: 'Sponsors Entries'
                     localizable: false
+                -
+                  handle: button_group
+                  field:
+                    type: group
+                    display: 'Button Group'
+                    localizable: false
+                    fields:
+                      -
+                        import: fancy_button
             statistics_section:
               display: 'Statistics Section'
               fields:
@@ -562,7 +575,9 @@ fields:
               display: 'Speaker Section'
               fields:
                 -
-                  import: heading_group_component
+                  import: background_design
+                -
+                  import: heading_group_with_breadcrumbs
                 -
                   handle: speakers_entries
                   field:
@@ -571,6 +586,15 @@ fields:
                     localizable: false
                     collections:
                       - speakers
+                -
+                  handle: button_group
+                  field:
+                    type: group
+                    display: 'Button Group'
+                    localizable: false
+                    fields:
+                      -
+                        import: fancy_button
             social_media_sec:
               display: 'Social media Sec'
               fields:
@@ -754,6 +778,26 @@ fields:
                             fields:
                               -
                                 import: fancy_button
+            awards_element:
+              display: 'Awards Element'
+              fields:
+                -
+                  import: awards_component
+            heading_icon_grids:
+              display: 'Heading Icon Grids'
+              fields:
+                -
+                  import: heading_and_icon_grid
+            partner_word_carousel:
+              display: 'Partner Word Carousel'
+              fields:
+                -
+                  import: partner_words
+            feature_grid:
+              display: 'Feature Grid'
+              fields:
+                -
+                  import: grid_features
         forms:
           display: Forms
           icon: form-drop-down-menu
@@ -958,6 +1002,9 @@ fields:
                                     -
                                       key: envelope
                                       value: Email
+                                    -
+                                      key: map-pin
+                                      value: 'map pin'
                                   taggable: true
                                   type: select
                                   display: Icons
@@ -1276,10 +1323,7 @@ fields:
               icon: addon-boxes-stack
               fields:
                 -
-                  handle: heading
-                  field: basics.heading_group
-                  config:
-                    display: Heading
+                  import: heading_group_component
                 -
                   handle: ezone_base_url
                   field:
@@ -1311,13 +1355,6 @@ fields:
                     display: Count
                     localizable: false
                     width: 33
-                -
-                  handle: style_config
-                  field:
-                    type: style_config
-                    display: 'Style Config'
-                    localizable: false
-                    variant_labels: 'style1|Style 1'
             exhibitor_list:
               display: 'Exhibitor List'
               fields:
@@ -1468,6 +1505,42 @@ fields:
               fields:
                 -
                   import: reusable_agenda_component
+            exhibitor_carousel:
+              display: 'Exhibitor Carousel'
+              fields:
+                -
+                  import: heading_group_component
+                -
+                  handle: ezone_base_url
+                  field:
+                    default: 'https://ezone.adihex.com/exhibitors-list-top-with-images-resource/'
+                    type: text
+                    display: 'EZone Base Url'
+                    localizable: false
+                -
+                  handle: event_id
+                  field:
+                    default: '4'
+                    type: integer
+                    display: 'Event ID'
+                    localizable: false
+                    width: 33
+                -
+                  handle: count
+                  field:
+                    default: '10'
+                    type: integer
+                    display: Count
+                    localizable: false
+                    width: 33
+                -
+                  handle: random
+                  field:
+                    default: true
+                    type: toggle
+                    display: Random
+                    localizable: false
+                    width: 33
   -
     handle: heading_group
     field:

@@ -1,0 +1,10 @@
+title: 'Heading Group With BreadCrumbs'
+fields:
+  -
+    handle: bread_crumb_text
+    field:
+      type: text
+      display: 'Bread Crumb Text'
+      localizable: false
+  -
+    import: heading_group_component

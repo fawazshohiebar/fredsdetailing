@@ -1,0 +1,58 @@
+title: 'Heading And Icon Grid'
+fields:
+  -
+    import: background_design
+  -
+    handle: heading
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - color
+        - h1
+        - h4
+        - h5
+        - h6
+      remove_empty_nodes: false
+      type: bard
+      display: Heading
+      localizable: false
+  -
+    handle: grid_items
+    field:
+      type: replicator
+      display: 'Grid Items'
+      localizable: false
+      max_sets: 12
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            grid_item:
+              display: 'Grid Item'
+              fields:
+                -
+                  handle: grid_image
+                  field: basics.image
+                  config:
+                    display: 'Grid Image'
+                    validate:
+                      - image
+                      - 'max_filesize:9216'
+                      - 'mimes:png,jpg,jpeg,gif,webp,svg'
+                -
+                  handle: grid_text
+                  field:
+                    type: text
+                    display: 'Grid Text'
+                    localizable: false
+  -
+    handle: group_buttons
+    field:
+      type: group
+      display: 'Group Buttons'
+      localizable: false
+      fields:
+        -
+          import: fancy_button

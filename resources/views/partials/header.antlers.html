@@ -3,12 +3,13 @@
     class="opacity-60 bg-slate-900"
     >
     {{# {{ partial:patronage }} #}}
-    <nav class="w-full {{if !is_homepage}} bg-back-gradient {{/if}} flex-grow transition-all duration-300 ease-in-out"
-        x-data="{ scrolled: false }"
+    
+{{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
+
+    <nav class="w-full flex-grow transition-all duration-300 ease-in-out"
+        x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }}bg-[#212A36]/80{{ elseif is_homepage }} bg-[#212A36]/80 {{else}}bg-back-gradient{{ /if }}' }"
         x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
-        {{if is_homepage}}
-    :class="scrolled ? 'bg-back-gradient' : 'bg-slate-900/60 '"
-    {{/if}}>
+        :class="scrolled ? 'bg-back-gradient' : initialBg">
         <div class="adnec-container h-full pt-0 gap-2 mx-auto  flex flex-row md:items-center justify-between ">
             <!-- Logo and Event Info -->
 
@@ -21,12 +22,12 @@
                 </a>
 
             </div>
-            <div>
+            <div class="hidden md:block">
                 {{ brand:navbar_text }}
                     <div class="flex flex-row gap-2">
-                        <div class="text-white font-semibold text-sm text-right">{{ left_text }}</div>
-                        <div class="text-secondary font-semibold text-4xl">{{ middle_text }}</div>
-                        <div class="text-white  font-semibold text-sm">{{ right_text }}</div>
+                        <div class="text-white font-semibold text-xs lg:text-sm text-right">{{ left_text }}</div>
+                        <div class="text-secondary font-semibold  text-2xl lg:text-4xl">{{ middle_text }}</div>
+                        <div class="text-white  font-semibold text-xs lg:text-sm">{{ right_text }}</div>
                     </div>
                 {{ /brand:navbar_text }}
 

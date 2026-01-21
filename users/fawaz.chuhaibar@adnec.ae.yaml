@@ -13,6 +13,7 @@ preferences:
         - slug
         - status
         - sponsor_level
+        - badge_text
       after_save: continue_editing
     sessions:
       columns:

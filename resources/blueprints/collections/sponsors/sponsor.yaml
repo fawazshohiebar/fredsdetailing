@@ -38,6 +38,20 @@ tabs:
               type: terms
               display: 'Sponsor Level'
               localizable: false
+          -
+            handle: badge
+            field:
+              type: toggle
+              display: Badge
+              localizable: false
+          -
+            handle: badge_text
+            field:
+              type: text
+              display: 'Badge Text'
+              localizable: false
+              if:
+                badge: 'equals true'
   sidebar:
     display: Sidebar
     sections:

@@ -1,0 +1,43 @@
+
+  <div
+    style="{{ if background == 'bgimg' }}background-size:cover; background-image: url('{{ image.url }}');{{ else }}background:var(--color-{{ background_color }}){{ /if }}"
+    class="w-full  bg-cover bg-center ">
+    <div class="adnec-container py-10 mx-auto relative">
+      {{ partial:partials/sets/heading_group_component }}
+      <div class=" flex flex-row md:gap-4 gap-4 flex-wrap justify-center">
+        {{ taxonomy:sponsor_level sort="order:asc" }}
+          {{ sponsors_entries :sponsor_level:contains="slug" as="sponsors" sort="order:asc" }}
+            {{ if sponsors | length > 0 }}
+              <div class="mb-2 w-full" x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
+                <div class="mx-auto flex flex-wrap justify-center gap-6 mb-5">
+                  {{ sponsors }}
+
+                    <div
+                      class=" bg-white rounded-lg p-4 flex flex-col  hover:shadow-md transition  items-center w-[calc(50%-0.75rem)] sm:w-[calc(50%-1.2rem)]  md:w-[calc(33.33%-1.2rem)]  xl:w-[calc(20%-1.2rem)]">
+                      <a href="{{ sponsor_link }}">
+                        <p class="text-sm  md:text-base font-semibold text-sky-700 text-center"> {{ title }}</p>
+                        {{ glide:sponsors_logos preset="medium" }}
+                          <img loading="lazy" src="{{ url }}" width="{{ width }}" height="{{ height }}"
+                            alt="{{ alt ?? title }}" class="h-30 mb-2 object-contain mx-auto">
+                        {{ /glide:sponsors_logos }}
+
+                      </a>
+                    </div>
+                  {{ /sponsors }}
+                </div>
+              </div>
+            {{ else }}
+              <div class="hidden">No sponsors found for {{ title }} ({{ slug }})
+              </div>
+            {{ /if }}
+          {{ /sponsors_entries }}
+        {{ /taxonomy:sponsor_level }}
+
+
+
+      </div>
+      <div class="flex justify-center">
+        {{ partial:partials/sets/button_group }}
+      </div>
+    </div>
+  </div>

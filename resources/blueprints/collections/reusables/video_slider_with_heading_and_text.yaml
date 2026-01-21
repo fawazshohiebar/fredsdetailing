@@ -21,7 +21,10 @@ tabs:
               localizable: true
           -
             handle: content
-            field: reusable_content_with_info_cards.content
+            field:
+              type: markdown
+              display: Content
+              localizable: true
           -
             handle: video_previewer
             field:

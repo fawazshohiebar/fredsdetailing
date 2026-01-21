@@ -20,41 +20,39 @@ $blockPadding = [
 ?}}
 <!-- Content with Info Cards Section -->
 <section
-  class="{{ blockPadding[{style_config:padding ?? 'medium'}] }} {{ blockStyles[{style_config:color ?? 'default'}] }} relative overflow-hidden">
+  class="{{ blockPadding['medium'] }} {{ blockStyles['default'] }} relative overflow-hidden">
 
   <!-- Decorative Elements -->
-  <div class="absolute left-0 top-1/4 w-64 h-64 bg-[#827654]/20 rounded-full blur-3xl -translate-x-1/2"></div>
-  <div class="absolute right-0 bottom-1/4 w-64 h-64 bg-[#827654]/20 rounded-full blur-3xl translate-x-1/2"></div>
-
+   
   <div class="adnec-container z-10">
 
     <!-- Section Header -->
-    {{ if heading || subheading }}
-      <div class="text-center mb-16" x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
-        {{ partial:partials/sets/heading_group }}
+          
+       <div class="grid  md:grid-cols-[30%_70%] items-start" x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
+        <div class="flex flex-row items-center gap-4">
+           <div class="text-primary font-semibold">{{bread_crumb_text}}</div>
+            <div class="w-20 h-[2px] bg-semiblack"></div>
+          </div>    
+        {{ partial:partials/sets/heading_group_component}}
       </div>
-    {{ /if }}
-    <!-- Main Content -->
-    {{ if content }}
+      
+     <!-- Main Content -->
+    {{# {{ if content }}
       <div class="max-w-4xl mx-auto mb-16">
         <div
-          class="prose prose-lg {{ {['primary','secondary'] | in_array(style_config:color)} ? 'text-white' : 'prose-gray' }} max-w-none text-center"
+          class="prose prose-lg text-white max-w-none text-center"
           x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
           {{ content | markdown }}
         </div>
       </div>
-    {{ /if }}
+    {{ /if }} #}}
     <!-- Info Cards Grid -->
     {{ if info_cards }}
-      {{ if style_config:variant == 'full' }}
-        {{ partial:partials/shared/general/info_card_detailed }}
-      {{ elseif style_config:variant == 'compact' }}
-        {{ partial:partials/shared/general/info_card_compact }}
-      {{ elseif style_config:variant == 'carousel' }}
-        {{ partial:partials/shared/general/info_card_carousel }}
-      {{ elseif style_config:variant == 'grid' }}
-        {{ partial:partials/shared/general/info_card_grid }}
-      {{ /if }}
+    {{# TODO: make sure the correct layout of the info cards is passed here #}}
+      {{ partial:partials/shared/general/info_card_carousel }}
+    {{# {{ partial:partials/shared/general/info_card_detailed }} #}}
+    {{# {{ partial:partials/shared/general/info_card_compact }} #}}
+      {{# {{ partial:partials/shared/general/info_card_grid }} #}}
     {{ /if }}
     <!-- Call to Action -->
     {{ if cta_actions }}

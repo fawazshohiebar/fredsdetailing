@@ -38,7 +38,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768552704
+updated_at: 1768826342
 first_button:
   link: null
   label: 'Exhibitor Information'
@@ -49,8 +49,8 @@ first_button:
 second_button:
   link: null
   label: 'Join us : Make it in The Emirates 2026'
-  design: blackbggroup
-  icon: null
+  design: whiteoutlined
+  icon: none
   open_new_tab: false
   button_size: null
 more_info:

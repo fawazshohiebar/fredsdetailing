@@ -2,10 +2,8 @@
 
     {{ features_replicator }}
         <div style="background-color:var(--color-{{ background_color }}) ">
-
             <div class=" adnec-container mx-auto py-8 md:py-12 lg:py-16  overflow-hidden">
-                <div
-                    class="flex flex-col {{ if index % 2 == 0 }}
+                <div class="flex flex-col {{ if index % 2 == 0 }}
                     lg:flex-row
                     {{ else }}
                     lg:flex-row-reverse
@@ -18,15 +16,20 @@
                     {{ /image }}
                     <div
                         class=" w-full lg:w-1/2 ltr:animate-fade-slide-left rtl:animate-fade-slide-right flex flex-col justify-center xl:p-[30px] p-[20px]">
-                      
-                       
-                     <div class=" flex flex-row items-center gap-3">
-                        <div class="w-12 h-1 {{ if background_color =='primary'  }}  bg-white {{else}} bg-primary{{/if}}"></div>
-                        <p class="text-base {{ if background_color =='primary'  }}  text-white {{else}} text-primary{{/if}}">{{caption_text}}</p>
-                    </div>
-                        <p class="text-2xl md:text-3xl lg:text-4xl font-bold {{ if background_color =='primary'  }}  text-white {{else}} text-primary{{/if}}  leading-relaxed mb-3 ">{{ title }}</p>
-                        <div class="{{ if background_color =='primary'  }}  text-white {{else}} text-primary{{/if}} text-base mb-4">{{ description }}</div>
-
+                        <div class=" flex flex-row items-center gap-3">
+                            <div
+                                class="w-12 h-1 {{ if background_color =='primary'  }}  bg-white {{else}} bg-back-gradient{{/if}}">
+                            </div>
+                            <p
+                                class="text-base {{ if background_color =='primary'  }}  text-white {{else}} text-primary{{/if}}">
+                                {{ caption_text }}</p>
+                        </div>
+                        <p
+                            class="text-2xl md:text-3xl lg:text-4xl font-bold {{ if background_color =='primary'  }}  text-white {{else}} customcolors{{/if}}  leading-relaxed mb-3 ">
+                            {{ title }}</p>
+                        <div
+                            class="{{ if background_color =='primary'  }}  text-white {{else}} text-primary{{/if}} text-base mb-4">
+                            {{ description }}</div>
                     </div>
                 </div>
             </div>

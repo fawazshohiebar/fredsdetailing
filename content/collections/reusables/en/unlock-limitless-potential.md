@@ -3,12 +3,12 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768552619
+updated_at: 1768888185
 heading:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -23,7 +23,7 @@ heading:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -35,8 +35,7 @@ heading:
             attrs:
               color: redgrad
         text: ' Limitless Potential'
-background: bgcolor
-background_color: primary
+background: bgimg
 tab_creator:
   -
     id: mkgi307w
@@ -74,7 +73,7 @@ tab_creator:
       -
         id: mkgi59w4
         label: 'About Make it in the Emirates'
-        design: whitebgblacksvg
+        design: whiteoutlined
         icon: arrow-down-right
         open_new_tab: false
         button_size: fit
@@ -188,7 +187,7 @@ tab_creator:
       -
         id: mkgi59w4
         label: 'About Make it in the Emirates'
-        design: whitebgblacksvg
+        design: whiteoutlined
         icon: arrow-down-right
         open_new_tab: false
         button_size: fit
@@ -243,4 +242,127 @@ tab_creator:
                 text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
         type: accordion_set
         enabled: true
+  -
+    id: mkgwbndf
+    tab_title: 'Why Visit'
+    tab_description:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'Showcase Innovation'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'To the World'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'Position your brand at the forefront of industrial evolution. Connect with key decision-makers, forge strategic partnerships, and demonstrate your technological advancements to a global audience eager for solutions.'
+    type: tab_set
+    enabled: true
+    button_container:
+      -
+        id: mkgi59w4
+        label: 'About Make it in the Emirates'
+        design: whiteoutlined
+        icon: arrow-down-right
+        open_new_tab: false
+        button_size: fit
+        type: button_set
+        enabled: true
+    accordion_creator:
+      -
+        id: mkgi6kv0
+        accordion_title: Investor-Centric
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: freddddyyyyyy
+        type: accordion_set
+        enabled: true
+      -
+        id: mkgi6vio
+        accordion_title: Innovation-Driven
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: danaaaa
+        type: accordion_set
+        enabled: true
+      -
+        id: mkgi71bo
+        accordion_title: Future-Proofing
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: maloookaaa
+        type: accordion_set
+        enabled: true
+      -
+        id: mkgi789v
+        accordion_title: 'Strategic Collaborations'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: badnarrrrr
+        type: accordion_set
+        enabled: true
+image: brand/background-(2).png
 ---

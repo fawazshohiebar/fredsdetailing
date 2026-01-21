@@ -7,6 +7,8 @@
     window._turnstileCb = function() {
         turnstile.render("#myWidget{{ _nn }}", {
             sitekey: "{{ config:turnstile.site_key }}",
+            theme: "light",
+            size: "invisible",
             callback: function(token) {
                 if (!token) {
                     document.dispatchEvent(

@@ -1,0 +1,40 @@
+title: 'Partner  Words'
+fields:
+  -
+    import: background_design
+  -
+    import: heading_group_with_breadcrumbs
+  -
+    handle: partner_words_creator
+    field:
+      type: replicator
+      display: 'Partner Words Creator'
+      localizable: false
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            partner_word_set:
+              display: 'Partner Word Set'
+              fields:
+                -
+                  handle: image
+                  field: basics.image
+                  config:
+                    validate:
+                      - image
+                      - 'max_filesize:9216'
+                      - 'mimes:png,jpg,jpeg,gif,webp,svg'
+                -
+                  handle: partner_name
+                  field:
+                    type: text
+                    display: 'Partner Name'
+                    localizable: false
+                -
+                  handle: partner_word
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'Partner Word'
+                    localizable: false

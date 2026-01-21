@@ -1,6 +1,5 @@
 <!-- Info Cards Carousel -->
-<div class="info-cards-carousel mb-16 relative" 
-     x-data="{ 
+<div class="info-cards-carousel mb-0 relative" x-data="{ 
          swiper: null,
          initSwiper() {
              this.$nextTick(() => {
@@ -40,58 +39,60 @@
                  }
              });
          }
-     }"
-     x-init="initSwiper()">
-     
+     }" x-init="initSwiper()">
+
     <!-- Navigation buttons positioned at top right -->
-    <div class="hidden sm:flex absolute -top-12 right-0 z-10 gap-2">
-        <button class="carousel-button-prev bg-white/90 hover:bg-primary-50 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-110 flex items-center justify-center w-10 h-10">
-            {{heroicon:outline:chevron-left class="w-4 h-4 text-primary-600"}}
-        </button>
-        <button class="carousel-button-next bg-white/90 hover:bg-primary-50 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-110 flex items-center justify-center w-10 h-10">
-            {{heroicon:outline:chevron-right class="w-4 h-4 text-primary-600"}}
-        </button>
-    </div>
-     
+
     <div class="swiper pt-8" x-ref="swiperContainer">
         <div class="swiper-wrapper">
             {{ info_cards }}
                 <div class="swiper-slide">
                     <div class="group relative rounded-2xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-all duration-300 h-full"
-                         x-data="{}" x-intersect="$el.classList.add('animate-fade-in-up')">
-                        
+                        x-data="{}" x-intersect="$el.classList.add('animate-fade-in-up')">
+
                         <!-- Large Image Area with Text Overlay -->
-                        <div class="relative h-64 bg-gradient-to-br from-[#827654]/5 to-[#827654]/10 overflow-hidden">
-                        {{ glide:image format="webp" }}
-                            <img loading="lazy" src="{{ url }}" alt="{{ heading }}"
-                                    style="object-position: {{focus_css ?? 'center'}};"
-                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                        {{ /glide:image }}
+                        <div class="relative h-85 bg-gradient-to-br from-[#827654]/5 to-[#827654]/10 overflow-hidden">
+                            {{ glide:image format="webp" }}
+                                <img loading="lazy" src="{{ url }}" alt="{{ heading }}"
+                                    style="object-position: {{ focus_css ?? 'center' }};"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            {{ /glide:image }}
 
                             <!-- Dark overlay for better text readability -->
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
+                            </div>
+
                             <!-- Text Content Overlay -->
                             <div class="absolute bottom-0 left-0 right-0 p-4 text-white">
                                 <h3 class="text-lg font-bold mb-1 leading-tight drop-shadow-lg">{{ heading }}</h3>
-                                
                                 {{ if description }}
                                     <p class="text-sm opacity-90 leading-relaxed drop-shadow">{{ description }}</p>
                                 {{ /if }}
                             </div>
-                            
+
                             <!-- Subtle hover overlay -->
-                            <div class="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div
+                                class="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
                         </div>
                     </div>
                 </div>
             {{ /info_cards }}
         </div>
-        
+        <div class="hidden sm:flex relative z-10 gap-2">
+
+            <button class="carousel-button-prev  top-[-10.5rem]  absolute left-5 bg-white/90 hover:bg-primary-50 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-110 flex items-center justify-center w-10 h-10">
+                    {{ heroicon:outline:chevron-left class="w-4 h-4 text-primary-600" }}                 
+            </button>
+
+            <button class="carousel-button-next  top-[-10.5rem]  absolute right-5  bg-white/90 hover:bg-primary-50 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-110 flex items-center justify-center w-10 h-10">
+                {{ heroicon:outline:chevron-right class="w-4 h-4 text-primary-600" }}
+            </button>
+        </div>
         <!-- Pagination with custom styling -->
-        <div class="carousel-pagination text-center mt-4"></div>
+        {{# <div class="carousel-pagination text-center mt-4"></div> #}}
     </div>
-    
+
     <!-- Custom pagination styles -->
     <style>
         .custom-bullet {
@@ -103,19 +104,25 @@
             margin: 0 4px !important;
             transition: all 0.3s ease !important;
         }
-        
+
         .custom-bullet-active {
             width: 24px !important;
-            background: #827654 !important; /* Primary color */
+            background: #827654 !important;
+            /* Primary color */
             transform: scale(1.1) !important;
         }
-        
+
         .custom-bullet:hover {
             background: #9ca3af !important;
         }
-        
+
         .custom-bullet-active:hover {
-            background: #6b5d42 !important; /* Darker primary color on hover */
+            background: #6b5d42 !important;
+            /* Darker primary color on hover */
         }
+
+   
+
+ 
     </style>
 </div>

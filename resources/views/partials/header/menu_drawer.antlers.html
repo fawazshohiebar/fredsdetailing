@@ -83,13 +83,13 @@
                                 {{ else }}
                                     <!-- Single Item -->
                                     <a href="{{ url }}"
-                                        class="{{ is_current || is_parent ? 'text-[#827654] font-semibold' : 'text-gray-700 hover:text-blue hover:bg-gray-50 border-transparent' }} flex items-center gap-3 py-4 px-3 -mx-3 rounded-lg transition-all duration-200 relative group">
+                                        class="{{ is_current || is_parent ? 'customcolors font-semibold' : 'text-gray-700 hover:text-blue hover:bg-gray-50 border-transparent' }} flex items-center gap-3 py-4 px-3 -mx-3 rounded-lg transition-all duration-200 relative group">
                                         {{ if url == '/' }}
                                             <x-dynamic-component component="icons.home"
                                                 class="h-5 w-5 {{ is_current || is_parent ? 'text-blue' : 'text-gray-400 group-hover:text-blue' }} transition-colors" />
                                         {{ else }}
                                             <div
-                                                class="h-2 w-2 {{ is_current || is_parent ? 'bg-[#827654]' : 'bg-gray-300 group-hover:bg-blue' }} rounded-full transition-colors">
+                                                class="h-2 w-2 {{ is_current || is_parent ? 'bg-back-gradient' : 'bg-gray-300 group-hover:bg-blue' }} rounded-full transition-colors">
                                             </div>
                                         {{ /if }}
                                         <span class="text-base flex-1">{{ title }}</span>

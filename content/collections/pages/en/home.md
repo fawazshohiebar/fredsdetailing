@@ -253,11 +253,11 @@ page_builder:
                 text: 'One Global Platform'
         group_buttons:
           link: null
-          label: null
-          design: null
-          icon: none
-          open_new_tab: false
-          button_size: null
+          label: 'Find Out More'
+          design: whitebgblacksvg
+          icon: arrow-down-right
+          open_new_tab: true
+          button_size: fit
         grid_items:
           -
             id: mkgxsyfc
@@ -267,68 +267,68 @@ page_builder:
             enabled: true
           -
             id: mkgxukjv
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/jet-fighter.svg
+            grid_text: 'Aerospace, Automobile and Defence'
             type: grid_item
             enabled: true
           -
             id: mkgxunk2
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgxumg1
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/capsules-(1).svg
+            grid_text: 'Pharma &  Medical Tech'
             type: grid_item
             enabled: true
           -
             id: mkgy1abm
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/ship.svg
+            grid_text: 'Ship Maritime & Boat Manufacturing'
             type: grid_item
             enabled: true
           -
             id: mkgy19c4
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/ball-pile.svg
+            grid_text: 'Metals &  Fabrications'
             type: grid_item
             enabled: true
           -
             id: mkgy18dc
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/hand-heart.svg
+            grid_text: Handicrafts
             type: grid_item
             enabled: true
           -
             id: mkgy17lk
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/microchip-ai.svg
+            grid_text: 'Advanced Manufacturing, AI Industry 4.0'
             type: grid_item
             enabled: true
           -
             id: mkgy16le
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/flask.svg
+            grid_text: 'Chemicals, Plastics & Sustainable Materials'
             type: grid_item
             enabled: true
           -
             id: mkgy15kc
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy14od
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/buildings.svg
+            grid_text: 'Machinery Equipment'
             type: grid_item
             enabled: true
           -
             id: mkgy1d35
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
+            grid_image: sector-icons/bolt-lightning.svg
+            grid_text: 'Electrical Equipment & Electronics'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy14od
+            grid_image: sector-icons/hammer.svg
+            grid_text: 'Construction &  Material'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgxumg1
+            grid_image: sector-icons/wind-turbine.svg
+            grid_text: 'Future Energy & Industrial Decarbonisation'
             type: grid_item
             enabled: true
   -
@@ -744,7 +744,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768914737
+updated_at: 1768993962
 reusable_popup: false
 fine_seo_title: Miite
 ---

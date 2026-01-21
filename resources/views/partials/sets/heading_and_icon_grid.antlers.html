@@ -12,7 +12,14 @@
             </div>
         {{ /grid_items }}
     </div>
-    </div>
+{{if group_buttons}}
+<div class="flex justify-center py-8">
+{{group_buttons}}
+{{ partial:partials/sets/fancy_button }}
+{{/group_buttons}}
+</div>
+{{/if}}
+</div>
 
 
 

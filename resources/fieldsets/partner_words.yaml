@@ -9,7 +9,7 @@ fields:
     field:
       type: replicator
       display: 'Partner Words Creator'
-      localizable: false
+      localizable: true
       sets:
         new_set_group:
           display: 'New Set Group'

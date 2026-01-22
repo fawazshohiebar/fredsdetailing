@@ -5,7 +5,7 @@ fields:
     field:
       type: group
       display: 'Button Group'
-      localizable: false
+      localizable: true
       fields:
         -
           import: fancy_button

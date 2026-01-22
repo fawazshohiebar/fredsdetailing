@@ -3,9 +3,7 @@
     class="opacity-60 bg-slate-900"
     >
     {{# {{ partial:patronage }} #}}
-    
-{{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
-
+    {{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
     <nav class="w-full flex-grow transition-all duration-300 ease-in-out"
         x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }}bg-[#212A36]/80{{ elseif is_homepage }} bg-[#212A36]/80 {{else}}bg-back-gradient{{ /if }}' }"
         x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
@@ -107,6 +105,7 @@
             <!-- Mobile Menu Button -->
             <div class=" items-center py-4 gap-2 block">
                 <div class="flex justify-end gap-2 lg:gap-4 items-center">
+                    {{ partial:language-switcher /}}
                     {{# {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }} #}}
                     {{ if brand:ai_search_url }}
                         <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
@@ -116,12 +115,13 @@
                         </a>
                     {{ /if }}
                     {{# {{ partial:language-switcher /}} #}}
-                    <button command="show-modal" commandfor="drawer" class=" focus:outline-none flex flex-row items-center bg-white p-[1px] rounded-[15px] "
+                    <button command="show-modal" commandfor="drawer"
+                        class=" focus:outline-none flex flex-row items-center bg-white p-[1px] rounded-[15px] "
                         :class="scrolled ? 'text-white' : 'text-white'" aria-label="Toggle mobile menu">
-                       <div class="bg-primary  p-2 rounded-[15px]">
-                        {{ heroicon variant="outline" icon="bars-3" class=" w-8 h-8" /}}
+                        <div class="bg-primary  p-2 rounded-[15px]">
+                            {{ heroicon variant="outline" icon="bars-3" class=" w-8 h-8" /}}
                         </div>
-                        <div class="text-primary  text-sm px-4">MENU</div>
+                        <div class="text-primary hidden sm:block text-sm px-4">{{ 'MENU' | trans }}</div>
                     </button>
                 </div>
                 {{ partial:partials/header/menu_drawer }}

@@ -1,4 +1,38 @@
 title: 'Global Food Week'
+logo: brand/mittelogo.png
+location: 'مركز أدنيك أبوظبي'
+location_link: 'https://maps.app.goo.gl/QfKJxAySQC8fabao9?g_st=iw'
+date: '29 أغسطس - 6 سبتمبر'
+time: '11 صباحاً - 10 مساءً'
+countdown_date_picker: '2026-02-01 08:00:00'
+navbar_text:
+  left_text: 'جزء من <br> عمليات دولة الإمارات'
+  middle_text: 300Bn
+  right_text: 'التحول <br> الاستراتيجي'
+logos_and_partners:
+  -
+    id: mkp3iv9d
+    title: 'Headline Partner'
+    logo:
+      -
+        id: mkp3j60m
+        image:
+          - brand/group-6-(2).png
+        type: new_set
+        enabled: true
+    type: new_set
+    enabled: true
+link_bottom_footer:
+  -
+    id: mkp5g5ie
+    bottom_footer_links_text: 'Privacy Policy'
+    type: new_set
+    enabled: true
+  -
+    id: mkp5g99m
+    bottom_footer_links_text: 'Terms of Service'
+    type: new_set
+    enabled: true
 social_media:
   -
     id: mdwxv1og
@@ -24,8 +58,5 @@ social_media:
     id: mdwxw06k
     platform: tiktok
     social_media_link: 'https://www.tiktok.com/@adihex_official'
-countdown_date_picker: '2026-02-01 08:00:00'
-location: 'مركز أدنيك أبوظبي'
-location_link: 'https://maps.app.goo.gl/QfKJxAySQC8fabao9?g_st=iw'
-date: '29 أغسطس - 6 سبتمبر'
-time: '11 صباحاً - 10 مساءً'
+ai_search_url: 'https://aisearch.miite.ae/'
+form: news_letter

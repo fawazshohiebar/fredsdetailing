@@ -1,81 +1,22 @@
 tree:
   -
-    id: 03056355-7d0d-4285-a470-fd2cab207ba1
-    entry: a508bba7-3145-41e8-a905-ef46a041d792
+    id: fd20d882-f1a5-447a-9bee-61a1e8bb7081
+    entry: a45a45cb-165c-4392-9893-5b479e2c1a7c
   -
-    id: acd7c386-7af5-4c87-aafb-ee0ad1d517b8
-    entry: 5625c9b8-c044-454c-87e2-e776ed59ff82
-    children:
-      -
-        id: 1f16c598-97bb-48d0-8eed-9703d7f0b3bc
-        entry: 6868cb14-3075-4260-8475-7dcc6d1d274d
-      -
-        id: 9e1cd7be-8ece-4e92-8c93-4c3e09ad9ba9
-        entry: abf1d00b-a591-44e5-8c71-b9701e33b901
-      -
-        id: 85a08600-9b7c-42ba-87af-e27cfd3bc6e2
-        title: 'مزاد الصقور'
-        url: 'https://auction.adihex.com/ar'
-      -
-        id: cdde1a21-fd21-415a-b255-bfd2faea14ad
-        entry: a528e2a8-6ce4-4e52-98a4-5f3e329c1aec
-      -
-        id: a0576ddd-bce5-47bb-b87f-cbe309b42495
-        title: 'خريطة تفاعلية'
-        url: 'https://map.adihex.com/?mapId=jKkBVW5WgdZYQ'
-      -
-        id: fa6de47c-a373-45cc-92c4-7a529597fb72
-        entry: e45d483f-bb19-48ac-aedf-fc86ee574383
-      -
-        id: 69e74ece-3cd9-41ae-9f48-c00c0de15c2a
-        entry: c369a775-7c31-41ed-bbce-98148aaee301
-        title: 'النشرة اليومية'
-      -
-        id: 6bd12406-c46d-43fd-8c85-c7923de2754a
-        entry: 9a1fdbc5-37c3-4e16-b3b2-66236fe2a604
+    id: 37392d9e-d492-48ad-9968-b014a0faf1f7
+    entry: 6347b9f2-8cce-477d-9076-30fef1a754f6
   -
-    id: a3105c8a-2b0f-4805-9658-aac1bc895319
-    entry: ab69d713-9a67-4527-b9c6-0c320121e0b6
-    children:
-      -
-        id: f7ef987b-b6b7-472a-85dc-01f1595a6903
-        entry: 786ea688-0705-4ea1-9532-9d108ff6e372
-      -
-        id: 9eba58cb-b2c3-40d7-8e81-f322e0310346
-        entry: ca87f7bf-3e49-4f6e-a38b-1c8e6aadec36
-      -
-        id: 74afece3-ed01-4a72-ada9-04d4b7ec4000
-        title: 'تسجيل دخول E-Zone'
-        url: 'https://ezone.adihex.com/login'
-      -
-        id: d0fbae11-5219-4201-bdb6-b40ee3e567d1
-        entry: c9cf109e-be4c-44ee-8451-beda0d795216
-      -
-        id: 9e360204-b439-47e1-87c5-4b81f2a0121a
-        entry: 0ca5e497-7b85-4f22-9f91-c26f2e56f3a9
-      -
-        id: 34df6c4a-b083-49e6-85bd-8f905bbb7b9c
-        entry: 9575684b-447c-4a31-8062-143b8ef9fe4f
+    id: 3690f548-e420-4285-bcc7-5fdd0465dd1c
+    entry: f294db8f-87ee-4e29-9a7e-80cdb0678aa0
   -
-    id: e0e22476-8b28-4cc4-ac4b-7431aca7b9bf
-    entry: 861d63c9-da8b-4fa7-875b-29c9d10569f8
+    id: 60efa8ce-943d-40e5-8fe0-30d0feb496cd
+    entry: 6245db4b-cf12-4bee-a2fb-728201a609e2
   -
-    id: 5655bd7c-3ab0-4f38-9788-ea0086dea02e
-    entry: acf744cd-28f5-45fd-83a8-502b53c423f5
-    children:
-      -
-        id: 8c6ef96b-9e8e-49ff-8dd7-978a096e69f3
-        entry: 313db36b-4390-488f-a7b3-53d1818150db
-      -
-        id: d4ae4a87-4d58-428b-bb39-5dca58ea0f76
-        entry: 0d6b6a07-33c1-4ae6-865b-1d2eede57246
-      -
-        id: 7ef74982-4448-4169-a2d9-d2853d31506c
-        entry: dce1b967-ba48-4c54-8b61-10a9d329f184
+    id: 2a6161ce-742c-4298-a1c9-39b20ccd2389
+    entry: 430b4c14-4304-4b26-b4d9-76ab2f054243
   -
-    id: 19e4fc2a-3490-4c5d-87be-313bb64f9ebb
-    entry: 88e597e9-2759-4922-a2a3-55ac2ec9e0f5
+    id: 40e8d4fb-ef2e-4fc5-9350-f567b125bccb
+    entry: 97112e09-4a22-411c-9ad3-0f431633266b
   -
-    id: 3b77e588-f3d9-4f2e-8d39-ab8fb4f9ccbc
-    entry: b4422980-2277-40e9-91ba-e5eb0fe21933
-    title: 'سياسة التنمية المستدامة'
+    id: 2cebe121-26f7-4766-984e-8e4fb5f4489e
+    entry: fadcc590-479d-45dc-be2d-6ad2de5712c1

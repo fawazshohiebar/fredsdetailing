@@ -102,6 +102,26 @@
                     transform: translateX(0);
                 }
             }
+ 
+            @keyframes scroll-left-rtl {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(50%);
+                }
+            }
+
+            @keyframes scroll-right-rtl {
+                0% {
+                    transform: translateX(50%);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
 
             .animate-scroll-left {
                 animation: scroll-left 40s linear infinite;
@@ -115,6 +135,15 @@
             .group:hover .animate-scroll-right {
                 animation-play-state: paused;
             }
+
+            :lang(ar) .animate-scroll-left {
+                animation-name: scroll-left-rtl;
+            }
+
+            :lang(ar) .animate-scroll-right {
+                animation-name: scroll-right-rtl;
+            }
+
         </style>
     </div>
 </div>

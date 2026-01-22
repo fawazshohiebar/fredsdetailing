@@ -19,19 +19,17 @@
 )">
 
     {{# Agenda Days Selector #}}
-    
     {{ partial:agenda/day_selector }}
     {{# End Agenda Days Selector #}}
-    
     {{# Program Selector #}}
     {{ partial:agenda/program_selector }}
-
-<div class="mb-6  mt-[-35px] sm:mb-8 flex-shrink h-full flex-1 relative cursor-pointer transition-all duration-200 flex flex-col items-center justify-center px-4 sm:px-8 lg:px-12 bg-light-accent">
+    {{# End Program Selector #}}
+    <div class="mb-6  mt-[-35px] sm:mb-8 flex-shrink h-full flex-1 relative cursor-pointer transition-all duration-200 flex flex-col items-center justify-center px-4 sm:px-8 lg:px-12 bg-slate-200">
     {{ replicator_titles }}
     <div class="text-center" 
          :class="{ 'block': selectedDay === {{ index }} + 1, 'hidden': selectedDay !== {{ index }} + 1 }"
          x-transition>
-        <h2 class="text-sm sm:text-base lg:text-lg font-semibold  text-accent py-5">
+        <h2 class="text-sm sm:text-base lg:text-lg font-semibold  text-brand-primary py-5">
             {{ title_field }}
         </h2>
     </div>
@@ -40,14 +38,12 @@
 
 
 
-    {{# End Program Selector #}}
-
     {{# Loading State #}}
     <div x-show="loading" class="flex justify-center items-center py-20">
         <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600"></div>
         <span class="ml-2 text-gray-600">{{'Loading sessions...' | trans}}</span>
     </div>
-
+    
     {{# Selected Day Daily Agenda Details #}}
     <div x-show="!loading">
         {{ partial:agenda/active_day_sessions }}
@@ -66,23 +62,23 @@
             sessions: [],
             schedule: [],
             loading: false,
-
+            
             init() {
                 this.generateDays();
-                // Filter days to only those with sessions, then load sessions for first valid day
-                this.filterDays();
-
+                
+                // Load initial data
+                this.loadSessions();
+                
+                // Watch for changes
                 this.$watch('selectedProgram', () => {
-                    this.generateDays();
-                    this.selectedDay = 1;
-                    this.filterDays();
+                    this.loadSessions();
                 });
-
+                
                 this.$watch('selectedDay', () => {
                     this.loadSessions();
                 });
             },
-
+            
             generateDays() {
                 const start = new Date(this.startDate);
                 const end = new Date(this.endDate);
@@ -110,79 +106,38 @@
 
                 this.days = days;
             },
-
-            async filterDays() {
-                const program = this.programs[this.selectedProgram];
-                if (!program || !this.days.length) return;
-                this.loading = true;
-                const locale = '{{ site:short_locale }}';
-                const original = [...this.days];
-                const kept = [];
-
-                for (const day of original) {
-                    const dateString = day.fullDate.toISOString().split('T')[0];
-                    try {
-                        const resp = await fetch(`/${locale}/agenda/${program.handle}/${dateString}`);
-                        if (!resp.ok) continue;
-                        const data = await resp.json();
-                        if (Array.isArray(data) && data.length > 0) {
-                            kept.push(day);
-                        }
-                    } catch (e) {
-                        // ignore network errors for filtering
-                    }
-                }
-
-                this.days = kept.map((d, i) => ({ ...d, number: i + 1 }));
-
-                if (!this.days.length) {
-                    // No days with sessions
-                    this.selectedDay = 1;
-                    this.sessions = [];
-                    this.schedule = [];
-                    this.loading = false;
-                    return;
-                }
-
-                if (!this.days.find(d => d.number === this.selectedDay)) {
-                    this.selectedDay = 1;
-                }
-
-                await this.loadSessions();
-                this.loading = false;
-            },
-
+            
             getApiUrl() {
                 const selectedDay = this.days[this.selectedDay - 1];
                 const selectedProgram = this.programs[this.selectedProgram];
-
+                
                 if (!selectedDay || !selectedProgram) return '';
-
+                
                 const dateString = selectedDay.fullDate.toISOString().split('T')[0];
-                //Pass short locale to API to filter based on site language
-                const locale = '{{ site:short_locale }}';
+                const locale = document.documentElement.lang || 'en'; // Get locale from html lang attribute
                 return `/${locale}/agenda/${selectedProgram.handle}/${dateString}`;
             },
-
+            
             async loadSessions() {
                 if (!this.days[this.selectedDay - 1] || !this.programs[this.selectedProgram]) {
                     return;
                 }
-
+                
                 this.loading = true;
-
+                
                 try {
                     const url = this.getApiUrl();
-
+                    
                     const response = await fetch(url);
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
-
+                    
                     const sessions = await response.json();
                     this.sessions = sessions;
+                    console.log('Sessions data:', sessions); // Debug: check the API response structure
                     this.generateSchedule();
-
+                    
                 } catch (error) {
                     this.sessions = [];
                     this.schedule = [];
@@ -190,7 +145,7 @@
                     this.loading = false;
                 }
             },
-
+            
             generateSchedule() {
                 if (!this.sessions || this.sessions.length === 0) {
                     this.schedule = [];
@@ -200,13 +155,21 @@
                 // 1. Get all unique start times to create the time slots
                 const uniqueTimeKeys = [...new Set(this.sessions.map(s => s.start_time))];
 
-                const timeSlots = uniqueTimeKeys.reduce((acc, timeKey) => {
+const timeSlots = uniqueTimeKeys.reduce((acc, timeKey) => {
+                    // Find sessions that start at this time to get the end time
+                    const sessionAtThisTime = this.sessions.find(s => s.start_time === timeKey);
                     acc[timeKey] = {
                         time: this.formatTime(timeKey),
+                        endTime: sessionAtThisTime ? this.formatTime(sessionAtThisTime.end_time) : null,
                         events: []
                     };
                     return acc;
                 }, {});
+
+
+
+
+
 
                 // 2. For each session, find all time slots it overlaps with
                 this.sessions.forEach(session => {
@@ -217,10 +180,15 @@
 
                     Object.keys(timeSlots).forEach(timeKey => {
                         const slotTime = this.parse24HourTime(timeKey);
-
+                        
                         // Add session to slot if the slot's time is within the session's duration
-                        if (slotTime >= sessionStart && slotTime < sessionEnd) {
-
+                        // If start and end times are the same, only match the exact time slot
+                        const isInTimeRange = sessionStart === sessionEnd 
+                            ? slotTime === sessionStart 
+                            : (slotTime >= sessionStart && slotTime < sessionEnd);
+                        
+                        if (isInTimeRange) {
+                            
                             // Avoid adding duplicates if a session is already in the slot
                             if (timeSlots[timeKey].events.some(event => event.id === (session.slug || session.title))) {
                                 return;
@@ -237,6 +205,7 @@
                                     session.speakers.map(speaker => ({
                                         name: speaker.name || '',
                                         title: (speaker.position || '') + (speaker.company ? `, ${speaker.company}` : ''),
+                                        speaker_title: speaker.speaker_title || speaker.title || (speaker.position || '') + (speaker.company ? `, ${speaker.company}` : ''), 
                                         image: speaker.photo || ''
                                     })) : []
                             });
@@ -251,7 +220,7 @@
                         return this.parseTime(a.time) - this.parseTime(b.time);
                     });
             },
-
+            
             formatTime(timeString) {
                 // Convert 24-hour time to 12-hour format with AM/PM
                 const [hours, minutes] = timeString.split(':');
@@ -260,19 +229,19 @@
                 const ampm = hour24 >= 12 ? 'PM' : 'AM';
                 return `${hour12}:${minutes} ${ampm}`;
             },
-
+            
             parseTime(timeString) {
                 // Parse time string for sorting (convert back to 24-hour)
                 const [time, ampm] = timeString.split(' ');
                 const [hours, minutes] = time.split(':');
                 let hour24 = parseInt(hours);
-
+                
                 if (ampm === 'PM' && hour24 !== 12) {
                     hour24 += 12;
                 } else if (ampm === 'AM' && hour24 === 12) {
                     hour24 = 0;
                 }
-
+                
                 return hour24 * 60 + parseInt(minutes);
             },
 
@@ -281,7 +250,7 @@
                 const [hours, minutes] = timeString.split(':');
                 return parseInt(hours) * 60 + parseInt(minutes);
             },
-
+            
             getCurrentDaySchedule() {
                 return this.schedule;
             }

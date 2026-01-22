@@ -1,7 +1,7 @@
 <div
     class=" gap-5   md:gap-10   pb-5 md:pb-10
    {{ if design == 'devided' }} 
-        pb-5 md:pb-10  grid xl:grid-cols-[50%_50%]  md:grid-cols-[40%_50%] md:gap-0  gap-5   justify-between  text-left
+        pb-5 md:pb-10  grid xl:grid-cols-[calc(50%-3.25rem)_50%]  md:grid-cols-[40%_50%] md:gap-0  gap-5   justify-between rtl:text-right  text-left
         {{ elseif design == 'alignleft' }}  
         flex-col justify-start
         {{# md:w-[330px] lg:w-[450px] #}}

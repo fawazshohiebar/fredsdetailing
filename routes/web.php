@@ -9,11 +9,16 @@ use App\Http\Controllers\GetAgendaByDateController;
 //    'title' => 'Example'
 // ]);
 
-Route::permanentRedirect('/', '/en');
-// Route::permanentRedirect('/ar', '/en');
+// Custom route to handle root path - use temporary redirect instead of permanent
+Route::get('/', function() {
+    // Default to Arabic
+    return redirect('/ar', 302); // 302 temporary redirect
+});
 
+
+// Route::permanentRedirect('/ar', '/en');
 
 Route::get('/{locale}/agenda/{agenda}/{date}', GetAgendaByDateController::class)->name('show_agenda_by_date');
 
 // redirect all /ar starting routes to homepage (including /ar)
-Route::permanentRedirect('/ar/{any?}', '/en')->where('any', '.*');
+// Route::permanentRedirect('/en/{any?}', '/ar')->where('any', '.*');

@@ -1,4 +1,4 @@
-{{# IMPORTANT #}}
+IMPORTANT
 
 {{# This file is deprecated. Please use the agenda component in normal default template. #}}
 
@@ -108,7 +108,8 @@
                 if (!selectedDay || !selectedProgram) return '';
                 
                 const dateString = selectedDay.fullDate.toISOString().split('T')[0];
-                return `/agenda/${selectedProgram.handle}/${dateString}`;
+                const locale = document.documentElement.lang || 'en'; // Get locale from html lang attribute
+                return `/${locale}/agenda/${selectedProgram.handle}/${dateString}`;
             },
             
             async loadSessions() {

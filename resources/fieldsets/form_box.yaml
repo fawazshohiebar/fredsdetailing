@@ -16,6 +16,7 @@ fields:
       display: 'Redirect to Url'
       width: 66
       localizable: true
+      container: assets
   -
     handle: show_labels
     field:

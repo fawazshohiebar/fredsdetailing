@@ -13,16 +13,8 @@ page_builder:
         end_date: '2026-01-23'
         agendas:
           - agritech-forum
-        replicator_titles:
-          -
-            id: mkp15dcx
-            title_field: hala
-            type: title_set
-            enabled: true
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
+          - global-food-talks
+          - james-hutton-institute-workshop
 layout: layout
 reusable_popup: false
 template: default
@@ -37,7 +29,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769060843
+updated_at: 1769079977
 fine_seo_title: Agenda
 fine_seo_preview: Agenda
 ---

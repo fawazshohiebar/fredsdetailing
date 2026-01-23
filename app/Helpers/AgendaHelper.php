@@ -25,6 +25,7 @@ class AgendaHelper
                     'photo' => isset($speaker->image) ? self::getSpeakerPhoto($speaker->image) : null,
                     'position' => $speaker->position ?? '',
                     'company' => $speaker->company ?? '',
+                    'speaker_background' => $speaker->get('speaker_background') ?? '#ccc',
                 ];
             }
         }

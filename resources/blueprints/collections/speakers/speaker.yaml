@@ -24,6 +24,31 @@ tabs:
                 - 'mimes:png,jpg,jpeg,gif,webp'
               folder: speakers
           -
+            handle: speaker_background
+            field:
+              options:
+                -
+                  key: '#BA8349'
+                  value: Orange
+                -
+                  key: '#5386AC'
+                  value: 'Light Blue'
+                -
+                  key: '#69747C'
+                  value: Grey
+                -
+                  key: '#9267AB'
+                  value: Purple
+                -
+                  key: '#59BA64'
+                  value: Green
+                -
+                  key: '#3D4D82'
+                  value: 'Dark Blue'
+              type: select
+              display: 'speaker background'
+              localizable: false
+          -
             handle: position
             field:
               type: text

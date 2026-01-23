@@ -34,8 +34,6 @@ tabs:
               display: Date
               localizable: false
               width: 33
-              earliest_date: '2025-10-21'
-              latest_date: '2025-10-23'
           -
             handle: content
             field:

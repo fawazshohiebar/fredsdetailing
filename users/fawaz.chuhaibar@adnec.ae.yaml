@@ -30,6 +30,12 @@ preferences:
       after_save: continue_editing
     speakers:
       per_page: 500
+      columns:
+        - title
+        - site
+        - slug
+        - status
+        - speaker_background
   assets:
     assets:
       per_page: 500

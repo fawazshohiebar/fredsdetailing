@@ -5,8 +5,8 @@
             <div
                 class="flex-shrink h-full min-w-[200px] sm:min-w-[250px] flex-1 relative cursor-pointer transition-all duration-200 flex flex-col items-center justify-center px-4 sm:px-8 lg:px-12"
                 :class="{
-                    'bg-blue': selectedProgram === index,
-                    'bg-primary-500 hover:bg-primary-600': selectedProgram !== index
+                    'bg-back-gradient': selectedProgram === index,
+                    'bg-[#303F51] hover:bg-back-gradient': selectedProgram !== index
                 }"
                 @click="selectedProgram = index"
             >
@@ -35,7 +35,7 @@
                     <!-- Program Title -->
                     <div class="flex-1 text-center">
                         <p
-                            class="text-white font-semibold text-sm sm:text-base lg:text-lg leading-tight whitespace-nowrap"
+                            class="text-white font-semibold text-sm sm:text-base lg:text-lg leading-tight "
                             x-text="program.title"
                         ></p>
                     </div>

@@ -4,11 +4,9 @@
                         {{ partial:partials/sets/heading_group_with_breadcrumbs }}
                         <div class=" py-8 grid  sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
                             {{ speakers_entries }}
-                                {{ speaker_title = title }}
-                                {{ colors = ["#BA8349", "#5386AC", "#69747C", "#9267AB", "#59BA64", "#3D4D82"] }}
-                                {{ color_index = index | mod:6 }}
+                                {{ speaker_title = title }}                              
                                 <div class="rounded-xl h-96 overflow-hidden items-end {{ if index > 7 }}max-md:hidden{{ /if }}">
-                                    <div class="!flex flex-col  h-full justify-end  relative" style="background-color: {{ colors[color_index] }};">
+                                    <div class="!flex flex-col  h-full justify-end  relative" style="background-color: {{speaker_background}}">
                                        
                                         {{ image }}
                                             <div class="relative  bg-bottom rounded-[5px] content-end  filter grayscale hover:grayscale-0 bg-no-repeat bg-[length:auto_85%] h-full"

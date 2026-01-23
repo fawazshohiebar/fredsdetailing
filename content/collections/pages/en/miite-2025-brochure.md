@@ -27,7 +27,7 @@ page_builder:
                       color: redgrad
                 text: 'Download Brochure 2025'
         form: download_brochure_2025
-        redirect_to_url: 'entry::bc3899ff-f038-49a8-bf65-a4b0be04f754'
+        redirect_to_url: 'asset::assets::pdf-folder/revised-miite-sales-brochure-2_compressed.pdf'
         show_labels: true
   -
     type: paragraph
@@ -47,7 +47,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769070093
+updated_at: 1769076402
 fine_seo_title: 'MIITE 2025 Brochure'
 fine_seo_preview: 'MIITE 2025 Brochure'
 ---

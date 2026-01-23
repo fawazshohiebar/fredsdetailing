@@ -1,20 +1,20 @@
-<div class="flex flex-row items-center justify-start relative w-full h-16 sm:h-20 bg-white border border-b-0 border-gray-200 rounded-t-md overflow-x-auto overflow-y-hidden scrollbar-hide">
+<div class="flex flex-row items-center justify-start relative w-full h-24 p-2 sm:h-24 bg-white rounded-xl border-1 border-white  overflow-x-auto overflow-y-hidden scrollbar-hide">
         <template x-for="day in days" :key="day.number">
             <div 
                 class="flex-shrink h-full min-w-[80px] sm:min-w-[100px] flex-1 relative cursor-pointer transition-all duration-200"
                 :class="{
-                    'bg-light-accent': selectedDay === day.number,
+                    ' bg-back-gradient rounded-xl': selectedDay === day.number,
                     'bg-white hover:bg-gray-50': selectedDay !== day.number
                 }"
                 @click="selectedDay = day.number"
             >
-                <div class="relative w-full h-full overflow-hidden flex flex-col items-center justify-center px-1 sm:px-2 lg:px-4">
+                <div class="relative w-full h-full overflow-hidden flex flex-col items-center justify-center py-2 px-1 sm:px-2 lg:px-4 ">
                     <!-- Day Number -->
                     <div 
                         class="text-center transition-colors duration-200 text-sm sm:text-base md:text-lg"
                         :class="{
-                            'font-semibold text-blue': selectedDay === day.number,
-                            'text-gray-500': selectedDay !== day.number
+                            'font-bold uppercase font-mont text-white ': selectedDay === day.number,
+                            'text-primary font-bold uppercase font-mont ': selectedDay !== day.number
                         }"
                     >
                         <p x-text="`{{'Day' | trans}} ${day.number}`"></p>
@@ -24,8 +24,8 @@
                     <div 
                         class="font-normal text-center whitespace-nowrap transition-colors duration-200 text-xs sm:text-sm lg:text-base mt-0.5 sm:mt-1"
                         :class="{
-                            'text-accent': selectedDay === day.number,
-                            'text-gray-500': selectedDay !== day.number
+                            'text-white text-sm font-mont  uppercase tracking-wider font-normal': selectedDay === day.number,
+                            'text-primary text-sm font-mont  uppercase tracking-wider font-normal': selectedDay !== day.number
                         }"
                     >
                         <p x-text="day.date"></p>

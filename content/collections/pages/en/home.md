@@ -5,7 +5,7 @@ title: Home
 template: default
 layout: layout_no_heading
 author: 4d25b1f6-2153-41a7-9460-d89cdfaa8fa1
-fine_seo_is_title_custom: true
+fine_seo_is_title_custom: false
 fine_seo_preview: Home
 page_builder:
   -
@@ -444,6 +444,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5udik
+      enabled: false
       values:
         type: heading_and_sponsors
         background: bgcolor
@@ -512,6 +513,14 @@ page_builder:
           open_new_tab: false
           button_size: fit
         bread_crumb_text: 'Key CONTRIBUTERS'
+  -
+    type: set
+    attrs:
+      id: mkqjboue
+      values:
+        type: reusable_block
+        entry:
+          - fc8763b2-beae-4488-86b8-6cd2c0de8272
   -
     type: set
     attrs:
@@ -726,14 +735,6 @@ page_builder:
             open_new_tab: false
             type: new_set
             enabled: true
-  -
-    type: set
-    attrs:
-      id: mkmkoobb
-      values:
-        type: reusable_block
-        entry:
-          - fc8763b2-beae-4488-86b8-6cd2c0de8272
 header_scripts:
   code: null
   mode: htmlmixed
@@ -744,7 +745,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768993962
+updated_at: 1769151838
 reusable_popup: false
 fine_seo_title: Miite
 ---

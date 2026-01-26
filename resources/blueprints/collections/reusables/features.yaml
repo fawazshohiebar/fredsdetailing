@@ -30,11 +30,7 @@ tabs:
                           import: background_design
                         -
                           handle: image
-                          field:
-                            container: collaterals
-                            type: assets
-                            display: Image
-                            localizable: false
+                          field: basics.image
                         -
                           handle: caption_text
                           field:

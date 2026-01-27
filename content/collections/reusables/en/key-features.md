@@ -3,8 +3,8 @@ id: 17d9d52b-9e14-46fa-b11d-a98c06e3ba81
 blueprint: grid_features_section
 title: 'Key features'
 background: bgcolor
-background_color: light-accent
-bread_crumb_text: 'Key features 2026'
+background_color: light-secondary
+bread_crumb_text: 'KEY FEATURES 2026'
 design: devided
 heading:
   -
@@ -156,5 +156,5 @@ grid_creator:
     type: grid_set
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768990984
+updated_at: 1769513722
 ---

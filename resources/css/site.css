@@ -18,14 +18,14 @@ html {
   --color-primary: #000;
   --color-secondary: #EFF7FF;
   --color-white:#FFFFFF;
-  --color-accent:#D9E4EE;
+  --color-accent:#d8e3ee;
   --color-blue: #0F193C;
   --color-light-accent: #EDF1F7;
   --color-semiblack:#D8DCE3;
-  --color-light-secondary: #E2E7EF;
+  --color-light-secondary: #DCE1E9;
   --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
   --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
-
+--color-red:#E7443C;
 }
 
 @theme {
@@ -40,7 +40,9 @@ html {
   --color-blue: #0F193C;
   --color-semiblack:#D8DCE3;
   --color-light-accent: #EDF1F7;
-  --color-light-secondary: #E2E7EF;
+  --color-light-secondary: #DCE1E9;
+  --color-red:#E7443C;
+
 
   /* --color-gradient : linear-gradient(275deg, #0F193C, #dd001c); */
 
@@ -201,11 +203,11 @@ html {
 }
 
 .custom h2 {
-  @apply xl:text-7xl md:text-5xl text-4xl font-normal  ;
+  @apply xl:text-5xl md:text-4xl text-3xl font-normal  ;
 }
 
 .custom h3 {
-  @apply xl:text-4xl md:text-3xl  text-2xl font-normal;
+  @apply xl:text-5xl md:text-4xl  text-3xl font-normal;
 }
 
 .custom h4 {

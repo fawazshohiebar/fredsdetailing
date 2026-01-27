@@ -38,17 +38,17 @@ hero_actions:
     type: button
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768826342
+updated_at: 1769509496
 first_button:
   link: null
-  label: 'Exhibitor Information'
+  label: 'EXHIBITOR INFORMATION'
   design: whitebgblacksvg
   icon: arrow-down-right
   open_new_tab: false
   button_size: null
 second_button:
   link: null
-  label: 'Join us : Make it in The Emirates 2026'
+  label: 'JOIN US : MAKE IT IN THE EMIRATES 2026'
   design: whiteoutlined
   icon: none
   open_new_tab: false
@@ -58,14 +58,170 @@ more_info:
   info_date: 'MAY <br> 04-07'
   info_location:
     -
+      type: heading
+      attrs:
+        level: 5
+      content:
+        -
+          type: text
+          marks:
+            -
+              type: bold
+          text: 'ADNEC CENTER '
+    -
       type: paragraph
       content:
         -
           type: text
-          text: 'ADNEC CENTER'
-        -
-          type: hardBreak
-        -
-          type: text
           text: 'ABU DHABI, UAE'
+video_intro_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#fff'
+        text: '2025'
+      -
+        type: hardBreak
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#E7443C'
+        text: RECAP
+video_ending_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#fff'
+        text: 'WATCH 2025'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Video Online'
+statistics_creator:
+  -
+    id: mkwg88n5
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '122,500'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: +
+    stats_intro: 'Onsite Attendees'
+    type: stats_set
+    enabled: true
+  -
+    id: mkwg8lxp
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '300'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: +
+    stats_intro: Speakers
+    type: stats_set
+    enabled: true
+  -
+    id: mkwg8vmk
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'AED 160'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: +B
+    stats_intro: 'Offtake Agreements'
+    type: stats_set
+    enabled: true
+  -
+    id: mkwg96jx
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '68,000'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: sqm
+    stats_intro: 'Gross Exhibition Space'
+    type: stats_set
+    enabled: true
+video_link: 1AJpPJ1AcUs
 ---

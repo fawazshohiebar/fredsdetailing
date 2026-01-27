@@ -1,6 +1,6 @@
 <div class="w-full h-full bg-slate-900/30 z-20">
-    <div class="adnec-container z-20 h-full flex flex-col justify-end items-end w-full pb-30  ">
-        <div class="max-w-full w-full flex  flex-wrap flex-row   justify-between gap-10 items-center ">
+    <div class=" z-20 h-full flex flex-col justify-end items-end w-full   ">
+        <div class=" adnec-container max-w-full w-full flex  lg:pb-30 pb-10  pt-10 lg:pt-0 flex-wrap flex-row mb-5   justify-between gap-10 items-center ">
             <div class=" w-auto flex  flex-col gap-y-5">
                 {{ if subheading }}
                     <p class="text-white/90 text-base md:text-lg  xl:text-2xl block   opacity-0  transition-all duration-200 transform ease-linear delay-150 motion-reduce:opacity-100 motion-reduce:translate-y-0"
@@ -44,7 +44,6 @@
                         <div class="h-auto w-[1px] md:block  hidden bg-white"></div>
                         <div class=" text-white custom"> {{ info_location }}</div>
                         {{ heroicon variant="outline" icon="arrow-down-left" class="h-full  w-12 text-white " }}
-
                     {{ /more_info }}
                 </div>
 
@@ -55,6 +54,15 @@
 
 
 
+
+
+
+
         </div>
+        
+              {{ partial:partials/sets/banner_statistics }} 
     </div>
+ 
+
+
 </div>

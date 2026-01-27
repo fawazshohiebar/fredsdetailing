@@ -7,7 +7,7 @@
             <div class="w-full h-[1px] bg-semiblack"></div>
         </div>
 
-        <div class="grid  grid-cols-1 gap-5  lg:grid-cols-[20%_40%_30%] lg:gap-[5%] ">
+        <div class="grid  grid-cols-1 gap-5  lg:grid-cols-[23%_40%_30%] lg:gap-[5%] ">
             <div class="custom">
                 {{ heading }}
             </div>
@@ -24,9 +24,12 @@
                 {{ registration_button }}
                     {{ partial:partials/sets/fancy_button }}
                 {{ /registration_button }}
-                <div>
+                <div class="flex flex-col gap-3">
                     {{ button_redirecting }}
                         {{ partial:partials/sets/fancy_button }}
+                        {{ unless last }}
+                            <div class="h-[1px] bg-[#303F51] w-full"></div>
+                        {{ /unless }}
                     {{ /button_redirecting }}
                 </div>
             </div>

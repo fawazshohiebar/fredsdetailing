@@ -33,30 +33,67 @@
 
   {{# {{ partial:partials/sets/ai_banner }} #}}
 
-  {{ partial:additional_scripts_body_end /}}
-</body>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+(function() {
+    function isInsideExcludedTag(node) {
+        let parent = node.parentElement;
+        while (parent) {
+            const tagName = parent.tagName ? parent.tagName.toUpperCase() : '';
+            
+            if (["SCRIPT", "STYLE", "NOSCRIPT", "D"].includes(tagName)) {
+                return true;
+            }
+            
+            if (parent.hasAttribute && parent.hasAttribute("data-no-number-wrap")) {
+                return true;
+            }
+            
+            if (parent.classList && parent.classList.contains("no-number-wrap")) {
+                return true;
+            }
+            
+            parent = parent.parentElement;
+        }
+        return false;
+    }
+
     function wrapNumbers(node) {
         if (node.nodeType === Node.TEXT_NODE) {
-            if (/\d/.test(node.nodeValue)) {
+            if (/\d/.test(node.nodeValue) && !isInsideExcludedTag(node)) {
                 const span = document.createElement("span");
-                span.innerHTML = node.nodeValue.replace(
-                    /(\d+)/g,
-                    '<span class="font-audio">$1</span>'
-                );
+                span.innerHTML = node.nodeValue.replace(/(\d+)/g, '<span class="font-audio">$1</span>');
                 node.parentNode.replaceChild(span, node);
             }
-        } else if (
-            node.nodeType === Node.ELEMENT_NODE &&
-            !["SCRIPT", "STYLE", "NOSCRIPT"].includes(node.tagName)
-        ) {
-            node.childNodes.forEach(wrapNumbers);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+            const tagName = node.tagName ? node.tagName.toUpperCase() : '';
+            
+            if (["SCRIPT", "STYLE", "NOSCRIPT", "D"].includes(tagName)) return;
+            if (node.hasAttribute && node.hasAttribute("data-no-number-wrap")) return;
+            if (node.classList && node.classList.contains("no-number-wrap")) return;
+            
+            Array.from(node.childNodes).forEach(wrapNumbers);
         }
     }
 
-    wrapNumbers(document.body);
-});
+    function init() {
+        wrapNumbers(document.body);
+        
+        // Cleanup any font-audio spans in excluded elements
+        setTimeout(function() {
+            document.querySelectorAll('d, [data-no-number-wrap], .no-number-wrap').forEach(function(el) {
+                el.querySelectorAll('.font-audio').forEach(function(span) {
+                    span.parentNode.replaceChild(document.createTextNode(span.textContent), span);
+                });
+            });
+        }, 100);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
 </script>
 
 </html>

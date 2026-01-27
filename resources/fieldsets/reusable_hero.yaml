@@ -112,7 +112,11 @@ fields:
               - color
               - h1
               - h4
+              - h5
+              - h6
             remove_empty_nodes: false
             type: bard
             display: 'Info Location'
             localizable: false
+  -
+    import: reusable_banner_stats

@@ -11,7 +11,7 @@
         {{ elseif design == 'whitefilled' }}
           bg-white outline outline-1 outline-offset-[-1px] text-Blue-600 capitalize md:text-base text-sm font-medium leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
         {{ elseif design == 'whiteoutlined'}}
-            outline outline-1 outline-offset-[-1px] outline-white  text-white md:text-base text-sm font-medium  rounded-3xl leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
+            outline outline-1 outline-offset-[-1px] outline-white  text-white md:text-base text-sm font-medium  rounded-2xl leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
         [&_svg]:bg-white 
           [&_svg]:p-[10px] 
           [&_svg]:rounded-[15px]
@@ -20,6 +20,7 @@
           [&_svg]:text-primary
           flex flex-row-reverse rtl:flex-row
           items-center
+          
              {{if  icon != "none"}}
              !py-0 pl-0
               {{/if}}
@@ -61,7 +62,7 @@ font-normal
 [&_svg]:text-white
 border border-primary
 {{ /if }}
-        font-bold flex flex-row
+        font-bold flex flex-row uppercase
          " {{ if open_new_tab }}target="_blank" rel="noopener noreferrer"{{ /if }} href="{{ link }}">
 
         {{ label }}

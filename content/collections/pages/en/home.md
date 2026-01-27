@@ -20,6 +20,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5seo1
+      enabled: false
       values:
         type: reusable_block
         entry:
@@ -195,7 +196,7 @@ page_builder:
           button_size: fit
         bread_crumb_text: '2026'
         background: bgcolor
-        background_color: light-accent
+        background_color: light-secondary
   -
     type: set
     attrs:
@@ -235,7 +236,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#000'
-                text: '12 Unique Sectors '
+                text: '<d>12</d> Unique Sectors '
               -
                 type: hardBreak
                 marks:
@@ -529,7 +530,7 @@ page_builder:
         type: partner_word_carousel
         background: bgcolor
         background_color: light-accent
-        bread_crumb_text: testimonials
+        bread_crumb_text: TESTIMONIALS
         design: devided
         heading:
           -
@@ -636,7 +637,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: '600+ Exhibitors'
+                text: '<d>600</d>+ Exhibitors'
               -
                 type: hardBreak
                 marks:
@@ -670,7 +671,7 @@ page_builder:
           -
             type: heading
             attrs:
-              level: 4
+              level: 3
             content:
               -
                 type: text
@@ -745,7 +746,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769151838
+updated_at: 1769513841
 reusable_popup: false
 fine_seo_title: Miite
 ---

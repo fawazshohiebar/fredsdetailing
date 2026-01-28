@@ -451,26 +451,14 @@ page_builder:
         background_color: light-secondary
         design: devided
         sponsors_entries:
-          - ed128775-d38c-4de9-a76a-39ee51e6474e
-          - 641fca6e-ba74-4df9-9efd-37262969fc2d
-          - f22a56cb-fb0f-4528-b56c-e50f42db3c2d
-          - f575d4a0-800e-4625-9cb1-ba8a8a9b223d
-          - 00e2ba8d-ad01-4c32-8b68-e369d5f2539e
-          - 23169fe9-f7c0-4710-a342-5c878ccb2d30
-          - 536ae298-eed8-4ae6-bd96-561f135f0f02
-          - a737ce50-3d6d-43b0-8b1f-bedfc2c3d700
-          - 643880af-c8ab-4b43-9396-1cfa33ce614d
-          - 777d63bf-9a38-43a7-822a-b277eb6ea1bf
-          - 7cbe0be8-f10a-468d-bfe5-d2cea461097b
-          - 09cec472-4ce2-4cd6-89dc-40eb3328ac31
-          - 78a5d82d-ba03-42cc-b9f7-85c8a0922c73
-          - 62adabd5-a9ed-43a0-98a9-227bb6c8d2d6
-          - 53a28a7c-5d01-41e0-8080-b9b8dd8f28d5
-          - 967856ef-b4e3-420d-8414-b1f42c153f98
-          - 631ab406-18eb-4035-8b38-ce2d46fc730a
-          - 0cd04827-f2f5-4360-86c5-1671e4b0192f
-          - 8e7412bb-cbd1-4852-8cf9-8ed47cb66dc5
-          - ff94b3df-ff9d-45f7-95b0-c1e08e7c471e
+          - 88272bdd-d6f5-47d3-84c3-66f60f146210
+          - 9060f0b8-47a3-441c-a992-d05487b34147
+          - ea70f702-48a8-431c-8230-f640ad1c63a3
+          - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
+          - 29176424-c90c-433e-b05d-459b5239f3ef
+          - 157b338d-c0b4-4712-bca1-8c71cca67717
+          - ad7b0f6c-a307-4aea-811f-471c05202a99
+          - 5899d87c-a218-4037-84b9-420a4e62cc61
         heading:
           -
             type: heading
@@ -745,7 +733,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769579906
+updated_at: 1769579935
 reusable_popup: false
 fine_seo_title: Miite
 ---

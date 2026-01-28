@@ -16,7 +16,7 @@
                 {{# Mobile: Single column, Desktop: Grid layout #}}
                 <div class="flex flex-col gap-4 md:grid md:gap-4" :class="timeSlot.events.length > 1 ? 'lg:grid-cols-2' : 'lg:grid-cols-1'">
                     <template x-for="event in timeSlot.events" :key="event.id">
-                        <div class="bg-[#ECF2F7] border border-white/20 rounded-xl p-4 lg:p-6">
+                        <div :data-session-id="event.id" class="bg-[#ECF2F7] border border-white/20 rounded-xl p-4 lg:p-6 transition-all">
                             {{# Program Badge and Date - Only shown when searching #}}
                             <div x-show="event.programName || event.dayDate" class="mb-3 flex flex-wrap gap-2">
                                 <span x-show="event.programName" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-back-gradient text-white">
@@ -33,20 +33,27 @@
                                 </span>
                             </div>
                             
-                            {{# Hall info #}}
-                            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 md:mb-6 gap-2 sm:gap-0">
-                                {{# <div class="flex items-center space-x-2 md:space-x-4">
-                                    {{heroicon:outline:map-pin class="text-gray-600 w-5 h-5 md:w-6 md:h-6"}}
-                                    <span class="text-lg md:text-xl font-medium" x-text="event.hall"></span>
-                                </div> #}}
-                                <div x-show="event.duration" class="bg-white border border-white rounded-xl px-3 md:px-4 py-1 md:py-1.5 self-start sm:self-auto flex-col w-full">
+                            {{# Hall info and Share Button #}}
+                            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 md:mb-6 gap-2">
+                                <div x-show="event.duration" class="bg-white border border-white rounded-xl px-3 md:px-4 py-1 md:py-1.5 self-start sm:self-auto flex flex-col gap-2 w-full flex-1">
                                     <div class="flex flex-row items-center gap-[5px]">
                                     {{heroicon variant="outline" icon="clock" class="h-4 w-4"}}
                                     <span class="text-sm md:text-base font-audio flex-nowrap text-nowrap" style="unicode-bidi: plaintext;" x-text="event.duration"></span>
                                      </div>
                                     <span class="text-sm md:text-base font-mont font-semibold customcolors flex-nowrap text-nowrap" style="unicode-bidi: plaintext;" x-text="event.hall"></span>
-
+                                
+                                
+                                 <button 
+                                    @click="openShareModal(event.share_url, event.title, event.slug)"
+                                    class="bg-[#ECF2F7]  border border-white rounded-xl px-3 md:px-4 py-2 hover:bg-gray-50 transition-colors self-start sm:self-auto flex  items-center gap-2 group w-fit"
+                                    title="Share this session">
+                                    {{ heroicon variant="outline" icon="share" class="h-4 w-4 text-primary group-hover:text-primary-600" }}
+                                    <span class="text-sm font-mont text-primary group-hover:text-primary-600">{{ 'Share' | trans }}</span>
+                                </button>
                                 </div>
+                                
+                                {{# Share Button #}}
+                               
                             </div>
 
                             {{# Event content #}}

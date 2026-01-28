@@ -105,4 +105,17 @@ class AgendaHelper
         return Carbon::createFromFormat('H:i', $startTime)
                     ->diffInHours(Carbon::createFromFormat('H:i', $endTime)) > 1;
     }
+
+    public static function generateShareUrl($slug, $agendaHandle, $date)
+    {
+        if (empty($slug)) {
+            return null;
+        }
+
+        $locale = app()->getLocale();
+        $baseUrl = url('/');
+        
+        // Generate URL: /en/agenda?session=slug&agenda=handle&date=2025-09-01
+        return "{$baseUrl}/{$locale}/agenda?session={$slug}&agenda={$agendaHandle}&date={$date}";
+    }
 }

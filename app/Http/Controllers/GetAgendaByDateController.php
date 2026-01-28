@@ -39,7 +39,7 @@ class GetAgendaByDateController extends Controller
             'agendas',
         ])
         ->get()
-        ->map(function ($item) {
+        ->map(function ($item) use ($agenda, $date) {
             return [
                 'title' => $item->get('title'),
                 'slug' => $item->get('slug'),
@@ -51,6 +51,7 @@ class GetAgendaByDateController extends Controller
                 'hall' => AgendaHelper::getHall($item->in('en')->get('halls', [])),
                 'description' => $item->get('content'),
                 'speakers' => AgendaHelper::getSpeakers($item->get('speakers', [])),
+                'share_url' => AgendaHelper::generateShareUrl($item->get('slug'), $agenda, $date),
             ];
         });
 

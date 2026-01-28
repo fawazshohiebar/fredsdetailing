@@ -5,7 +5,7 @@
     {{# {{ partial:patronage }} #}}
     {{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
     <nav class="w-full flex-grow transition-all duration-300 ease-in-out"
-        x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }}bg-[#212A36]/80{{ elseif is_homepage }} bg-[#212A36]/80 {{else}}bg-back-gradient{{ /if }}' }"
+        x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }} bg-[#212A36]/80{{ elseif is_homepage }}  {{else}}bg-back-gradient{{ /if }}' }"
         x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
         :class="scrolled ? 'bg-back-gradient' : initialBg">
         <div class="adnec-container h-full pt-0 gap-2 mx-auto  flex flex-row md:items-center justify-between ">
@@ -20,7 +20,7 @@
                 </a>
 
             </div>
-            <div class="hidden md:block">
+            <div class="hidden lg:block">
                 {{ brand:navbar_text }}
                     <div class="flex flex-row gap-2">
                         <div class="text-white font-semibold text-xs lg:text-sm text-right">{{ left_text }}</div>
@@ -109,9 +109,9 @@
                     {{# {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }} #}}
                     {{ if brand:ai_search_url }}
                         <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
-                            class="text-white hover:underline flex gap-2 items-center">
+                            class="text-white hover:underline  bg-gray-900/40  h-[50px] w-[50px] justify-center rounded-3xl flex gap-2 items-center">
                             <span class="sr-only">{{ 'AI Search' | trans }}</span>
-                            {{ heroicon variant="outline" icon="magnifying-glass" class="w-8 h-8" /}}
+                            {{ heroicon variant="outline" icon="magnifying-glass" class="w-6 h-6" /}}
                         </a>
                     {{ /if }}
                     {{# {{ partial:language-switcher /}} #}}

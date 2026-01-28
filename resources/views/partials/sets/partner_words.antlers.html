@@ -16,7 +16,7 @@
                          grabCursor: true,
                          autoHeight: false,
                          centeredSlides: false,
-                         loop: true,
+                         loop: false,
                          pagination: {
                              el: '.carousel-pagination',
                              clickable: true,
@@ -68,34 +68,31 @@
 
                 </div>
             </div>
+                        <div class="carousel-pagination text-center mt-5"></div>
+
         </div>
     </div>
     <!-- Custom pagination styles -->
     <style>
-        .custom-bullet {
-            width: 8px !important;
-            height: 8px !important;
-            border-radius: 4px !important;
-            background: #d1d5db !important;
-            opacity: 1 !important;
-            margin: 0 4px !important;
-            transition: all 0.3s ease !important;
+        .carousel-pagination {
+            width: auto !important;
         }
 
-        .custom-bullet-active {
-            width: 24px !important;
-            background: #827654 !important;
-            /* Primary color */
-            transform: scale(1.1) !important;
+
+        .carousel-pagination .swiper-pagination-bullet.custom-bullet {
+            width: 30px!important;
+        
+            height: 3px!important;
+
         }
 
-        .custom-bullet:hover {
-            background: #9ca3af !important;
-        }
 
-        .custom-bullet-active:hover {
-            background: #6b5d42 !important;
-            /* Darker primary color on hover */
+         .carousel-pagination .swiper-pagination-bullet-active.custom-bullet {
+            width: 30px!important;
+            border-radius: 5px!important;
+            height: 3px!important;
+            background: linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%)!important;
+
         }
     </style>
 

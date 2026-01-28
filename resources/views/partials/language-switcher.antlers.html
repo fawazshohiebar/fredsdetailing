@@ -1,22 +1,31 @@
 {{ if {locales:count} > 0 }}
-    <div class="relative"
-        x-data="{ langOpen: false }">
-        <div @click="langOpen = ! langOpen"
-        :class="scrolled ? 'text-white' : 'text-white'"
-            class="cursor-pointer hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-bludiaac-400 rounded-lg">
-            {{ heroicon:outline:globe-alt class="w-8 h-8" /}}
+    <div class="relative" x-data="{ langOpen: false }">
+
+        <div class="hidden  md:flex  bg-gray-900/40  items-center h-[50px] px-5 rounded-[20px]">
+            {{ locales }}
+                {{ if !is_current }}
+                    <a href="{{ permalink }}" class="flex items-center text-white text-lg font-medium gap-2">
+                        {{ if locale:handle === 'en' }}
+                        {{ elseif locale:handle === 'ar' }}
+                        {{ /if }}
+                        {{ locale:name }}
+                    </a>
+                {{ /if }}
+            {{ /locales }}
         </div>
 
-        <div x-cloak 
-            @keyup.escape.window="langOpen = false" 
-            x-transition:enter="transition ease-out duration-200"
-            x-transition:enter-start="opacity-0 translate-y-1" 
-            x-transition:enter-end="opacity-100 translate-y-0"
-            x-transition:leave="transition ease-in duration-150" 
-            x-transition:leave-start="opacity-100 translate-y-0"
-            x-transition:leave-end="opacity-0 translate-y-1" 
-            x-show="langOpen" 
-            @click.outside="langOpen = false"
+        <div class=" md:hidden  flex  bg-gray-900/40 justify-center items-center h-[50px] w-[50px] rounded-3xl md:rounded-[20px]">
+            <div @click="langOpen = ! langOpen" :class="scrolled ? 'text-white' : 'text-white'"
+                class="cursor-pointer hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-bludiaac-400 rounded-lg">
+
+                {{ heroicon:outline:globe-alt class="w-8 h-8" /}}
+            </div>
+        </div>
+
+        <div x-cloak @keyup.escape.window="langOpen = false" x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
+            x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0"
+            x-transition:leave-end="opacity-0 translate-y-1" x-show="langOpen" @click.outside="langOpen = false"
             class="absolute z-10 rtl:left-1/2 ltr:right-1/2 transform translate-x-6 mt-6 w-48">
             <div class="rounded-lg shadow-lg overflow-hidden border border-white/20">
                 <div class="relative bg-gradient-to-bl from-gray-50 to-gray-100">

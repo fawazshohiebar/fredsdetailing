@@ -272,9 +272,50 @@ page_builder:
           - 9b1914c7-75a9-49cd-b674-c1be271aed89
         speaker_structure: v1
   -
-    type: paragraph
+    type: set
     attrs:
-      textAlign: left
+      id: mkz3s9v2
+      values:
+        type: timeline_component
+        breadcrumb: true
+        heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Awards Timeline'
+        timeline_creator:
+          -
+            id: mkz4ep1c
+            date: '2026-01-29'
+            icon: icons/handshake-deal-svgrepo-com.svg
+            timeline_text: 'Approve Categories & Launch Digital Platform'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4fbju
+            date: '2026-01-29'
+            icon: rocket-svgrepo-com-(1).svg
+            timeline_text: 'Outreach & Call for Applications'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4g4lt
+            date: '2026-01-29'
+            icon: icons/speaker-svgrepo-com.svg
+            timeline_text: 'Screening & Technical Review'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4gmm2
+            date: '2026-01-29'
+            icon: icons/notepad-note-svgrepo-com.svg
+            timeline_text: 'Final interview & Jury Endorsement'
+            type: new_set
+            enabled: true
+        background: bgcolor
+        background_color: light-accent
 layout: layout
 reusable_popup: false
 template: default
@@ -289,7 +330,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769668021
+updated_at: 1769672179
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

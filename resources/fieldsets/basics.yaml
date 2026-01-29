@@ -832,6 +832,11 @@ fields:
               fields:
                 -
                   import: grid_features
+            timeline_component:
+              display: 'TimeLine Component'
+              fields:
+                -
+                  import: timeline
         forms:
           display: Forms
           icon: form-drop-down-menu

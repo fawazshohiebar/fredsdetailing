@@ -347,21 +347,32 @@
                     // Load initial data
                     this.loadSessions();
 
-                    // Watch for changes
-                    this.$watch('selectedProgram', () => {
-                        // Only reload on mobile when program changes
-                        if (window.innerWidth < 1024) {
+                    // Watch for changes - with debouncing to prevent rapid reloads
+                    let programTimeout = null;
+                    this.$watch('selectedProgram', (newValue, oldValue) => {
+                        // Only reload on mobile when program actually changes
+                        if (newValue !== oldValue && window.innerWidth < 1024) {
+                            clearTimeout(programTimeout);
+                            programTimeout = setTimeout(() => {
+                                this.loadSessions();
+                            }, 100); // Small debounce
+                        }
+                    });
+
+                    this.$watch('selectedDay', (newValue, oldValue) => {
+                        // Only reload when day actually changes
+                        if (newValue !== oldValue) {
                             this.loadSessions();
                         }
                     });
 
-                    this.$watch('selectedDay', () => {
-                        this.loadSessions();
-                    });
-
-                    // Handle window resize
+                    // Handle window resize with debouncing
+                    let resizeTimeout = null;
                     window.addEventListener('resize', () => {
-                        this.loadSessions();
+                        clearTimeout(resizeTimeout);
+                        resizeTimeout = setTimeout(() => {
+                            this.loadSessions();
+                        }, 300); // Debounce resize events
                     });
                 },
 

@@ -31,12 +31,15 @@ sponsors_entries:
   - ea70f702-48a8-431c-8230-f640ad1c63a3
   - ad7b0f6c-a307-4aea-811f-471c05202a99
 button_group:
-  link: null
-  label: null
-  design: null
-  icon: none
-  open_new_tab: false
-  button_size: null
+  -
+    type: new_set
+    enabled: true
+    link: null
+    label: null
+    design: null
+    icon: none
+    open_new_tab: false
+    button_size: null
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
 updated_at: 1768973267
 ---

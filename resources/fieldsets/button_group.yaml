@@ -3,9 +3,15 @@ fields:
   -
     handle: button_group
     field:
-      type: group
+      type: replicator
       display: 'Button Group'
       localizable: true
-      fields:
-        -
-          import: fancy_button
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  import: fancy_button

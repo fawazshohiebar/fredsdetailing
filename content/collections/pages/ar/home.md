@@ -428,12 +428,15 @@ page_builder:
             type: award_set
             enabled: true
         button_group:
-          link: null
-          label: 'Read More'
-          design: whiteoutlined
-          icon: arrow-down-right
-          open_new_tab: false
-          button_size: null
+          -
+            type: new_set
+            enabled: true
+            link: null
+            label: 'Read More'
+            design: whiteoutlined
+            icon: arrow-down-right
+            open_new_tab: false
+            button_size: null
   -
     type: set
     attrs:
@@ -499,12 +502,15 @@ page_builder:
                 type: text
                 text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue.'
         button_group:
-          link: null
-          label: 'View All 91 SPONSORS'
-          design: whitebgblacksvg
-          icon: arrow-down-right
-          open_new_tab: false
-          button_size: fit
+          -
+            type: new_set
+            enabled: true
+            link: null
+            label: 'View All 91 SPONSORS'
+            design: whitebgblacksvg
+            icon: arrow-down-right
+            open_new_tab: false
+            button_size: fit
         bread_crumb_text: 'Key CONTRIBUTERS'
   -
     type: set

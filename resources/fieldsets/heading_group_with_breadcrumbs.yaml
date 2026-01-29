@@ -1,10 +1,19 @@
 title: 'Heading Group With BreadCrumbs'
 fields:
   -
+    handle: breadcrumb
+    field:
+      default: true
+      type: toggle
+      display: BreadCrumb
+      localizable: true
+  -
     handle: bread_crumb_text
     field:
       type: text
       display: 'Bread Crumb Text'
       localizable: true
+      if:
+        breadcrumb: 'equals true'
   -
     import: heading_group_component

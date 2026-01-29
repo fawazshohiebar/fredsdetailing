@@ -1,0 +1,44 @@
+     <div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background: var(--color-{{ background_color }});{{ /if }}"
+        class="w-full  bg-cover bg-center  py-10">
+ 
+ <div class="   adnec-container flex flex-col items-center justify-center p-4 md:p-8">
+     <div
+         class="w-full  bg-background-light dark:bg-navy rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
+         <div class="px-8 py-24 md:px-16 bg-white dark:bg-navy relative overflow-x-auto lg:overflow-x-visible">
+             <div class="min-w-[1000px] lg:min-w-0 relative py-12">
+                 <div class="absolute top-1/2 left-0 w-full h-1 bg-slate-200 dark:bg-slate-700 -translate-y-1/2 z-0">
+                 </div>
+                 <div class="absolute top-1/2 left-0 w-[75%] h-1 timeline-line-gradient -translate-y-1/2 z-0"></div>
+                 <div class="relative z-10 flex justify-between items-start w-full gap-4">
+
+
+                     {{ timeline_creator }}
+                         <div class="flex flex-col items-center group relative flex-1">
+                             <span
+                                 class="absolute -top-14 text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">{{ date format="M d, Y" }}</span>                            <div
+                                class="w-12 h-12 rounded-full bg-back-gradient flex items-center justify-center ring-8 ring-white dark:ring-navy group-hover:scale-110 transition-transform cursor-pointer shadow-lg z-20">
+                                <img src="{{ icon:url }}" 
+                                    class="w-6 h-6 pointer-events-none"
+                                    style="filter: brightness(0) invert(1);"
+                                    alt="Timeline icon"
+                                />
+                            </div>
+                             <div class="mt-8 text-center px-2">
+                                 <h3
+                                     class="text-navy dark:text-white font-bold text-base leading-tight group-hover:text-primary transition-colors">
+                                     {{timeline_text}}</h3>
+                             </div>
+                         </div>
+                     {{ /timeline_creator }}
+
+
+
+                     
+                 </div>
+             </div>
+         </div>
+
+     </div>
+
+ </div>
+ </div>

@@ -1,0 +1,40 @@
+title: Timeline
+fields:
+  -
+    import: background_design
+  -
+    import: heading_group_with_breadcrumbs
+  -
+    handle: timeline_creator
+    field:
+      type: replicator
+      display: 'TimeLine Creator'
+      localizable: true
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: date
+                  field:
+                    type: date
+                    display: Date
+                    localizable: false
+                -
+                  handle: icon
+                  field: basics.image
+                  config:
+                    display: Icon
+                    validate:
+                      - image
+                      - 'max_filesize:9216'
+                      - 'mimes:png,jpg,jpeg,gif,webp,svg'
+                -
+                  handle: timeline_text
+                  field:
+                    type: text
+                    display: 'TimeLine Text'
+                    localizable: false

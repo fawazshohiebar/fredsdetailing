@@ -8,7 +8,7 @@
                     'bg-back-gradient': selectedProgram === index,
                     'bg-[#303F51] hover:bg-back-gradient': selectedProgram !== index
                 }"
-                @click="if (selectedProgram !== index) selectedProgram = index"
+                @click="selectedProgram = index; if (window.innerWidth < 1024) { searchQuery = ''; loadSessions(); }"
             >
                 <!-- Selected Program Indicator Arrow -->
                 <div

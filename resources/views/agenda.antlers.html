@@ -62,15 +62,6 @@ IMPORTANT
                 
                 // Load initial data
                 this.loadSessions();
-                
-                // Watch for changes
-                this.$watch('selectedProgram', () => {
-                    this.loadSessions();
-                });
-                
-                this.$watch('selectedDay', () => {
-                    this.loadSessions();
-                });
             },
             
             generateDays() {

@@ -120,6 +120,8 @@ page_builder:
                 type: text
                 marks:
                   -
+                    type: bold
+                  -
                     type: textColor
                     attrs:
                       color: redgrad
@@ -253,7 +255,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769664687
+updated_at: 1769664696
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

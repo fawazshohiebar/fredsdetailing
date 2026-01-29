@@ -7,6 +7,7 @@ page_builder:
     type: set
     attrs:
       id: mknll56p
+      enabled: false
       values:
         type: call_to_action
         spaces: p
@@ -97,6 +98,17 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+  -
+    type: set
+    attrs:
+      id: mkzdgg8v
+      values:
+        type: call_to_action
+        spaces: p
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
 layout: layout
 reusable_popup: false
 template: default
@@ -111,7 +123,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768974779
+updated_at: 1769686226
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

@@ -112,10 +112,17 @@ page_builder:
         grid_version: v3
         grid_heading:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Award Category Section'
         grid_set_replicator:
           -
@@ -246,7 +253,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769664658
+updated_at: 1769664687
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

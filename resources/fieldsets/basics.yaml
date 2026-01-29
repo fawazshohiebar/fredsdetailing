@@ -595,6 +595,40 @@ fields:
                     fields:
                       -
                         import: fancy_button
+            custom_speaker_section:
+              display: 'Custom Speaker Section'
+              fields:
+                -
+                  import: background_design
+                -
+                  import: heading_group_with_breadcrumbs
+                -
+                  handle: speakers_entries
+                  field:
+                    collections:
+                      - speakers
+                    type: entries
+                    display: 'Speakers Entries'
+                    localizable: false
+                -
+                  import: button_group
+                -
+                  handle: speaker_structure
+                  field:
+                    options:
+                      -
+                        key: v1
+                        value: null
+                      -
+                        key: v2
+                        value: null
+                      -
+                        key: v3
+                        value: null
+                    default: v1
+                    type: button_group
+                    display: 'Speaker Structure'
+                    localizable: false
             social_media_sec:
               display: 'Social media Sec'
               fields:

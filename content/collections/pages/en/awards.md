@@ -138,6 +138,94 @@ page_builder:
                     text: 'Advanced Technology & Industry 4.0'
             type: grid_set
             enabled: true
+          -
+            id: mkz0l5fl
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'National Industrial Growth Award'
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Industrial Growth, Enablement & National Value Creation'
+            type: grid_set
+            enabled: true
+          -
+            id: mkz0ljio
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Quality & Compliance Award'
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Standards & Quality\_"
+            type: grid_set
+            enabled: true
+          -
+            id: mkz0lsor
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Next-generation industrial leaders'
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'UAE Youth Innovators under 35'
+            type: grid_set
+            enabled: true
+          -
+            id: mkz0m4gh
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Inspirational industrial leaders'
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "UAE Industrial Leader above\_ 35"
+            type: grid_set
+            enabled: true
   -
     type: paragraph
     attrs:
@@ -156,7 +244,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769664542
+updated_at: 1769664616
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

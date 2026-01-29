@@ -107,7 +107,7 @@ page_builder:
       id: mkz0jtnc
       values:
         type: cta_grid
-        grid_version: v2
+        grid_version: v3
         grid_heading:
           -
             type: paragraph
@@ -244,7 +244,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769664635
+updated_at: 1769664643
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

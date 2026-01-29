@@ -124,7 +124,7 @@
                 {{# Search Filter #}}
                 <div class="mt-6 mb-4  ">
                     <div class="relative  mx-auto ">
-                        <input type="text" x-model="searchQuery" @input="filterSessions()"
+                        <input type="text" x-model="searchQuery" @input="debounceSearch()"
                             placeholder="{{ 'Search sessions, speakers, or topics...' | trans }}"
                             class="w-full px-4 py-3 rtl:pl-0 rtl:pr-12 pl-12 pr-4 text-sm md:text-base   bg-white  placeholder:text-primary rounded-[12px] focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all" />
                      
@@ -334,6 +334,7 @@
                 shareModalOpen: false,
                 currentShareUrl: '',
                 currentShareTitle: '',
+                searchTimeout: null, // For debouncing search
 
                 init() {
                     this.generateDays();
@@ -466,12 +467,10 @@
 
                     const sessions = await response.json();
                     this.sessions = sessions;
-                    console.log('Sessions data:', sessions);
-                    console.log('First session share_url:', sessions.length > 0 ? sessions[0].share_url : 'No sessions');
                     this.generateSchedule();
 
-                    // Apply search filter if exists
-                    this.filterSessions();
+                    // Apply search filter if exists (without triggering new loads)
+                    this.applyCurrentFilter();
                 },
 
                 async loadAllProgramsSessions() {
@@ -512,8 +511,8 @@
                         this.programSchedules[index] = this.generateScheduleForSessions(sessions);
                     });
 
-                    // Apply search filter if exists
-                    this.filterSessions();
+                    // Apply search filter if exists (without triggering new loads)
+                    this.applyCurrentFilter();
                 },
 
                 async loadAllProgramsAllDays() {
@@ -557,7 +556,7 @@
                     }
 
                     this.allDaysData = allDaysResults;
-                    this.filterSessions();
+                    // Don't call filterSessions here to prevent loops
                 },
 
                 generateSchedule() {
@@ -749,6 +748,29 @@
                     return parseInt(hours) * 60 + parseInt(minutes);
                 },
 
+                debounceSearch() {
+                    // Clear existing timeout
+                    clearTimeout(this.searchTimeout);
+                    
+                    // Set new timeout to call filterSessions after 300ms of no typing
+                    this.searchTimeout = setTimeout(() => {
+                        this.filterSessions();
+                    }, 300);
+                },
+
+                // Apply filter without triggering data loads
+                applyCurrentFilter() {
+                    const query = this.searchQuery.toLowerCase().trim();
+
+                    if (!query) {
+                        this.filteredSchedule = this.schedule;
+                        this.filteredProgramSchedules = this.programSchedules;
+                        return;
+                    }
+
+                    this.performFiltering(query);
+                },
+
                 filterSessions() {
                     const query = this.searchQuery.toLowerCase().trim();
 
@@ -760,13 +782,18 @@
                     }
 
                     // If searching and allDaysData is not loaded, trigger loading
-                    const isMobile = window.innerWidth < 1024;
                     if (this.allDaysData.length === 0) {
-                        this.loadAllProgramsAllDays();
+                        // Load data asynchronously, then filter will be applied after
+                        this.loadAllProgramsAllDays().then(() => {
+                            this.performFiltering(query);
+                        });
                         return;
                     }
 
-                    // Filter function to check if event matches search query
+                    this.performFiltering(query);
+                },
+
+                performFiltering(query) {
                     const matchesQuery = (event) => {
                         // Search in title
                         if (event.title && event.title.toLowerCase().includes(query)) return true;

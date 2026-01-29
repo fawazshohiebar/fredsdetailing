@@ -238,6 +238,39 @@ page_builder:
             type: grid_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: mkz0p7za
+      values:
+        type: speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        design: centered
+        heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Governance
+        speakers_entries:
+          - 03c97f84-a9fc-469c-9bf7-169e3afabe80
+          - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
+          - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
+          - 1e514d00-ca53-462f-81c1-b6eed474b17d
+          - 77cbb92b-5134-482c-bbfd-59cbb553311f
+          - 9b1914c7-75a9-49cd-b674-c1be271aed89
+        button_group:
+          link: null
+          label: null
+          design: null
+          icon: none
+          open_new_tab: false
+          button_size: null
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -255,7 +288,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769664696
+updated_at: 1769664793
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

@@ -102,6 +102,43 @@ page_builder:
         background: bgcolor
         background_color: light-secondary
   -
+    type: set
+    attrs:
+      id: mkz0jtnc
+      values:
+        type: cta_grid
+        grid_version: v1
+        grid_heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Award Category Section'
+        grid_set_replicator:
+          -
+            id: mkz0jw2g
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: "The \"Riyada\" Tech Frontier Award\_"
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Advanced Technology & Industry 4.0'
+            type: grid_set
+            enabled: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -119,5 +156,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769663940
+updated_at: 1769664542
+fine_seo_title: Awards
+fine_seo_preview: Awards
 ---

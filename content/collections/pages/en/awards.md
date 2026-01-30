@@ -323,8 +323,8 @@ page_builder:
                 text: Governance
         speakers_entries:
           - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
-          - 77cbb92b-5134-482c-bbfd-59cbb553311f
-          - 9b1914c7-75a9-49cd-b674-c1be271aed89
+          - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
+          - 1e514d00-ca53-462f-81c1-b6eed474b17d
         speaker_structure: v1
   -
     type: set
@@ -389,7 +389,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769758451
+updated_at: 1769758860
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

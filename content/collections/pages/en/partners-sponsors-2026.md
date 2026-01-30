@@ -231,6 +231,71 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        background: bgcolor
+        background_color: light-accent
+  -
+    type: set
+    attrs:
+      id: ml0h0xni
+      values:
+        type: call_to_action
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ADNOC
+        section_label:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Co-Host
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Founded in 1971, ADNOC is a leading diversified energy group, wholly owned by the Abu Dhabi Government. Our network of fully integrated businesses operates across the energy value chain, helping us to responsibly meet the demands of an ever-changing energy market.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Already in the top tier of the lowest carbon intensity oil and gas producers in the world, we are taking significant steps to make today’s energy cleaner while\_ investing in the clean energies of tomorrow, strengthening our position as a reliable and responsible global energy provider.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "We are allocating an initial\_$23 billion\_to advance and accelerate lower-carbon solutions, investing in new energies and decarbonization technologies to enable our net zero by 2045 ambition and our commitment to zero methane emissions by 2030."
+        section_image: png-adnoc-secondary-brand-mark-artwork.png
+        buttons:
+          -
+            id: ml0h2p1r
+            link: 'https://www.adnoc.ae/'
+            label: 'Visit Website'
+            design: whitebgblacksvg
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
   -
     type: paragraph
     attrs:
@@ -249,7 +314,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1769752441
+updated_at: 1769752777
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

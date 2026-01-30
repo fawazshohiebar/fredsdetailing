@@ -342,7 +342,58 @@ page_builder:
   -
     type: set
     attrs:
+      id: ml0tebwj
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speakers_entries:
+          - bc12f64f-c2ef-4d21-bece-589471075a19
+          - ebbc84d1-1f57-4cdf-bddd-98cbefee41d3
+          - d618d2c3-f643-4c3f-b1b6-2a611b44c14d
+          - 279afeab-33aa-4927-904a-9d75d7acd796
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Government & Semi-government Sector/Strategic Partnerships'
+  -
+    type: set
+    attrs:
       id: ml0sxz9a
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: International/Industrial
+  -
+    type: set
+    attrs:
+      id: ml0u6ixf
       values:
         type: custom_speaker_section
         background: bgcolor
@@ -415,35 +466,6 @@ page_builder:
     type: set
     attrs:
       id: ml0llmnh
-      values:
-        type: custom_speaker_section
-        background: bgcolor
-        background_color: light-secondary
-        breadcrumb: false
-        design: centered
-        speakers_entries:
-          - 05b99d2a-0306-4d85-a2ba-1ed7deb4da80
-          - 33f27e5f-305a-4210-8bd7-2630733e986e
-          - 8e45194a-0222-42f3-8843-3b59696118de
-          - 270a08f2-23a4-47bf-b691-b3666f19bef2
-          - 966ed40b-b4e1-4f49-bc85-dbfb492166ff
-        speaker_structure: v2
-        sub_heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Technical Leads'
-  -
-    type: set
-    attrs:
-      id: ml0swkqd
       values:
         type: custom_speaker_section
         background: bgcolor
@@ -560,7 +582,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769772694
+updated_at: 1769774807
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

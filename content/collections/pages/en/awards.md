@@ -356,6 +356,34 @@ page_builder:
           - ca4e5ff0-bb85-4618-be82-bd145c84d4f8
           - ce8076f2-ebdd-4482-ad82-a216d2d07a6a
           - 12644d84-def9-4943-8745-a8f77dc04e92
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Technical Leads'
+  -
+    type: set
+    attrs:
+      id: ml0pcicx
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speakers_entries:
+          - b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
+          - ca4e5ff0-bb85-4618-be82-bd145c84d4f8
+          - ce8076f2-ebdd-4482-ad82-a216d2d07a6a
+          - 12644d84-def9-4943-8745-a8f77dc04e92
         speaker_structure: v3
         sub_heading:
           -
@@ -432,7 +460,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769766557
+updated_at: 1769766672
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

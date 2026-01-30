@@ -320,6 +320,50 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
+                text: 'Senior Jury of the Awards'
+        speakers_entries:
+          - 46429ad0-0b3d-4fb5-a9d4-ce827b8dc7e2
+          - 294860b7-0a55-4a31-af75-611858047afb
+          - c188612d-ce38-4c3f-b5cd-e2c18d6288c2
+          - c693917e-d125-4bd2-928f-04fe3e05e35f
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Ministers/Secretary Generals'
+  -
+    type: set
+    attrs:
+      id: ml0sc57k
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Executive Team Structure'
         speakers_entries:
           - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
@@ -461,7 +505,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769768391
+updated_at: 1769771750
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

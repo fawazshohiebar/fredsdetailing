@@ -1,6 +1,5 @@
 ---
 id: 8ad733fa-9c3b-452e-909b-2003becaafb7
-published: false
 blueprint: grid_features_section
 title: 'Intelligence Hub'
 background: bgcolor
@@ -115,7 +114,7 @@ grid_creator:
     type: grid_set
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769775927
+updated_at: 1769775936
 duplicated_from: 17d9d52b-9e14-46fa-b11d-a98c06e3ba81
 breadcrumb: false
 ---

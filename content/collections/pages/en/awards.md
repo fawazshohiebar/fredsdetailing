@@ -328,7 +328,7 @@ page_builder:
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
           - 616fa74c-296e-4e44-a731-45a7c1d4f83a
           - 6268ce1e-d3cc-48c7-82a6-044176d7cab5
-        speaker_structure: v3
+        speaker_structure: v2
   -
     type: set
     attrs:
@@ -392,7 +392,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769760129
+updated_at: 1769760173
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

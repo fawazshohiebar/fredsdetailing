@@ -390,6 +390,10 @@ page_builder:
                   -
                     type: bold
                 text: International/Industrial
+        speakers_entries:
+          - 60218c10-7853-45fe-b220-59fd587593d0
+          - 98e9d436-581d-4d4b-b31d-65e8d1bc933f
+          - 898331aa-1275-4072-9dc2-9b85e503d14f
   -
     type: set
     attrs:
@@ -582,7 +586,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769774807
+updated_at: 1769775729
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

@@ -320,7 +320,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
-                text: Governance
+                text: 'Executive Team Structure'
         speakers_entries:
           - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
           - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
@@ -329,6 +329,46 @@ page_builder:
           - 616fa74c-296e-4e44-a731-45a7c1d4f83a
           - 6268ce1e-d3cc-48c7-82a6-044176d7cab5
         speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Governance
+  -
+    type: set
+    attrs:
+      id: ml0llmnh
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speakers_entries:
+          - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
+          - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
+          - 1e514d00-ca53-462f-81c1-b6eed474b17d
+          - 77cbb92b-5134-482c-bbfd-59cbb553311f
+        speaker_structure: v3
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Advisory & Overall Execution'
   -
     type: set
     attrs:
@@ -392,7 +432,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769760173
+updated_at: 1769760413
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

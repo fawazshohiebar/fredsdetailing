@@ -1,6 +1,5 @@
 ---
 id: ac885f0f-1521-4be4-b591-b5f531231678
-published: false
 blueprint: page
 title: 'Start-up Hub'
 feature_banner_image: downloaded-image-1.jpg
@@ -39,7 +38,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769776651
+updated_at: 1769776681
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 duplicated_from: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4

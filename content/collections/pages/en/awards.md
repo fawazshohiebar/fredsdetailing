@@ -317,6 +317,38 @@ page_builder:
             enabled: true
         background: bgcolor
         background_color: light-accent
+  -
+    type: set
+    attrs:
+      id: ml0gtxmq
+      values:
+        type: heading_and_grid
+        grid_structure: v1
+        replicating_grid:
+          -
+            id: ml0gtzdb
+            heading: dsdkasl
+            sub_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dasdasds
+            icon_or_button: iconlist
+            icon_list:
+              -
+                id: ml0gu1j6
+                icon: none
+                image_upload: sector-icons/bolt-lightning.svg
+                type: icon_list_item
+                enabled: true
+            type: grid_item
+            enabled: true
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
 layout: layout
 reusable_popup: false
 template: default
@@ -331,7 +363,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769752154
+updated_at: 1769752347
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

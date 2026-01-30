@@ -94,10 +94,11 @@ page_builder:
             label: 'Visit website'
             design: whitebgblacksvg
             icon: arrow-down-right
-            open_new_tab: false
+            open_new_tab: true
             button_size: fit
             type: button_set
             enabled: true
+            link: 'https://moiat.gov.ae/en/'
   -
     type: set
     attrs:
@@ -105,6 +106,50 @@ page_builder:
       values:
         type: call_to_action
         spaces: p
+        text_image_alignment: v1
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Ministry of Culture'
+        section_label:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Co-Host
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The Ministry of Culture (MOC) is committed to enriching the cultural landscape of the United Arab Emirates. It supports Emirati cultural, artistic, and heritage institutions, empowers creative talents across diverse disciplines and fosters intercultural dialogue. Through strategic partnerships, MOC delivers impactful outcomes that reflect the UAE’s vibrant and diverse cultural identity on local, regional, and global stages.'
+        section_image: uae_moc_vertical_rgb_ae.jpg
+        buttons:
+          -
+            id: ml0g83bu
+            link: 'https://moc.gov.ae/ar/'
+            label: 'Visit Website'
+            design: whitebgblacksvg
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
   -
     type: paragraph
     attrs:
@@ -122,8 +167,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769686226
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1769752014
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

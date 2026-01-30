@@ -352,10 +352,10 @@ page_builder:
         breadcrumb: false
         design: centered
         speakers_entries:
-          - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
-          - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
-          - 1e514d00-ca53-462f-81c1-b6eed474b17d
-          - 77cbb92b-5134-482c-bbfd-59cbb553311f
+          - b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
+          - ca4e5ff0-bb85-4618-be82-bd145c84d4f8
+          - ce8076f2-ebdd-4482-ad82-a216d2d07a6a
+          - 12644d84-def9-4943-8745-a8f77dc04e92
         speaker_structure: v3
         sub_heading:
           -
@@ -432,7 +432,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769760413
+updated_at: 1769766557
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

@@ -1,3 +1,6 @@
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+
 <section id="activities" class="py-[45px] md:py-[50px] lg:py-[70px] relative overflow-hidden bg-gray-50">
 
     <!-- Section Decoration -->
@@ -5,7 +8,7 @@
         <!-- Section Header -->
         <div class="  text-center " x-data="{}"
             x-intersect="$el.classList.add('animate-fade-in')">
-            {{ partial:partials/sets/heading_group_component}}            
+        {{ partial:partials/sets/heading_group_with_breadcrumbs }}
         </div>
 
         <!-- Main Activities -->
@@ -49,3 +52,4 @@
 
     </div>
 </section>
+</div>

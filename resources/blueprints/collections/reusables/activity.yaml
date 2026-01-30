@@ -14,7 +14,7 @@ tabs:
               validate:
                 - required
           -
-            import: reusable_activities
+            import: activities
   sidebar:
     display: Sidebar
     sections:

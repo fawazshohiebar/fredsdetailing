@@ -1,1 +1,57 @@
-{{partial:partials/sets/activity}}
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+
+    <section id="activities" class="py-[45px] md:py-[50px] lg:py-[70px] relative overflow-hidden bg-gray-50">
+
+        <!-- Section Decoration -->
+        <div class="adnec-container z-10">
+            <!-- Section Header -->
+            <div class="  text-center " x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
+                {{ partial:partials/sets/heading_group_with_breadcrumbs }}
+            </div>
+
+            <!-- Main Activities -->
+            <div
+                class="flex  flex-row justify-center  gap-[20px]    flex-wrap grid-cols-1 md:grid-cols-2 xl:grid-cols-3  ">
+                {{ main_activities }}
+                    <div class=" w-full md:w-[calc(50%-10px)] xl:w-[calc(33%-10px)] flex ">
+                        <div class="group relative rounded-xl overflow-hidden shadow-lg bg-white transform transition-all duration-500 hover:-translate-y-2 hover:shadow-xl w-full flex  "
+                            x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
+                            <div class="p-6 bg-white flex flex-col justify-between">
+                                {{ if icon != "none" }}
+                                    <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center mb-6">
+                                        {{ heroicon variant="outline" :icon="icon" class="h-8 w-8 text-white" }}
+                                    </div>
+                                {{ elseif image }}
+                                    <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center mb-6">
+
+                                        <img  class="w-8 h-8" src="{{ image:url }}">
+                                    </div>
+                                {{ /if }}
+                                <h3 class="text-xl font-bold text-gray-900 mb-3">{{ title }}</h3>
+                                <p class="text-gray-700 mb-4">{{ description }}</p>
+                                {{ if btn_text }}
+                                    <div class="mt-5 ">
+                                        <a href="/{{ btn_link.url }}"
+                                            class="border-1  bg-brand-sky-blue rounded-lg !text-white py-2 px-6 text-base font-medium">
+                                            {{ btn_text }}
+                                        </a>
+                                    </div>
+                                {{ else }}
+                                    <div class="w-12  h-1 bg-blue"></div>
+                                {{ /if }}
+                            </div>
+                        </div>
+                    </div>
+                {{ /main_activities }}
+            </div>
+            {{ if buttons_groups }}
+                <div class="justify-center flex-wrap flex gap-5 mt-10">
+                    {{ buttons_groups }}
+                        {{ partial:partials/sets/fancy_button }}
+                    {{ /buttons_groups }}
+                </div>
+            {{ /if }}
+        </div>
+    </section>
+</div>

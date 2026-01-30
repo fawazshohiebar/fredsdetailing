@@ -169,12 +169,12 @@ fields:
               fields:
                 -
                   import: reusable_facts_figures
-            activities:
-              display: Activities
+            activities_component:
+              display: 'Activities Component'
               icon: ticket
               fields:
                 -
-                  import: reusable_activities
+                  import: activities
             gallery:
               display: Gallery
               icon: photo

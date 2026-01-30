@@ -342,6 +342,32 @@ page_builder:
   -
     type: set
     attrs:
+      id: ml0sxz9a
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speakers_entries:
+          - 43481212-5ee5-456f-ae58-6c332c6b89ea
+          - 0b45ae14-3b80-4c56-909b-5197ad2290a0
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Private Sector/Research Institutes'
+  -
+    type: set
+    attrs:
       id: ml0sc57k
       values:
         type: custom_speaker_section
@@ -389,6 +415,35 @@ page_builder:
     type: set
     attrs:
       id: ml0llmnh
+      values:
+        type: custom_speaker_section
+        background: bgcolor
+        background_color: light-secondary
+        breadcrumb: false
+        design: centered
+        speakers_entries:
+          - 05b99d2a-0306-4d85-a2ba-1ed7deb4da80
+          - 33f27e5f-305a-4210-8bd7-2630733e986e
+          - 8e45194a-0222-42f3-8843-3b59696118de
+          - 270a08f2-23a4-47bf-b691-b3666f19bef2
+          - 966ed40b-b4e1-4f49-bc85-dbfb492166ff
+        speaker_structure: v2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Technical Leads'
+  -
+    type: set
+    attrs:
+      id: ml0swkqd
       values:
         type: custom_speaker_section
         background: bgcolor
@@ -505,7 +560,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769771750
+updated_at: 1769772694
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

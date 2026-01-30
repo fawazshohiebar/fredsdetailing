@@ -317,6 +317,63 @@ page_builder:
         background: bgcolor
         background_color: light-accent
   -
+    type: set
+    attrs:
+      id: ml0h50l1
+      values:
+        type: activities
+        background: bgcolor
+        background_color: light-accent
+        breadcrumb: false
+        design: centered
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
+                text: 'Award Category Section'
+        main_activities:
+          -
+            id: XXLcAm23
+            title: 'The "Riyada" Tech Frontier Award'
+            description: 'Advanced Technology & Industry 4.0'
+            icon: none
+            image: sector-icons/buildings.svg
+          -
+            id: ml0h63ht
+            title: 'National Industrial Growth Award'
+            description: 'Industrial Growth, Enablement & National Value Creation'
+            icon: none
+            image: sector-icons/jet-fighter.svg
+          -
+            id: ml0h6k9z
+            title: 'Quality & Compliance Award'
+            description: 'Standards & Quality'
+            icon: none
+            image: sector-icons/wind-turbine.svg
+          -
+            id: ml0h6s1y
+            title: 'Next-generation industrial leaders'
+            description: 'UAE Youth Innovators under 35'
+            icon: none
+            image: sector-icons/ball-pile.svg
+          -
+            id: ml0h6vq1
+            title: 'Inspirational industrial leaders'
+            description: 'UAE Industrial Leader above  35'
+            icon: none
+            image: sector-icons/hammer.svg
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -334,7 +391,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769752483
+updated_at: 1769752939
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

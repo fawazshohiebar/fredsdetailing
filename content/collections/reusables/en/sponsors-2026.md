@@ -50,12 +50,13 @@ button_group:
     id: avLHJWPW
     type: new_set
     enabled: true
-    label: 'View All 91 SPONSORS'
+    label: 'View All SPONSORS'
     design: whitebgblacksvg
     icon: arrow-down-right
     open_new_tab: false
     button_size: fit
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770017850
+    link: 'entry::394e9a07-b845-4538-9872-92213381e955'
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1770018577
 breadcrumb: false
 ---

@@ -35,13 +35,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'The Intelligence Hub offers partners a unique opportunity to engage in trusted, high-value partnerships within a stable, transparent, and pro-investment ecosystem, reinforcing Make it in the Emirates’s role as a global convening platform for industrial collaboration and value '
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: creation.
+                text: 'The Intelligence Hub offers partners a unique opportunity to engage in trusted, high-value partnerships within a stable, transparent, and pro-investment ecosystem, reinforcing Make it in the Emirates’s role as a global convening platform for industrial collaboration and value creation.'
         section_image: the-itelligence-hub-(1).jpg
   -
     type: paragraph
@@ -61,7 +55,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770025895
+updated_at: 1770025923
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 ---

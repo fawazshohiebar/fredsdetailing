@@ -6,6 +6,13 @@ tree:
     id: d52dab1a-6056-43c8-a7f1-0c1b79110931
     entry: 38daf340-86e2-4d56-8408-b2abce79f7db
   -
+    id: 07d5bb48-6513-41f7-83b6-b0719f0d83b6
+    title: Conference
+    children:
+      -
+        id: 3877e4f3-1998-4cc5-9313-92ca879ba217
+        entry: 886de752-6b15-4b12-9365-925f3781935e
+  -
     id: 353b303e-a3ac-46db-9989-2a67a139a287
     entry: 2d082ca2-98dc-4c25-aebf-e22b252be4f0
   -
@@ -25,9 +32,6 @@ tree:
         id: f4d1c6f1-c90b-4e17-81e0-0372d2aabf2e
         entry: ac885f0f-1521-4be4-b591-b5f531231678
   -
-    id: 3877e4f3-1998-4cc5-9313-92ca879ba217
-    entry: 886de752-6b15-4b12-9365-925f3781935e
-  -
     id: 65b145ac-bf61-41b3-ab4e-39f4cb4a5414
     entry: 79fa49fa-1873-4edc-8fed-999830754e37
   -
@@ -42,6 +46,3 @@ tree:
   -
     id: 8aa74158-9964-4b89-9363-862671e0cf54
     entry: c5e740f9-47d1-4a13-ab6b-f94aa1cd1cc5
-  -
-    id: c1fb980c-29ee-4eb3-9e6e-9cd4caaebdc1
-    title: Conference

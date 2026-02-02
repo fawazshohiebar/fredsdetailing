@@ -313,6 +313,10 @@ page_builder:
                 marks:
                   -
                     type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: '2026 Timeline'
         timeline_creator:
           -
@@ -592,7 +596,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770013700
+updated_at: 1770014153
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

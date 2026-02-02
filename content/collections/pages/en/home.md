@@ -514,8 +514,7 @@ page_builder:
         type: partner_word_carousel
         background: bgcolor
         background_color: light-accent
-        bread_crumb_text: TESTIMONIALS
-        design: devided
+        design: centered
         heading:
           -
             type: heading
@@ -603,7 +602,7 @@ page_builder:
                     text: "“'Make it in the Emirates' highlights the United Arab Emirates focus on expanding the industrial sector, including greenhouses and food processing, with government support playing a vital role in Emirati business success.”"
             type: partner_word_set
             enabled: true
-        breadcrumb: true
+        breadcrumb: false
   -
     type: set
     attrs:
@@ -731,7 +730,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770015851
+updated_at: 1770015958
 reusable_popup: false
 fine_seo_title: Miite
 ---

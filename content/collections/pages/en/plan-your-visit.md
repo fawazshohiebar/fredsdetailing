@@ -77,49 +77,6 @@ page_builder:
   -
     type: set
     attrs:
-      id: ml51pf1t
-      values:
-        type: parking_information
-        heading_group:
-          heading:
-            text: 'Parking Information'
-            size: small
-            color: black
-            tag: p
-            uppercase: false
-          subheading: null
-          focus_icon: false
-          heading_focus_word: null
-          icon: null
-        text: 'We’re excited to see you all at Make it in the Emirates 2026. Please ensure that you follow the directions assigned to your category.'
-        button_replicator:
-          -
-            id: ml51pxje
-            icon_upload_image:
-              - car-park-a.png
-            type: new_set
-            enabled: true
-          -
-            id: ml51rh4o
-            icon_upload_image:
-              - car-park-b.png
-            type: new_set
-            enabled: true
-          -
-            id: ml51rp6f
-            icon_upload_image:
-              - car-park-c.png
-            type: new_set
-            enabled: true
-          -
-            id: ml51rwyu
-            icon_upload_image:
-              - car-park-gs.png
-            type: new_set
-            enabled: true
-  -
-    type: set
-    attrs:
       id: ml53ostt
       values:
         type: parking
@@ -244,7 +201,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770033258
+updated_at: 1770033490
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

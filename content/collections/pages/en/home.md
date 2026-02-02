@@ -447,11 +447,11 @@ page_builder:
         background_color: light-secondary
         design: devided
         sponsors_entries:
-          - 88272bdd-d6f5-47d3-84c3-66f60f146210
           - 9060f0b8-47a3-441c-a992-d05487b34147
           - ea70f702-48a8-431c-8230-f640ad1c63a3
           - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
           - 29176424-c90c-433e-b05d-459b5239f3ef
+          - 88272bdd-d6f5-47d3-84c3-66f60f146210
           - 157b338d-c0b4-4712-bca1-8c71cca67717
           - ad7b0f6c-a307-4aea-811f-471c05202a99
           - 5899d87c-a218-4037-84b9-420a4e62cc61
@@ -488,7 +488,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue.'
+                text: 'We work closely with sponsors and partners who share our commitment to excellence, collaboration, and meaningful industry impact.'
         button_group:
           link: null
           label: null
@@ -730,7 +730,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770017241
+updated_at: 1770017281
 reusable_popup: false
 fine_seo_title: Miite
 ---

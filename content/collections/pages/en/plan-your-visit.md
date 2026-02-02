@@ -118,6 +118,34 @@ page_builder:
             type: new_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: ml52x7an
+      values:
+        type: cta_grid
+        background: bgcolor
+        background_color: light-accent
+        grid_version: v1
+        grid_heading:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Parking Information'
+        grid_set_replicator:
+          -
+            id: ml52ygry
+            grid_images: car-park-a.png
+            number_of_stars: '0'
+            type: grid_set
+            enabled: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -134,8 +162,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770030060
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770031384
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

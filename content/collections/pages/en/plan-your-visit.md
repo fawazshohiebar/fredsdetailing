@@ -68,12 +68,17 @@ page_builder:
         type: text_and_map
         heading:
           -
-            type: paragraph
+            type: heading
             attrs:
-              textAlign: left
+              level: 4
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
                 text: 'Discover the Heart of Innovation'
         map_iframe: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4309.3884659267205!2d54.436645000000006!3d24.4180756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e42742c04a181%3A0xc2f73ba3f513d4b3!2sADNEC%20Centre%20Abu%20Dhabi!5e1!3m2!1sen!2sae!4v1770029085622!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
         design: alignleft
@@ -211,7 +216,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770033785
+updated_at: 1770033809
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

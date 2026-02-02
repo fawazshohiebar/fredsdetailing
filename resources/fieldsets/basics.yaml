@@ -1004,11 +1004,7 @@ fields:
               display: 'Text And Map'
               fields:
                 -
-                  handle: heading
-                  field:
-                    type: text
-                    display: Heading
-                    localizable: false
+                  import: heading_group_component
                 -
                   handle: icon_list
                   field:

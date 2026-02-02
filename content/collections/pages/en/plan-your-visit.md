@@ -129,60 +129,56 @@ page_builder:
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: map-pin
+                icon: arrow-down-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
-                link: 'https://www.google.com/maps/place/ADNEC+Parking+A/@24.4211908,54.4363941,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5e4382cde695f5:0x3dc2fe512e00737a!8m2!3d24.4211859!4d54.4385828!16s%2Fg%2F11pdxsc3bv?coh=164777&entry=tt&shorturl=1'
             type: new_set
             enabled: true
           -
             id: ml53soij
-            image: car-park-b.png
+            image: car-park-b-(1).png
             button_group:
               -
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: map-pin
+                icon: arrow-down-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
-                link: 'https://goo.gl/maps/Tx4VzHCWKEvMnn758'
             type: new_set
             enabled: true
           -
             id: ml53sq4g
-            image: car-park-c.png
+            image: car-park-c-(1).png
             button_group:
               -
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: map-pin
+                icon: arrow-down-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
-                link: 'https://www.google.com/maps/place/ADNEC+Parking+C/@24.4173797,54.4360989,1035m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e5e42748e1b47bf:0x122f6b9fe92261d8!8m2!3d24.4173748!4d54.4386738!16s%2Fg%2F11hckb771q?entry=ttu&g_ep=EgoyMDI1MDQyMS4wIKXMDSoASAFQAw%3D%3D'
             type: new_set
             enabled: true
           -
             id: ml53sxz4
-            image: car-park-gs.png
+            image: car-park-gs-(1).png
             button_group:
               -
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: map-pin
+                icon: arrow-down-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
-                link: 'https://www.google.com/maps/place/ADNEC+Parking+VIP+Grandstand/@24.4177737,54.4339081,1035m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e5e43c2098eeb39:0xeb02155f5ab469be!8m2!3d24.4177688!4d54.436483!16s%2Fg%2F11rd5ts8ns?entry=ttu&g_ep=EgoyMDI1MDQyMS4wIKXMDSoASAFQAw%3D%3D'
             type: new_set
             enabled: true
         background: bgcolor
@@ -204,8 +200,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770034441
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770034530
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

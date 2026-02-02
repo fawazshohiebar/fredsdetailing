@@ -2,7 +2,9 @@
     <div class="adnec-container">
 <div class="grid grid-cols-1 md:grid-cols-[40%_60%] rounded-[8px]  overflow-hidden shadow-lg   transform transition-all duration-500 hover:-translate-y-2 hover:shadow-xl animate-fade-in">
             <div class="  flex flex-col  bg-accent justify-center gap-[20px] p-[30px]">
-                <p class="text-xl font-bold text-gray-900 leading-[130%] ">{{heading}}</p>
+                {{# <p class="text-xl font-bold text-gray-900 leading-[130%] ">{{heading}}</p> #}}
+                                {{ partial:partials/sets/heading_group_component }}
+
                 <div class="flex flex-col gap-[10px]">
                    {{icon_list}}
                         <a href="{{link}}" class=" w-fit gap-[10px]  grid grid-cols-[30px_auto] items-center" >

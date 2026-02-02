@@ -301,7 +301,7 @@ page_builder:
       id: ml4rxrr2
       values:
         type: timeline_component
-        breadcrumb: true
+        breadcrumb: false
         heading:
           -
             type: heading
@@ -346,7 +346,6 @@ page_builder:
         background: bgcolor
         background_color: light-accent
         design: centered
-        bread_crumb_text: sdasdas
   -
     type: set
     attrs:
@@ -593,7 +592,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770013504
+updated_at: 1770013700
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

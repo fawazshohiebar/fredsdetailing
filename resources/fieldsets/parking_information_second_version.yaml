@@ -1,0 +1,29 @@
+title: 'Parking Information Second Version'
+fields:
+  -
+    import: background_design
+  -
+    import: heading_group_with_breadcrumbs
+  -
+    handle: car_parking_creator
+    field:
+      type: replicator
+      display: 'Car Parking Creator'
+      localizable: false
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: image
+                  field: basics.image
+                  config:
+                    validate:
+                      - image
+                      - 'max_filesize:9216'
+                      - 'mimes:png,jpg,jpeg,gif,webp,svg'
+                -
+                  import: button_group

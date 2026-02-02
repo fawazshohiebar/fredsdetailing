@@ -118,6 +118,115 @@ page_builder:
             type: new_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: ml53ostt
+      values:
+        type: parking
+        breadcrumb: false
+        design: centered
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
+                text: 'Parking Information'
+        sub_heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'We’re excited to see you all at Make it in the Emirates 2025. Please ensure that you follow the directions assigned to your category.'
+        car_parking_creator:
+          -
+            id: ml53pg6g
+            image: image-(40).png
+            button_group:
+              -
+                id: ml53pktl
+                label: 'Get directions'
+                design: whitebgblacksvg
+                icon: arrow-down-right
+                open_new_tab: true
+                button_size: fit
+                type: new_set
+                enabled: true
+            type: new_set
+            enabled: true
+          -
+            id: ml53soij
+            image: car-park-a.png
+            button_group:
+              -
+                id: ml53pktl
+                label: 'Get directions'
+                design: whitebgblacksvg
+                icon: arrow-down-right
+                open_new_tab: true
+                button_size: fit
+                type: new_set
+                enabled: true
+            type: new_set
+            enabled: true
+          -
+            id: ml53sq4g
+            image: car-park-a.png
+            button_group:
+              -
+                id: ml53pktl
+                label: 'Get directions'
+                design: whitebgblacksvg
+                icon: arrow-down-right
+                open_new_tab: true
+                button_size: fit
+                type: new_set
+                enabled: true
+            type: new_set
+            enabled: true
+          -
+            id: ml53sxz4
+            image: car-park-a.png
+            button_group:
+              -
+                id: ml53pktl
+                label: 'Get directions'
+                design: whitebgblacksvg
+                icon: arrow-down-right
+                open_new_tab: true
+                button_size: fit
+                type: new_set
+                enabled: true
+            type: new_set
+            enabled: true
+          -
+            id: ml53t58w
+            image: car-park-a.png
+            button_group:
+              -
+                id: ml53pktl
+                label: 'Get directions'
+                design: whitebgblacksvg
+                icon: arrow-down-right
+                open_new_tab: true
+                button_size: fit
+                type: new_set
+                enabled: true
+            type: new_set
+            enabled: true
+        background: bgcolor
+        background_color: light-secondary
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -135,7 +244,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770031454
+updated_at: 1770033258
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

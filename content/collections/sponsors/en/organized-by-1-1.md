@@ -4,10 +4,10 @@ blueprint: sponsor
 title: Organiser
 sponsors_logos: sponsors/adnec.png
 sponsor_level:
-  - second-level
+  - first-level
 badge: false
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770016579
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770018057
 duplicated_from: 9060f0b8-47a3-441c-a992-d05487b34147
 sponsor_link: 'https://www.adnecgroup.ae/'
 ---

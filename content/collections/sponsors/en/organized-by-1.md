@@ -6,8 +6,8 @@ sponsors_logos: uae_moedt_horizontal_rgb_ae-1024x171.jpg
 sponsor_level:
   - first-level
 badge: false
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770016654
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770031866
 duplicated_from: 157b338d-c0b4-4712-bca1-8c71cca67717
 sponsor_link: 'https://moiat.gov.ae/en/'
 ---

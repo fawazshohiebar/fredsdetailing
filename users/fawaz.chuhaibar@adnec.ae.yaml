@@ -42,3 +42,9 @@ preferences:
       per_page: 500
     collaterals:
       per_page: 100
+  taxonomies:
+    sponsor_level:
+      columns:
+        - title
+        - slug
+        - order

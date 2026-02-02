@@ -33,7 +33,7 @@ description:
     content:
       -
         type: text
-        text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue.'
+        text: 'Through the support of our sponsors and strategic partners, we create opportunities for collaboration, innovation, and high-level engagement.'
 sponsors_entries:
   - 9060f0b8-47a3-441c-a992-d05487b34147
   - ea70f702-48a8-431c-8230-f640ad1c63a3
@@ -52,6 +52,6 @@ button_group:
     button_size: fit
     link: 'entry::394e9a07-b845-4538-9872-92213381e955'
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770018658
+updated_at: 1770018698
 breadcrumb: false
 ---

@@ -5,8 +5,8 @@ title: 'Representative from ISO'
 position: Representative
 company: 'International Organization for Standardization'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769775646
+updated_at: 1770014229
 duplicated_from: d618d2c3-f643-4c3f-b1b6-2a611b44c14d
 speaker_background: '#69747C'
-image: speakers/3.png
+image: speakers/men.png
 ---

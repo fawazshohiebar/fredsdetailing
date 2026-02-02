@@ -837,6 +837,11 @@ fields:
               fields:
                 -
                   import: timeline
+            parking:
+              display: Parking
+              fields:
+                -
+                  import: parking_information_second_version
         forms:
           display: Forms
           icon: form-drop-down-menu

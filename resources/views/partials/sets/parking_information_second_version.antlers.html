@@ -1,0 +1,19 @@
+
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+
+<div class="adnec-container py-[45px] md:py-[50px] lg:py-[70px] ">
+    {{ partial:partials/sets/heading_group_with_breadcrumbs }}
+    <div class="gap-[20px]  flex justify-center w-full flex-wrap">
+        {{ car_parking_creator }}
+            <div
+                class="flex justify-center flex-col items-center gap-3 w-full sm:w-[calc(50%-10px)] md:w-[calc(32%-10px)]  lg:w-[calc(23%-10px)]">
+
+                <img src="{{ image:url }}" alt="">
+
+                {{ partial:partials/sets/button_group }}
+            </div>
+        {{ /car_parking_creator }}
+    </div>
+</div>
+</div>

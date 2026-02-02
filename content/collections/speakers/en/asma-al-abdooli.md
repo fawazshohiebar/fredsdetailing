@@ -5,8 +5,8 @@ title: 'Asma Al Abdooli'
 position: Strategy
 company: 'Ministry of Industry & Advanced Technology'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770008624
+updated_at: 1770031518
 duplicated_from: 77cbb92b-5134-482c-bbfd-59cbb553311f
 speaker_background: '#69747C'
-image: speakers/3.png
+image: speakers/women.png
 ---

@@ -7,7 +7,7 @@ sponsor_level:
   - first-level
 badge: false
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770031866
+updated_at: 1770031872
 duplicated_from: 157b338d-c0b4-4712-bca1-8c71cca67717
 sponsor_link: 'https://moiat.gov.ae/en/'
 ---

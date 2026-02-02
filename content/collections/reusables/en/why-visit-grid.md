@@ -41,13 +41,14 @@ featured_activities:
 buttons_groups:
   -
     id: mknlcnyq
-    label: 'Enquire to exhibit 2026'
+    label: 'Register your interest to visit'
     icon: arrow-down-right
     open_new_tab: false
     type: button
     enabled: true
     design: whitebgblacksvg
     button_size: fit
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768974079
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770031718
+breadcrumb: false
 ---

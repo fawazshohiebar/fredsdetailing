@@ -16,12 +16,7 @@ heading:
         marks:
           -
             type: bold
-        text: 'Partners &'
-      -
-        type: hardBreak
-        marks:
-          -
-            type: bold
+        text: 'Partners & '
       -
         type: text
         marks:
@@ -57,6 +52,6 @@ button_group:
     button_size: fit
     link: 'entry::394e9a07-b845-4538-9872-92213381e955'
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770018577
+updated_at: 1770018658
 breadcrumb: false
 ---

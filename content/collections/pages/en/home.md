@@ -147,7 +147,7 @@ page_builder:
       id: mkm5sxz1
       values:
         type: speaker_section
-        design: devided
+        design: centered
         heading:
           -
             type: heading
@@ -189,10 +189,9 @@ page_builder:
           icon: arrow-down-right
           open_new_tab: false
           button_size: fit
-        bread_crumb_text: '2026'
         background: bgcolor
         background_color: light-secondary
-        breadcrumb: true
+        breadcrumb: false
   -
     type: set
     attrs:
@@ -732,7 +731,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009325
+updated_at: 1770015851
 reusable_popup: false
 fine_seo_title: Miite
 ---

@@ -4,8 +4,7 @@ blueprint: sponsors
 title: 'Sponsors 2026'
 background: bgcolor
 background_color: light-accent
-bread_crumb_text: 'Key CONTRIBUTERS'
-design: devided
+design: centered
 heading:
   -
     type: heading
@@ -51,14 +50,15 @@ sponsors_entries:
   - ad7b0f6c-a307-4aea-811f-471c05202a99
 button_group:
   -
+    id: avLHJWPW
     type: new_set
     enabled: true
-    link: null
     label: 'View All 91 SPONSORS'
     design: whitebgblacksvg
     icon: arrow-down-right
     open_new_tab: false
     button_size: fit
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768915030
+updated_at: 1770015939
+breadcrumb: false
 ---

@@ -298,6 +298,57 @@ page_builder:
   -
     type: set
     attrs:
+      id: ml4rxrr2
+      values:
+        type: timeline_component
+        breadcrumb: true
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '2026 Timeline'
+        timeline_creator:
+          -
+            id: mkz4ep1c
+            date: '2026-01-29'
+            icon: icons/handshake-deal-svgrepo-com.svg
+            timeline_text: 'Approve Categories & Launch Digital Platform'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4fbju
+            date: '2026-01-29'
+            icon: rocket-svgrepo-com-(1).svg
+            timeline_text: 'Outreach & Call for Applications'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4g4lt
+            date: '2026-01-29'
+            icon: icons/speaker-svgrepo-com.svg
+            timeline_text: 'Screening & Technical Review'
+            type: new_set
+            enabled: true
+          -
+            id: mkz4gmm2
+            date: '2026-01-29'
+            icon: icons/notepad-note-svgrepo-com.svg
+            timeline_text: 'Final interview & Jury Endorsement'
+            type: new_set
+            enabled: true
+        background: bgcolor
+        background_color: light-accent
+        design: centered
+  -
+    type: set
+    attrs:
       id: mkz1x0co
       values:
         type: custom_speaker_section
@@ -524,51 +575,6 @@ page_builder:
                     type: bold
                 text: 'Advisory & Overall Execution'
   -
-    type: set
-    attrs:
-      id: mkz3s9v2
-      values:
-        type: timeline_component
-        breadcrumb: true
-        heading:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Awards Timeline'
-        timeline_creator:
-          -
-            id: mkz4ep1c
-            date: '2026-01-29'
-            icon: icons/handshake-deal-svgrepo-com.svg
-            timeline_text: 'Approve Categories & Launch Digital Platform'
-            type: new_set
-            enabled: true
-          -
-            id: mkz4fbju
-            date: '2026-01-29'
-            icon: rocket-svgrepo-com-(1).svg
-            timeline_text: 'Outreach & Call for Applications'
-            type: new_set
-            enabled: true
-          -
-            id: mkz4g4lt
-            date: '2026-01-29'
-            icon: icons/speaker-svgrepo-com.svg
-            timeline_text: 'Screening & Technical Review'
-            type: new_set
-            enabled: true
-          -
-            id: mkz4gmm2
-            date: '2026-01-29'
-            icon: icons/notepad-note-svgrepo-com.svg
-            timeline_text: 'Final interview & Jury Endorsement'
-            type: new_set
-            enabled: true
-        background: bgcolor
-        background_color: light-accent
-  -
     type: paragraph
     attrs:
       textAlign: left
@@ -585,8 +591,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009555
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770012904
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

@@ -6,8 +6,8 @@ sponsors_logos: sponsors/adnec.png
 sponsor_level:
   - first-level
 badge: false
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770018057
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770031932
 duplicated_from: 9060f0b8-47a3-441c-a992-d05487b34147
 sponsor_link: 'https://www.adnecgroup.ae/'
 ---

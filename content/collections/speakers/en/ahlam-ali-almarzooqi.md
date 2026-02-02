@@ -5,8 +5,8 @@ title: 'Ahlam Ali AlMarzooqi'
 position: 'Director of Conformity Affairs Department'
 company: 'Ministry of Industry & Advanced Technology'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770008596
+updated_at: 1770013596
 duplicated_from: 6268ce1e-d3cc-48c7-82a6-044176d7cab5
 speaker_background: '#BA8349'
-image: speakers/3.png
+image: speakers/women.png
 ---

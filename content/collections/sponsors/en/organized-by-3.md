@@ -1,12 +1,13 @@
 ---
 id: 29176424-c90c-433e-b05d-459b5239f3ef
 blueprint: sponsor
-title: 'Organized By (Duplicated) (3)'
-sponsors_logos: sponsors/agriculture.png
+title: Co-host
+sponsors_logos: png-adnoc-secondary-brand-mark-artwork.png
 sponsor_level:
   - second-level
 badge: false
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768990834
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1770016988
 duplicated_from: 157b338d-c0b4-4712-bca1-8c71cca67717
+sponsor_link: 'https://www.adnoc.ae/'
 ---

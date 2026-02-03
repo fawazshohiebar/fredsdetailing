@@ -53,108 +53,43 @@ buttons:
 grid_creator:
   -
     id: mkmk31o8
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    image: page-2.jpg
+    heading: Exhibition
     type: grid_set
     enabled: true
   -
     id: mkmk3kvw
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    heading: Conference
     type: grid_set
     enabled: true
   -
     id: mkmk3k1s
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    heading: 'Industry Museum'
     type: grid_set
     enabled: true
   -
     id: mkmk3j3c
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    heading: 'Intelligence Hub'
     type: grid_set
     enabled: true
   -
     id: mkmk3hwf
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    heading: 'Quality Hub'
     type: grid_set
     enabled: true
   -
     id: mkmk3h2f
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
-    type: grid_set
-    enabled: true
-  -
-    id: mkmk3gc5
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    image: start-up-hub-.jpg
+    heading: 'Start Up Hub'
     type: grid_set
     enabled: true
   -
     id: mkmk3eyv
-    image: features/features-bg.png
-    heading: 'Vision Stage'
-    description:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ministerial keynotes, global strategy talks, national announcements'
+    image: miite-awards.jpg
+    heading: Awards
     type: grid_set
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769513722
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770092344
+breadcrumb: true
 ---

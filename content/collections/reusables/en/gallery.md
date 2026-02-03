@@ -39,24 +39,6 @@ info_cards:
     image: icons/downloaded-image-(4)-(1).png
     type: info_card
     enabled: true
-  -
-    id: mkgnat0z
-    icon_type: image
-    image: icons/downloaded-image-(3)-(1).jpg
-    type: info_card
-    enabled: false
-  -
-    id: mkgnaur1
-    icon_type: image
-    image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
-    type: info_card
-    enabled: false
-  -
-    id: mkgnaxhe
-    icon_type: image
-    image: icons/_ans5463-(1).jpg
-    type: info_card
-    enabled: false
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770096528
+updated_at: 1770096610
 ---

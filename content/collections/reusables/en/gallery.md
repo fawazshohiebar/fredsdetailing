@@ -2,8 +2,7 @@
 id: b1eff661-0244-48ed-851c-36299473254f
 blueprint: content_with_info_cards
 title: Gallery
-bread_crumb_text: 'FROM 2025'
-design: devided
+design: centered
 heading:
   -
     type: heading
@@ -15,22 +14,7 @@ heading:
         marks:
           -
             type: bold
-        text: Achievements
-      -
-        type: hardBreak
-        marks:
-          -
-            type: bold
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textColor
-            attrs:
-              color: redgrad
-        text: 'at a Glance'
+        text: '2025 Highlights '
 description:
   -
     type: paragraph
@@ -51,13 +35,13 @@ info_cards:
   -
     id: mkgna136
     icon_type: image
-    image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
+    image: icons/downloaded-image-(4)-(1).jpg
     type: info_card
     enabled: true
   -
     id: mkgnat0z
     icon_type: image
-    image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
+    image: icons/downloaded-image-(3)-(1).jpg
     type: info_card
     enabled: true
   -
@@ -69,9 +53,9 @@ info_cards:
   -
     id: mkgnaxhe
     icon_type: image
-    image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
+    image: icons/_ans5463.jpg
     type: info_card
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768561248
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770093910
 ---

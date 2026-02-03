@@ -46,6 +46,12 @@ info_cards:
     type: info_card
     enabled: true
   -
+    id: ml66fah2
+    icon_type: image
+    image: icons/downloaded-image-(4)-(1).png
+    type: info_card
+    enabled: true
+  -
     id: ml65yzh9
     icon_type: image
     image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
@@ -58,7 +64,7 @@ info_cards:
     type: info_card
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770097598
+updated_at: 1770097629
 sub_heading:
   -
     type: paragraph

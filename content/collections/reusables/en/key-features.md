@@ -87,13 +87,7 @@ grid_creator:
     heading: 'Start Up Hub'
     type: grid_set
     enabled: true
-  -
-    id: mkmk3eyv
-    image: miite-awards.jpg
-    heading: Awards
-    type: grid_set
-    enabled: true
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770092673
+updated_at: 1770124501
 breadcrumb: true
 ---

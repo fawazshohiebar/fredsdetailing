@@ -1,0 +1,97 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: first_name
+            field:
+              autocomplete: given-name
+              type: text
+              display: 'First Name'
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: last_name
+            field:
+              autocomplete: family-name
+              type: text
+              display: 'Last Name'
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              autocomplete: email
+              type: text
+              display: Email
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: phone
+            field:
+              input_type: tel
+              autocomplete: tel
+              type: text
+              display: Phone
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: company
+            field:
+              type: text
+              display: Company
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: position
+            field:
+              type: text
+              display: Position
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: city
+            field:
+              autocomplete: address-level1
+              type: text
+              display: City
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: country
+            field:
+              autocomplete: country
+              type: text
+              display: Country
+              localizable: false
+              width: 50
+              validate:
+                - required
+          -
+            handle: company_information
+            field:
+              type: textarea
+              display: 'Company Information'
+              localizable: false
+              validate:
+                - required
+          -
+            handle: turnstile_token
+            field: basics.turnstile_token

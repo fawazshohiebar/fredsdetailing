@@ -70,7 +70,7 @@ info_cards:
     type: info_card
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770101475
+updated_at: 1770102249
 sub_heading:
   -
     type: paragraph
@@ -78,4 +78,5 @@ sub_heading:
       -
         type: text
         text: dfs
+breadcrumb: false
 ---

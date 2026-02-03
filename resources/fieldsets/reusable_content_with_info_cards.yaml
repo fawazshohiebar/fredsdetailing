@@ -1,13 +1,7 @@
 title: 'Reusable Content with Info Cards'
 fields:
   -
-    handle: bread_crumb_text
-    field:
-      type: text
-      display: 'Bread Crumb Text'
-      localizable: true
-  -
-    import: heading_group_component
+    import: heading_group_with_breadcrumbs
   -
     handle: info_cards
     field:

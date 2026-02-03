@@ -15,9 +15,9 @@ button_replicator:
     enabled: false
     icon: none
 navbar_text:
-  left_text: 'PART OF THE <br> UAE’s OPERATION'
-  middle_text: 300Bn
-  right_text: 'Transformation <br> STRATEGY'
+  left_text: 'ALIGNED <br> WITH THE'
+  middle_text: "UAE's"
+  right_text: 'INDUSTRIAL <br> STRATEGY'
 logos_and_partners:
   -
     id: mke1fi5t

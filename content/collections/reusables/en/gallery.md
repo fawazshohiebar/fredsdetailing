@@ -53,9 +53,9 @@ info_cards:
   -
     id: mkgnaxhe
     icon_type: image
-    image: icons/_ans5463.jpg
+    image: icons/_ans5463-(1).jpg
     type: info_card
     enabled: true
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770093910
+updated_at: 1770094029
 ---

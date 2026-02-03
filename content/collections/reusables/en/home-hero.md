@@ -20,13 +20,21 @@ heading:
         type: text
         text: Industries
       -
+        type: text
+        marks:
+          -
+            type: bold
+        text: '. '
+      -
         type: hardBreak
       -
         type: text
         marks:
           -
             type: bold
-        text: Accelerated.
+        text: 'Turbo – Charged.'
+  -
+    type: paragraph
 video: c7tKPy5LoP8
 hero_actions:
   -
@@ -37,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769509496
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770124345
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'

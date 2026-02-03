@@ -19,7 +19,6 @@ page_builder:
               -
                 type: text
                 text: 'The Industry Museum will be an immersive, multi-sensory physical and digital experience, combining heritage, industrial achievements, and national aspirations.'
-        section_image: the-industrialist-museum-(1).jpg
   -
     type: paragraph
     attrs:

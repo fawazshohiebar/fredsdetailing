@@ -34,12 +34,6 @@ buttons:
     button_size: fit
 info_cards:
   -
-    id: mkgna136
-    icon_type: image
-    image: icons/downloaded-image-(4)-(1).png
-    type: info_card
-    enabled: false
-  -
     id: ml65v3ir
     icon_type: image
     image: icons/downloaded-image-(4)-(1).png
@@ -58,5 +52,5 @@ info_cards:
     type: info_card
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770096710
+updated_at: 1770096766
 ---

@@ -35,7 +35,6 @@ info_cards:
   -
     id: mkgna136
     icon_type: image
-    image: icons/downloaded-image-(4)-(1).jpg
     type: info_card
     enabled: true
   -

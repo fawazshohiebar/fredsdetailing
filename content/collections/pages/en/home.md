@@ -203,14 +203,6 @@ page_builder:
   -
     type: set
     attrs:
-      id: mkgnbprq
-      values:
-        type: reusable_block
-        entry:
-          - b1eff661-0244-48ed-851c-36299473254f
-  -
-    type: set
-    attrs:
       id: mkm5to1m
       values:
         type: heading_icon_grids
@@ -586,6 +578,14 @@ page_builder:
   -
     type: set
     attrs:
+      id: ml63m85a
+      values:
+        type: reusable_block
+        entry:
+          - b1eff661-0244-48ed-851c-36299473254f
+  -
+    type: set
+    attrs:
       id: mkm5uwkd
       values:
         type: exhibitor_carousel
@@ -710,7 +710,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770092838
+updated_at: 1770092919
 reusable_popup: false
 fine_seo_title: Miite
 ---

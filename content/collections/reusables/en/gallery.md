@@ -15,6 +15,13 @@ heading:
           -
             type: bold
         text: '2025 Highlights '
+description:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue.'
 buttons:
   -
     id: mkgn9azj
@@ -31,7 +38,7 @@ info_cards:
     icon_type: image
     image: icons/downloaded-image-(4)-(1).png
     type: info_card
-    enabled: true
+    enabled: false
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770096628
+updated_at: 1770096677
 ---

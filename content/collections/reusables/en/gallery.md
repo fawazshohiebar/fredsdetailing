@@ -48,7 +48,7 @@ info_cards:
   -
     id: ml66hm8b
     icon_type: image
-    image: icons/downloaded-image-(3)-(1).jpg
+    image: icons/downloaded-image-(3)-(1).png
     type: info_card
     enabled: true
   -
@@ -58,7 +58,7 @@ info_cards:
     type: info_card
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770097757
+updated_at: 1770097847
 sub_heading:
   -
     type: paragraph

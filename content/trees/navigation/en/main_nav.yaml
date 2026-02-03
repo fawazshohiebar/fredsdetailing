@@ -27,6 +27,9 @@ tree:
     title: Conference
     children:
       -
+        id: 79945334-b836-4ddf-b0d6-489d4ee03642
+        entry: 608f22f0-c075-4cbc-92cb-94cab7a6bee3
+      -
         id: 3877e4f3-1998-4cc5-9313-92ca879ba217
         entry: 886de752-6b15-4b12-9365-925f3781935e
   -

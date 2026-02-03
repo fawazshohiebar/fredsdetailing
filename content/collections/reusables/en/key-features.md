@@ -53,7 +53,7 @@ buttons:
 grid_creator:
   -
     id: mkmk31o8
-    image: page-2.jpg
+    image: page-2-(1).jpg
     heading: Exhibition
     type: grid_set
     enabled: true
@@ -62,24 +62,28 @@ grid_creator:
     heading: Conference
     type: grid_set
     enabled: true
+    image: _r_30203-(1).jpg
   -
     id: mkmk3k1s
     heading: 'Industry Museum'
     type: grid_set
     enabled: true
+    image: the-industrialist-museum-(1)-(1)-(1).jpg
   -
     id: mkmk3j3c
     heading: 'Intelligence Hub'
     type: grid_set
     enabled: true
+    image: the-itelligence-hub-(1)-(1)-(1).jpg
   -
     id: mkmk3hwf
     heading: 'Quality Hub'
     type: grid_set
     enabled: true
+    image: quality-hub-(1)-(1)-(1).jpg
   -
     id: mkmk3h2f
-    image: start-up-hub-.jpg
+    image: start-up-hub--(1).jpg
     heading: 'Start Up Hub'
     type: grid_set
     enabled: true
@@ -90,6 +94,6 @@ grid_creator:
     type: grid_set
     enabled: true
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770092344
+updated_at: 1770092673
 breadcrumb: true
 ---

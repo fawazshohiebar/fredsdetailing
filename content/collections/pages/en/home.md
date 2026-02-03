@@ -601,7 +601,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: '<d>600</d>+ Exhibitors'
+                text: '<d>720</d>+ Exhibitors'
               -
                 type: hardBreak
                 marks:
@@ -646,7 +646,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#fff'
-                text: '68,000 SQM'
+                text: '92,000 SQM'
           -
             type: heading
             attrs:
@@ -709,8 +709,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770101483
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770101707
 reusable_popup: false
 fine_seo_title: Miite
 ---

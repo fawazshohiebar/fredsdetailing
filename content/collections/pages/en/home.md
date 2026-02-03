@@ -386,55 +386,35 @@ page_builder:
         awards:
           -
             id: mkgqjvzk
-            awards_names: 'ICV Excellence'
+            awards_names: 'The "Riyada" Tech Frontier Award'
             type: award_set
             enabled: true
           -
             id: mkgqjztt
-            awards_names: 'Young Talent Of The Year'
+            awards_names: 'Quality & Compliance Award'
             type: award_set
             enabled: true
           -
             id: mkgqk3v9
-            awards_names: 'Sustainable Manufacturing'
+            awards_names: 'National Industrial Growth Award'
             type: award_set
             enabled: true
           -
             id: mkgqk8ea
-            awards_names: 'Inspirational Leader'
+            awards_names: 'Next-generation industrial leaders'
             type: award_set
             enabled: true
           -
             id: mkgqkcjr
-            awards_names: 'Smart Manufacturer'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqkgql
-            awards_names: 'Indsutrial Strategic Partner'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqkkcc
-            awards_names: 'Excellence In Innovation'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqkovi
-            awards_names: 'Quality Award'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqksfd
-            awards_names: 'Inspirational Leader'
+            awards_names: 'Inspirational industrial leaders'
             type: award_set
             enabled: true
         button_group:
-          link: null
+          link: 'entry::66943f73-fee3-4e30-bc72-de33101d79dc'
           label: 'Find Out More'
           design: whiteoutlined
-          icon: arrow-down-right
-          open_new_tab: false
+          icon: sparkles
+          open_new_tab: true
           button_size: fit
   -
     type: set
@@ -730,7 +710,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770092680
+updated_at: 1770092838
 reusable_popup: false
 fine_seo_title: Miite
 ---

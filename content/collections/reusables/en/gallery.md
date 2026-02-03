@@ -31,6 +31,7 @@ buttons:
     open_new_tab: true
     type: new_set
     enabled: true
+    button_size: fit
 info_cards:
   -
     id: mkgna136
@@ -43,19 +44,19 @@ info_cards:
     icon_type: image
     image: icons/downloaded-image-(3)-(1).jpg
     type: info_card
-    enabled: true
+    enabled: false
   -
     id: mkgnaur1
     icon_type: image
     image: icons/d7b16d06584ad2485814cb17b2ccae084c116554.png
     type: info_card
-    enabled: true
+    enabled: false
   -
     id: mkgnaxhe
     icon_type: image
     image: icons/_ans5463-(1).jpg
     type: info_card
-    enabled: true
+    enabled: false
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770096471
+updated_at: 1770096513
 ---

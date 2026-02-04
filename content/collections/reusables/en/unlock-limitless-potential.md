@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770190314
+updated_at: 1770190543
 heading:
   -
     type: heading
@@ -167,15 +167,6 @@ tab_creator:
             text: 'The Powerhouse for Global Industrial Excellence'
       -
         type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#fff'
-            text: 'Make it in the Emirates is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organizations localizing their manufacturing value chains.'
     type: tab_set
     enabled: true
     button_container:
@@ -225,5 +216,12 @@ tab_creator:
                 text: 'Experience the power of the UAE’s existing and future manufacturing capabilities highlighting successful projects and applications of advanced technologies.'
         type: accordion_set
         enabled: true
+    tab_information:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Make it in the Emirates is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organisations localizing their manufacturing value chains.'
 image: brand/background-(2).png
 ---

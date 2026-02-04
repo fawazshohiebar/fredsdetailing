@@ -22,7 +22,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Quality Hub is a central platform or ecosystem that brings together the key elements of quality infrastructure to support industry, trade, and economic development.'
+                text: 'The Quality Hub highlights the standards, systems, and certifications that underpin trust in UAE-made products. It showcases best practice in quality, compliance, and performance, helping manufacturers and investors understand how quality enables global competitiveness, export readiness, and long-term value.'
         section_image: quality-hub-(1).jpg
 layout: layout
 reusable_popup: false
@@ -38,7 +38,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770025454
+updated_at: 1770179972
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 duplicated_from: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4

@@ -129,7 +129,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#E7443C'
-                text: 'Make it in the Emirates 2026'
+                text: 'Make it in the Emirates 2025'
               -
                 type: text
                 text: ' concluded as a landmark edition, solidifying its position as the UAE’s premier event for industrial growth and investment.'
@@ -184,7 +184,7 @@ page_builder:
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
         button_group:
           link: null
-          label: 'View All 91 SPONSORS'
+          label: 'View All 91 Speakers'
           design: whitebgblacksvg
           icon: arrow-down-right
           open_new_tab: false
@@ -709,8 +709,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770184489
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770184689
 reusable_popup: false
 fine_seo_title: Miite
 ---

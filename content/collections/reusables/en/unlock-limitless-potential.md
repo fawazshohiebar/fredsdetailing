@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770201322
+updated_at: 1770201395
 heading:
   -
     type: heading
@@ -130,18 +130,7 @@ tab_creator:
                 type: textColor
                 attrs:
                   color: '#fff'
-            text: 'Make it in the Emirates 2026 is the UAE’s leading platform for organisations looking to grow, connect, and contribute to long-term national progress. It brings together industry leaders, policymakers, and global investors to enable meaningful engagement, collaboration, and opportunity at scale.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#fff'
-            text: 'With a highly targeted audience of decision-makers, the platform supports strategic partnerships, commercial dialogue, and increased visibility for organisations ready to play a role in the UAE’s evolving industrial landscape.'
+            text: 'Make it in the Emirates 2026 is the UAE’s leading platform for organisations looking to grow, connect, and contribute to long-term national progress, bringing together industry leaders, policymakers, and global investors to enable meaningful engagement, collaboration, and opportunity at scale. With a highly targeted audience of decision-makers, the platform supports strategic partnerships, focused commercial dialogue, and increased visibility for organisations ready to play a role in the UAE’s evolving industrial landscape.'
   -
     id: mkgidx7v
     tab_title: 'Why Visit'

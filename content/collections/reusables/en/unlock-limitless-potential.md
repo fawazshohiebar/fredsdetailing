@@ -2,8 +2,8 @@
 id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770184483
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770185001
 heading:
   -
     type: heading
@@ -125,12 +125,22 @@ tab_creator:
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'Are you looking to expand your brand’s presence in the UAE’s booming manufacturing sector? Make it in the Emirates 2026 is the premier platform to showcase your products, services, and innovations to a highly targeted audience of industry leaders, government officials, and global investors.'
       -
         type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'With thousands of key decision-makers in attendance, this event offers unparalleled opportunities for networking, business transactions, and strategic partnerships. Whether you’re looking to secure high-value contracts, connect with procurement executives, or elevate your market presence, this is your gateway to the UAE’s industrial transformation.'
   -
     id: mkgidx7v
@@ -146,12 +156,21 @@ tab_creator:
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'The Powerhouse for Global Industrial Excellence'
       -
         type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'Make it in the Emirates is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organizations localizing their manufacturing value chains.'
     type: tab_set
     enabled: true

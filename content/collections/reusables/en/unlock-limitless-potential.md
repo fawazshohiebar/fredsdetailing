@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770183973
+updated_at: 1770184224
 heading:
   -
     type: heading
@@ -69,50 +69,50 @@ tab_creator:
     accordion_creator:
       -
         id: mkgi6kv0
-        accordion_title: Investor-Centric
+        accordion_title: 'Build on proven momentum from 2025'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
+                text: 'Make it in the Emirates returns with a sharper focus on industrial growth and long-term value creation. Be part of a platform built to deliver outcomes.'
         type: accordion_set
         enabled: true
       -
         id: mkgi6vio
-        accordion_title: Innovation-Driven
+        accordion_title: 'Access real decision-makers, not just footfall'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'bandar '
+                text: 'Position your organisation within discussions that influence policy direction, commercial alignment, and future investment.'
         type: accordion_set
         enabled: true
       -
         id: mkgi71bo
-        accordion_title: Future-Proofing
+        accordion_title: 'Accelerate partnerships and commercial opportunities'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: americano
+                text: 'Move conversations forward across investment, supplier onboarding, and joint ventures. Structured engagement drives measurable progress.'
         type: accordion_set
         enabled: true
       -
         id: mkgi789v
-        accordion_title: 'Strategic Collaborations'
+        accordion_title: 'Position your organisation with purpose'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'keefo '
+                text: 'Exhibiting reflects commitment beyond presence, reinforcing credibility, intent, and relevance within the UAE’s industrial ecosystem.'
         type: accordion_set
         enabled: true
     tab_information:
@@ -164,50 +164,38 @@ tab_creator:
     accordion_creator:
       -
         id: mkgi6kv0
-        accordion_title: Investor-Centric
+        accordion_title: 'Access to Vast Procurement Opportunities'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
+                text: 'Make it in the Emirates 2026 will present investment opportunities to domestic and local investors. Attendees will gain insights into the UAE’s manufacturing sector, including access to extensive procurement opportunities and integration into the ICV programme.'
         type: accordion_set
         enabled: true
       -
         id: mkgi6vio
-        accordion_title: Innovation-Driven
+        accordion_title: "Demonstrate UAE's Prowess in Manufacturing"
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
+                text: 'By convening key players from various manufacturing sectors, the event aims to strengthen and localize supply chains, fostering collaboration and enhancing the efficiency of domestic production networks.'
         type: accordion_set
         enabled: true
       -
         id: mkgi71bo
-        accordion_title: Future-Proofing
+        accordion_title: 'Accelerate the Integration of Local Manufacturing Supply Chains'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
-        type: accordion_set
-        enabled: true
-      -
-        id: mkgi789v
-        accordion_title: 'Strategic Collaborations'
-        description:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Connects governments, investors, and enablers to create a comprehensive growth engine.'
+                text: 'Experience the power of the UAE’s existing and future manufacturing capabilities highlighting successful projects and applications of advanced technologies.'
         type: accordion_set
         enabled: true
 image: brand/background-(2).png

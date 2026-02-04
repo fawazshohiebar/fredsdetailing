@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770179899
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770183192
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -75,7 +75,7 @@ more_info:
           marks:
             -
               type: bold
-          text: 'ADNEC CENTER '
+          text: 'ADNEC CENTRE'
     -
       type: paragraph
       content:

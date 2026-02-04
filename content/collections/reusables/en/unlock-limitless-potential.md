@@ -2,8 +2,8 @@
 id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770184236
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770184472
 heading:
   -
     type: heading
@@ -51,6 +51,10 @@ tab_creator:
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'Unrivaled Networking & Business Opportunities in UAE Manufacturing'
       -
         type: paragraph

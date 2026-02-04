@@ -18,13 +18,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Spotlight the UAE’s most innovative startups and empower them with visibility, connections, and opportunities for growth.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Start-up Hub is a dynamic platform where entrepreneurs, investors, and industry leaders can collaborate to shape the future of the nation’s industrial ecosystem.'
+                text: 'The Start-up Hub is a launchpad for emerging industrial innovators. It connects founders with investors, partners, and policymakers, spotlighting scalable ideas and real-world solutions. The hub supports growth, collaboration, and access to opportunities within the UAE’s fast-evolving industrial ecosystem.'
         section_image: start-up-hub-.jpg
   -
     type: paragraph
@@ -44,7 +38,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770025532
+updated_at: 1770179999
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 duplicated_from: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4

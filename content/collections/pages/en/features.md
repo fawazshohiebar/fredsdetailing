@@ -1,7 +1,7 @@
 ---
 id: cdc5ab21-7efd-49d2-b81c-cd986636757a
 blueprint: page
-title: Features
+title: Highlights
 page_builder:
   -
     type: set
@@ -56,8 +56,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009550
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770179549
 fine_seo_title: Features
 fine_seo_preview: Features
 ---

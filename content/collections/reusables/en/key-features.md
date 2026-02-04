@@ -17,7 +17,7 @@ heading:
         marks:
           -
             type: bold
-        text: 'Unlock innovation'
+        text: 'Unlock Innovation'
       -
         type: hardBreak
         marks:
@@ -45,7 +45,7 @@ buttons:
     id: mkmk280n
     label: 'Read More'
     design: whitebgblacksvg
-    icon: arrow-down-right
+    icon: arrow-right
     open_new_tab: true
     button_size: fit
     type: new_set
@@ -65,7 +65,7 @@ grid_creator:
     image: _r_30203-(1).jpg
   -
     id: mkmk3k1s
-    heading: 'Industry Museum'
+    heading: 'The Industry Museum'
     type: grid_set
     enabled: true
     image: the-industrialist-museum-(1)-(1)-(1).jpg
@@ -87,7 +87,7 @@ grid_creator:
     heading: 'Start Up Hub'
     type: grid_set
     enabled: true
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770124501
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770202198
 breadcrumb: true
 ---

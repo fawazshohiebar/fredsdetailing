@@ -524,15 +524,15 @@ page_builder:
         partner_words_creator:
           -
             id: mkkpr65n
-            image: icons/gracia-group-logo-(1).png
-            partner_name: 'Gracia Group'
+            image: edge-(2).png
+            partner_name: 'EDGE Group'
             partner_word:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "“'Make it in the Emirates' highlights the United Arab Emirates focus on expanding the industrial sector, including greenhouses and food processing, with government support playing a vital role in Emirati business success.”"
+                    text: '"Aligned with ''Operation 300bn'', EDGE is building a defence industrial base to boost in-country value (ICV) and sovereign capabilities, positioning the UAE as a tech leader and exporter of UAE-made products."'
             type: partner_word_set
             enabled: true
           -
@@ -550,15 +550,15 @@ page_builder:
             enabled: true
           -
             id: mkkpvdw5
-            image: icons/gracia-group-logo-(1).png
-            partner_name: 'Gracia Group'
+            image: g42.png
+            partner_name: 'G42 Healthcare'
             partner_word:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "“'Make it in the Emirates' highlights the United Arab Emirates focus on expanding the industrial sector, including greenhouses and food processing, with government support playing a vital role in Emirati business success.”"
+                    text: '"The UAE''s dynamic landscape is ideal for AI-powered startups, SMEs, and MNCs. With a favorable tax system, world-class infrastructure, and forward-thinking leadership, the UAE is an early adopter of AI in key sectors like healthcare and energy."'
             type: partner_word_set
             enabled: true
           -
@@ -710,7 +710,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770184689
+updated_at: 1770187532
 reusable_popup: false
 fine_seo_title: Miite
 ---

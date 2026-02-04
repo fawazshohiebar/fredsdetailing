@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770201395
+updated_at: 1770202137
 heading:
   -
     type: heading
@@ -65,7 +65,7 @@ tab_creator:
         id: mkgi59w4
         label: 'About Make it in the Emirates'
         design: whiteoutlined
-        icon: arrow-down-right
+        icon: arrow-right
         open_new_tab: false
         button_size: fit
         type: button_set
@@ -159,7 +159,7 @@ tab_creator:
         id: mkgi59w4
         label: 'About Make it in the Emirates'
         design: whiteoutlined
-        icon: arrow-down-right
+        icon: arrow-right
         open_new_tab: false
         button_size: fit
         type: button_set

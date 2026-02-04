@@ -46,7 +46,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770189887
+updated_at: 1770189896
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'

@@ -46,17 +46,17 @@ hero_actions:
     type: button
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770189896
+updated_at: 1770203049
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
   design: whitebgblacksvg
-  icon: arrow-down-right
+  icon: arrow-right
   open_new_tab: true
   button_size: null
 second_button:
   link: null
-  label: 'JOIN US : MAKE IT IN THE EMIRATES 2026'
+  label: 'JOIN US: MAKE IT IN THE EMIRATES 2026'
   design: whiteoutlined
   icon: none
   open_new_tab: true

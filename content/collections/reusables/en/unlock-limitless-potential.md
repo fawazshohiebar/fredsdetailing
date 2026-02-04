@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770190260
+updated_at: 1770190314
 heading:
   -
     type: heading
@@ -133,6 +133,8 @@ tab_creator:
             text: 'Are you looking to expand your brand’s presence in the UAE’s booming manufacturing sector? Make it in the Emirates 2026 is the premier platform to showcase your products, services, and innovations to a highly targeted audience of industry leaders, government officials, and global investors.'
           -
             type: hardBreak
+      -
+        type: paragraph
       -
         type: paragraph
         content:

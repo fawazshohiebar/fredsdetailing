@@ -89,14 +89,14 @@ page_builder:
           link: null
           label: 'About Make it in the Emirates'
           design: whitebgblacksvg
-          icon: chevron-right
+          icon: arrow-right
           open_new_tab: false
           button_size: null
         registration_button:
           link: null
           label: 'Visitor Registration'
           design: greengradient
-          icon: chevron-right
+          icon: arrow-right
           open_new_tab: false
           button_size: null
         button_redirecting:
@@ -107,7 +107,7 @@ page_builder:
             type: new_set
             enabled: true
             design: blackbggroup
-            icon: chevron-right
+            icon: arrow-right
           -
             id: ml7peb1t
             label: 'Enquire to Exhibit'
@@ -750,7 +750,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770203056
+updated_at: 1770203185
 reusable_popup: false
 fine_seo_title: Miite
 ---

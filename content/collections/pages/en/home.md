@@ -102,6 +102,14 @@ page_builder:
         button_redirecting:
           -
             id: mkfhaca0
+            label: 'Download Sales Brochure'
+            open_new_tab: true
+            type: new_set
+            enabled: true
+            design: blackbggroup
+            icon: arrow-up-right
+          -
+            id: ml7peb1t
             label: 'Enquire to Exhibit'
             open_new_tab: false
             type: new_set
@@ -560,7 +568,7 @@ page_builder:
                     type: text
                     text: '"The UAE''s dynamic landscape is ideal for AI-powered startups, SMEs, and MNCs. With a favorable tax system, world-class infrastructure, and forward-thinking leadership, the UAE is an early adopter of AI in key sectors like healthcare and energy."'
             type: partner_word_set
-            enabled: true
+            enabled: false
           -
             id: mkkpvcg0
             image: schneider-(1).png
@@ -723,7 +731,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770189769
+updated_at: 1770190012
 reusable_popup: false
 fine_seo_title: Miite
 ---

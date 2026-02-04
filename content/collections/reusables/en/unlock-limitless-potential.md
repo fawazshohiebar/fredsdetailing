@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770183949
+updated_at: 1770183973
 heading:
   -
     type: heading
@@ -18,7 +18,7 @@ heading:
           -
             type: textColor
             attrs:
-              color: '#D8DCE3'
+              color: '#fff'
         text: Unlock
   -
     type: heading
@@ -33,7 +33,7 @@ heading:
           -
             type: textColor
             attrs:
-              color: '#D8DCE3'
+              color: '#fff'
         text: ' Limitless Potential'
 background: bgimg
 tab_creator:

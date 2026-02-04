@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770190843
+updated_at: 1770201322
 heading:
   -
     type: heading
@@ -55,7 +55,7 @@ tab_creator:
                 type: textColor
                 attrs:
                   color: '#fff'
-            text: 'Unrivaled Networking & Business Opportunities in UAE Manufacturing'
+            text: 'Unrivalled Access to Partnerships, Projects, and Growth Opportunities in the UAE'
       -
         type: paragraph
     type: tab_set
@@ -73,50 +73,50 @@ tab_creator:
     accordion_creator:
       -
         id: mkgi6kv0
-        accordion_title: 'Build on proven momentum from 2025'
+        accordion_title: 'Be in the Room Where Deals Begin'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Make it in the Emirates returns with a sharper focus on industrial growth and long-term value creation. Be part of a platform built to deliver outcomes.'
+                text: 'Meet buyers, manufacturers, and investors entering discussions that lead to partnerships, contracts, and growth.'
         type: accordion_set
         enabled: true
       -
         id: mkgi6vio
-        accordion_title: 'Access real decision-makers, not just footfall'
+        accordion_title: 'Grow Your Business from One of the World’s Most Accessible Markets to Operate In'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Position your organisation within discussions that influence policy direction, commercial alignment, and future investment.'
+                text: 'The UAE provides a stable regulatory framework, efficient company set-up, and zero corporate tax for qualifying activities, giving businesses the confidence to invest and grow.'
         type: accordion_set
         enabled: true
       -
         id: mkgi71bo
-        accordion_title: 'Accelerate partnerships and commercial opportunities'
+        accordion_title: 'Expand into Global Markets from the UAE'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Move conversations forward across investment, supplier onboarding, and joint ventures. Structured engagement drives measurable progress.'
+                text: 'Exhibit in a market designed for export growth, with strong logistics, integrated supply chains, and trade agreements that help UAE-based production reach international customers.'
         type: accordion_set
         enabled: true
       -
-        id: mkgi789v
-        accordion_title: 'Position your organisation with purpose'
+        id: ml7w3k2u
+        accordion_title: 'Turn Capability into Commercial Outcomes'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Exhibiting reflects commitment beyond presence, reinforcing credibility, intent, and relevance within the UAE’s industrial ecosystem.'
+                text: 'Present your solutions in a platform built for action, where conversations move beyond ideas into partnerships, contracts, and long-term growth.'
         type: accordion_set
         enabled: true
     tab_information:
@@ -178,38 +178,50 @@ tab_creator:
     accordion_creator:
       -
         id: mkgi6kv0
-        accordion_title: 'Access to Vast Procurement Opportunities'
+        accordion_title: 'Meet Companies Ready to Deliver'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Make it in the Emirates 2026 will present investment opportunities to domestic and local investors. Attendees will gain insights into the UAE’s manufacturing sector, including access to extensive procurement opportunities and integration into the ICV programme.'
+                text: 'Engage directly with manufacturers, suppliers, and technology providers offering proven capabilities and scalable solutions.'
         type: accordion_set
         enabled: true
       -
         id: mkgi6vio
-        accordion_title: "Demonstrate UAE's Prowess in Manufacturing"
+        accordion_title: 'Explore Live Industrial and Investment Opportunities'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'By convening key players from various manufacturing sectors, the event aims to strengthen and localize supply chains, fostering collaboration and enhancing the efficiency of domestic production networks.'
+                text: 'Discover projects, procurement pathways, and partnerships aligned with national priorities and ready for execution.'
         type: accordion_set
         enabled: true
       -
         id: mkgi71bo
-        accordion_title: 'Accelerate the Integration of Local Manufacturing Supply Chains'
+        accordion_title: 'Source from a Global Manufacturing and Export Hub'
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Experience the power of the UAE’s existing and future manufacturing capabilities highlighting successful projects and applications of advanced technologies.'
+                text: 'Access suppliers and partners operating from the UAE, a market built for efficient production, strong logistics, and global reach.'
+        type: accordion_set
+        enabled: true
+      -
+        id: ml7w5dsv
+        accordion_title: 'Turn Conversations into Action'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Use the platform to progress discussions into sourcing decisions, partnerships, and next steps that extend beyond the show floor.'
         type: accordion_set
         enabled: true
     tab_information:
@@ -223,6 +235,6 @@ tab_creator:
                 type: textColor
                 attrs:
                   color: '#fff'
-            text: 'Make it in the Emirates is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organisations localizing their manufacturing value chains.'
+            text: 'Visiting Make it in the Emirates 2026 places you at the centre of the UAE’s industrial ambition, where national priorities, investment opportunities, and real business decisions come together. Designed to deliver practical outcomes, the platform brings together manufacturers, solution providers, government entities, and investors shaping the next phase of industrial growth. '
 image: brand/background-(2).png
 ---

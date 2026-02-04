@@ -89,14 +89,14 @@ page_builder:
           link: null
           label: 'About Make it in the Emirates'
           design: whitebgblacksvg
-          icon: arrow-down-right
+          icon: arrow-right
           open_new_tab: false
           button_size: null
         registration_button:
           link: null
           label: 'Visitor Registration'
           design: greengradient
-          icon: arrow-up-right
+          icon: arrow-right
           open_new_tab: false
           button_size: null
         button_redirecting:
@@ -107,7 +107,7 @@ page_builder:
             type: new_set
             enabled: true
             design: blackbggroup
-            icon: arrow-up-right
+            icon: chevron-right
           -
             id: ml7peb1t
             label: 'Enquire to Exhibit'
@@ -115,7 +115,7 @@ page_builder:
             type: new_set
             enabled: true
             design: blackbggroup
-            icon: arrow-up-right
+            icon: arrow-right
           -
             id: mkfhadkn
             label: 'Enquire to Sponsor'
@@ -123,7 +123,7 @@ page_builder:
             type: new_set
             enabled: true
             design: blackbggroup
-            icon: arrow-up-right
+            icon: arrow-right
         background: bgcolor
         background_color: light-accent
         description:
@@ -213,7 +213,7 @@ page_builder:
           link: null
           label: 'View All 91 Speakers'
           design: whitebgblacksvg
-          icon: arrow-down-right
+          icon: arrow-right
           open_new_tab: false
           button_size: fit
         background: bgcolor
@@ -270,7 +270,7 @@ page_builder:
           link: null
           label: 'Find Out More'
           design: whitebgblacksvg
-          icon: arrow-down-right
+          icon: arrow-right
           open_new_tab: true
           button_size: fit
         grid_items:
@@ -750,7 +750,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770201519
+updated_at: 1770202798
 reusable_popup: false
 fine_seo_title: Miite
 ---

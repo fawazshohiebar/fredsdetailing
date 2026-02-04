@@ -132,23 +132,42 @@ page_builder:
             content:
               -
                 type: text
+                text: 'Marking its fifth anniversary,'
+              -
+                type: text
                 marks:
                   -
                     type: textColor
                     attrs:
                       color: '#E7443C'
-                text: 'Make it in the Emirates 2025'
+                text: ' '
               -
                 type: text
-                text: ' concluded as a landmark edition, solidifying its position as the UAE’s premier event for industrial growth and investment.'
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#000'
+                text: 'Make it in the Emirates 2026'
+              -
+                type: text
+                text: ', stands as the UAE’s flagship platform for delivering national industrial transformation, designed to convert ambition into production and deliver industrial growth at scale.'
           -
             type: paragraph
             content:
               -
-                type: hardBreak
+                type: text
+                text: ' '
+          -
+            type: paragraph
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue, the 2025 edition reinforced the UAE’s position as a global hub for advanced, sustainable manufacturing.'
+                text: 'Aligned with the UAE’s industrial strategy, Make it in the Emirates is where advanced technology, national ambition, and execution converge. The platform strengthens local manufacturing, deepens industrial value chains, and enables companies of all sizes to manufacture, scale and export from the UAE.'
   -
     type: set
     attrs:
@@ -731,7 +750,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770190012
+updated_at: 1770201519
 reusable_popup: false
 fine_seo_title: Miite
 ---

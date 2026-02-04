@@ -563,7 +563,7 @@ page_builder:
             enabled: true
           -
             id: mkkpvcg0
-            image: schneider.png
+            image: schneider-(1).png
             partner_name: 'Schneider Electric'
             partner_word:
               -
@@ -572,6 +572,19 @@ page_builder:
                   -
                     type: text
                     text: '"MoIAT is transforming the UAE into a global Industry 4.0 hub, focusing on advanced technologies and sustainable factories. We proudly support its initiatives to shape future-ready industries in the UAE.'
+            type: partner_word_set
+            enabled: true
+          -
+            id: ml7osazw
+            image: schneider-(1).png
+            partner_name: 'Emirates Global Aluminium'
+            partner_word:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '"Our collaboration with MoIAT and the In-Country Value program helps Emirates Global Aluminium grow its local economic contribution, currently at 1.4% of the UAE economy, and supports the goals of Operation 300bn."'
             type: partner_word_set
             enabled: true
         breadcrumb: false
@@ -710,7 +723,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770188530
+updated_at: 1770189097
 reusable_popup: false
 fine_seo_title: Miite
 ---

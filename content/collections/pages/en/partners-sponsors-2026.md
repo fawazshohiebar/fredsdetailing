@@ -297,6 +297,57 @@ page_builder:
             type: button_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: mlf5loiw
+      values:
+        type: call_to_action
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ADNEC
+        section_label:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Organiser '
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'ADNEC Centre Abu Dhabi is a multi-award winning venue offering organisers of exhibitions, conferences, and events outstanding facilities spread over a total space of 153,678 square metres. This includes versatile spaces suitable for medium to large scale conferences of up to 6,000 people, 13 exhibition halls, a stunning banqueting facility, in addition to ‘The Hive’, an award-winning innovative meeting space and engaging environment, as well as outdoor space which includes a grandstand and an impressive Marina'
+        section_image: adnec-group-a-modon-company-(1)-(1).png
+        buttons:
+          -
+            id: ml0h2p1r
+            link: 'https://www.adnoc.ae/'
+            label: 'Visit Website'
+            design: whitebgblacksvg
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -313,8 +364,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009547
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770641638
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

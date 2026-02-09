@@ -45,7 +45,7 @@ fields:
       type: replicator
       display: 'Statistics Creator'
       localizable: true
-      max_sets: 4
+      max_sets: 5
       sets:
         new_set_group:
           display: 'New Set Group'

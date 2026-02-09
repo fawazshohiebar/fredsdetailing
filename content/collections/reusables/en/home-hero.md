@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770203049
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770636827
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -206,6 +206,33 @@ statistics_creator:
     enabled: true
   -
     id: mkwg96jx
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '92,000'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: sqm
+    stats_intro: 'Gross Exhibition Space'
+    type: stats_set
+    enabled: true
+  -
+    id: mlf3g600
     numbers:
       -
         type: heading

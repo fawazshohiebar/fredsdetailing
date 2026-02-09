@@ -211,7 +211,7 @@ page_builder:
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
         button_group:
           link: null
-          label: 'View All 91 Speakers'
+          label: 'View All Speakers'
           design: whitebgblacksvg
           icon: arrow-right
           open_new_tab: false
@@ -750,7 +750,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770640356
+updated_at: 1770640385
 reusable_popup: false
 fine_seo_title: Miite
 ---

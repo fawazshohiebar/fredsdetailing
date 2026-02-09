@@ -13,12 +13,12 @@ heading:
         marks:
           -
             type: bold
-        text: Advanced
+        text: ADVANCED
       -
         type: hardBreak
       -
         type: text
-        text: Industries
+        text: INDUSTRY
       -
         type: text
         marks:
@@ -32,7 +32,7 @@ heading:
         marks:
           -
             type: bold
-        text: 'Turbo – Charged.'
+        text: 'TURBO – CHARGED.'
   -
     type: paragraph
 video: c7tKPy5LoP8
@@ -46,7 +46,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770640300
+updated_at: 1770640342
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'

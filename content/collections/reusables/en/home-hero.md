@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770636827
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770640300
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -151,6 +151,33 @@ statistics_creator:
     type: stats_set
     enabled: true
   -
+    id: mlf3g600
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '1,200'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#E7443C'
+            text: +
+    stats_intro: Exhibitors
+    type: stats_set
+    enabled: true
+  -
     id: mkwg8lxp
     numbers:
       -
@@ -206,33 +233,6 @@ statistics_creator:
     enabled: true
   -
     id: mkwg96jx
-    numbers:
-      -
-        type: heading
-        attrs:
-          level: 5
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '92,000'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: '#E7443C'
-            text: sqm
-    stats_intro: 'Gross Exhibition Space'
-    type: stats_set
-    enabled: true
-  -
-    id: mlf3g600
     numbers:
       -
         type: heading

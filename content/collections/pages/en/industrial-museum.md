@@ -19,6 +19,7 @@ page_builder:
               -
                 type: text
                 text: 'The Industry Museum will bring the UAE’s industrial journey to life, showcasing landmark achievements, national champions, and future ambitions. Through immersive storytelling and interactive displays, visitors gain a clear view of how industry is shaping economic growth, resilience, and opportunity across the country.'
+        section_image: the-industrialist-museum-(1)-(1)-(2).jpg
   -
     type: paragraph
     attrs:
@@ -37,7 +38,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770179947
+updated_at: 1770727692
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 duplicated_from: ac885f0f-1521-4be4-b591-b5f531231678

@@ -4,7 +4,9 @@ blueprint: sponsor
 title: 'Enablement Partner'
 sponsor_link: 'https://www.adportsgroup.com/'
 sponsors_logos: sponsors/ad-ports-logo.png
+sponsor_level:
+  - second-level
 badge: false
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770703805
+updated_at: 1770703822
 ---

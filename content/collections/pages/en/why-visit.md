@@ -27,18 +27,6 @@ page_builder:
                     attrs:
                       color: redgrad
                 text: 'The Powerhouse for Global Industrial Excellence'
-        section_label:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'WHY VISIT?'
         description:
           -
             type: paragraph
@@ -105,7 +93,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770699278
+updated_at: 1770699539
 fine_seo_title: 'Why Visit'
 fine_seo_preview: 'Why Visit'
 ---

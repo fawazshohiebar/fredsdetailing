@@ -232,15 +232,7 @@ page_builder:
       values:
         type: reusable_block
         entry:
-          - e9f25ff3-480e-40c1-8039-9f7ad67620ec
-  -
-    type: set
-    attrs:
-      id: mlg9rdi5
-      values:
-        type: reusable_block
-        entry:
-          - e9f25ff3-480e-40c1-8039-9f7ad67620ec
+          - 7b953808-6890-4d45-862e-eda10f45daff
   -
     type: set
     attrs:
@@ -767,8 +759,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770721644
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770722316
 reusable_popup: false
 fine_seo_title: Miite
 ---

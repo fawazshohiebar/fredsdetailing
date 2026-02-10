@@ -1,8 +1,7 @@
 ---
 id: 3799b6c9-b451-4438-8a56-8e20a2e0013d
-published: false
 blueprint: page
-title: 'Download 2025 Post Show Report (Duplicated)'
+title: 'Download 2026 Sales Brochure'
 page_builder:
   -
     type: set
@@ -22,10 +21,11 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Download 2025 Post Show Report'
-        form: download_2025_post_show_report
+                text: 'Download 2026 Sales Brochure'
+        form: download_brochure_2025
         show_labels: true
-        redirect_to_url: 'asset::assets::pdf-folder/miite25_post-show-report.pdf'
+        redirect_to_url: 'asset::assets::pdf-folder/miite-2026-brochure_cp.pdf'
+        success_message: 'Thank you for your interest in Make it in the Emirates. Our team will be in touch shortly.'
   -
     type: paragraph
     attrs:
@@ -44,7 +44,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770719538
+updated_at: 1770719947
 fine_seo_title: 'Enquire to Exhibit'
 fine_seo_preview: 'Enquire to Exhibit'
 duplicated_from: f70db887-b022-4d76-99f5-e71ed696ac58

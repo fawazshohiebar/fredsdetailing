@@ -387,6 +387,7 @@ page_builder:
     type: set
     attrs:
       id: mlg8230i
+      enabled: false
       values:
         type: cta_grid
         grid_version: v2
@@ -504,6 +505,69 @@ page_builder:
             type: grid_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: mlg8i680
+      values:
+        type: call_to_action
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'International Holding Company'
+        section_label:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Investment Partner'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Established in 1999, IHC has become the most valuable holding company in the Middle East and one of world’s largest investment firms, with a market capitalization of AED 876.5 billion (USD 238.5 billion). Since then, it has transformed to represent a new generation of investors. IHC’s commitment to sustainability, innovation, and economic diversification spans over 1,200 subsidiaries, driving growth across industries like Asset Management, Healthcare, Real Estate, Financial Services, IT, and more.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'IHC continually looks beyond the stand-alone value of its assets for opportunities, stepping outside of traditional approaches and artificial barriers to unlock opportunities across its portfolio, enabling sector-agnostic Dynamic Value Networks and creating results that are often much greater than the sum of their parts.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'At IHC, we take our responsibility to shareholders, customers, and employees seriously. Our commitment to responsible investment ensures that we create sustainable value by staying connected to the communities we serve, making a positive difference with every investment.'
+        section_image: sponsors/ihc-logo-trans-color.png
+        buttons:
+          -
+            id: mlg8n5ba
+            link: 'https://www.ihcuae.com/'
+            label: 'Visit Website'
+            design: whiteoutlined
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -521,7 +585,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770705612
+updated_at: 1770706092
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

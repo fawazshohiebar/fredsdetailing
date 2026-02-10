@@ -1,6 +1,5 @@
 ---
 id: cabc7362-fac9-46ad-962c-4209557ab113
-published: false
 blueprint: page
 title: 'Enquire to Sponsor'
 page_builder:
@@ -47,7 +46,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770717313
+updated_at: 1770717320
 fine_seo_title: 'Enquire to Exhibit'
 fine_seo_preview: 'Enquire to Exhibit'
 duplicated_from: 38daf340-86e2-4d56-8408-b2abce79f7db

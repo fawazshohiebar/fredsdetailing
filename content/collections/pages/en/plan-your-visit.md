@@ -129,11 +129,12 @@ page_builder:
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: arrow-down-right
+                icon: arrow-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
+                link: 'President Joko Widodo St - Al Rawdah - W59 01 - Abu Dhabi'
             type: new_set
             enabled: true
           -
@@ -144,11 +145,12 @@ page_builder:
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: arrow-down-right
+                icon: arrow-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
+                link: 'https://maps.app.goo.gl/VN4rvbMvLqjmCXoH7'
             type: new_set
             enabled: true
           -
@@ -159,11 +161,12 @@ page_builder:
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: arrow-down-right
+                icon: arrow-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
+                link: 'https://maps.app.goo.gl/8wN3MGH5QhebWdrd8'
             type: new_set
             enabled: true
           -
@@ -174,11 +177,12 @@ page_builder:
                 id: ml53pktl
                 label: 'Get directions'
                 design: whitebgblacksvg
-                icon: arrow-down-right
+                icon: arrow-right
                 open_new_tab: true
                 button_size: fit
                 type: new_set
                 enabled: true
+                link: 'https://maps.app.goo.gl/T2YXCokwuWyGKbZg8'
             type: new_set
             enabled: true
         background: bgcolor
@@ -201,7 +205,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770105738
+updated_at: 1770718002
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

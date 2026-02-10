@@ -6,6 +6,23 @@ page_builder:
   -
     type: set
     attrs:
+      id: mlg7rzwp
+      values:
+        type: heading_group
+        heading:
+          heading:
+            text: 'Strategic Partners'
+            size: small
+            color: black
+            tag: p
+            uppercase: false
+          subheading: null
+          focus_icon: false
+          heading_focus_word: null
+          icon: null
+  -
+    type: set
+    attrs:
       id: mknll56p
       enabled: false
       values:
@@ -364,8 +381,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770641638
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1770704566
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

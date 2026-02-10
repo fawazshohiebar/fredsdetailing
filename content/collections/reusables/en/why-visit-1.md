@@ -1,10 +1,9 @@
 ---
 id: ad9887da-c222-4817-9af6-cba4a6eb2345
-published: false
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse (Duplicated)'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770717052
+updated_at: 1770722356
 heading:
   -
     type: heading
@@ -118,6 +117,98 @@ tab_creator:
                 attrs:
                   color: '#fff'
             text: 'Visiting Make it in the Emirates 2026 places you at the centre of the UAE’s industrial ambition, where national priorities, investment opportunities, and real business decisions come together. Designed to deliver practical outcomes, the platform brings together manufacturers, solution providers, government entities, and investors shaping the next phase of industrial growth.'
+  -
+    id: mlgi89jv
+    tab_title: 'Why Exhibit'
+    tab_description:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'Unlock Limitless Potential'
+    tab_information:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: "Make it in the Emirates 2026 is the UAE's leading platform for organisations looking to grow, connect, and contribute to long-term national progress, bringing together industry leaders, policymakers, and global investors to enable meaningful engagement, collaboration, and opportunity at scale. With a highly targeted audience of decision-makers, the platform supports strategic partnerships, focused commercial dialogue, and increased visibility for organisations ready to play a role in the UAE's evolving industrial landscape."
+    button_container:
+      -
+        id: mlgiblr7
+        link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
+        label: 'Enquire to exhibit'
+        design: whitebgblacksvg
+        icon: arrow-right
+        open_new_tab: true
+        type: button_set
+        enabled: true
+    accordion_creator:
+      -
+        id: mlgic441
+        accordion_title: 'Be in the Room Where Deals Begin'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Meet buyers, manufacturers, and investors entering discussions that lead to partnerships, contracts, and growth.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgicchi
+        accordion_title: 'Grow Your Business from One of the World’s Easiest Markets to Operate In'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The UAE offers a supportive business environment with straightforward set-up, favourable regulations, and zero corporate tax for qualifying activities, making it easier to invest, operate, and scale.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgicnlv
+        accordion_title: 'Expand into Global Markets from the UAE'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Exhibit in a market designed for export growth, with strong logistics, integrated supply chains, and trade agreements that help UAE-based production reach international customers.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgid156
+        accordion_title: 'Turn Capability into Commercial Outcomes'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Present your solutions in a platform built for action, where conversations move beyond ideas into partnerships, contracts, and long-term growth.'
+        type: accordion_set
+        enabled: true
+    type: tab_set
+    enabled: true
 image: brand/background-(2).png
 duplicated_from: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 ---

@@ -46,7 +46,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770707244
+updated_at: 1770721281
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -57,7 +57,7 @@ first_button:
 second_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'
-  design: greengradient
+  design: whitebgblacksvg
   icon: arrow-right
   open_new_tab: true
   button_size: fit

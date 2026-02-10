@@ -108,6 +108,7 @@ page_builder:
             enabled: true
             design: blackbggroup
             icon: arrow-right
+            link: 'entry::f70db887-b022-4d76-99f5-e71ed696ac58'
           -
             id: ml7peb1t
             label: 'Enquire to Exhibit'
@@ -121,11 +122,12 @@ page_builder:
           -
             id: mkfhadkn
             label: 'Enquire to Sponsor'
-            open_new_tab: false
+            open_new_tab: true
             type: new_set
             enabled: true
             design: blackbggroup
             icon: arrow-right
+            link: 'entry::cabc7362-fac9-46ad-962c-4209557ab113'
         background: bgcolor
         background_color: light-accent
         description:
@@ -843,7 +845,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770708682
+updated_at: 1770719485
 reusable_popup: false
 fine_seo_title: Miite
 ---

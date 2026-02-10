@@ -62,6 +62,55 @@ page_builder:
             type: button_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: mlg6fqjt
+      values:
+        type: cta_grid
+        background: bgcolor
+        background_color: secondary
+        grid_version: v1
+        grid_heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: dkjaskdjash
+        grid_set_replicator:
+          -
+            id: mlg6fvuf
+            grid_images: features/features-bg.png
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: lkjhg
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: lkjhg
+            type: grid_set
+            enabled: true
+          -
+            id: mlg6g4s0
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: ;lkjhgv
+            type: grid_set
+            enabled: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -78,6 +127,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770700398
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770702337
+fine_seo_title: 'Why Exhibit'
+fine_seo_preview: 'Why Exhibit'
 ---

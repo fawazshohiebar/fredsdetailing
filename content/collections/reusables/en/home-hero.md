@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770721287
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770721414
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -244,7 +244,7 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '92,000'
+            text: '84,000'
           -
             type: text
             marks:
@@ -255,7 +255,7 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: sqm
-    stats_intro: 'Gross Exhibition Space'
+    stats_intro: 'Exhibition Space'
     type: stats_set
     enabled: true
 video_link: 1AJpPJ1AcUs

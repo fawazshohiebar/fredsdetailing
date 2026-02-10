@@ -72,15 +72,17 @@ page_builder:
         grid_version: v2
         grid_heading:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
-                text: dkjaskdjash
+                text: 'Why Exhibit'
         grid_set_replicator:
           -
             id: mlg6fvuf
-            grid_images: features/features-bg.png
+            grid_images: abi02537-(1).jpg
             number_of_stars: '0'
             grid_heading:
               -
@@ -121,6 +123,7 @@ page_builder:
                   -
                     type: text
                     text: 'Place your business at the heart of the industry as a leading voice and brand in your industry'
+            grid_images: mr6_6376-(1).jpg
           -
             id: mlg6tavv
             number_of_stars: '0'
@@ -142,6 +145,7 @@ page_builder:
                     text: 'Take advantage of our buyers program and meet investors ready to take your business to the next level'
             type: grid_set
             enabled: true
+            grid_images: dsc_9523-(1).jpg
   -
     type: paragraph
     attrs:
@@ -160,7 +164,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770703086
+updated_at: 1770703971
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

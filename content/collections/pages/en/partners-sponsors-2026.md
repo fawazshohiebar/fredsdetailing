@@ -561,7 +561,7 @@ page_builder:
             id: mlg8n5ba
             link: 'https://www.ihcuae.com/'
             label: 'Visit Website'
-            design: whiteoutlined
+            design: whitebgblacksvg
             icon: arrow-down-right
             open_new_tab: true
             button_size: fit
@@ -585,7 +585,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770706092
+updated_at: 1770706185
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

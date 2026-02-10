@@ -256,7 +256,7 @@ page_builder:
       id: ml0h0xni
       values:
         type: call_to_action
-        text_image_alignment: v1
+        text_image_alignment: v2
         spaces: p
         heading_text:
           -
@@ -364,6 +364,8 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        background: bgcolor
+        background_color: light-accent
   -
     type: paragraph
     attrs:
@@ -382,7 +384,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770704566
+updated_at: 1770704678
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

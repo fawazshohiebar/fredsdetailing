@@ -3,7 +3,7 @@ id: ad9887da-c222-4817-9af6-cba4a6eb2345
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse (Duplicated)'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770722567
+updated_at: 1770722712
 heading:
   -
     type: heading
@@ -141,7 +141,7 @@ tab_creator:
       -
         id: mkgi59w4
         label: 'Register to Visit'
-        design: greengradient
+        design: whitebgblacksvg
         icon: arrow-right
         open_new_tab: true
         button_size: fit

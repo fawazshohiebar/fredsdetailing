@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'Unlock Limitless Potential'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770202137
+updated_at: 1770704120
 heading:
   -
     type: heading
@@ -63,13 +63,14 @@ tab_creator:
     button_container:
       -
         id: mkgi59w4
-        label: 'About Make it in the Emirates'
+        label: 'Enquire to exhibit'
         design: whiteoutlined
         icon: arrow-right
-        open_new_tab: false
+        open_new_tab: true
         button_size: fit
         type: button_set
         enabled: true
+        link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
     accordion_creator:
       -
         id: mkgi6kv0

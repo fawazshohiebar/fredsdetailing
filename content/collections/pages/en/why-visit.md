@@ -54,7 +54,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-        section_image: screenshot-2024-12-15-233403.png
+        section_image: 20-05-2025_adnec_25.jpg
         buttons:
           -
             id: mknl4xke
@@ -105,7 +105,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770698470
+updated_at: 1770699278
 fine_seo_title: 'Why Visit'
 fine_seo_preview: 'Why Visit'
 ---

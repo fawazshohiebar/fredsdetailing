@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770708595
+updated_at: 1770708641
 heading:
   -
     type: heading
@@ -40,7 +40,7 @@ tab_creator:
                 type: textColor
                 attrs:
                   color: '#fff'
-            text: 'The Powerhouse for Global Industrial Excellence'
+            text: 'See how the Emirates grew from its first factories into a global industrial powerhouse, and discover what comes next.'
     type: tab_set
     enabled: true
     button_container:

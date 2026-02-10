@@ -568,6 +568,77 @@ page_builder:
             type: button_set
             enabled: true
   -
+    type: set
+    attrs:
+      id: mlg8sfpb
+      values:
+        type: call_to_action
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Emirates Development Bank (EDB)​'
+        section_label:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Enablement Partner'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Emirates Development Bank (EDB) is the key financial engine of economic development and industrial transformation in the UAE and the key enabler of the nation’s industrial development strategy. EDB provides financial and non-financial support to businesses of all sizes from start-ups and SMEs to large corporates, driving economic competitiveness and business growth. The Bank strives to maximize national economic impact and contributions to non-oil GDP, national employment, and in-country value generation by financing the right transactions that drive development across five priority sectors: Manufacturing, Food Security, Healthcare, Advanced Technology, and Renewables.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'As the only development bank in the UAE, EDB focuses on economic impact over profitability and fosters partnerships to extend the reach of its services to a wider spectrum of businesses, driving economic resilience and competitiveness.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Beyond its financing products, EDB provides a range of non-financial solutions ranging from financial literacy training to mentoring and business operations guidance tailored to the needs of entrepreneurs and SMEs to drive their contribution to the national economy.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To help kick-start businesses for startups, EDB also offers seamless and quick account opening services and loan applications via its Business Banking App.'
+        section_image: sponsors/edb-logo.png
+        buttons:
+          -
+            id: mlg8n5ba
+            link: 'https://www.edb.gov.ae/'
+            label: 'Visit Website'
+            design: whitebgblacksvg
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
+        background: bgcolor
+        background_color: light-accent
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -585,7 +656,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770706185
+updated_at: 1770706377
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

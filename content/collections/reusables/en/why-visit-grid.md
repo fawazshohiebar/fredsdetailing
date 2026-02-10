@@ -41,14 +41,15 @@ featured_activities:
 buttons_groups:
   -
     id: mknlcnyq
-    label: 'Register your interest to visit'
-    icon: arrow-down-right
-    open_new_tab: false
+    label: 'Register to visit'
+    icon: arrow-right
+    open_new_tab: true
     type: button
     enabled: true
     design: whitebgblacksvg
     button_size: fit
+    link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770031718
+updated_at: 1770706844
 breadcrumb: false
 ---

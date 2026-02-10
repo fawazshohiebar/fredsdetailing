@@ -86,18 +86,18 @@ page_builder:
                 type: text
                 text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue, the 2025 edition reinforced the UAE’s position as a global hub for advanced, sustainable manufacturing.'
         fancy_button_group:
-          link: null
+          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
           label: 'About Make it in the Emirates'
           design: whitebgblacksvg
           icon: arrow-right
-          open_new_tab: false
+          open_new_tab: true
           button_size: null
         registration_button:
-          link: null
-          label: 'Visitor Registration'
+          link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
+          label: 'Register to Visit'
           design: greengradient
           icon: arrow-right
-          open_new_tab: false
+          open_new_tab: true
           button_size: null
         button_redirecting:
           -
@@ -205,16 +205,18 @@ page_builder:
                 text: 'and Innovation'
         speakers_entries:
           - 03c97f84-a9fc-469c-9bf7-169e3afabe80
+          - 01838dac-298c-42d4-af0c-6d774215f115
+          - 03628c9e-2a63-4bed-9988-3a6bf3547e03
           - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
           - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
           - 1e514d00-ca53-462f-81c1-b6eed474b17d
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
         button_group:
-          link: null
+          link: 'entry::886de752-6b15-4b12-9365-925f3781935e'
           label: 'View All Speakers'
           design: whitebgblacksvg
           icon: arrow-right
-          open_new_tab: false
+          open_new_tab: true
           button_size: fit
         background: bgcolor
         background_color: light-secondary
@@ -830,8 +832,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770704310
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770706135
 reusable_popup: false
 fine_seo_title: Miite
 ---

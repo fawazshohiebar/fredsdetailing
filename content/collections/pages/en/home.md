@@ -98,7 +98,7 @@ page_builder:
           design: greengradient
           icon: arrow-right
           open_new_tab: true
-          button_size: null
+          button_size: fit
         button_redirecting:
           -
             id: mkfhaca0
@@ -232,7 +232,7 @@ page_builder:
       values:
         type: reusable_block
         entry:
-          - 7b953808-6890-4d45-862e-eda10f45daff
+          - ad9887da-c222-4817-9af6-cba4a6eb2345
   -
     type: set
     attrs:
@@ -759,8 +759,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770722316
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770722481
 reusable_popup: false
 fine_seo_title: Miite
 ---

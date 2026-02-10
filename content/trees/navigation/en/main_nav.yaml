@@ -13,6 +13,17 @@ tree:
         id: 7b38bbb4-3e01-40ae-86cc-dece99b8d9da
         entry: 394e9a07-b845-4538-9872-92213381e955
   -
+    id: bdf4887e-56e7-4152-9653-e56c0867efd4
+    title: 'Sponsor & Exhibit'
+    children:
+      -
+        id: d52dab1a-6056-43c8-a7f1-0c1b79110931
+        entry: 38daf340-86e2-4d56-8408-b2abce79f7db
+      -
+        id: 55aa2355-0baf-4f46-ac6f-b1f1b3c1ae4d
+        entry: 117255ff-a479-4010-be88-7e6eedbf2b3c
+        title: 'MIITE 2026 Brochure'
+  -
     id: 5b640c8a-9536-41c1-8774-06e34e10e693
     title: Visit
     children:
@@ -54,17 +65,6 @@ tree:
   -
     id: b1f7b231-03e0-4033-9fe8-2c20b755591d
     entry: 66943f73-fee3-4e30-bc72-de33101d79dc
-  -
-    id: bdf4887e-56e7-4152-9653-e56c0867efd4
-    title: 'Sponsor & Exhibit'
-    children:
-      -
-        id: d52dab1a-6056-43c8-a7f1-0c1b79110931
-        entry: 38daf340-86e2-4d56-8408-b2abce79f7db
-      -
-        id: 55aa2355-0baf-4f46-ac6f-b1f1b3c1ae4d
-        entry: 117255ff-a479-4010-be88-7e6eedbf2b3c
-        title: 'MIITE 2026 Brochure'
   -
     id: 8aa74158-9964-4b89-9363-862671e0cf54
     entry: c5e740f9-47d1-4a13-ab6b-f94aa1cd1cc5

@@ -740,6 +740,87 @@ page_builder:
             open_new_tab: false
             type: new_set
             enabled: true
+  -
+    type: set
+    attrs:
+      id: mlg5xxfh
+      values:
+        type: cta_grid
+        background: bgcolor
+        background_color: secondary
+        grid_version: v1
+        grid_heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: dsdaas
+        grid_set_replicator:
+          -
+            id: mlg5xzjo
+            grid_images: features/features-bg.png
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dasdasdas
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: sadasdsadasdsadasdasd
+            type: grid_set
+            enabled: true
+          -
+            id: mlg5ykzl
+            grid_images: features/features-bg.png
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dasdasdas
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: sadasdsadasdsadasdasd
+            type: grid_set
+            enabled: true
+          -
+            id: mlg5yn0i
+            grid_images: features/features-bg.png
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: dasdasdas
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: sadasdsadasdsadasdasd
+            type: grid_set
+            enabled: true
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
 header_scripts:
   code: null
   mode: htmlmixed
@@ -749,8 +830,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770698392
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770701514
 reusable_popup: false
 fine_seo_title: Miite
 ---

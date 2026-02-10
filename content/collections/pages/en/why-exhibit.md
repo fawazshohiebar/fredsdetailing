@@ -84,18 +84,20 @@ page_builder:
             number_of_stars: '0'
             grid_heading:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 3
                 content:
                   -
                     type: text
-                    text: lkjhg
+                    text: 'Connect with 120,000+ decision makers and policy makers'
             grid_text:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: lkjhg
+                    text: 'Meet face-to-face with senior leaders, decision makers and industry stakeholders to unlock new opportunities and connections'
             type: grid_set
             enabled: true
           -
@@ -103,11 +105,41 @@ page_builder:
             number_of_stars: '0'
             grid_heading:
               -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Position your brand as an industry leader'
+            type: grid_set
+            enabled: true
+            grid_text:
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: ;lkjhgv
+                    text: 'Place your business at the heart of the industry as a leading voice and brand in your industry'
+          -
+            id: mlg6tavv
+            number_of_stars: '0'
+            grid_heading:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Maximise Investment opportunities '
+            grid_text:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Take advantage of our buyers program and meet investors ready to take your business to the next level'
             type: grid_set
             enabled: true
   -
@@ -127,8 +159,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770702374
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1770703086
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

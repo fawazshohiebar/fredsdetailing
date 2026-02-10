@@ -135,7 +135,7 @@ page_builder:
                 content:
                   -
                     type: text
-                    text: 'Maximise Investment opportunities '
+                    text: 'Maximise investment opportunities '
             grid_text:
               -
                 type: paragraph
@@ -164,7 +164,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770721628
+updated_at: 1770721811
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

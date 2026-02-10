@@ -114,6 +114,100 @@ tab_creator:
         enabled: true
     type: tab_set
     enabled: true
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770717028
+  -
+    id: mlgi96mx
+    tab_title: 'Why Visit'
+    tab_description:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'The Powerhouse for Global Industrial Excellence'
+      -
+        type: paragraph
+    tab_information:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'Visiting Make it in the Emirates 2026 places you at the centre of the UAE’s industrial ambition, where national priorities, investment opportunities, and real business decisions come together. Designed to deliver practical outcomes, the platform brings together manufacturers, solution providers, government entities, and investors shaping the next phase of industrial growth. '
+    button_container:
+      -
+        id: mlgi9xwf
+        label: 'About Make it in the Emirates'
+        design: whiteoutlined
+        icon: arrow-right
+        open_new_tab: false
+        button_size: fit
+        type: button_set
+        enabled: true
+    accordion_creator:
+      -
+        id: mlgiafrx
+        accordion_title: 'Meet Companies Ready to Deliver'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Engage directly with manufacturers, suppliers, and technology providers offering proven capabilities and scalable solutions.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgialq3
+        accordion_title: 'Explore Live Industrial and Investment Opportunities'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Discover projects, procurement pathways, and partnerships aligned with national priorities and ready for execution.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgib1ym
+        accordion_title: 'Source from a Global Manufacturing and Export Hub'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Access suppliers and partners operating from the UAE, a market built for efficient production, strong logistics, and global reach.'
+        type: accordion_set
+        enabled: true
+      -
+        id: mlgib97a
+        accordion_title: 'Turn Conversations into Action'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Use the platform to progress discussions into sourcing decisions, partnerships, and next steps that extend beyond the show floor.'
+        type: accordion_set
+        enabled: true
+    type: tab_set
+    enabled: true
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770722269
 ---

@@ -12,9 +12,9 @@ page_builder:
         heading:
           heading:
             text: 'Strategic Partners'
-            size: small
+            size: large
             color: black
-            tag: p
+            tag: h1
             uppercase: false
           subheading: null
           focus_icon: false
@@ -367,6 +367,23 @@ page_builder:
         background: bgcolor
         background_color: light-accent
   -
+    type: set
+    attrs:
+      id: mlg8006x
+      values:
+        type: heading_group
+        heading:
+          heading:
+            text: 'Sponsors and Partners'
+            size: large
+            color: black
+            tag: h1
+            uppercase: false
+          subheading: null
+          focus_icon: false
+          heading_focus_word: null
+          icon: null
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -384,7 +401,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770704678
+updated_at: 1770704987
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

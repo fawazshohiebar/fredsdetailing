@@ -1,7 +1,7 @@
 ---
 id: 117255ff-a479-4010-be88-7e6eedbf2b3c
 blueprint: page
-title: 'MIITE 2025 Brochure'
+title: 'MIITE 2026 Brochure'
 page_builder:
   -
     type: set
@@ -25,7 +25,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
-                text: 'Download Brochure 2025'
+                text: 'Download 2026 Brochure'
         form: download_brochure_2025
         redirect_to_url: 'asset::assets::pdf-folder/revised-miite-sales-brochure-2_compressed.pdf'
         show_labels: true
@@ -46,8 +46,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009553
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770717769
 fine_seo_title: 'MIITE 2025 Brochure'
 fine_seo_preview: 'MIITE 2025 Brochure'
 ---

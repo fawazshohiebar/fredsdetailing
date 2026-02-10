@@ -11,7 +11,7 @@ page_builder:
         type: heading_group
         heading:
           heading:
-            text: 'Strategic Partners'
+            text: '{black:Strategic Partners}'
             size: large
             color: black
             tag: h1
@@ -352,7 +352,7 @@ page_builder:
               -
                 type: text
                 text: 'ADNEC Centre Abu Dhabi is a multi-award winning venue offering organisers of exhibitions, conferences, and events outstanding facilities spread over a total space of 153,678 square metres. This includes versatile spaces suitable for medium to large scale conferences of up to 6,000 people, 13 exhibition halls, a stunning banqueting facility, in addition to ‘The Hive’, an award-winning innovative meeting space and engaging environment, as well as outdoor space which includes a grandstand and an impressive Marina'
-        section_image: adnec-group-a-modon-company-(1)-(1).png
+        section_image: sponsors/adnec-group-logo.png
         buttons:
           -
             id: ml0h2p1r
@@ -656,7 +656,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770706377
+updated_at: 1770708532
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

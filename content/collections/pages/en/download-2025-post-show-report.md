@@ -2,7 +2,7 @@
 id: f70db887-b022-4d76-99f5-e71ed696ac58
 published: false
 blueprint: page
-title: 'Enquire to Exhibit (Duplicated)'
+title: 'Download 2025 Post Show Report'
 page_builder:
   -
     type: set
@@ -22,13 +22,10 @@ page_builder:
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Enquire to Exhibit at the 2026 Edition'
-        form: enquire_to_exhibit_at_the_2026_edition
+                text: 'Download 2025 Post Show Report'
+        form: download_2025_post_show_report
         show_labels: true
+        redirect_to_url: 'asset::assets::pdf-folder/miite25_post-show-report.pdf'
   -
     type: paragraph
     attrs:
@@ -47,7 +44,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770707348
+updated_at: 1770719445
 fine_seo_title: 'Enquire to Exhibit'
 fine_seo_preview: 'Enquire to Exhibit'
 duplicated_from: 38daf340-86e2-4d56-8408-b2abce79f7db

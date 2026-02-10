@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770708641
+updated_at: 1770708667
 heading:
   -
     type: heading

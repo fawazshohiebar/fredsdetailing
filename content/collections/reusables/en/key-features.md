@@ -50,6 +50,7 @@ buttons:
     button_size: fit
     type: new_set
     enabled: true
+    link: 'entry::cdc5ab21-7efd-49d2-b81c-cd986636757a'
 grid_creator:
   -
     id: mkmk31o8
@@ -88,6 +89,6 @@ grid_creator:
     type: grid_set
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770202735
+updated_at: 1770706954
 breadcrumb: true
 ---

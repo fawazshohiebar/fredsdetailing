@@ -6,5 +6,5 @@ image: speakers/he-hasan-jasem.png
 speaker_background: '#69747C'
 position: 'Undersecretary of the Ministry of Industry and Advanced Technology'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770723742
+updated_at: 1770723747
 ---

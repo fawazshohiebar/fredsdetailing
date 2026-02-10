@@ -13,11 +13,14 @@
                                                 style="background-image: url('{{ glide:url format='webp' }}');"
                                                 role="img" aria-label="{{ alt ?? 'Speaker Image' }}">
                                                 <div class="py-3 px-2 flex flex-col gap-0.5 z-10 relative">
-                                                    <div class=" text-white text-base leading-7 font-bold  font-mont uppercase text-center">
+                                                    <div class=" text-white text-[14px] leading-7 font-bold  font-mont uppercase text-center">
                                                         {{ speaker_title }}
                                                     </div>
-                                                    <div class=" text-white text-[16px] font-normal text-center">
+                                                    <div class=" text-white text-[13px] font-normal text-center">
                                                         {{ position }}
+                                                    </div>
+                                                    <div class="text-white text-[13px] font-normal text-center">
+                                                        {{company}}
                                                     </div>
                                                 </div>
                                                   <div class="absolute z-0 inset-0 bg-[linear-gradient(365deg,#000000a8_3.9%,rgba(0,0,0,0.40)_36.53%,rgba(0,0,0,0.00)_46.16%)]">

@@ -3,7 +3,7 @@ id: e9f25ff3-480e-40c1-8039-9f7ad67620ec
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770708547
+updated_at: 1770708595
 heading:
   -
     type: heading
@@ -18,7 +18,7 @@ heading:
           -
             type: textColor
             attrs:
-              color: '#D8DCE3'
+              color: '#fff'
         text: 'From First Factories to Global Industrial Powerhouse'
 background: bgimg
 tab_creator:
@@ -36,6 +36,10 @@ tab_creator:
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'The Powerhouse for Global Industrial Excellence'
     type: tab_set
     enabled: true
@@ -105,6 +109,11 @@ tab_creator:
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
             text: 'Visiting Make it in the Emirates 2026 places you at the centre of the UAE’s industrial ambition, where national priorities, investment opportunities, and real business decisions come together. Designed to deliver practical outcomes, the platform brings together manufacturers, solution providers, government entities, and investors shaping the next phase of industrial growth.'
 image: brand/background-(2).png
 ---

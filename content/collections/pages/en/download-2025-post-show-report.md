@@ -1,6 +1,5 @@
 ---
 id: f70db887-b022-4d76-99f5-e71ed696ac58
-published: false
 blueprint: page
 title: 'Download 2025 Post Show Report'
 page_builder:
@@ -44,7 +43,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770719445
+updated_at: 1770719538
 fine_seo_title: 'Enquire to Exhibit'
 fine_seo_preview: 'Enquire to Exhibit'
 duplicated_from: 38daf340-86e2-4d56-8408-b2abce79f7db

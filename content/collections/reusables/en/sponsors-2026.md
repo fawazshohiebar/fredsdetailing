@@ -40,6 +40,7 @@ sponsors_entries:
   - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
   - 29176424-c90c-433e-b05d-459b5239f3ef
   - 88272bdd-d6f5-47d3-84c3-66f60f146210
+  - a81bf28d-a9aa-4e6b-8ecf-5c9548ed2a1b
 button_group:
   -
     id: avLHJWPW
@@ -52,6 +53,6 @@ button_group:
     button_size: fit
     link: 'entry::394e9a07-b845-4538-9872-92213381e955'
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770018698
+updated_at: 1770702235
 breadcrumb: false
 ---

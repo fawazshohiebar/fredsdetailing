@@ -17,6 +17,9 @@ tree:
     title: 'Sponsor & Exhibit'
     children:
       -
+        id: 2f205ec6-ac5c-4c88-95d0-59ed45babfdd
+        entry: 2d9aedca-1448-49a8-9827-6bc910822619
+      -
         id: d52dab1a-6056-43c8-a7f1-0c1b79110931
         entry: 38daf340-86e2-4d56-8408-b2abce79f7db
       -

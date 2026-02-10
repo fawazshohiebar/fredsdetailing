@@ -748,7 +748,7 @@ page_builder:
         type: cta_grid
         background: bgcolor
         background_color: secondary
-        grid_version: v1
+        grid_version: v2
         grid_heading:
           -
             type: paragraph
@@ -831,7 +831,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770701514
+updated_at: 1770701574
 reusable_popup: false
 fine_seo_title: Miite
 ---

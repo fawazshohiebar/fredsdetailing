@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770640350
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770707044
 first_button:
   link: null
   label: 'EXHIBITOR INFORMATION'
@@ -55,12 +55,12 @@ first_button:
   open_new_tab: true
   button_size: null
 second_button:
-  link: null
-  label: 'JOIN US: MAKE IT IN THE EMIRATES 2026'
-  design: whiteoutlined
-  icon: none
+  link: 'https://miite-staging.adnecdev.ae/en/agenda'
+  label: 'Register to Visit'
+  design: greengradient
+  icon: arrow-right
   open_new_tab: true
-  button_size: null
+  button_size: fit
 more_info:
   info_year: '2026'
   info_date: 'MAY <br> 04-07'

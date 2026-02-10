@@ -91,7 +91,7 @@ page_builder:
           design: whitebgblacksvg
           icon: arrow-right
           open_new_tab: true
-          button_size: null
+          button_size: fit
         registration_button:
           link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
           label: 'Register to Visit'
@@ -111,11 +111,13 @@ page_builder:
           -
             id: ml7peb1t
             label: 'Enquire to Exhibit'
-            open_new_tab: false
+            open_new_tab: true
             type: new_set
             enabled: true
             design: blackbggroup
             icon: arrow-right
+            link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
+            button_size: fit
           -
             id: mkfhadkn
             label: 'Enquire to Sponsor'
@@ -833,7 +835,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770706135
+updated_at: 1770707747
 reusable_popup: false
 fine_seo_title: Miite
 ---

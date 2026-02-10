@@ -55,9 +55,9 @@ page_builder:
             id: mlg59fwx
             link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
             label: 'Enquire to Exhibit 2026'
-            design: whiteoutlined
-            icon: arrow-down-right
-            open_new_tab: false
+            design: whitebgblacksvg
+            icon: arrow-right
+            open_new_tab: true
             button_size: fit
             type: button_set
             enabled: true
@@ -88,7 +88,7 @@ page_builder:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 4
                 content:
                   -
                     type: text
@@ -109,7 +109,7 @@ page_builder:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 4
                 content:
                   -
                     type: text
@@ -131,7 +131,7 @@ page_builder:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 4
                 content:
                   -
                     type: text
@@ -163,8 +163,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770703971
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770721628
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

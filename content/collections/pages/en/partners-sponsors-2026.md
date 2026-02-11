@@ -350,6 +350,27 @@ page_builder:
   -
     type: set
     attrs:
+      id: mlhnwhsa
+      enabled: false
+      values:
+        type: normal_sponsors
+        breadcrumb: false
+        design: centered
+        heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Strategic Partners'
+        sponsors_creator:
+          -
+            id: mlhnw014
+            type: new_set
+            enabled: true
+  -
+    type: set
+    attrs:
       id: mlhlesfa
       values:
         type: normal_sponsors
@@ -357,44 +378,61 @@ page_builder:
           -
             id: mlhletki
             sponsors_logos: sponsors/adafsa-logo.png
-            sponsors_title: 'dummy data'
+            sponsors_title: 'Investment Partner'
             sponsors_description:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Lorem Ipsum'
+                    text: 'Established in 1999, IHC has become the most valuable holding company in the Middle East and one of world’s largest investment firms, with a market capitalization of AED 876.5 billion (USD 238.5 billion). Since then, it has transformed to represent a new generation of investors. IHC’s commitment to sustainability, innovation, and economic diversification spans over 1,200 subsidiaries, driving growth across industries like Asset Management, Healthcare, Real Estate, Financial Services, IT, and more.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                    text: 'IHC continually looks beyond the stand-alone value of its assets for opportunities, stepping outside of traditional approaches and artificial barriers to unlock opportunities across its portfolio, enabling sector-agnostic Dynamic Value Networks and creating results that are often much greater than the sum of their parts.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'At IHC, we take our responsibility to shareholders, customers, and employees seriously. Our commitment to responsible investment ensures that we create sustainable value by staying connected to the communities we serve, making a positive difference with every investment.'
             type: new_set
             enabled: true
-            sponsors_website_link: iuydsfguiuytfdfghjkjf
+            sponsors_website_link: 'https://www.ihcuae.com/'
+            sponsors_name: 'International Holding Company'
           -
             id: mlhlszr8
-            sponsors_logos: sponsors/adafsa-logo.png
-            sponsors_title: 'dummy data'
+            sponsors_logos: sponsors/edb-logo.png
+            sponsors_title: 'Enablement Partner'
             sponsors_description:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Lorem Ipsum'
+                    text: 'Emirates Development Bank (EDB) is the key financial engine of economic development and industrial transformation in the UAE and the key enabler of the nation’s industrial development strategy. EDB provides financial and non-financial support to businesses of all sizes from start-ups and SMEs to large corporates, driving economic competitiveness and business growth. The Bank strives to maximize national economic impact and contributions to non-oil GDP, national employment, and in-country value generation by financing the right transactions that drive development across five priority sectors: Manufacturing, Food Security, Healthcare, Advanced Technology, and Renewables.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+                    text: 'As the only development bank in the UAE, EDB focuses on economic impact over profitability and fosters partnerships to extend the reach of its services to a wider spectrum of businesses, driving economic resilience and competitiveness.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beyond its financing products, EDB provides a range of non-financial solutions ranging from financial literacy training to mentoring and business operations guidance tailored to the needs of entrepreneurs and SMEs to drive their contribution to the national economy.'
             type: new_set
             enabled: true
-            sponsors_name: poiuyhgthjlkjhghjklkjhgfvc
-            sponsors_website_link: sdlakshdlaskjdlaskdjaslkdj
+            sponsors_name: 'Emirates Development Bank (EDB)'
+            sponsors_website_link: 'https://www.edb.gov.ae/'
+          -
+            id: mlhnudga
+            type: new_set
+            enabled: true
         breadcrumb: false
         design: centered
         heading:
@@ -405,7 +443,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Normal Sponsors'
+                text: 'Sponsors & Partners'
   -
     type: paragraph
     attrs:
@@ -423,8 +461,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770790436
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1770792464
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

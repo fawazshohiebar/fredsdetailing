@@ -43,6 +43,24 @@ page_builder:
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
           - bc12f64f-c2ef-4d21-bece-589471075a19
           - 0d7d3f6b-bf84-4360-bb52-0df327a1c064
+          - 4004c466-e084-4880-9b42-40205ed5f212
+          - ebbc84d1-1f57-4cdf-bddd-98cbefee41d3
+          - 60218c10-7853-45fe-b220-59fd587593d0
+          - 616fa74c-296e-4e44-a731-45a7c1d4f83a
+          - 6268ce1e-d3cc-48c7-82a6-044176d7cab5
+          - 43481212-5ee5-456f-ae58-6c332c6b89ea
+          - ce8076f2-ebdd-4482-ad82-a216d2d07a6a
+          - 33f27e5f-305a-4210-8bd7-2630733e986e
+          - 966ed40b-b4e1-4f49-bc85-dbfb492166ff
+          - 05b99d2a-0306-4d85-a2ba-1ed7deb4da80
+          - 98e9d436-581d-4d4b-b31d-65e8d1bc933f
+          - 8e45194a-0222-42f3-8843-3b59696118de
+          - ca4e5ff0-bb85-4618-be82-bd145c84d4f8
+          - 270a08f2-23a4-47bf-b691-b3666f19bef2
+          - d618d2c3-f643-4c3f-b1b6-2a611b44c14d
+          - 0b45ae14-3b80-4c56-909b-5197ad2290a0
+          - 12644d84-def9-4943-8745-a8f77dc04e92
+          - b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
         speaker_structure: v2
   -
     type: paragraph
@@ -62,7 +80,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770722834
+updated_at: 1770787183
 fine_seo_title: Awards
 fine_seo_preview: Awards
 duplicated_from: 66943f73-fee3-4e30-bc72-de33101d79dc

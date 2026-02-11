@@ -5,3 +5,7 @@ groups:
   - managers
 id: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
 password_hash: $2y$12$b5cNZF6Jt7uH.cZeUzvxeOce2g0AfY2HT.XPngJKPqRCLmCXVXleu
+preferences:
+  assets:
+    collaterals:
+      per_page: 100

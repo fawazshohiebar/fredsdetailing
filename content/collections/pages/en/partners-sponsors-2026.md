@@ -797,10 +797,10 @@ page_builder:
           -
             id: mlhph2b3
             type: new_set
-            enabled: false
+            enabled: true
             sponsors_logos: sponsors/png/adcb.png
             sponsors_name: ADCB
-            sponsors_title: 'Enablement Partner'
+            sponsors_title: 'Registration Partner'
             sponsors_description:
               -
                 type: paragraph
@@ -884,7 +884,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770806186
+updated_at: 1770812779
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

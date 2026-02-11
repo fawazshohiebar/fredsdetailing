@@ -505,6 +505,7 @@ page_builder:
             enabled: true
             sponsors_website_link: 'https://www.ihcuae.com/'
             sponsors_name: 'International Holding Company'
+            sponsors_logos: ihc-logo.png
           -
             id: mlhlszr8
             sponsors_logos: sponsors/edb-logo.png
@@ -706,7 +707,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770795445
+updated_at: 1770795588
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

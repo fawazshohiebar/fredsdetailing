@@ -389,7 +389,7 @@ page_builder:
             id: mlhoguih
             type: new_set
             enabled: true
-            sponsors_logos: uae_moc_vertical_rgb_ae.jpg
+            sponsors_logos: moc.png
             sponsors_name: 'Ministry of Culture'
             sponsors_title: Co-Host
             sponsors_description:
@@ -707,7 +707,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770796480
+updated_at: 1770804066
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

@@ -5,8 +5,8 @@ title: 'H.E. Amina Ahmed Mohammed'
 position: 'Chief Executive Officer'
 company: 'Emirates International Acceditation Centre'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769774608
+updated_at: 1770788632
 duplicated_from: 616fa74c-296e-4e44-a731-45a7c1d4f83a
-speaker_background: '#BA8349'
+speaker_background: '#5386AC'
 image: speakers/amina-ahmed.png
 ---

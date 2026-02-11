@@ -842,6 +842,67 @@ fields:
               fields:
                 -
                   import: parking_information_second_version
+            normal_sponsors:
+              display: 'Normal Sponsors'
+              fields:
+                -
+                  import: heading_group_with_breadcrumbs
+                -
+                  handle: sponsors_creator
+                  field:
+                    type: replicator
+                    display: 'Sponsors Creator'
+                    localizable: false
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            fields:
+                              -
+                                handle: sponsors_logos
+                                field: basics.image
+                                config:
+                                  display: 'Sponsors Logos'
+                                  validate:
+                                    - image
+                                    - 'max_filesize:9216'
+                                    - 'mimes:png,jpg,jpeg,gif,webp,svg'
+                              -
+                                handle: sponsors_name
+                                field:
+                                  type: text
+                                  display: 'Sponsors Name'
+                                  localizable: false
+                              -
+                                handle: sponsors_title
+                                field:
+                                  type: text
+                                  display: 'Sponsors Title'
+                                  localizable: false
+                              -
+                                handle: sponsors_description
+                                field:
+                                  buttons:
+                                    - h2
+                                    - h3
+                                    - bold
+                                    - color
+                                    - h1
+                                    - h4
+                                    - h5
+                                    - h6
+                                  remove_empty_nodes: false
+                                  type: bard
+                                  display: 'Sponsors Description'
+                                  localizable: false
+                              -
+                                handle: sponsors_website_link
+                                field:
+                                  type: link
+                                  display: 'Sponsors Website Link'
+                                  localizable: false
         forms:
           display: Forms
           icon: form-drop-down-menu

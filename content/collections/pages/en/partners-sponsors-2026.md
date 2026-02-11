@@ -534,9 +534,148 @@ page_builder:
             sponsors_name: 'Emirates Development Bank (EDB)'
             sponsors_website_link: 'https://www.edb.gov.ae/'
           -
+            id: mlhphf0o
+            sponsors_logos: sponsors/ad-ports-logo.png
+            sponsors_name: 'AD Ports'
+            sponsors_title: 'Enablement Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Through organic growth and partnerships, AD Ports Group has developed over the years into an integrated premier enabler of trade, industrialisation, and economic diversification. Established by Emiri Decree and owned by ADQ, one of the region’s largest holding companies with a broad portfolio of major enterprises spanning key sectors of Abu Dhabi’s diversified economy.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'AD Ports Group is committed to building elite trade and logistics propositions. As trade has grown, so have we. Today, we are an integrated business across 5 clusters – Digital, Economic Cities & Free Zones, Logistics, Maritime & Shipping, and Ports connecting global maritime routes and international trading partners.'
+            sponsors_website_link: 'https://www.adportsgroup.com/en'
+            type: new_set
+            enabled: true
+          -
             id: mlhnudga
             type: new_set
             enabled: true
+            sponsors_logos: sponsors/adafsa-logo.png
+            sponsors_name: ADAFSA
+            sponsors_title: 'Sector Enabling Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Abu Dhabi Agriculture & Food Safety Authority is the local authority in charge of agriculture, food safety, food security and biosecurity in the Emirate of Abu Dhabi. It aims to develop a sustainable agriculture and food sector and protect the health of animals and plants to enhance the biosecurity and achieve food security. In addition, the authority is responsible for preparing plans, programs and activities in the field of agriculture, food safety and food security.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "The authority is assigned to control and inspect the Emirate's food and agriculture establishments, farms, agricultural inputs, imported and exported food and agricultural items or those produced in the country and circulated in the Emirate, to ensure the access of safe food to the community. It also supervises the establishment and management of emergency food reserves in cooperation with the competent authorities."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The Authority is creating partnerships and investments with investment funds, investors and the private sector in the areas of its work, as well as issuing the needed licenses and permits to undertake any agriculture or food activity according to legislation in force.'
+            sponsors_website_link: 'https://www.adafsa.gov.ae/en/pages/default.aspx'
+          -
+            id: mlhpdb6x
+            sponsors_name: 'Tawazun Council'
+            sponsors_title: 'Sector Enabling Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Tawazun Economic Council (TEC) was founded in 1992 to support a vision of comprehensive and sustainable economic and social development within the UAE.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Through the implementation of its economic development program initiatives, TEC acts as a key enabler for the development of defense and security industries in the UAE. TEC provides the needed inputs for the defense industrial development including attracting additional local and foreign capital into the industry as well as actively supporting the SME segment.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'TEC targets new capability development, technology transfer and accelerated adoption of new technologies in the defense & security industrial sector thereby contributing to economic diversification.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Since its establishment, TEC has enabled creation of more than 90 companies and investment vehicles, covering 11 sectors, including defense manufacturing. These companies continue play a vital role in boosting economic growth in the UAE.'
+            sponsors_website_link: 'https://www.tawazun.gov.ae/'
+            type: new_set
+            enabled: true
+          -
+            id: mlhpegp7
+            sponsors_logos: sponsors/05_emsteel_logo_dual_stacked_col_rgb-for-email-signature.png
+            sponsors_name: 'Emsteel Group'
+            sponsors_title: 'Sector Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Emsteel is a public joint stock company (ADX: EMSTEEL) and the UAE’s largest steel and building materials manufacturer. The Group incorporates the latest innovative technologies in manufacturing, efficiency and sustainability, to deliver the high-quality products, services and solutions that you need for your business to thrive today and tomorrow.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'EMSTEEL produces home-grown high-quality steel products that are shipped and used across the world and delivered into major global markets, for the construction, engineering and energy sectors. Additionally, the Group produces premium cement, blocks, pipes, and dry mortar, creating a one-stop shop for the manufacturing and construction sectors.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'At EMSTEEL, we are committed to refining our manufacturing processes and creating steel and building materials sustainably and safely, whilst supporting the growth of the non-oil heavy industry sector in the United Arab Emirates.'
+            sponsors_website_link: 'https://www.emsteel.com/'
+            type: new_set
+            enabled: true
+          -
+            id: mlhpg611
+            sponsors_name: 'Emirates Global Aluminium (EGA)'
+            sponsors_title: 'Sector Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Emirates Global Aluminium is the world’s largest ‘premium aluminium’ producer and the biggest industrial company in the United Arab Emirates outside oil and gas.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'EGA is an integrated aluminium producer, with operations on four continents from bauxite mining to the production of cast primary aluminium and recycling. EGA operates aluminium smelters in Jebel Ali and Al Taweelah in the United Arab Emirates, an alumina refinery in Al Taweelah, a bauxite mine and associated export facilities in the Republic of Guinea, a speciality foundry in high strength recycled aluminium in Germany, and a recycling plant in the United States'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'EGA produces one-in-every-25 tonnes of aluminium made worldwide, and supplies customers in more than 50 countries. The growing broader aluminium sector in the UAE supports more than 57,000 jobs. Aluminium is among the world’s most versatile metals, and EGA’s global customers transform it into products that make modern life possible. EGA’s aluminium is primarily used in the construction, automotive, packaging, aerospace and electronics industries.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'As a corporate citizen of the UAE, EGA aspires in all its operations to be measured amongst the world’s leading metals and mining companies in meeting its environmental and social responsibilities.'
+            sponsors_website_link: 'https://www.ega.ae/en'
+            type: new_set
+            enabled: true
+          -
+            id: mlhph2b3
+            type: new_set
+            enabled: false
         breadcrumb: false
         design: centered
         heading:
@@ -566,7 +705,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770794388
+updated_at: 1770794860
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

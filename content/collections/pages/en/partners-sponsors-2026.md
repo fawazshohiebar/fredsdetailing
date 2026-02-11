@@ -481,7 +481,6 @@ page_builder:
         sponsors_creator:
           -
             id: mlhletki
-            sponsors_logos: sponsors/adafsa-logo.png
             sponsors_title: 'Investment Partner'
             sponsors_description:
               -
@@ -613,6 +612,7 @@ page_builder:
             sponsors_website_link: 'https://www.tawazun.gov.ae/'
             type: new_set
             enabled: true
+            sponsors_logos: sponsors/tawazun-logo.png
           -
             id: mlhpegp7
             sponsors_logos: sponsors/05_emsteel_logo_dual_stacked_col_rgb-for-email-signature.png
@@ -672,6 +672,7 @@ page_builder:
             sponsors_website_link: 'https://www.ega.ae/en'
             type: new_set
             enabled: true
+            sponsors_logos: sponsors/ega-logo.png
           -
             id: mlhph2b3
             type: new_set
@@ -705,7 +706,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770795299
+updated_at: 1770795445
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

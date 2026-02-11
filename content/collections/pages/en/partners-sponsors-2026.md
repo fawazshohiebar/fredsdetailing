@@ -380,13 +380,15 @@ page_builder:
             sponsors_description:
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
                     text: 'Established in July 2020, the Ministry of Industry and Advanced Technology (MoIAT) aims to boost the UAE’s industrial sector and increase its contribution to the GDP. The Office of the Minister of State for Advanced Technology, the Emirates Authority for Standardization and Metrology (ESMA) and the Industry sector in the Ministry of Energy and Infrastructure have been merged into the structure of the Ministry of Industry and Advanced Technology since then, and all authorities, responsibilities and duties have been transferred to the newly founded Ministry.'
             sponsors_website_link: 'https://moiat.gov.ae/en/'
+          -
+            id: mlhoguih
+            type: new_set
+            enabled: true
   -
     type: set
     attrs:
@@ -481,7 +483,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770792929
+updated_at: 1770793918
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

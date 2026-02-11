@@ -507,6 +507,33 @@ page_builder:
             sponsors_name: 'International Holding Company'
             sponsors_logos: sponsors/png/ihc.png
           -
+            id: mlhvknb3
+            sponsors_logos: sponsors/png/mubadala.png
+            sponsors_name: Mubadala
+            sponsors_title: 'Investment Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mubadala is investing and partnering at the leading edge of global growth and innovation to create opportunities for future generations. We will continue to support our leadership’s vision, as we build upon the legacy of the late Sheikh Zayed bin Sultan Al Nahyan, who envisioned a free, stable and dignified life for the people of this country.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Today, in line with HH Sheikh Zayed bin Sultan Al Nahyan’s vision, Mubadala is a USD 302 billion (AED 1,111 billion) business that spans six continents with interests across multiple sectors and asset classes. Headquartered in Abu Dhabi, Mubadala also has offices in London, Moscow, New York and Beijing.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'At Mubadala we continue to look towards the future, with aspirations to double the portfolio’s size in the coming decade.'
+            sponsors_website_link: 'https://www.mubadala.com/'
+            type: new_set
+            enabled: true
+          -
             id: mlhlszr8
             sponsors_logos: sponsors/png/edb.png
             sponsors_title: 'Enablement Partner'
@@ -552,6 +579,92 @@ page_builder:
                     type: text
                     text: 'AD Ports Group is committed to building elite trade and logistics propositions. As trade has grown, so have we. Today, we are an integrated business across 5 clusters – Digital, Economic Cities & Free Zones, Logistics, Maritime & Shipping, and Ports connecting global maritime routes and international trading partners.'
             sponsors_website_link: 'https://www.adportsgroup.com/en'
+            type: new_set
+            enabled: true
+          -
+            id: mlhvpl4g
+            sponsors_logos: sponsors/png/nmdc.png
+            sponsors_name: 'NMDC Group'
+            sponsors_title: 'Enablement Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "NMDC Group, based in the UAE, is a leading company in the marine and energy industry sectors. Reputed for delivering noteworthy projects, NMDC Group prides itself on providing flexible, cost-effective and on-time solutions.\_\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "The Group owns and operates five business units: NMDC Dredging & Marine, NMDC Energy, NMDC Construction, NMDC Engineering and NMDC LTS. Committed to excellence and led by responsibility, they deliver projects of unrivaled quality, adhering to the most rigorous third-party certifications.\_\_\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "NMDC Group stands as a prominent catalyst in propelling the development of Abu Dhabi and bolstering the UAE’s efforts to further shape its modern landscape and stimulate the local economy. Supported by an impressively large fleet, diverse capabilities and offices across the globe, NMDC Group has the professionalism and motivation to operate anywhere in the world.\_\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "With an extensive track record, the Group’s specialized knowledge and expertise have significantly enhanced the region’s infrastructure while diligently safeguarding the ecological environment. The Group also contributes to the continuous development of the region’s economy shaping infrastructure, embracing operational excellence, innovation, and sustainable practices, further reinforcing its position as a trusted partner of choice across the EPC ecosystem.\_"
+            sponsors_website_link: 'https://nmdc-group.com/en/'
+            type: new_set
+            enabled: true
+          -
+            id: mlhvr81x
+            sponsors_logos: sponsors/png/modon.png
+            sponsors_name: Modon
+            sponsors_title: 'Enablement Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'We create iconic designs and experiences for living, leisure and business that continually surpass expectations.'
+                  -
+                    type: hardBreak
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'Through accelerated strategic investment and innovation on an unrivalled scale, we provide unparalleled opportunities to shape the future and advance societies.'
+                  -
+                    type: hardBreak
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'Our goal is to deliver long-term, sustainable value wherever we go, laying the foundations for a new era of intelligent, connected living.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Vision
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '"'
+                  -
+                    type: text
+                    text: 'To be at the forefront of urban innovation, shaping the future of intelligent, connected living.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '"'
+            sponsors_website_link: 'https://www.modon.com/'
             type: new_set
             enabled: true
           -
@@ -678,6 +791,56 @@ page_builder:
             id: mlhph2b3
             type: new_set
             enabled: false
+            sponsors_logos: sponsors/png/adcb.png
+            sponsors_name: ADCB
+            sponsors_title: 'Enablement Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The ADCB Group is one of the UAE’s leading financial institutions, based in Abu Dhabi, UAE.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Serving over 2 million customers with a wide range of market-leading products and services, the ADCB Group’s core businesses are Retail Banking, Corporate & Investment Banking, Private Banking and Treasury & Investments.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'With a host of award winning digital solutions and market firsts, the ADCB Group is driving digital innovation in the financial services industry, providing the highest levels of service and convenience to its customers and partners.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The ADCB Group operates major subsidiaries including Al Hilal Bank, a digital-first Islamic bank that serves retail customers, and ADCB Egypt, which offers both corporate and retail banking services and ADCB Islamic Bank JSC (ADCB Islamic) in Kazakhstan, which provides corporate and investment banking products and services for corporate clients in Kazakhstan and Central Asia.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The ADCB Group is 60.69% owned by the Government of Abu Dhabi through Mubadala Investment Company through its wholly owned subsidiary One Hundred and Fourteenth Investment Company – Sole Proprietorship LLC and trades on the Abu Dhabi Securities Exchange (ADX) under the ticker “ADCB”.'
+            sponsors_website_link: 'https://www.adcb.com/en/personal/'
+          -
+            id: mlhvvtrs
+            sponsors_logos: sponsors/png/fab.png
+            sponsors_name: FAB
+            sponsors_title: 'Banking Partner'
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'FAB, the UAE’s largest bank and one of the world’s largest and safest institutions, offers an extensive range of tailor-made solutions, and products and services, to provide a customised experience. Through its strategic offerings, it looks to meet the banking needs of customers across the world via its market-leading Corporate and Investment Banking and Personal Banking franchises.'
+            sponsors_website_link: 'https://www.bankfab.com/en-ae/personal'
+            type: new_set
+            enabled: true
         breadcrumb: false
         design: centered
         heading:
@@ -707,7 +870,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804972
+updated_at: 1770805609
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

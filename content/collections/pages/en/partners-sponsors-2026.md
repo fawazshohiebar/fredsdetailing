@@ -362,7 +362,9 @@ page_builder:
         design: centered
         heading:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
@@ -376,6 +378,8 @@ page_builder:
             sponsors_name: 'Ministry of Industry & Advanced Technology'
             sponsors_title: Host
             sponsors_description:
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -477,7 +481,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770792824
+updated_at: 1770792929
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

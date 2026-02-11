@@ -374,7 +374,7 @@ page_builder:
             id: mlhnw014
             type: new_set
             enabled: true
-            sponsors_logos: sponsors/uae_moedt_vertical_rgb_ae.png
+            sponsors_logos: sponsors/png/moiat.png
             sponsors_name: 'Ministry of Industry & Advanced Technology'
             sponsors_title: Host
             sponsors_description:
@@ -432,7 +432,7 @@ page_builder:
             sponsors_website_link: 'https://moc.gov.ae/ar/'
           -
             id: mlhp75tt
-            sponsors_logos: adio_logo_1_vertical.png
+            sponsors_logos: sponsors/png/adio.png
             sponsors_name: 'Abu Dhabi Investment Authority'
             sponsors_title: Co-Host
             sponsors_description:
@@ -447,7 +447,7 @@ page_builder:
             enabled: true
           -
             id: mlhp7w4j
-            sponsors_logos: adnoc.png
+            sponsors_logos: sponsors/png/adnoc.png
             sponsors_name: ADNOC
             sponsors_title: Co-Host
             sponsors_description:
@@ -505,7 +505,7 @@ page_builder:
             enabled: true
             sponsors_website_link: 'https://www.ihcuae.com/'
             sponsors_name: 'International Holding Company'
-            sponsors_logos: ihc-logo.png
+            sponsors_logos: sponsors/png/ihc.png
           -
             id: mlhlszr8
             sponsors_logos: sponsors/edb-logo.png
@@ -535,7 +535,7 @@ page_builder:
             sponsors_website_link: 'https://www.edb.gov.ae/'
           -
             id: mlhphf0o
-            sponsors_logos: sponsors/ad-ports-logo.png
+            sponsors_logos: sponsors/png/adports.png
             sponsors_name: 'AD Ports'
             sponsors_title: 'Enablement Partner'
             sponsors_description:
@@ -558,7 +558,7 @@ page_builder:
             id: mlhnudga
             type: new_set
             enabled: true
-            sponsors_logos: sponsors/adafsa-logo.png
+            sponsors_logos: sponsors/png/adafsa.png
             sponsors_name: ADAFSA
             sponsors_title: 'Sector Enabling Partner'
             sponsors_description:
@@ -613,10 +613,10 @@ page_builder:
             sponsors_website_link: 'https://www.tawazun.gov.ae/'
             type: new_set
             enabled: true
-            sponsors_logos: sponsors/tawazun-logo.png
+            sponsors_logos: sponsors/png/tawazun.png
           -
             id: mlhpegp7
-            sponsors_logos: sponsors/05_emsteel_logo_dual_stacked_col_rgb-for-email-signature.png
+            sponsors_logos: sponsors/png/emsteel.png
             sponsors_name: 'Emsteel Group'
             sponsors_title: 'Sector Partner'
             sponsors_description:
@@ -673,7 +673,7 @@ page_builder:
             sponsors_website_link: 'https://www.ega.ae/en'
             type: new_set
             enabled: true
-            sponsors_logos: sponsors/ega-logo.png
+            sponsors_logos: sponsors/png/ega.png
           -
             id: mlhph2b3
             type: new_set
@@ -707,7 +707,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804163
+updated_at: 1770804876
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

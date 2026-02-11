@@ -358,7 +358,7 @@ page_builder:
       id: mlhnwhsa
       values:
         type: normal_sponsors
-        breadcrumb: true
+        breadcrumb: false
         design: centered
         heading:
           -
@@ -389,7 +389,89 @@ page_builder:
             id: mlhoguih
             type: new_set
             enabled: true
-        bread_crumb_text: 'Strategic Partners'
+            sponsors_logos: uae_moc_vertical_rgb_ae.jpg
+            sponsors_name: 'Ministry of Culture'
+            sponsors_title: Co-Host
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The Ministry of Culture (MOC) is committed to enriching the cultural landscape of the United Arab Emirates. It supports Emirati cultural, artistic, and heritage institutions, empowers creative talents across diverse disciplines and fosters intercultural dialogue. Through strategic partnerships, MOC delivers impactful outcomes that reflect the UAE’s vibrant and diverse cultural identity on local, regional, and global stages.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'MOC’s Two Core National Missions:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '1. Preserving Cultural Acquisitions and Developing Expertise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'MOC works to safeguard the nation’s cultural assets, nurturing essential skills for sustainable growth, and support the development of a knowledge-based economy. This includes promoting cultural and artistic activities, producing and sharing knowledge, and preserving both tangible and intangible heritage. MOC also champions artistic expressions and highlights the educational and social value of culture through collaboration with national and international institutions.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '2. Upholding Emirati Identity and Enhancing the Cultural Sector'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'MOC is dedicated to preserving the Emirati identity, strengthening the global profile of the cultural sector, and increasing its impact as a dynamic part of the national economy. This is achieved by protecting national cultural heritage and advancing the cultural and creative industries.'
+            sponsors_website_link: 'https://moc.gov.ae/ar/'
+          -
+            id: mlhp75tt
+            sponsors_logos: adio_logo_1_vertical.png
+            sponsors_name: 'Abu Dhabi Investment Authority'
+            sponsors_title: Co-Host
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'The Abu Dhabi Investment Office (ADIO) is the government entity responsible for attracting and facilitating investment in the Emirate of Abu Dhabi. ADIO enables opportunities for innovative investors and businesses of all sizes, facilitating connections across Abu Dhabi’s innovation ecosystem to help them establish and grow in the emirate. With a comprehensive range of tailored services and incentives, ADIO helps businesses achieve long-term, sustainable success in the market and across the region.'
+            sponsors_website_link: 'https://adio.abudhabi/en'
+            type: new_set
+            enabled: true
+          -
+            id: mlhp7w4j
+            sponsors_logos: png-adnoc-secondary-brand-mark-artwork.png
+            sponsors_name: ADNOC
+            sponsors_title: Co-Host
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Founded in 1971, ADNOC is a leading diversified energy group, wholly owned by the Abu Dhabi Government. Our network of fully integrated businesses operates across the energy value chain, helping us to responsibly meet the demands of an ever-changing energy market. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Already in the top tier of the lowest carbon intensity oil and gas producers in the world, we are taking significant steps to make today’s energy cleaner while  investing in the clean energies of tomorrow, strengthening our position as a reliable and responsible global energy provider. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'We are allocating an initial $23 billion to advance and accelerate lower-carbon solutions, investing in new energies and decarbonization technologies to enable our net zero by 2045 ambition and our commitment to zero methane emissions by 2030.'
+            sponsors_website_link: 'https://www.adnoc.ae/'
+            type: new_set
+            enabled: true
   -
     type: set
     attrs:
@@ -484,7 +566,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770794146
+updated_at: 1770794388
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

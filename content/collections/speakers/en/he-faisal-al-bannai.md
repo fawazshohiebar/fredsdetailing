@@ -5,8 +5,8 @@ title: 'H.E. Faisal Al Bannai'
 position: 'Secretary General'
 company: 'Advanced Technology Research Council (ATRC)'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769771576
+updated_at: 1770788047
 duplicated_from: 0d7d3f6b-bf84-4360-bb52-0df327a1c064
-speaker_background: '#69747C'
+speaker_background: '#3D4D82'
 image: speakers/faisal-al-bannai.png
 ---

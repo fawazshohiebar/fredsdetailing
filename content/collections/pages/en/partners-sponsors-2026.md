@@ -374,7 +374,7 @@ page_builder:
             id: mlhnw014
             type: new_set
             enabled: true
-            sponsors_logos: uae_moedt_horizontal_rgb_ae.png
+            sponsors_logos: sponsors/uae_moedt_vertical_rgb_ae.png
             sponsors_name: 'Ministry of Industry & Advanced Technology'
             sponsors_title: Host
             sponsors_description:
@@ -705,7 +705,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770794860
+updated_at: 1770795299
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

@@ -508,7 +508,7 @@ page_builder:
             sponsors_logos: sponsors/png/ihc.png
           -
             id: mlhlszr8
-            sponsors_logos: sponsors/edb-logo.png
+            sponsors_logos: sponsors/png/edb.png
             sponsors_title: 'Enablement Partner'
             sponsors_description:
               -
@@ -707,7 +707,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804876
+updated_at: 1770804972
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

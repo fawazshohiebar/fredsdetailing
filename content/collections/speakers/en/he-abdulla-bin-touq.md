@@ -5,8 +5,8 @@ title: 'H.E. Abdulla bin Touq Al Marri'
 position: Minister
 company: 'Ministry of Economy and Tourism'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770724297
-speaker_background: '#69747C'
+updated_at: 1770788078
+speaker_background: '#5386AC'
 duplicated_from: 03c97f84-a9fc-469c-9bf7-169e3afabe80
 image: speakers/abdulla-bin-touq-al-marri.png
 ---

@@ -358,7 +358,7 @@ page_builder:
       id: mlhnwhsa
       values:
         type: normal_sponsors
-        breadcrumb: false
+        breadcrumb: true
         design: centered
         heading:
           -
@@ -389,6 +389,7 @@ page_builder:
             id: mlhoguih
             type: new_set
             enabled: true
+        bread_crumb_text: 'Strategic Partners'
   -
     type: set
     attrs:
@@ -483,7 +484,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770793918
+updated_at: 1770794146
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

@@ -447,7 +447,7 @@ page_builder:
             enabled: true
           -
             id: mlhp7w4j
-            sponsors_logos: png-adnoc-secondary-brand-mark-artwork.png
+            sponsors_logos: adnoc.png
             sponsors_name: ADNOC
             sponsors_title: Co-Host
             sponsors_description:
@@ -707,7 +707,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804066
+updated_at: 1770804163
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

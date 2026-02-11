@@ -50,6 +50,7 @@ page_builder:
     type: set
     attrs:
       id: mknlsmp6
+      enabled: false
       values:
         type: call_to_action
         spaces: p
@@ -103,6 +104,7 @@ page_builder:
     type: set
     attrs:
       id: mkzdgg8v
+      enabled: false
       values:
         type: call_to_action
         spaces: p
@@ -184,6 +186,7 @@ page_builder:
     type: set
     attrs:
       id: ml0gtd3q
+      enabled: false
       values:
         type: call_to_action
         text_image_alignment: v2
@@ -237,6 +240,7 @@ page_builder:
     type: set
     attrs:
       id: ml0h0xni
+      enabled: false
       values:
         type: call_to_action
         text_image_alignment: v1
@@ -300,6 +304,7 @@ page_builder:
     type: set
     attrs:
       id: mlf5loiw
+      enabled: false
       values:
         type: call_to_action
         text_image_alignment: v1
@@ -351,7 +356,6 @@ page_builder:
     type: set
     attrs:
       id: mlhnwhsa
-      enabled: false
       values:
         type: normal_sponsors
         breadcrumb: false
@@ -368,6 +372,17 @@ page_builder:
             id: mlhnw014
             type: new_set
             enabled: true
+            sponsors_logos: uae_moedt_horizontal_rgb_ae.png
+            sponsors_name: 'Ministry of Industry & Advanced Technology'
+            sponsors_title: Host
+            sponsors_description:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Established in July 2020, the Ministry of Industry and Advanced Technology (MoIAT) aims to boost the UAE’s industrial sector and increase its contribution to the GDP. The Office of the Minister of State for Advanced Technology, the Emirates Authority for Standardization and Metrology (ESMA) and the Industry sector in the Ministry of Energy and Infrastructure have been merged into the structure of the Ministry of Industry and Advanced Technology since then, and all authorities, responsibilities and duties have been transferred to the newly founded Ministry.'
+            sponsors_website_link: 'https://moiat.gov.ae/en/'
   -
     type: set
     attrs:
@@ -462,7 +477,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770792464
+updated_at: 1770792824
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

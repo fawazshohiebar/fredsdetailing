@@ -364,10 +364,17 @@ page_builder:
           -
             type: heading
             attrs:
-              level: 3
+              level: 4
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Strategic Partners'
         sponsors_creator:
           -
@@ -847,10 +854,17 @@ page_builder:
           -
             type: heading
             attrs:
-              level: 3
+              level: 4
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Sponsors & Partners'
   -
     type: paragraph
@@ -870,7 +884,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770805790
+updated_at: 1770806080
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

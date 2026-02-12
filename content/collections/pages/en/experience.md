@@ -27,7 +27,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
-                text: 'Why Make It in the Emirates'
+                text: 'Why Make It in the Emirates?'
         description:
           -
             type: paragraph
@@ -56,8 +56,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770698525
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770875129
 fine_seo_title: Features
 fine_seo_preview: Features
 ---

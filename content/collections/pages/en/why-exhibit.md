@@ -159,11 +159,33 @@ page_builder:
         spaces: p
         heading_text:
           -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
+                text: 'Download the 2026 Sales Brochure'
+        text_image_alignment: v1
+        description:
+          -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Download the 2026'
+                marks:
+                  -
+                    type: bold
+                text: 'Download the 2026 Sponsorship Brochure'
+              -
+                type: text
+                text: ' to discover how your organisation can be part of the UAE’s flagship platform driving the future of manufacturing and advanced industries. The brochure outlines high-impact sponsorship opportunities, event scale and reach, and how MIITE connects sponsors with global investors, government leaders, and industrial decision-makers shaping a competitive and sustainable industrial economy.'
+        section_image: sponsorship-borchure.png
   -
     type: paragraph
     attrs:
@@ -182,7 +204,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770727372
+updated_at: 1770879650
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

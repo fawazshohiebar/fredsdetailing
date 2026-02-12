@@ -33,7 +33,13 @@ page_builder:
             content:
               -
                 type: text
-                text: 'The Make it in the Emirates is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organizations localizing their manufacturing value chains.'
+                marks:
+                  -
+                    type: bold
+                text: 'Make it in the Emirates'
+              -
+                type: text
+                text: ' is the only event that unites investors, manufacturers, and enablers, offering access to vast procurement opportunities and comprehensive support through resources and incentives for organizations localizing their manufacturing value chains.'
           -
             type: paragraph
             content:
@@ -46,13 +52,14 @@ page_builder:
         buttons:
           -
             id: mknl4xke
-            label: 'Enquire to Exhibit 2026'
+            label: 'Register to Visit'
             design: whitebgblacksvg
-            icon: arrow-down-right
-            open_new_tab: false
+            icon: arrow-right
+            open_new_tab: true
             button_size: fit
             type: button_set
             enabled: true
+            link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
         background: bgcolor
         background_color: light-accent
   -
@@ -92,8 +99,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770788033
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770874645
 fine_seo_title: 'Why Visit'
 fine_seo_preview: 'Why Visit'
 ---

@@ -27,11 +27,12 @@ buttons:
     id: mkgn9azj
     label: 'Find out more'
     design: whitebgblacksvg
-    icon: arrow-down-right
+    icon: arrow-right
     open_new_tab: true
     type: new_set
     enabled: true
     button_size: fit
+    link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
 info_cards:
   -
     id: ml65yzh9
@@ -69,7 +70,7 @@ info_cards:
     image: icons/_imr8807-(1).jpg
     type: info_card
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770123807
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770873752
 breadcrumb: false
 ---

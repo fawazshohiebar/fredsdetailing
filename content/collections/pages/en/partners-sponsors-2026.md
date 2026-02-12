@@ -1,7 +1,7 @@
 ---
 id: 394e9a07-b845-4538-9872-92213381e955
 blueprint: page
-title: 'Partners & Sponsors 2026w'
+title: 'Partners & Sponsors 2026'
 page_builder:
   -
     type: set
@@ -883,8 +883,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770812779
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770873401
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

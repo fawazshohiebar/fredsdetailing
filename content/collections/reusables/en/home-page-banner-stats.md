@@ -97,7 +97,7 @@ statistics_creator:
             text: +
     stats_intro: Speakers
     type: stats_set
-    enabled: true
+    enabled: false
   -
     id: mkl7bbme
     numbers:
@@ -152,6 +152,6 @@ statistics_creator:
     stats_intro: 'Gross Exhibition Space'
     type: stats_set
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1768830550
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770887437
 ---

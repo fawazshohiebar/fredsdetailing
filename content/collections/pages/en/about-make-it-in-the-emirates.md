@@ -15,8 +15,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009543
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770874148
 page_builder:
   -
     type: set
@@ -51,7 +51,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Make It In The Emirates'
+                text: 'Make it in the Emirates'
               -
                 type: text
                 text: ' has become a '
@@ -63,7 +63,7 @@ page_builder:
                 text: 'pivotal event for manufacturers, investors, and industry leaders'
               -
                 type: text
-                text: ' looking to capitalize on the vast opportunities within the UAE’s rapidly expanding industrial and manufacturing sectors.'
+                text: ' looking to capitalise on the vast opportunities within the UAE’s rapidly expanding industrial and manufacturing sectors.'
           -
             type: paragraph
             content:
@@ -90,11 +90,12 @@ page_builder:
             id: mknki9ro
             label: 'Enquire to exhibit 2026'
             design: whitebgblacksvg
-            icon: arrow-down-right
-            open_new_tab: false
+            icon: arrow-right
+            open_new_tab: true
             button_size: fit
             type: button_set
             enabled: true
+            link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
   -
     type: set
     attrs:
@@ -103,7 +104,7 @@ page_builder:
         type: heading_comp
         background: bgcolor
         background_color: gradient
-        design: centered
+        design: alignleft
         heading:
           -
             type: heading
@@ -133,15 +134,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#fff'
-                text: 'Make It In The Emirates 2025'
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: ' is the UAE’s flagship industrial event, designed to accelerate the country’s manufacturing ambitions and position it as a global hub for industrial innovation, sustainability, and economic growth.'
+                text: 'Make It In The Emirates 2026 is the UAE’s flagship industrial event, designed to accelerate the country’s manufacturing ambitions and position it as a global hub for industrial innovation, sustainability, and economic growth.'
           -
             type: paragraph
             content:
@@ -246,13 +239,14 @@ page_builder:
         buttons:
           -
             id: mknki9ro
-            label: 'Enquire to exhibit 2026'
+            label: 'Register to Visit'
             design: whitebgblacksvg
-            icon: arrow-down-right
-            open_new_tab: false
+            icon: arrow-right
+            open_new_tab: true
             button_size: fit
             type: button_set
             enabled: true
+            link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
         section_label:
           -
             type: heading

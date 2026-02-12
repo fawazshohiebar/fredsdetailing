@@ -54,11 +54,11 @@ button_group:
     enabled: true
     label: 'View All SPONSORS'
     design: whitebgblacksvg
-    icon: arrow-down-right
-    open_new_tab: false
+    icon: arrow-right
+    open_new_tab: true
     button_size: fit
     link: 'entry::394e9a07-b845-4538-9872-92213381e955'
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804674
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770873842
 breadcrumb: false
 ---

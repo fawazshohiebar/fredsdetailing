@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770887906
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770889083
 first_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'

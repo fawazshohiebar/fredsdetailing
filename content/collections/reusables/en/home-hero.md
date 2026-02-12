@@ -46,7 +46,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770889083
+updated_at: 1770889266
 first_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'
@@ -255,6 +255,23 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +sqm
+    stats_intro: 'Gross Exhibition Space'
+    type: stats_set
+    enabled: true
+  -
+    id: mlj9ql4k
+    numbers:
+      -
+        type: heading
+        attrs:
+          level: 5
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '68,000+sqm'
     stats_intro: 'Gross Exhibition Space'
     type: stats_set
     enabled: true

@@ -88,7 +88,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Make it in the Emirates 2026 will be held at the ADNEC Centre, located in the heart of Abu Dhabi. This world-class venue is easily accessible and offers excellent facilities, ensuring a comfortable and seamless experience for all attendees and exhibitors.'
+                text: 'Make it in the Emirates 2026 will be held at ADNEC Centre Abu Dhabi, located in the heart of Abu Dhabi. This world-class venue is easily accessible and offers excellent facilities, ensuring a comfortable and seamless experience for all attendees and exhibitors.'
   -
     type: set
     attrs:
@@ -119,7 +119,7 @@ page_builder:
             content:
               -
                 type: text
-                text: 'We’re excited to see you all at Make it in the Emirates 2025. Please ensure that you follow the directions assigned to your category.'
+                text: 'We’re excited to see you all at Make it in the Emirates 2026. Please ensure that you follow the directions assigned to your category.'
         car_parking_creator:
           -
             id: ml53pg6g
@@ -134,7 +134,7 @@ page_builder:
                 button_size: fit
                 type: new_set
                 enabled: true
-                link: 'President Joko Widodo St - Al Rawdah - W59 01 - Abu Dhabi'
+                link: 'https://maps.app.goo.gl/UjbPupnCyPdnTuSa8'
             type: new_set
             enabled: true
           -
@@ -205,7 +205,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770718002
+updated_at: 1770874776
 fine_seo_title: 'Plan Your Visit'
 fine_seo_preview: 'Plan Your Visit'
 ---

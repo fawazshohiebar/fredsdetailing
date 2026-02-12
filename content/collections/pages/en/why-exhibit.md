@@ -191,8 +191,8 @@ page_builder:
             id: mlj41cee
             link: 'entry::3799b6c9-b451-4438-8a56-8e20a2e0013d'
             label: 'Download the 2026 Sales Brochure'
-            design: whiteoutlined
-            icon: arrow-down-right
+            design: whitebgblacksvg
+            icon: sparkles
             open_new_tab: true
             button_size: fit
             type: button_set
@@ -215,7 +215,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770879717
+updated_at: 1770879790
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

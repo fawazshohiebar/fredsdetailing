@@ -77,3 +77,8 @@ tree:
   -
     id: f514772b-3c56-4f90-8196-57e438d6d828
     entry: 6dcd6318-f640-487e-92e2-2b29cd88595d
+    children:
+      -
+        id: 0c068f70-c4de-41c9-8ae8-e4fc22b3d1cf
+        title: 'Register as Media'
+        url: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'

@@ -46,10 +46,10 @@ buttons_groups:
     open_new_tab: true
     type: button
     enabled: true
-    design: greengradient
+    design: whitebgblacksvg
     button_size: fit
     link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770706866
+updated_at: 1770874583
 breadcrumb: false
 ---

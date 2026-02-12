@@ -186,6 +186,17 @@ page_builder:
                 type: text
                 text: ' to discover how your organisation can be part of the UAE’s flagship platform driving the future of manufacturing and advanced industries. The brochure outlines high-impact sponsorship opportunities, event scale and reach, and how MIITE connects sponsors with global investors, government leaders, and industrial decision-makers shaping a competitive and sustainable industrial economy.'
         section_image: sponsorship-borchure.png
+        buttons:
+          -
+            id: mlj41cee
+            link: 'entry::3799b6c9-b451-4438-8a56-8e20a2e0013d'
+            label: 'Download the 2026 Sales Brochure'
+            design: whiteoutlined
+            icon: arrow-down-right
+            open_new_tab: true
+            button_size: fit
+            type: button_set
+            enabled: true
   -
     type: paragraph
     attrs:
@@ -204,7 +215,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770879650
+updated_at: 1770879717
 fine_seo_title: 'Why Exhibit'
 fine_seo_preview: 'Why Exhibit'
 ---

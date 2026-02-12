@@ -75,10 +75,10 @@ tree:
     id: 8aa74158-9964-4b89-9363-862671e0cf54
     entry: c5e740f9-47d1-4a13-ab6b-f94aa1cd1cc5
   -
-    id: 71f50059-d63c-4a33-b075-2def47e5464c
+    id: 859452ea-0236-4c6a-8ec3-b570879b80f0
     title: Media
     children:
       -
-        id: 3d9ec224-829b-4523-b5a5-e0fcc67beec1
+        id: 14fa17b0-6932-4098-a935-ab3067b71662
         title: 'Register as Media'
         url: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'

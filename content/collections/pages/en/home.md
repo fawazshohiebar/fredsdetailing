@@ -282,7 +282,7 @@ page_builder:
                       color: redgrad
                 text: 'One Global Platform'
         group_buttons:
-          link: null
+          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
           label: 'Find Out More'
           design: whitebgblacksvg
           icon: arrow-right
@@ -724,15 +724,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#fff'
-                text: 'ADNEC CENTER'
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: ' ABU DHABI, UAE'
+                text: 'ADNEC CENTRE ABU DHABI, UAE'
           -
             type: heading
             attrs:
@@ -751,10 +743,11 @@ page_builder:
             id: mkgu04lt
             label: 'ENQUIRE TO EXHIBIT'
             design: whitebgblacksvg
-            icon: arrow-down-right
-            open_new_tab: false
+            icon: arrow-right
+            open_new_tab: true
             type: new_set
             enabled: true
+            link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
   -
     type: paragraph
     attrs:
@@ -768,8 +761,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
-updated_at: 1770804682
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770873858
 reusable_popup: false
 fine_seo_title: Miite
 ---

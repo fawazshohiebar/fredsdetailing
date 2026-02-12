@@ -9,7 +9,7 @@ features_replicator:
     image: downloaded-image-1.jpg
     background_color: accent
     description: |-
-      The Make it in the Emirates Intelligence Hub is a premium, invitation-led platform curated to 
+      Make it in the Emirates Intelligence Hub is a premium, invitation-led platform curated to 
       connect advanced technologies with senior partners, policymakers, and decision-makers shaping 
       the future of industrial growth
     type: feature
@@ -45,5 +45,5 @@ features_replicator:
     enabled: true
     title: 'Quality Hub'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1769752078
+updated_at: 1770875112
 ---

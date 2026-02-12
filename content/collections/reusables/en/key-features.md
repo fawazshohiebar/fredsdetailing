@@ -4,7 +4,7 @@ blueprint: grid_features_section
 title: Experiences
 background: bgcolor
 background_color: light-secondary
-bread_crumb_text: 'KEY FEATURES 2026'
+bread_crumb_text: EXPERIENCES
 design: devided
 heading:
   -
@@ -84,6 +84,6 @@ grid_creator:
     type: grid_set
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770882401
+updated_at: 1770882454
 breadcrumb: true
 ---

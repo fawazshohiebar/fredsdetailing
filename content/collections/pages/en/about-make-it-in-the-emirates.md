@@ -16,7 +16,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770874148
+updated_at: 1770874350
 page_builder:
   -
     type: set
@@ -189,10 +189,13 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Discover High-Impact business & Investment Opportunities'
+                text: 'Meet Companies Ready to Deliver'
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: ' – Connect with key stakeholders driving the UAE’s manufacturing, technology, and sustainability transformation.'
+                text: 'Engage directly with manufacturers, suppliers, and technology providers offering proven capabilities and scalable solutions.'
           -
             type: paragraph
             content:
@@ -201,10 +204,13 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Engage with Decision-Makers'
+                text: 'Explore Live Industrial and Investment Opportunities'
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: ' – Meet top policymakers, procurement leaders, and industry executives shaping the future of industrial production in the UAE.'
+                text: 'Discover projects, procurement pathways, and partnerships aligned with national priorities and ready for execution.'
           -
             type: paragraph
             content:
@@ -213,10 +219,13 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Explore Cutting-Edge Innovation'
+                text: 'Source from a Global Manufacturing and Export Hub'
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: ' – Gain insights into AI-driven manufacturing, advanced materials, hydrogen energy, and Industry 4.0 technologies.'
+                text: 'Access suppliers and partners operating from the UAE, a market built for efficient production, strong logistics, and global reach.'
           -
             type: paragraph
             content:
@@ -225,16 +234,21 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Be Part of the UAE’s Industrial Growth Story –'
-              -
-                type: text
-                text: ' Leverage the UAE’s pro-business policies, world-class infrastructure, and strategic location to expand your operations.'
+                text: 'Turn Conversations into Action'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Join us at Make It In The Emirates 2025 and be part of the movement that’s shaping the future of manufacturing in the UAE and beyond.'
+                text: 'Use the platform to progress discussions into sourcing decisions, partnerships, and next steps that extend beyond the show floor.'
+          -
+            type: paragraph
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Join us at Make it in the Emirates 2026 and be at the centre of the UAE’s industrial ambition, where national priorities, investment opportunities, and real business decisions come together.'
         section_image: newhomepagebanner01.jpg
         buttons:
           -

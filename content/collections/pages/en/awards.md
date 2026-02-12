@@ -16,7 +16,18 @@ page_builder:
             content:
               -
                 type: text
-                text: "The MIITE Awards is one of MoIAT’s key initiatives, recognizing excellence and innovation in the industrial sector. It celebrates the pioneers, visionaries, and game-changers that are shaping the future of industry in the UAE and beyond.\_"
+                text: 'The '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Make it in the Emirates Awards'
+              -
+                type: text
+                text: " is one of MoIAT’s key initiatives, recognising excellence and innovation in the industrial sector. It celebrates the pioneers, visionaries, and game-changers that are shaping the future of industry in the UAE and beyond.\_"
+          -
+            type: paragraph
           -
             type: paragraph
             content:
@@ -35,7 +46,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: "recognizes leading manufacturers\_"
+                text: "recognises leading manufacturers\_"
               -
                 type: text
                 text: "and strengthens ecosystem\_"
@@ -595,8 +606,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770698659
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770875402
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

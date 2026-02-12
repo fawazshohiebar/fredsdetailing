@@ -65,19 +65,19 @@ page_builder:
                     marks:
                       -
                         type: bold
-                    text: '19th to 22nd May 2025'
+                    text: '4th to 7th of May 2026 '
                   -
                     type: text
-                    text: ' at the '
+                    text: 'at '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'ADNEC Centre'
+                    text: 'ADNEC Centre Abu Dhab'
                   -
                     type: text
-                    text: ' in Abu Dhabi, UAE.'
+                    text: 'i, UAE.'
             type: new_set
             enabled: true
           -
@@ -107,17 +107,17 @@ page_builder:
                     text: 'online registration page'
                   -
                     type: text
-                    text: '. Simply fill in the required details, and you’ll receive your ticket and event updates. '
+                    text: '. Simply fill in the required details, and you’ll receive your badge and event updates. '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://registration.infosalons.ae/MIITE25AD/Visitors/Registration/Social?utm_source=Organic&utm_medium=Organic&utm_id=Websitemographics'
+                          href: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
                           rel: null
-                          target: null
-                          title: null
+                          target: _blank
+                          title: 'Register to visit'
                       -
                         type: bold
                     text: 'Register to visit here'
@@ -272,20 +272,17 @@ page_builder:
             enabled: true
           -
             id: mknql8bi
-            question: 'How do I get to the event venue (ADNEC Centre)?'
+            question: 'How do I get to the event venue?'
             answer:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'The '
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'ADNEC Centre'
+                    text: 'ADNEC Centre Abu Dhabi'
                   -
                     type: text
                     text: " is located in the heart of Abu Dhabi and is easily accessible by car, public transport, and shuttle services. Detailed directions and transport options will be provided closer to the event date.\_"
@@ -304,8 +301,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770009549
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770875019
 fine_seo_title: Faq
 fine_seo_preview: 'Faq Page'
 ---

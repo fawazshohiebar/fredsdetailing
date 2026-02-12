@@ -13,7 +13,8 @@ tree:
     title: Agenda
   -
     id: e8e3503e-a9a9-4b66-bdad-e6c6657d663e
-    title: Media
+    title: 'Register as Media'
+    url: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'
   -
     id: 3e38344a-e0a1-4f59-ac11-6cb8c4871261
     title: Experience

@@ -46,7 +46,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770887615
+updated_at: 1770887620
 first_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'

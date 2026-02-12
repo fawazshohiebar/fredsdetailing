@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770788097
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770887615
 first_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'
@@ -147,7 +147,7 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +
-    stats_intro: 'Onsite Attendees'
+    stats_intro: Visitors
     type: stats_set
     enabled: true
   -
@@ -163,7 +163,7 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '1,200'
+            text: '1,000'
           -
             type: text
             marks:
@@ -203,7 +203,7 @@ statistics_creator:
             text: +
     stats_intro: Speakers
     type: stats_set
-    enabled: true
+    enabled: false
   -
     id: mkwg8vmk
     numbers:
@@ -244,7 +244,7 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '85,900'
+            text: '68,000'
           -
             type: text
             marks:
@@ -255,7 +255,7 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +sqm
-    stats_intro: 'Exhibition Space'
+    stats_intro: 'Gross Exhibition Space'
     type: stats_set
     enabled: true
 video_link: 1AJpPJ1AcUs

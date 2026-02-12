@@ -68,7 +68,7 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +
-    stats_intro: 'Onsite Attendees'
+    stats_intro: Visitors
     type: stats_set
     enabled: true
   -
@@ -84,7 +84,7 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '300'
+            text: '720'
           -
             type: text
             marks:
@@ -95,9 +95,9 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +
-    stats_intro: Speakers
+    stats_intro: Exhibitors
     type: stats_set
-    enabled: false
+    enabled: true
   -
     id: mkl7bbme
     numbers:
@@ -153,5 +153,5 @@ statistics_creator:
     type: stats_set
     enabled: true
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770887437
+updated_at: 1770887497
 ---

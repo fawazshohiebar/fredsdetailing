@@ -45,8 +45,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770889266
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1770889384
 first_button:
   link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
   label: 'Register to Visit'
@@ -190,7 +190,7 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '4,300'
+            text: '300'
           -
             type: text
             marks:
@@ -201,7 +201,7 @@ statistics_creator:
                 attrs:
                   color: '#E7443C'
             text: +
-    stats_intro: Products
+    stats_intro: Speakers
     type: stats_set
     enabled: true
   -
@@ -271,8 +271,8 @@ statistics_creator:
             marks:
               -
                 type: bold
-            text: '68,000+sqm'
-    stats_intro: 'Gross Exhibition Space'
+            text: '4,300+'
+    stats_intro: Products
     type: stats_set
     enabled: true
 video_link: 1AJpPJ1AcUs

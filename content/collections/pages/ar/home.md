@@ -5,6 +5,53 @@ page_builder:
   -
     type: set
     attrs:
+      id: mlkw8aot
+      values:
+        type: script_block
+        script_position: Head
+        available_on:
+          - Production
+        html_block:
+          code: |-
+            <!-- 
+            Start of global snippet: Please do not remove
+            Place this snippet between the <head> and </head> tags on every page of your site.
+            -->
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=DC-10089018"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'DC-10089018');
+            </script>
+            <!-- End of global snippet: Please do not remove -->
+
+            <!--
+            Event snippet for UAE_ADNEC-MIITE-STAGING_LP (GT) on : Please do not remove.
+            Place this snippet on pages with events you’re tracking. 
+            Creation date: 02/11/2026
+            -->
+            <script>
+              gtag('event', 'conversion', {
+                'allow_custom_scripts': true,
+                'u2': '[URL_Info]',
+                'send_to': 'DC-10089018/invmedia/uae_a00b+standard'
+              });
+            </script>
+            <noscript>
+            <img src="https://ad.doubleclick.net/ddm/activity/src=10089018;type=invmedia;cat=uae_a00b;u2=[URL_Info];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>
+            </noscript>
+            <!-- End of event snippet: Please do not remove -->
+          mode: htmlmixed
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+  -
+    type: set
+    attrs:
       id: mkgyq9xx
       values:
         type: reusable_block
@@ -190,6 +237,7 @@ page_builder:
         bread_crumb_text: '2026'
         background: bgcolor
         background_color: light-accent
+        breadcrumb: true
   -
     type: set
     attrs:
@@ -428,15 +476,12 @@ page_builder:
             type: award_set
             enabled: true
         button_group:
-          -
-            type: new_set
-            enabled: true
-            link: null
-            label: 'Read More'
-            design: whiteoutlined
-            icon: arrow-down-right
-            open_new_tab: false
-            button_size: null
+          link: null
+          label: null
+          design: null
+          icon: none
+          open_new_tab: false
+          button_size: null
   -
     type: set
     attrs:
@@ -502,16 +547,14 @@ page_builder:
                 type: text
                 text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue.'
         button_group:
-          -
-            type: new_set
-            enabled: true
-            link: null
-            label: 'View All 91 SPONSORS'
-            design: whitebgblacksvg
-            icon: arrow-down-right
-            open_new_tab: false
-            button_size: fit
+          link: null
+          label: null
+          design: null
+          icon: none
+          open_new_tab: false
+          button_size: null
         bread_crumb_text: 'Key CONTRIBUTERS'
+        breadcrumb: true
   -
     type: set
     attrs:
@@ -609,6 +652,7 @@ page_builder:
                     text: "“'Make it in the Emirates' highlights the United Arab Emirates focus on expanding the industrial sector, including greenhouses and food processing, with government support playing a vital role in Emirati business success.”"
             type: partner_word_set
             enabled: true
+        breadcrumb: true
   -
     type: set
     attrs:
@@ -735,5 +779,5 @@ page_builder:
         entry:
           - fc8763b2-beae-4488-86b8-6cd2c0de8272
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1769067314
+updated_at: 1770987505
 ---

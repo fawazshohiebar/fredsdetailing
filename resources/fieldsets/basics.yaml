@@ -903,6 +903,46 @@ fields:
                                   type: link
                                   display: 'Sponsors Website Link'
                                   localizable: false
+            script_block:
+              display: 'Script Block'
+              fields:
+                -
+                  handle: script_position
+                  field:
+                    options:
+                      -
+                        key: Head
+                        value: Head
+                      -
+                        key: BodyStart
+                        value: 'Body Start'
+                      -
+                        key: BodyEnd
+                        value: 'Body End'
+                    type: select
+                    display: 'Script position'
+                    localizable: false
+                    width: 50
+                -
+                  handle: available_on
+                  field:
+                    options:
+                      -
+                        key: Production
+                        value: null
+                      -
+                        key: Local
+                        value: null
+                    type: checkboxes
+                    display: 'Available on'
+                    localizable: false
+                    width: 50
+                -
+                  handle: html_block
+                  field:
+                    type: code
+                    display: 'Html Block'
+                    localizable: false
         forms:
           display: Forms
           icon: form-drop-down-menu

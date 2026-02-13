@@ -11,6 +11,22 @@ page_builder:
   -
     type: set
     attrs:
+      id: mlkt3z8b
+      values:
+        type: script_block
+        html_block:
+          code: '<script>freddy</script>'
+          mode: htmlmixed
+        script_position: BodyStart
+        available_on:
+          - Production
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+  -
+    type: set
+    attrs:
       id: mkgyq9xx
       values:
         type: reusable_block
@@ -761,8 +777,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1770907233
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1770986001
 reusable_popup: false
 fine_seo_title: Miite
 ---

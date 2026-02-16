@@ -14,7 +14,7 @@ page_builder:
   -
     type: set
     attrs:
-      id: mlp6dpqc
+      id: mlp6l2hl
       values:
         type: buttons
         style_config:
@@ -24,21 +24,7 @@ page_builder:
           variant: flex_centered
         buttons:
           -
-            id: mlp6dr7l
-            dynamic_button:
-              button: 'https://miite-staging.adnecdev.ae/assets/brand/make-it-in-the-emirates-2026-brand-kit-and-assets/branding-kit/make-it-in-the-emirates-branding-kit-2026.pdf'
-              text: 'Download the 2026 edition brand kit'
-              button_options:
-                style: filled
-                color: black
-                size: large
-                new_tab: true
-                icon: arrow-right
-                icon_position: start
-            type: button
-            enabled: true
-          -
-            id: mlp6fz8g
+            id: mlp6l5ee
             dynamic_button:
               button: null
               text: null
@@ -50,6 +36,39 @@ page_builder:
                 icon: null
                 icon_position: start
             type: button
+            enabled: true
+          -
+            id: mlp6lcir
+            dynamic_button:
+              button: null
+              text: null
+              button_options:
+                style: filled
+                color: black
+                size: large
+                new_tab: false
+                icon: null
+                icon_position: start
+            type: button
+            enabled: true
+  -
+    type: set
+    attrs:
+      id: mlp6lkiv
+      enabled: false
+      values:
+        type: image_button_carousel_set
+        replicator_image_button:
+          -
+            id: mlp6llzu
+            pdf_reference_button:
+              link: null
+              label: null
+              design: null
+              icon: none
+              open_new_tab: false
+              button_size: null
+            type: carousel_item
             enabled: false
   -
     type: paragraph
@@ -71,5 +90,5 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771246535
+updated_at: 1771246828
 ---

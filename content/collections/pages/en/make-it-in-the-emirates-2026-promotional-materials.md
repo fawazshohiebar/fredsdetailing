@@ -4,17 +4,13 @@ blueprint: page
 title: 'Make it in the Emirates 2026 Promotional Materials'
 page_builder:
   -
-    type: paragraph
+    type: set
     attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'To support your outreach efforts and provide a clearer understanding of the brand, we are pleased to share our official brand kit, including high-quality promotional assets.'
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
+      id: mlp87jr5
+      values:
+        type: reusable_block
+        entry:
+          - a4c36f2d-53ba-41cd-b819-c7b875652f87
 layout: layout
 reusable_popup: false
 template: default
@@ -30,6 +26,6 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771247065
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1771249486
 ---

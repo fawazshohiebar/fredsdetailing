@@ -15,6 +15,7 @@ page_builder:
     type: set
     attrs:
       id: mlp6l2hl
+      enabled: false
       values:
         type: buttons
         style_config:
@@ -90,5 +91,5 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771246828
+updated_at: 1771246945
 ---

@@ -24,5 +24,5 @@ main_activities:
     enabled: true
     link: 'asset::assets::make-it-in-the-emirates-brand-kit.zip'
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1771249900
+updated_at: 1771249925
 ---

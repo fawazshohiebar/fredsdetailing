@@ -25,7 +25,7 @@ main_activities:
     link: 'asset::assets::make-it-in-the-emirates-brand-kit.zip'
   -
     id: mlqb5t23
-    title: kjhgf
+    title: 'Make it in the Emirates 2025 Videos'
     link: 'https://modongroup-my.sharepoint.com/:f:/g/personal/jayrille_nicolas_adnec_ae/IgCHYCaZlj1UQJhCUUj4WXUSAR8utlIE0Y1FFLpt_D_H9a0?e=KYM6GJ'
     design: whitefilled
     icon: none
@@ -35,5 +35,5 @@ main_activities:
     enabled: true
     label: lkjhgfd
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1771314965
+updated_at: 1771315966
 ---

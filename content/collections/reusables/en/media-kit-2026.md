@@ -14,15 +14,15 @@ heading:
 main_activities:
   -
     id: mlp7tytv
-    title: 'Miite Media Kit'
+    title: 'Make it in the Emirates Brand Kit'
     label: Download
     design: whitebgblacksvg
     icon: arrow-right
-    open_new_tab: false
+    open_new_tab: true
     button_size: fit
     type: new_set
     enabled: true
     link: 'asset::assets::make-it-in-the-emirates-brand-kit.zip'
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1771249925
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1771304653
 ---

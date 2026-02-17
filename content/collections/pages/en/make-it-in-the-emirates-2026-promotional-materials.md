@@ -11,6 +11,14 @@ page_builder:
         type: reusable_block
         entry:
           - a4c36f2d-53ba-41cd-b819-c7b875652f87
+  -
+    type: set
+    attrs:
+      id: mlqamh4v
+      values:
+        type: reusable_block
+        entry:
+          - 3b2fc597-c24b-4f73-944e-61873b6c1e9a
 layout: layout
 reusable_popup: false
 template: default
@@ -27,5 +35,5 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771304675
+updated_at: 1771314051
 ---

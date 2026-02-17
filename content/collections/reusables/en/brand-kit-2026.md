@@ -27,13 +27,13 @@ main_activities:
     id: mlqb5t23
     title: 'Make it in the Emirates 2025 Videos'
     link: 'https://modongroup-my.sharepoint.com/:f:/g/personal/jayrille_nicolas_adnec_ae/IgCHYCaZlj1UQJhCUUj4WXUSAR8utlIE0Y1FFLpt_D_H9a0?e=KYM6GJ'
-    design: whitefilled
-    icon: none
+    design: whitebgblacksvg
+    icon: arrow-right
     open_new_tab: false
     button_size: fit
     type: new_set
     enabled: true
-    label: lkjhgfd
+    label: Download
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1771315966
+updated_at: 1771315996
 ---

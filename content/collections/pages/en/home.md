@@ -749,6 +749,26 @@ page_builder:
             enabled: true
             link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
   -
+    type: set
+    attrs:
+      id: mlrnmxa8
+      values:
+        type: banner_carousel
+        images:
+          -
+            id: vwBqeF1J
+            image: 20250519-ron_1836-(1).jpg
+          -
+            id: mlrnmz30
+            image: adnec-group-a-modon-company-(1).png
+          -
+            id: mlrnn8z9
+            image: downloaded-image-2025-06-02t114743.748.jpg
+        new_tab: false
+        width: full
+        image_style: contain
+        use_image_height: true
+  -
     type: paragraph
     attrs:
       textAlign: left
@@ -762,7 +782,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1770987420
+updated_at: 1771396353
 reusable_popup: false
 fine_seo_title: Miite
 ---

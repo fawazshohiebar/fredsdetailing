@@ -119,6 +119,7 @@ page_builder:
                       -
                         type: text
                         text: 'Translating ambition into impact through real investor and industry success stories'
+        section_image: _r_30203-(1).jpg
   -
     type: set
     attrs:
@@ -243,6 +244,7 @@ page_builder:
                       -
                         type: text
                         text: 'Recognizing industrial excellence through the Make it in the Emirates Awards'
+        section_image: downloaded-image-59.jpg
   -
     type: set
     attrs:
@@ -354,6 +356,7 @@ page_builder:
                       -
                         type: text
                         text: 'Workforce transformation and future skills for intelligent industry'
+        section_image: downloaded-image-52.jpg
   -
     type: set
     attrs:
@@ -488,6 +491,7 @@ page_builder:
                       -
                         type: text
                         text: '·Building products in the UAE for global markets'
+        section_image: mr6_6376.jpg
   -
     type: paragraph
     attrs:
@@ -506,7 +510,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771414083
+updated_at: 1771414730
 fine_seo_title: 'Program Overview'
 fine_seo_preview: 'Program Overview'
 ---

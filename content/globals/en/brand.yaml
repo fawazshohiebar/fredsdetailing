@@ -66,6 +66,18 @@ social_media:
     id: mkgvva9a
     platform: instagram
     social_media_link: 'https://www.instagram.com/miiteuae/'
+  -
+    id: mlt0ato3
+    platform: twitter
+    social_media_link: 'https://x.com/MIITEUAE'
+  -
+    id: mlt0b3sc
+    platform: linkedin
+    social_media_link: 'https://www.linkedin.com/showcase/make-it-in-the-emirates/?viewAsMember=true'
+  -
+    id: mlt0bxyo
+    platform: youtube
+    social_media_link: 'https://www.youtube.com/@MakeItInTheEmirates'
 ai_search_url: 'https://aisearch.miite.ae/'
 footer_sales:
   -

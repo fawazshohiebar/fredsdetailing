@@ -24,7 +24,7 @@ page_builder:
           -
             id: mluiqbio
             link: 'https://moiat.gov.ae/en/make-it-in-the-emirates-2026'
-            label: '<b>Apply Here</b>&nbsp;(For Start-ups Only)'
+            label: '<b>Apply Here</b>&nbsp;(For UAE-based start-ups and students only)'
             design: whitebgblacksvg
             icon: arrow-right
             open_new_tab: true
@@ -48,7 +48,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771572672
+updated_at: 1771577520
 fine_seo_title: 'Intelligence Hub'
 fine_seo_preview: 'Intelligence Hub'
 duplicated_from: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4

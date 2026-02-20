@@ -64,8 +64,9 @@ border border-primary
 {{ /if }}
         font-bold flex flex-row uppercase
          " {{ if open_new_tab }}target="_blank" rel="noopener noreferrer"{{ /if }} href="{{ link }}">
-
+<div class="flex flex-row">
         {{ label }}
+      </div>
         {{ if icon != "none" }}
           {{ heroicon variant="outline" icon="{{icon}}" class="w-5 h-6 " /}}
         {{ /if }}

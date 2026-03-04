@@ -85,11 +85,15 @@ html {
   --color-red:#E7443C;
 
 
+
+
+
+
   /* --color-gradient : linear-gradient(275deg, #0F193C, #dd001c); */
 
    --color-gradient :linear-gradient(90deg, #ED1F24 0%, #702B8A 50%, #3853A4 100%);
   --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
-
+--color-greenandblue-gradient:linear-gradient(180deg,rgba(143, 193, 137, 1) 4%, rgba(51, 150, 167, 1) 54%);
   --color-primary-50: #211551;
   --color-primary-100: #211551;
   --color-primary-200: #211551;
@@ -192,6 +196,11 @@ html {
   .bg-back-gradient {
     background: var(--color-gradient);
   }
+
+.bg-greenblue-gradient{
+      background: var(--greenandblue-gradient);
+}
+
 .bg-second-gradient{
   background : var(--color-second-gradient);
 }

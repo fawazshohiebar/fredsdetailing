@@ -10,24 +10,28 @@
                                 <div class="rounded-xl 
                                 
                                 {{if speaker_structure =="v1"}}
-                        sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]   2xl:w-[calc(25%-1.2rem)]
+                         w-[100%] sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]   2xl:w-[calc(25%-1.2rem)]
                     {{elseif speaker_structure =="v2"}}
-                        sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]   
+                        w-[100%] sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]   
                     {{else}}
-                        sm:w-[calc(50%-0.75rem)] 
+                       w-[100%] sm:w-[calc(50%-0.75rem)] 
                     {{/if}}       
                                 
                                 
                                 
                                 
-                                h-75 overflow-hidden items-end {{ if index > 7 }}max-md:hidden{{ /if }}">
-                                    <div class="!flex flex-col  h-full justify-end  relative" style="background-color: {{speaker_background}}">
+                                h-75 overflow-hidden items-end ">
+                                    <div class="!flex flex-col  h-full justify-end  bg-gradient-to-b from-[#8FC189] from-[4%] to-[#3396A7] to-[54%] relative" >
                                        
                                         {{ image }}
-                                            <div class="relative  bg-bottom rounded-[5px] content-end  filter grayscale hover:grayscale-0 bg-no-repeat bg-[length:auto_85%] h-full"
+                                            <div class="relative  bg-bottom rounded-[5px] content-end  bg-no-repeat bg-[length:auto_85%] h-full"
                                                 style="background-image: url('{{ glide:url format='webp' }}');"
                                                 role="img" aria-label="{{ alt ?? 'Speaker Image' }}">
-                                                <div class="py-3 px-2 flex flex-col gap-0.5 z-10 relative">
+                                               
+                                                  <div class="hidden md:block absolute z-0 inset-0 bg-[linear-gradient(360deg,#0000003d_3.9%,rgba(0,0,0,0.06)_36.53%,rgba(0,0,0,0.00)_46.16%)]">
+                                                </div>
+                                            </div>
+                                             <div class="py-3 px-2 flex flex-col gap-0.5 z-10 relative">
                                                     <div class=" text-white text-[14px] leading-7 font-bold  font-mont uppercase text-center">
                                                         {{ speaker_title }}
                                                     </div>
@@ -38,9 +42,6 @@
                                                         {{company}}
                                                     </div>
                                                 </div>
-                                                  <div class="absolute z-0 inset-0 bg-[linear-gradient(365deg,#000000a8_3.9%,rgba(0,0,0,0.40)_36.53%,rgba(0,0,0,0.00)_46.16%)]">
-                                                </div>
-                                            </div>
 
                                         {{ /image }}
                                     </div>

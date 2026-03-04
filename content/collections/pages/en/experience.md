@@ -22,11 +22,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Intelligence Hub'
+                text: 'THE INDUSTRY MUSEUM'
         description:
           -
             type: paragraph
@@ -86,6 +82,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        section_image: quality_hub_1_1_1_1_optimized_850.jpg
   -
     type: set
     attrs:
@@ -186,6 +183,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        section_image: start-up-hub--(1)-(1).jpg
   -
     type: set
     attrs:
@@ -274,6 +272,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        section_image: the_itelligence_hub_1_optimized_850.jpg
   -
     type: set
     attrs:
@@ -320,6 +319,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+        section_image: quality-hub-(1)-(1)-(1).jpg
   -
     type: paragraph
     attrs:
@@ -338,7 +338,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772638833
+updated_at: 1772643896
 fine_seo_title: Features
 fine_seo_preview: Features
 ---

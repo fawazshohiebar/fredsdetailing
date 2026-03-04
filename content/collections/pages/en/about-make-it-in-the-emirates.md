@@ -15,8 +15,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770874350
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1772631276
 page_builder:
   -
     type: set
@@ -155,7 +155,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#fff'
-                text: ', the event showcases the nation’s rapidly evolving industrial landscape, bringing together government leaders, industry pioneers, global investors, and technology innovators. With AED 143+ billion in offtake agreements, the event serves as a powerful platform for businesses to explore new opportunities, forge strategic partnerships, and drive industrial excellence.'
+                text: ', the event showcases the nation’s rapidly evolving industrial landscape, bringing together government leaders, industry pioneers, global investors, and technology innovators. With AED 168+ billion in offtake agreements, the event serves as a powerful platform for businesses to explore new opportunities, forge strategic partnerships, and drive industrial excellence.'
   -
     type: set
     attrs:

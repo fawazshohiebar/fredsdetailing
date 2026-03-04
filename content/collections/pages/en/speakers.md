@@ -1,5 +1,6 @@
 ---
 id: 886de752-6b15-4b12-9365-925f3781935e
+published: false
 blueprint: page
 title: Speakers
 page_builder:
@@ -82,8 +83,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1772617712
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1772637134
 fine_seo_title: Awards
 fine_seo_preview: Awards
 duplicated_from: 66943f73-fee3-4e30-bc72-de33101d79dc

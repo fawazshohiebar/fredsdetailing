@@ -16,7 +16,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772631276
+updated_at: 1772632004
 page_builder:
   -
     type: set
@@ -51,31 +51,25 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Make it in the Emirates'
-              -
-                type: text
-                text: ' has become a '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'pivotal event for manufacturers, investors, and industry leaders'
-              -
-                type: text
-                text: ' looking to capitalise on the vast opportunities within the UAE’s rapidly expanding industrial and manufacturing sectors.'
+                text: 'ADVANCED INDUSTRY. TURBO – CHARGED.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With a strong focus on economic diversification, technological innovation, and sustainability, the event serves as the premier meeting place for networking, deal-making, and strategic discussions on key topics such as advanced manufacturing, Industry 4.0, sustainable materials, and investment opportunities in the UAE’s industrial landscape.'
+                text: "Make it in the Emirates is the UAE's premier event for industrial growth, investment, and transformative technologies, driving a competitive and sustainable industrial economy."
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "As the event continues to grow in scale and influence, it remains a critical platform for shaping the future of manufacturing, showcasing AED 143+ billion in offtake agreements, fostering global partnerships, and reinforcing the UAE’s position as a leading hub for industrial excellence and innovation.\_"
+                text: "Now in its fifth edition, the event returns with new and enhanced features, showcasing cutting-edge innovations, celebrating the UAE's industrial progress, and empowering the next generation of industrial leaders."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Participants at Make it in the Emirates can mobilise capital, secure offtake agreements, forge strategic partnerships, and gain valuable industry exposure. The event’s diverse ecosystem enables enterprises of all sizes to scale and contribute to the UAE’s ambitious industrial and economic transformation.'
           -
             type: paragraph
             content:
@@ -100,6 +94,7 @@ page_builder:
     type: set
     attrs:
       id: mknkmqd5
+      enabled: false
       values:
         type: heading_comp
         background: bgcolor
@@ -130,11 +125,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'Make It In The Emirates 2026 is the UAE’s flagship industrial event, designed to accelerate the country’s manufacturing ambitions and position it as a global hub for industrial innovation, sustainability, and economic growth.'
+                text: 'ADVANCED INDUSTRY. TURBO – CHARGED.'
           -
             type: paragraph
             content:
@@ -143,19 +134,43 @@ page_builder:
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'As part of the UAE’s Operation 300 Billion strategy'
+                text: "Make it in the Emirates is the UAE's premier event for industrial growth, investment, and transformative technologies, driving a competitive and sustainable industrial economy."
+          -
+            type: paragraph
+            content:
               -
                 type: text
                 marks:
                   -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: ', the event showcases the nation’s rapidly evolving industrial landscape, bringing together government leaders, industry pioneers, global investors, and technology innovators. With AED 168+ billion in offtake agreements, the event serves as a powerful platform for businesses to explore new opportunities, forge strategic partnerships, and drive industrial excellence.'
+                    type: bold
+                text: "Now in its fifth edition, the event returns with new and enhanced features, showcasing cutting-edge innovations, celebrating the UAE's industrial progress, and empowering the"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'next generation of industrial leaders.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Participants at Make it in the Emirates can mobilise capital, secure offtake agreements, forge strategic partnerships, and gain valuable industry exposure. The event’s diverse'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'ecosystem enables enterprises of all sizes to scale and contribute to the UAE’s ambitious industrial and economic transformation.'
   -
     type: set
     attrs:

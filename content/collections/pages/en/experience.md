@@ -22,6 +22,10 @@ page_builder:
                 marks:
                   -
                     type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Intelligence Hub'
         description:
           -
@@ -98,6 +102,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'THE START UP HUB'
         description:
           -
@@ -281,6 +290,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'THE QUALITY HUB'
         description:
           -
@@ -324,7 +338,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772638721
+updated_at: 1772638833
 fine_seo_title: Features
 fine_seo_preview: Features
 ---

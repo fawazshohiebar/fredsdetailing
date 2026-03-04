@@ -194,19 +194,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
-                text: Speakers
-        description:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Driving Industrial Growth'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'and Innovation'
+                text: '2026 Speakers'
         speakers_entries:
           - 03c97f84-a9fc-469c-9bf7-169e3afabe80
           - 46429ad0-0b3d-4fb5-a9d4-ce827b8dc7e2
@@ -782,8 +770,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1772016817
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1772631422
 reusable_popup: false
 fine_seo_title: Miite
 ---

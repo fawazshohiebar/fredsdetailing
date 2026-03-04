@@ -176,6 +176,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5sxz1
+      enabled: false
       values:
         type: speaker_section
         design: centered
@@ -771,7 +772,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772631422
+updated_at: 1772643919
 reusable_popup: false
 fine_seo_title: Miite
 ---

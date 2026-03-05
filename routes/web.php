@@ -12,7 +12,7 @@ use App\Http\Controllers\GetAgendaByDateController;
 // Custom route to handle root path - use temporary redirect instead of permanent
 Route::get('/', function() {
     // Default to Arabic
-    return redirect('/ar', 302); // 302 temporary redirect
+    return redirect('/en', 302); // 302 temporary redirect
 });
 
 

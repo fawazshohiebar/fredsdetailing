@@ -1,18 +1,17 @@
 {{ if {locales:count} > 0 }}
     <div class="relative" x-data="{ langOpen: false }">
-
-        <div class="hidden  md:flex  bg-gray-900/40  items-center h-[50px] px-5 rounded-[20px]">
-            {{ locales }}
-                {{ if !is_current }}
+        {{ locales }}
+            {{ if !is_current }}
+                <div class="hidden  md:flex  bg-gray-900/40  items-center h-[50px] px-5 rounded-[20px]">
                     <a href="{{ permalink }}" class="flex items-center text-white text-lg font-medium gap-2">
                         {{ if locale:handle === 'en' }}
                         {{ elseif locale:handle === 'ar' }}
                         {{ /if }}
                         {{ locale:name }}
                     </a>
-                {{ /if }}
-            {{ /locales }}
-        </div>
+                </div>
+            {{ /if }}
+        {{ /locales }}
 
         <div class=" md:hidden  flex  bg-gray-900/40 justify-center items-center h-[50px] w-[50px] rounded-3xl md:rounded-[20px]">
             <div @click="langOpen = ! langOpen" :class="scrolled ? 'text-white' : 'text-white'"

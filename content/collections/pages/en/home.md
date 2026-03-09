@@ -432,6 +432,11 @@ page_builder:
             awards_names: 'Inspirational industrial leaders'
             type: award_set
             enabled: true
+          -
+            id: mmj32iup
+            awards_names: 'UAE Traditional Craft Award'
+            type: award_set
+            enabled: true
         button_group:
           link: 'entry::66943f73-fee3-4e30-bc72-de33101d79dc'
           label: 'Find Out More'
@@ -772,8 +777,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1772708361
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773054996
 reusable_popup: false
 fine_seo_title: Miite
 ---

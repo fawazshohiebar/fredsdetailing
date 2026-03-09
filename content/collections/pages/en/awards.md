@@ -303,6 +303,12 @@ page_builder:
             description: 'UAE Industrial Leader above  35'
             icon: none
             image: sector-icons/wind-turbine.svg
+          -
+            id: mmj35tw9
+            title: 'UAE Traditional Craft Award'
+            description: Handicraft
+            icon: none
+            image: sector-icons/hand-heart.svg
         background: bgcolor
         background_color: light-secondary
         design: centered
@@ -332,9 +338,9 @@ page_builder:
         timeline_creator:
           -
             id: mkz4ep1c
-            date: '2026-01-29'
+            date: '2026-04-01'
             icon: icons/handshake-deal-svgrepo-com.svg
-            timeline_text: 'Approve Categories & Launch Digital Platform'
+            timeline_text: 'Award Submittion'
             type: new_set
             enabled: true
           -
@@ -343,17 +349,17 @@ page_builder:
             icon: rocket-svgrepo-com-(1).svg
             timeline_text: 'Outreach & Call for Applications'
             type: new_set
-            enabled: true
+            enabled: false
           -
             id: mkz4g4lt
             date: '2026-01-29'
             icon: icons/speaker-svgrepo-com.svg
             timeline_text: 'Screening & Technical Review'
             type: new_set
-            enabled: true
+            enabled: false
           -
             id: mkz4gmm2
-            date: '2026-01-29'
+            date: '2026-05-04'
             icon: icons/notepad-note-svgrepo-com.svg
             timeline_text: 'Final interview & Jury Endorsement'
             type: new_set
@@ -613,7 +619,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773053405
+updated_at: 1773055497
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

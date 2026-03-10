@@ -1,5 +1,6 @@
 ---
 id: 898331aa-1275-4072-9dc2-9b85e503d14f
+published: false
 blueprint: speaker
 title: 'Representative from ISO'
 position: Representative

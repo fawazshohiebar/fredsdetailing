@@ -1,5 +1,6 @@
 ---
 id: d618d2c3-f643-4c3f-b1b6-2a611b44c14d
+published: false
 blueprint: speaker
 title: 'Badr Jafar'
 position: 'Special Envoy for Business and Philanthropy'

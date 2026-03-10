@@ -65,6 +65,8 @@ page_builder:
           - 0b45ae14-3b80-4c56-909b-5197ad2290a0
           - 12644d84-def9-4943-8745-a8f77dc04e92
           - b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
+          - f6d8d009-4790-4a5a-a99a-9329c5e432c6
+          - 898331aa-1275-4072-9dc2-9b85e503d14f
         speaker_structure: v2
   -
     type: paragraph
@@ -83,8 +85,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772637134
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1773126813
 fine_seo_title: Awards
 fine_seo_preview: Awards
 duplicated_from: 66943f73-fee3-4e30-bc72-de33101d79dc

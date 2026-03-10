@@ -4,3 +4,7 @@ email:
     id: mlgh3dq4
     to: sales@miite.ae
     cc: 'sumaya.almarzooqi@adnec.ae,rawdha.alhameli@adnec.ae'
+    html: emails/new_enquiry
+    text: emails/new_enquiry
+    markdown: true
+    mailer: smtp

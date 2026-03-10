@@ -1,5 +1,6 @@
 ---
 id: 77cbb92b-5134-482c-bbfd-59cbb553311f
+published: false
 blueprint: speaker
 title: 'H.E. Ibtisam Ali Alsaadi'
 position: 'Acting Assistant Undersecretary for the Industrial Development Sector'

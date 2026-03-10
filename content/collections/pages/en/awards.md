@@ -371,6 +371,7 @@ page_builder:
     type: set
     attrs:
       id: mkz1x0co
+      enabled: false
       values:
         type: custom_speaker_section
         background: bgcolor
@@ -619,7 +620,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773055497
+updated_at: 1773140743
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

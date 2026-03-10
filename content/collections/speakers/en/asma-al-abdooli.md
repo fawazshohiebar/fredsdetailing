@@ -1,5 +1,6 @@
 ---
 id: 270a08f2-23a4-47bf-b691-b3666f19bef2
+published: false
 blueprint: speaker
 title: 'Asma Al Abdooli'
 position: Strategy

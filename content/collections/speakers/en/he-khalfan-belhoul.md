@@ -1,5 +1,6 @@
 ---
 id: bc12f64f-c2ef-4d21-bece-589471075a19
+published: false
 blueprint: speaker
 title: 'H.E. Khalfan Belhoul'
 position: 'Chief Executive Officer'

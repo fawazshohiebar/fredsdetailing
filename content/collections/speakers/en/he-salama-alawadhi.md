@@ -1,5 +1,6 @@
 ---
 id: 5d2bc55e-3cb1-474e-9863-23695b3e35d1
+published: false
 blueprint: speaker
 title: "H.E. \_Salama Alawadhi"
 position: 'Assistant Undersecretary for Industrial Growth'

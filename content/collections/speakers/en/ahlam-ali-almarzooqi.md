@@ -1,5 +1,6 @@
 ---
 id: 8e45194a-0222-42f3-8843-3b59696118de
+published: false
 blueprint: speaker
 title: 'Ahlam Ali AlMarzooqi'
 position: 'Director of Conformity Affairs Department'

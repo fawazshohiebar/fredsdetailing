@@ -1,5 +1,6 @@
 ---
 id: 0b45ae14-3b80-4c56-909b-5197ad2290a0
+published: false
 blueprint: speaker
 title: 'Dr. Najwa Aaraj'
 position: 'Chief Executive Officer'

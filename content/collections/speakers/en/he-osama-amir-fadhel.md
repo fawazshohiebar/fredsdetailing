@@ -1,5 +1,6 @@
 ---
 id: 0d7d3f6b-bf84-4360-bb52-0df327a1c064
+published: false
 blueprint: speaker
 title: 'H.E. Osama Amir Fadhel'
 position: 'Assistant Undersecretary of Industry Accelerators Sector'

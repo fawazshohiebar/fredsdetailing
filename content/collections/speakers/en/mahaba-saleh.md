@@ -1,5 +1,6 @@
 ---
 id: 05b99d2a-0306-4d85-a2ba-1ed7deb4da80
+published: false
 blueprint: speaker
 title: 'Mahaba Al Saleh'
 position: 'Head of Technology Development Section'

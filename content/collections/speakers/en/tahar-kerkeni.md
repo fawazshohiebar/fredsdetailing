@@ -1,5 +1,6 @@
 ---
 id: 60218c10-7853-45fe-b220-59fd587593d0
+published: false
 blueprint: speaker
 title: 'Tahar Kerkeni'
 position: 'Lead, Next Generation Industrial Operating Systems'

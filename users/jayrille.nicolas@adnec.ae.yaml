@@ -21,3 +21,11 @@ preferences:
         - last_name
         - phone
         - position
+    download_brochure_2025:
+      columns:
+        - datestamp
+        - company
+        - company_information
+        - email
+        - first_name
+        - phone

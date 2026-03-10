@@ -1,5 +1,6 @@
 ---
 id: b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
+published: false
 blueprint: speaker
 title: 'Fatma Essa AlMheiri'
 position: 'Director of Technology Adoption and Development'

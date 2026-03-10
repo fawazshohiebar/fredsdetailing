@@ -1,5 +1,6 @@
 ---
 id: 12644d84-def9-4943-8745-a8f77dc04e92
+published: false
 blueprint: speaker
 title: 'Fatma Al Falasi'
 position: 'Investment Specialist'

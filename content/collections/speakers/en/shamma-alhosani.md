@@ -1,5 +1,6 @@
 ---
 id: 966ed40b-b4e1-4f49-bc85-dbfb492166ff
+published: false
 blueprint: speaker
 title: 'Shamma Alhosani'
 position: 'Industrial Engineer'

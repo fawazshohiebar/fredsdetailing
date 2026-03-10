@@ -1,5 +1,6 @@
 ---
 id: 33f27e5f-305a-4210-8bd7-2630733e986e
+published: false
 blueprint: speaker
 title: 'Shamma Al Ansari'
 position: 'Director of Industrial Empowerment Department'

@@ -1,5 +1,6 @@
 ---
 id: 1e514d00-ca53-462f-81c1-b6eed474b17d
+published: false
 blueprint: speaker
 title: 'H.E. Dr. Farah AlZarooni'
 position: 'Assistant Undersecretary for Standardization Affairs Sector'

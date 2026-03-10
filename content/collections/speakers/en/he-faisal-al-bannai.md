@@ -1,5 +1,6 @@
 ---
 id: c693917e-d125-4bd2-928f-04fe3e05e35f
+published: false
 blueprint: speaker
 title: 'H.E. Faisal Al Bannai'
 position: 'Secretary General'

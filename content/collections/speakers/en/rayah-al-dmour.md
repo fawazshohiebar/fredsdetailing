@@ -1,5 +1,6 @@
 ---
 id: ce8076f2-ebdd-4482-ad82-a216d2d07a6a
+published: false
 blueprint: speaker
 title: 'Rayah Al-Dmour'
 position: 'Principal Project Manager'

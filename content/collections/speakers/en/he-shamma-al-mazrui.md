@@ -1,5 +1,6 @@
 ---
 id: c188612d-ce38-4c3f-b5cd-e2c18d6288c2
+published: false
 blueprint: speaker
 title: 'H.E. Shamma Al Mazrui'
 position: Minister

@@ -40,6 +40,7 @@ page_builder:
           - bc12f64f-c2ef-4d21-bece-589471075a19
           - c693917e-d125-4bd2-928f-04fe3e05e35f
           - 279afeab-33aa-4927-904a-9d75d7acd796
+          - f6d8d009-4790-4a5a-a99a-9329c5e432c6
           - 1e514d00-ca53-462f-81c1-b6eed474b17d
           - 5d2bc55e-3cb1-474e-9863-23695b3e35d1
           - 77cbb92b-5134-482c-bbfd-59cbb553311f
@@ -65,8 +66,9 @@ page_builder:
           - 0b45ae14-3b80-4c56-909b-5197ad2290a0
           - 12644d84-def9-4943-8745-a8f77dc04e92
           - b92dfe1b-5e43-4dd4-9e24-ee890e138dd0
-          - f6d8d009-4790-4a5a-a99a-9329c5e432c6
           - 898331aa-1275-4072-9dc2-9b85e503d14f
+          - 395ad83a-5159-469a-9191-c6bfa43cfaea
+          - 0125976a-0ac8-40fb-8a71-32825dcaabdd
         speaker_structure: v2
   -
     type: paragraph
@@ -86,7 +88,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773132747
+updated_at: 1773133518
 fine_seo_title: Awards
 fine_seo_preview: Awards
 duplicated_from: 66943f73-fee3-4e30-bc72-de33101d79dc

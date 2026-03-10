@@ -1,5 +1,6 @@
 ---
 id: 43481212-5ee5-456f-ae58-6c332c6b89ea
+published: false
 blueprint: speaker
 title: 'Professor Eric Xing'
 position: President

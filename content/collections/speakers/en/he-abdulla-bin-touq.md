@@ -1,5 +1,6 @@
 ---
 id: 46429ad0-0b3d-4fb5-a9d4-ce827b8dc7e2
+published: false
 blueprint: speaker
 title: 'H.E. Abdulla bin Touq Al Marri'
 position: Minister

@@ -1,5 +1,6 @@
 ---
 id: 294860b7-0a55-4a31-af75-611858047afb
+published: false
 blueprint: speaker
 title: "H.E. \_Thani Al Zeyoudi"
 position: Minister

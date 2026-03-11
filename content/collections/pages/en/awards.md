@@ -6,6 +6,38 @@ page_builder:
   -
     type: set
     attrs:
+      id: mmlvh1yg
+      values:
+        type: heading_comp
+        design: devided
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 1
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
+                text: '2026 Awards Application Now Open'
+        buttons:
+          -
+            id: mmlv6ihp
+            label: 'Apply Here'
+            design: whitebgblacksvg
+            icon: arrow-right
+            open_new_tab: true
+            button_size: fit
+            type: new_set
+            enabled: true
+            link: 'https://awards.miite.ae/en'
+  -
+    type: set
+    attrs:
       id: mkz06fzc
       values:
         type: ctav1
@@ -122,30 +154,6 @@ page_builder:
             open_new_tab: true
             button_size: fit
             type: button_set
-            enabled: true
-  -
-    type: set
-    attrs:
-      id: mmlv6bf4
-      values:
-        type: heading_comp
-        design: devided
-        heading:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: juygtfrd
-        buttons:
-          -
-            id: mmlv6ihp
-            label: kijuhygtfrd
-            design: whitebgblacksvg
-            icon: arrow-right
-            open_new_tab: false
-            button_size: fit
-            type: new_set
             enabled: true
   -
     type: paragraph
@@ -518,8 +526,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1773223080
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773223547
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

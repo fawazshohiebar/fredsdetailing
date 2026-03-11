@@ -126,6 +126,32 @@ page_builder:
   -
     type: set
     attrs:
+      id: mmlv6bf4
+      values:
+        type: heading_comp
+        design: alignleft
+        heading:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: juygtfrd
+        buttons:
+          -
+            id: mmlv6ihp
+            label: kijuhygtfrd
+            icon: none
+            open_new_tab: false
+            type: new_set
+            enabled: true
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+  -
+    type: set
+    attrs:
       id: ml0idr03
       values:
         type: activities_component
@@ -490,8 +516,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773221677
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1773222987
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

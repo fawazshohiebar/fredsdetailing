@@ -440,7 +440,7 @@ page_builder:
           -
             id: mlhp75tt
             sponsors_logos: sponsors/png/adio.png
-            sponsors_name: 'Abu Dhabi Investment Authority'
+            sponsors_name: 'Abu Dhabi Investment Office'
             sponsors_title: Co-Host
             sponsors_description:
               -
@@ -884,7 +884,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773262795
+updated_at: 1773262925
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

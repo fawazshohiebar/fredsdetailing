@@ -5,7 +5,7 @@ title: 'H.E. Shamma Al Mazrui'
 position: Minister
 company: 'Ministry of Community Empowerment'
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773223262
+updated_at: 1773223286
 duplicated_from: 1e514d00-ca53-462f-81c1-b6eed474b17d
 speaker_background: '#9267AB'
 image: speakers/shamma-al-mazrui.png

@@ -14,3 +14,6 @@ preferences:
         - start_time
     pages:
       after_save: continue_editing
+  forms:
+    enquire_to_exhibit_at_the_2026_edition:
+      per_page: 500

@@ -414,7 +414,7 @@ page_builder:
         awards:
           -
             id: mkgqjvzk
-            awards_names: 'The "Riyada" Tech Frontier Award'
+            awards_names: 'The Tech Frontier Award'
             type: award_set
             enabled: true
           -
@@ -429,12 +429,12 @@ page_builder:
             enabled: true
           -
             id: mkgqk8ea
-            awards_names: 'Next-generation industrial leaders'
+            awards_names: 'Next-generation Industrial Leader Award'
             type: award_set
             enabled: true
           -
             id: mkgqkcjr
-            awards_names: 'Inspirational industrial leaders'
+            awards_names: 'Inspirational Industrial Leaders'
             type: award_set
             enabled: true
           -
@@ -782,8 +782,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773133920
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773224839
 reusable_popup: false
 fine_seo_title: Miite
 ---

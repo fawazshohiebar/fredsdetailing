@@ -126,143 +126,6 @@ page_builder:
   -
     type: set
     attrs:
-      id: mkz0jtnc
-      enabled: false
-      values:
-        type: cta_grid
-        background: bgcolor
-        background_color: light-accent
-        grid_version: v3
-        grid_heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Award Category Section'
-        grid_set_replicator:
-          -
-            id: mkz0jw2g
-            number_of_stars: '0'
-            grid_heading:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "The \"Riyada\" Tech Frontier Award\_"
-            grid_text:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Advanced Technology & Industry 4.0'
-            type: grid_set
-            enabled: true
-          -
-            id: mkz0l5fl
-            number_of_stars: '0'
-            grid_heading:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'National Industrial Growth Award'
-            grid_text:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Industrial Growth, Enablement & National Value Creation'
-            type: grid_set
-            enabled: true
-          -
-            id: mkz0ljio
-            number_of_stars: '0'
-            grid_heading:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Quality & Compliance Award'
-            grid_text:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Standards & Quality\_"
-            type: grid_set
-            enabled: true
-          -
-            id: mkz0lsor
-            number_of_stars: '0'
-            grid_heading:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Next-generation industrial leaders'
-            grid_text:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'UAE Youth Innovators under 35'
-            type: grid_set
-            enabled: true
-          -
-            id: mkz0m4gh
-            number_of_stars: '0'
-            grid_heading:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Inspirational industrial leaders'
-            grid_text:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "UAE Industrial Leader above\_ 35"
-            type: grid_set
-            enabled: true
-  -
-    type: set
-    attrs:
       id: ml0idr03
       values:
         type: activities_component
@@ -323,6 +186,17 @@ page_builder:
         background: bgcolor
         background_color: light-secondary
         design: centered
+        buttons_groups:
+          -
+            id: mmlu4xdd
+            link: 'https://awards.miite.ae/en'
+            label: 'Apply Here'
+            design: whitebgblacksvg
+            icon: arrow-right
+            open_new_tab: true
+            button_size: fit
+            type: button
+            enabled: true
   -
     type: set
     attrs:
@@ -624,7 +498,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773221204
+updated_at: 1773221249
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

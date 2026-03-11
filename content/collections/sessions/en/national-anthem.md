@@ -8,6 +8,6 @@ event_date: '2026-05-04'
 agendas:
   - agritech-forum
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773219165
+updated_at: 1773219204
 ---
-<p>National Anthem</p>
+<p></p>

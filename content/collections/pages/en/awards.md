@@ -141,8 +141,10 @@ page_builder:
           -
             id: mmlv6ihp
             label: kijuhygtfrd
-            icon: none
+            design: whitebgblacksvg
+            icon: arrow-right
             open_new_tab: false
+            button_size: fit
             type: new_set
             enabled: true
   -
@@ -517,7 +519,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1773223002
+updated_at: 1773223080
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

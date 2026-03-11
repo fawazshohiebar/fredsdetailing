@@ -129,7 +129,7 @@ page_builder:
       id: mmlv6bf4
       values:
         type: heading_comp
-        design: alignleft
+        design: devided
         heading:
           -
             type: paragraph
@@ -517,7 +517,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1773222987
+updated_at: 1773223002
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

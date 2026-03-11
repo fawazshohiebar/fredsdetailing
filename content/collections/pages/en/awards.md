@@ -150,7 +150,7 @@ page_builder:
           -
             id: FEqHmuqr
             icon: none
-            title: 'The "Riyada" Tech Frontier Award'
+            title: 'The Tech Frontier Award'
             description: 'Advanced Technology & Industry 4.0'
             image: sector-icons/bolt-lightning.svg
           -
@@ -167,14 +167,14 @@ page_builder:
             image: sector-icons/buildings.svg
           -
             id: ml0i9277
-            title: 'Next-generation industrial leaders'
-            description: 'UAE Youth Innovators under 35'
+            title: 'Next-Generation Industrial Leader Award'
+            description: 'Young Professionals between 19 and 35'
             icon: none
             image: sector-icons/tracktor.svg
           -
             id: ml0i9b7g
-            title: 'Inspirational industrial leaders'
-            description: 'UAE Industrial Leader above  35'
+            title: 'Inspirational Industrial Leader'
+            description: 'Senior Industrial Leaders and Decision Makers'
             icon: none
             image: sector-icons/wind-turbine.svg
           -
@@ -225,16 +225,9 @@ page_builder:
             id: mkz4ep1c
             date: '2026-04-01'
             icon: icons/handshake-deal-svgrepo-com.svg
-            timeline_text: 'Award Submittion'
+            timeline_text: 'Submission Deadline'
             type: new_set
             enabled: true
-          -
-            id: mkz4fbju
-            date: '2026-01-29'
-            icon: rocket-svgrepo-com-(1).svg
-            timeline_text: 'Outreach & Call for Applications'
-            type: new_set
-            enabled: false
           -
             id: mkz4g4lt
             date: '2026-01-29'
@@ -246,7 +239,7 @@ page_builder:
             id: mkz4gmm2
             date: '2026-05-04'
             icon: icons/notepad-note-svgrepo-com.svg
-            timeline_text: 'Final interview & Jury Endorsement'
+            timeline_text: 'Award Ceremony'
             type: new_set
             enabled: true
         background: bgcolor
@@ -498,7 +491,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773221249
+updated_at: 1773221677
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

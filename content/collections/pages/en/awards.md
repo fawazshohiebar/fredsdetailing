@@ -9,7 +9,7 @@ page_builder:
       id: mmlvh1yg
       values:
         type: heading_comp
-        design: devided
+        design: centered
         heading:
           -
             type: heading
@@ -527,7 +527,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773223568
+updated_at: 1773223976
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

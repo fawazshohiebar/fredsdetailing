@@ -5,7 +5,7 @@ title: 'Badr Jafar'
 position: 'Special Envoy for Business and Philanthropy'
 company: 'Ministry of Foreign Affairs'
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773223350
+updated_at: 1773223352
 duplicated_from: 0d7d3f6b-bf84-4360-bb52-0df327a1c064
 speaker_background: '#69747C'
 image: speakers/badr-jfar.png

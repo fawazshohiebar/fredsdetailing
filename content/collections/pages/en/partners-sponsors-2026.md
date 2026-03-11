@@ -202,7 +202,7 @@ page_builder:
                 marks:
                   -
                     type: bold
-                text: 'Abu Dhabi Investment Authority'
+                text: 'Abu Dhabi Investment Office'
         section_label:
           -
             type: heading
@@ -884,7 +884,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770873401
+updated_at: 1773262795
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

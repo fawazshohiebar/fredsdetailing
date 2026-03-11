@@ -1,12 +1,11 @@
 ---
 id: 46429ad0-0b3d-4fb5-a9d4-ce827b8dc7e2
-published: false
 blueprint: speaker
 title: 'H.E. Abdulla bin Touq Al Marri'
 position: Minister
 company: 'Ministry of Economy and Tourism'
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770788078
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773223182
 speaker_background: '#5386AC'
 duplicated_from: 03c97f84-a9fc-469c-9bf7-169e3afabe80
 image: speakers/abdulla-bin-touq-al-marri.png

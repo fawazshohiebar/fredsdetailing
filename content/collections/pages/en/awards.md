@@ -141,7 +141,7 @@ page_builder:
               -
                 type: text
                 text: ', Industrial growth, Industry 4.0 adoption, quality and youth.'
-        section_image: miite-awards.jpg
+        section_image: awards_image_optimized_900.jpg
         background: bgcolor
         background_color: light-secondary
         buttons:
@@ -534,7 +534,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773224187
+updated_at: 1773224794
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

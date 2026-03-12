@@ -68,6 +68,7 @@ page_builder:
           - 898331aa-1275-4072-9dc2-9b85e503d14f
           - 395ad83a-5159-469a-9191-c6bfa43cfaea
           - 0125976a-0ac8-40fb-8a71-32825dcaabdd
+          - 59448bcd-486c-4435-95ce-0b26f36fe37d
         speaker_structure: v2
   -
     type: paragraph
@@ -87,7 +88,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773133938
+updated_at: 1773295661
 fine_seo_title: Awards
 fine_seo_preview: Awards
 duplicated_from: 66943f73-fee3-4e30-bc72-de33101d79dc

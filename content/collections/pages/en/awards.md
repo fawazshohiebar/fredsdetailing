@@ -209,7 +209,7 @@ page_builder:
             image: sector-icons/tracktor.svg
           -
             id: ml0i9b7g
-            title: 'Inspirational Industrial Leader'
+            title: 'Inspirational Industrial Leader Award'
             description: 'Senior Industrial Leaders and Decision Makers'
             icon: none
             image: sector-icons/wind-turbine.svg
@@ -534,7 +534,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773301648
+updated_at: 1773301717
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

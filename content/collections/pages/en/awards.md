@@ -186,7 +186,7 @@ page_builder:
           -
             id: FEqHmuqr
             icon: none
-            title: 'The Tech Frontier Award'
+            title: 'Tech Frontier Award'
             description: 'Advanced Technology & Industry 4.0'
             image: sector-icons/bolt-lightning.svg
           -
@@ -534,7 +534,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773224794
+updated_at: 1773301648
 fine_seo_title: Awards
 fine_seo_preview: Awards
 ---

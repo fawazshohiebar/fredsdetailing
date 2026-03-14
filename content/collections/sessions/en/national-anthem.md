@@ -7,8 +7,8 @@ end_time: '10:01'
 event_date: '2026-05-04'
 agendas:
   - vision-stage
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773386085
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773498189
 halls: icc-halls
 ---
 <p></p>

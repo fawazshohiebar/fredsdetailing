@@ -6,12 +6,10 @@ page_builder:
   -
     type: set
     attrs:
-      id: mlj178li
+      id: mmqgr9u6
       values:
-        type: ctav1
-        text_image_alignment: v1
-        spaces: p
-        heading_text:
+        type: heading_comp
+        heading:
           -
             type: heading
             attrs:
@@ -38,6 +36,17 @@ page_builder:
                     attrs:
                       color: redgrad
                 text: 'Industrial Sovereignty in a Strategically Connected World'
+  -
+    type: set
+    attrs:
+      id: mlj178li
+      values:
+        type: ctav1
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
+          -
+            type: paragraph
           -
             type: paragraph
         description:
@@ -123,12 +132,10 @@ page_builder:
   -
     type: set
     attrs:
-      id: mlj19glh
+      id: mmqgufqd
       values:
-        type: ctav1
-        text_image_alignment: v1
-        spaces: p
-        heading_text:
+        type: heading_comp
+        heading:
           -
             type: heading
             attrs:
@@ -144,12 +151,16 @@ page_builder:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
                 text: 'The In Country Value (ICV) Opportunity: Creating Long Term Value  '
+  -
+    type: set
+    attrs:
+      id: mlj19glh
+      values:
+        type: ctav1
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
           -
             type: heading
             attrs:
@@ -248,12 +259,10 @@ page_builder:
   -
     type: set
     attrs:
-      id: mlj30ua1
+      id: mmqgu8ny
       values:
-        type: ctav1
-        text_image_alignment: v1
-        spaces: p
-        heading_text:
+        type: heading_comp
+        heading:
           -
             type: heading
             attrs:
@@ -269,14 +278,20 @@ page_builder:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
                 text: 'Turbo-Charged by Technology.: Driving the Future of UAE Manufacturing'
+  -
+    type: set
+    attrs:
+      id: mlj30ua1
+      values:
+        type: ctav1
+        text_image_alignment: v1
+        spaces: p
+        heading_text:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
           -
             type: heading
             attrs:
@@ -360,6 +375,29 @@ page_builder:
   -
     type: set
     attrs:
+      id: mmqgtxco
+      values:
+        type: heading_comp
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Day 4 | May 7, 2026'
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Impact: Youth, Innovation and Global Partnerships for the Next-Gen Industry'
+  -
+    type: set
+    attrs:
       id: mlj33rtn
       values:
         type: ctav1
@@ -370,28 +408,6 @@ page_builder:
             type: heading
             attrs:
               level: 2
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Day 4 | May 7, 2026'
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Impact: Youth, Innovation and Global Partnerships for the Next-Gen Industry'
           -
             type: paragraph
           -
@@ -509,8 +525,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1771414730
+updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
+updated_at: 1773501244
 fine_seo_title: 'Program Overview'
 fine_seo_preview: 'Program Overview'
 ---

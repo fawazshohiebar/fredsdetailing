@@ -44,11 +44,6 @@ page_builder:
         type: ctav1
         text_image_alignment: v1
         spaces: p
-        heading_text:
-          -
-            type: paragraph
-          -
-            type: paragraph
         description:
           -
             type: paragraph
@@ -143,6 +138,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Day 2 | May 5, 2026 '
           -
             type: heading
@@ -151,6 +151,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'The In Country Value (ICV) Opportunity: Creating Long Term Value  '
   -
     type: set
@@ -160,13 +165,6 @@ page_builder:
         type: ctav1
         text_image_alignment: v1
         spaces: p
-        heading_text:
-          -
-            type: heading
-            attrs:
-              level: 3
-          -
-            type: paragraph
         description:
           -
             type: paragraph
@@ -270,6 +268,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Day 3 | May 6, 2026'
           -
             type: heading
@@ -278,6 +281,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Turbo-Charged by Technology.: Driving the Future of UAE Manufacturing'
   -
     type: set
@@ -287,17 +295,6 @@ page_builder:
         type: ctav1
         text_image_alignment: v1
         spaces: p
-        heading_text:
-          -
-            type: heading
-            attrs:
-              level: 3
-          -
-            type: heading
-            attrs:
-              level: 3
-          -
-            type: paragraph
         description:
           -
             type: paragraph
@@ -386,6 +383,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Day 4 | May 7, 2026'
           -
             type: heading
@@ -394,6 +396,11 @@ page_builder:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: redgrad
                 text: 'Impact: Youth, Innovation and Global Partnerships for the Next-Gen Industry'
   -
     type: set
@@ -403,19 +410,6 @@ page_builder:
         type: ctav1
         text_image_alignment: v1
         spaces: p
-        heading_text:
-          -
-            type: heading
-            attrs:
-              level: 2
-          -
-            type: paragraph
-          -
-            type: heading
-            attrs:
-              level: 3
-          -
-            type: paragraph
         description:
           -
             type: paragraph
@@ -526,7 +520,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773501244
+updated_at: 1773501435
 fine_seo_title: 'Program Overview'
 fine_seo_preview: 'Program Overview'
 ---

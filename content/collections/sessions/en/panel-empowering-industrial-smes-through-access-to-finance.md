@@ -9,6 +9,6 @@ agendas:
   - momentum-hall
 halls: icc-hall-1
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1773642346
+updated_at: 1773642453
 ---
 <p>A collaboration discussion between leading financial partners to highlight tools to de-risk SME lending, and explore mechanisms of approaching, expanding, and/or accessing credit guarantees and programs offered.</p>

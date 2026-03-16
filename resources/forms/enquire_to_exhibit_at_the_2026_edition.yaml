@@ -2,7 +2,7 @@ title: 'Enquire to Exhibit at the 2026 Edition'
 email:
   -
     id: mmkgwlge
-    to: 'sumaya.almarzooqi@adnec.ae,rawdha.alhameli@adnec.ae'
+    to: 'sumaya.almarzooqi@adnec.ae,rawdha.alhameli@adnec.ae,fawaz.chuhaibar@adnec.ae'
     html: emails/new_enquiry
     text: emails/new_enquiry
     markdown: true

@@ -10,7 +10,7 @@ page_builder:
       values:
         type: agenda_component
         start_date: '2026-05-04'
-        end_date: '2026-05-07'
+        end_date: '2026-05-08'
         agendas:
           - vision-stage
           - momentum-hall
@@ -28,8 +28,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1773500925
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1773642233
 fine_seo_title: Agenda
 fine_seo_preview: Agenda
 ---

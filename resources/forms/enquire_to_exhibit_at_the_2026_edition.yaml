@@ -7,3 +7,4 @@ email:
     text: emails/new_enquiry
     markdown: true
     mailer: smtp
+    subject: 'Enquire to Exhibit'

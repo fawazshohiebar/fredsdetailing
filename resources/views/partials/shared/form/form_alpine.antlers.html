@@ -4,6 +4,7 @@
             captchaError: "",
             success: false,
             submitted: false,
+            capturedUrl: "",
             form: $form(
                 "post",
                 $refs.form.getAttribute("action"),
@@ -20,6 +21,17 @@
                 });
             },
             init() {
+                    // Always capture current URL with UTM parameters
+                this.capturedUrl = window.location.href;
+                console.log("UTM URL captured:", this.capturedUrl);
+                
+                // Set it to utm_url field if it exists in the form
+                const utmUrlField = $refs.form.querySelector("input[name=\"utm_url\"]");
+                if (utmUrlField) {
+                    utmUrlField.value = this.capturedUrl;
+                }
+                
+
                 // Add file inputs to the excluded fields
                 const fileInputs = $refs.form.querySelectorAll("input[type=file]");
                 fileInputs.forEach(input => {
@@ -77,6 +89,12 @@
                                 formData.append(field.name, field.value);
                             }
                         }
+                    }
+                    
+                        // Always add the captured URL to form data
+                    if (this.capturedUrl) {
+                        formData.append("utm_url", this.capturedUrl);
+                        console.log("Adding utm_url to FormData:", this.capturedUrl);
                     }
                     
                     // Add the turnstile token if available

@@ -2277,3 +2277,11 @@ fields:
                                   type: assets
                                   display: Image
                                   localizable: false
+  -
+    handle: utm_url
+    field:
+      input_type: hidden
+      type: text
+      display: utm_url
+      localizable: false
+      visibility: hidden

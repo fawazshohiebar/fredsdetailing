@@ -48,3 +48,8 @@ preferences:
         - title
         - slug
         - order
+  forms:
+    enquire_to_exhibit_at_the_2026_edition:
+      columns:
+        - datestamp
+        - first_name

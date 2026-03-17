@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Actions\ExportSelectedSubmissions;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\URL;
@@ -50,5 +51,7 @@ class AppServiceProvider extends ServiceProvider
             'resources/js/cp.js',
             'resources/css/cp.css',
         ]);
+                ExportSelectedSubmissions::register();
+
     }
 }

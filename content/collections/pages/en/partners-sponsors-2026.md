@@ -550,7 +550,7 @@ page_builder:
                 content:
                   -
                     type: text
-                    text: 'Emirates Development Bank (EDB) is the key financial engine of economic development and industrial transformation in the UAE and the key enabler of the nation’s industrial development strategy. EDB provides financial and non-financial support to businesses of all sizes from start-ups and SMEs to large corporates, driving economic competitiveness and business growth. The Bank strives to maximize national economic impact and contributions to non-oil GDP, national employment, and in-country value generation by financing the right transactions that drive development across five priority sectors: Manufacturing, Food Security, Healthcare, Advanced Technology, and Renewables.'
+                    text: 'Emirates Development Bank (EDB) is the key financial engine of economic development and industrial transformation in the UAE and the key enabler of the nation’s industrial development strategy. EDB provides financial and non-financial support to businesses of all sizes from start-ups and SMEs to large corporates, driving economic competitiveness and business growth. The Bank strives to maximize national economic impact and contributions to non-oil GDP, national employment, and in-country value generation by financing the right transactions that drive development across five priority sectors: Manufacturing, Food Security, Healthcare, Advanced Technology, and Renewables. '
               -
                 type: paragraph
                 content:
@@ -563,6 +563,18 @@ page_builder:
                   -
                     type: text
                     text: 'Beyond its financing products, EDB provides a range of non-financial solutions ranging from financial literacy training to mentoring and business operations guidance tailored to the needs of entrepreneurs and SMEs to drive their contribution to the national economy.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'To help kick-start businesses for startups, EDB also offers seamless and quick account opening services and loan applications via its Business Banking App. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'For more details: www.edb.gov.ae'
             type: new_set
             enabled: true
             sponsors_name: 'Emirates Development Bank (EDB)'
@@ -711,25 +723,31 @@ page_builder:
                 content:
                   -
                     type: text
-                    text: 'Tawazun Economic Council (TEC) was founded in 1992 to support a vision of comprehensive and sustainable economic and social development within the UAE.'
+                    text: 'Tawazun Council for Defence Enablement serves as a national enabler focused on translating defence and security priorities into targeted institutional, industrial, and economic outcomes across the UAE ecosystem.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Through the implementation of its economic development program initiatives, TEC acts as a key enabler for the development of defense and security industries in the UAE. TEC provides the needed inputs for the defense industrial development including attracting additional local and foreign capital into the industry as well as actively supporting the SME segment.'
+                    text: 'The Council plays a pivotal role in supporting defence procurement by ensuring acquisition programmes are strategically aligned with long-term national capability requirements whilst adhering to value-for-money principles and industrial localisation objectives. It facilitates the development of a resilient defence-industrial base through enabling domestic manufacturing, attracting strategic foreign investment, and integrating UAE entities into global original equipment manufacturer value chains.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'TEC targets new capability development, technology transfer and accelerated adoption of new technologies in the defense & security industrial sector thereby contributing to economic diversification.'
+                    text: 'Tawazun shapes the regulatory environment by developing sector-specific licensing schemes, standards, testing and conformity frameworks, and compliance systems. The Council oversees the delivery of defence-specialised industrial zones and enabling infrastructure required for high-compliance manufacturing.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Since its establishment, TEC has enabled creation of more than 90 companies and investment vehicles, covering 11 sectors, including defense manufacturing. These companies continue play a vital role in boosting economic growth in the UAE.'
+                    text: 'In parallel, Tawazun activates the national research, development, and innovation ecosystem through strategic programmes supporting dual-use technology absorption and collaboration across government, industry, and academia.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Through this integrated approach, Tawazun provides the enabling conditions—regulatory, institutional, and operational—that transform national strategy into tangible, enduring sovereign capabilities.'
             sponsors_website_link: 'https://www.tawazun.gov.ae/'
             type: new_set
             enabled: true
@@ -883,8 +901,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773262925
+updated_by: 2baa6fb8-4dcb-440e-ba42-146688a7a1a4
+updated_at: 1773825597
 fine_seo_title: 'Partners & Sponsors 2026'
 fine_seo_preview: 'Partners & Sponsors 2026'
 ---

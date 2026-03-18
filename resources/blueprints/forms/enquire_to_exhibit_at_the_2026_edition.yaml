@@ -53,6 +53,8 @@ tabs:
               display: Company
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: position
             field:
@@ -60,6 +62,8 @@ tabs:
               display: Position
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: city
             field:

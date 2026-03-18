@@ -221,16 +221,19 @@
                         {{ widthClasses = ['100' => 'sm:col-span-2', '50' => 'sm:col-span-1', ] }}
                         {{ fields }}
                             <div class="{{ widthClasses[width] }}">
+                              
                                 {{ if show_labels && input_type !== 'hidden' }}
+                              <div class="flex">
+                                {{ validate }}
+                                        {{ if value == 'required' }}
+                                            <div class="text-red-500 text-xs mb-1">*</div>
+                                        {{ /if }}
+                                    {{ /validate }}
                                     <label for="name"
                                         :class="{'text-gray-700': !checkingCaptcha, 'text-gray-400': checkingCaptcha}"
                                         class="block text-sm font-semibold mb-2">{{ display | trans }}
-                                        {{ validate }}
-                                            {{ if value == 'required' }}
-                                                <span class="text-red-500">*</span>
-                                            {{ /if }}
-                                        {{ /validate }}
                                     </label>
+                              </div>
                                     {{ if instructions }}
                                         <div class="text-xs text-gray-400 mb-1">
                                             {{ instructions }}

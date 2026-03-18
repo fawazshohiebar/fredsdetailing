@@ -76,6 +76,8 @@ tabs:
               display: Country
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: company_information
             field:

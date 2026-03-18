@@ -12,6 +12,8 @@ tabs:
               display: 'First Name'
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: last_name
             field:

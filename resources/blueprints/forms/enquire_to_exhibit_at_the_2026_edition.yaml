@@ -22,6 +22,8 @@ tabs:
               display: 'Last Name'
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: email
             field:
@@ -31,6 +33,8 @@ tabs:
               display: Email
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: phone
             field:
@@ -40,6 +44,8 @@ tabs:
               display: Phone
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: company
             field:

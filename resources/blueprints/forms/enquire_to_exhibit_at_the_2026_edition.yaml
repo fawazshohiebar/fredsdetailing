@@ -68,6 +68,8 @@ tabs:
               display: City
               localizable: false
               width: 50
+              validate:
+                - required
           -
             handle: country
             field:

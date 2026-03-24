@@ -3,6 +3,10 @@ tree:
     id: d5c07ee1-cada-4e80-999b-4a9a613865d4
     entry: home
   -
+    id: 2f1d6810-0591-4760-afad-3d6de275302e
+    title: '2026 Register to Visit'
+    url: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
+  -
     id: aa751cfd-6542-4617-b048-b39bdcb61c9a
     title: About
     children:
@@ -12,10 +16,6 @@ tree:
       -
         id: 7b38bbb4-3e01-40ae-86cc-dece99b8d9da
         entry: 394e9a07-b845-4538-9872-92213381e955
-  -
-    id: 2f1d6810-0591-4760-afad-3d6de275302e
-    title: '2026 Register to Visit'
-    url: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
   -
     id: bdf4887e-56e7-4152-9653-e56c0867efd4
     title: 'Sponsor & Exhibit'

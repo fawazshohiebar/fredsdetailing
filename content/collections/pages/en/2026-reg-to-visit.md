@@ -2,7 +2,7 @@
 id: 78536e0e-f16a-4a0e-9c5e-772c3d89536d
 published: false
 blueprint: page
-title: 'Media (Duplicated)'
+title: '2026 Register to Visit'
 feature_banner_image: 20250519-ron_1836-(1).jpg
 page_builder:
   -
@@ -20,8 +20,8 @@ page_builder:
           -
             id: mlj2kd60
             dynamic_button:
-              button: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'
-              text: 'Register as Media'
+              button: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
+              text: 'Register to Visit'
               button_options:
                 style: filled
                 color: black
@@ -55,6 +55,6 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770877251
+updated_at: 1774332188
 duplicated_from: 6dcd6318-f640-487e-92e2-2b29cd88595d
 ---

@@ -15,8 +15,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: 4dc2fe99-8305-4c72-8c54-8b883e37cbc6
-updated_at: 1772632004
+updated_by: c9f43739-6778-4755-8aa6-6964344da17a
+updated_at: 1774329674
 page_builder:
   -
     type: set
@@ -275,7 +275,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
-            link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
+            link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
         section_label:
           -
             type: heading

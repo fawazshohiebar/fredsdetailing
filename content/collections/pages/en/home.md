@@ -93,7 +93,7 @@ page_builder:
           open_new_tab: true
           button_size: fit
         registration_button:
-          link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
+          link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
           label: 'Register to Visit'
           design: greengradient
           icon: arrow-right
@@ -772,7 +772,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1773810907
+updated_at: 1774329589
 reusable_popup: false
 fine_seo_title: Miite
 ---

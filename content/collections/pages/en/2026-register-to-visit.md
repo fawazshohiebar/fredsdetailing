@@ -1,5 +1,6 @@
 ---
 id: fe4056bc-f132-4596-aaa1-7d96d5a45a1d
+published: false
 blueprint: page
 title: '2026 Register to Visit'
 layout: layout

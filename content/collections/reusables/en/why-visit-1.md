@@ -3,7 +3,7 @@ id: ad9887da-c222-4817-9af6-cba4a6eb2345
 blueprint: tabs_with_accordions
 title: 'From First Factories to Global Industrial Powerhouse (Duplicated)'
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770722712
+updated_at: 1774329574
 heading:
   -
     type: heading
@@ -147,7 +147,7 @@ tab_creator:
         button_size: fit
         type: button_set
         enabled: true
-        link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
+        link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
     accordion_creator:
       -
         id: mkgi6kv0

@@ -59,7 +59,7 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
-            link: 'https://registration.xporience.com/registration/?badge_name=visitor&token=zei4WMQIu1VMaCx'
+            link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
         background: bgcolor
         background_color: light-accent
   -
@@ -100,7 +100,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1770874645
+updated_at: 1774329977
 fine_seo_title: 'Why Visit'
 fine_seo_preview: 'Why Visit'
 ---

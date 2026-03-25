@@ -6,35 +6,26 @@ heading:
   -
     type: heading
     attrs:
-      level: 2
+      level: 1
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: ADVANCED
-      -
-        type: hardBreak
-      -
-        type: text
-        text: INDUSTRY
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: '. '
+        text: 'ABU DHABI'
       -
         type: hardBreak
       -
         type: text
         marks:
           -
-            type: bold
-        text: 'TURBO – CHARGED.'
-  -
-    type: paragraph
+            type: textColor
+            attrs:
+              color: redgrad
+        text: INTERNATIONAL
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'BOAT SHOW'
 video: c7tKPy5LoP8
 hero_actions:
   -
@@ -45,8 +36,8 @@ hero_actions:
     button_size: fit
     type: button
     enabled: true
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1774329473
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1774426127
 first_button:
   link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
   label: 'Register to Visit'
@@ -286,4 +277,80 @@ statistics_creator:
     type: stats_set
     enabled: true
 video_link: 1AJpPJ1AcUs
+button_group:
+  -
+    id: mn5px1x8
+    label: 'Register to Visit'
+    icon: arrow-right
+    open_new_tab: false
+    type: new_set
+    enabled: true
+    design: bluebgwhitetxt
+    button_size: lg
+  -
+    id: mn5pwzrx
+    label: 'Enquire to Exhibit'
+    icon: none
+    open_new_tab: false
+    type: new_set
+    enabled: true
+    design: whiteoutlined
+    button_size: lg
+date_and_location:
+  -
+    id: mn5obv1x
+    icon: calendar-date-range
+    info_text:
+      -
+        type: heading
+        attrs:
+          level: 6
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: '19 - 22 November 2026'
+    type: new_set
+    enabled: true
+  -
+    id: mn5p545f
+    icon: map-pin
+    type: new_set
+    enabled: true
+    info_text:
+      -
+        type: heading
+        attrs:
+          level: 6
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#fff'
+            text: 'Marina Hall, ADNEC Centre Abu Dhabi'
+description_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#EDF1F7'
+        text: 'The Ultimate Marine Destination for the Middle East'
 ---

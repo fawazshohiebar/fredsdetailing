@@ -66,57 +66,39 @@ fields:
       unless:
         video: 'contains http'
   -
-    handle: first_button
-    field:
-      type: group
-      display: 'first Button'
-      localizable: true
-      fields:
-        -
-          import: fancy_button
+    import: button_group
   -
-    handle: second_button
+    handle: date_and_location
     field:
-      type: group
-      display: 'Second Button'
-      localizable: true
-      fields:
-        -
-          import: fancy_button
-  -
-    handle: more_info
-    field:
-      type: group
-      display: 'More Info'
-      localizable: true
-      fields:
-        -
-          handle: info_year
-          field:
-            type: text
-            display: 'Info Year'
-            localizable: false
-        -
-          handle: info_date
-          field:
-            type: text
-            display: 'Info Date'
-            localizable: false
-        -
-          handle: info_location
-          field:
-            buttons:
-              - h2
-              - h3
-              - bold
-              - color
-              - h1
-              - h4
-              - h5
-              - h6
-            remove_empty_nodes: false
-            type: bard
-            display: 'Info Location'
-            localizable: false
-  -
-    import: reusable_banner_stats
+      type: replicator
+      display: 'Date and Location'
+      localizable: false
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: icon
+                  field: basics.icon
+                  config:
+                    width: 50
+                -
+                  handle: info_text
+                  field:
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - color
+                      - h1
+                      - h4
+                      - h5
+                      - h6
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'info Text'
+                    localizable: false
+                    width: 50

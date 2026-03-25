@@ -1,7 +1,8 @@
-<div class="w-full min-h-[100dvh] h-fit flex items-end  ">
-    <div class=" z-20 h-full flex flex-col justify-end items-end w-full  md:pt-0 pt-50 ">
-        <div class=" adnec-container max-w-full w-full flex  lg:pb-30 pb-10  pt-10 lg:pt-0 flex-wrap flex-row mb-5   justify-between gap-10 items-center ">
-            <div class=" w-auto flex  flex-col gap-y-5">
+<div class="w-full min-h-[100dvh] h-fit flex items-center  ">
+    <div class=" z-20 h-full flex flex-col justify-center items-center w-full  md:pt-0 pt-50 ">
+        <div
+            class=" adnec-container max-w-full w-full flex  lg:pb-30 pb-10  pt-10 lg:pt-0 flex-wrap flex-row mb-5   justify-between gap-10 items-center ">
+            <div class=" w-full flex  flex-col gap-y-5  text-center items-center">
                 {{ if subheading }}
                     <p class="text-white/90 text-base md:text-lg  xl:text-2xl block   opacity-0  transition-all duration-200 transform ease-linear delay-150 motion-reduce:opacity-100 motion-reduce:translate-y-0"
                         x-data="{ show: false }" x-init="setTimeout(() => show = true, 150)"
@@ -16,42 +17,59 @@
                         {{ heading | widont(2) }}
                     </div>
                 {{ /if }}
-                {{ if description_text }}
-                    <div class="custom">{{ description_text }}</div>
-                {{ /if }}
                 {{#
                     <div class="flex justify-center">
                         {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }}
                     </div>
                 #}}
-                {{ first_button }}
-                    {{ partial:partials/sets/fancy_button }}
-                {{ /first_button }}
+                <div class=" flex-col md:flex-row flex gap-7">
+                    {{ date_and_location }}
+                        <div class="flex flex-row items-center relative gap-3">
+                            {{ heroicon variant="outline" :icon="icon" class="h-7 w-7 text-blue" /}}
+                            <div class="custom">{{ info_text }}</div>
+                            {{ unless last }}
+                                <div
+                                    class="dividerr  absolute right-[-0.5rem] lg:right-[-18px] xl:right-[-1rem] top-1/2 -translate-y-1/2 h-full w-0 md:w-px bg-[#06B6D480]">
+                                </div>
+                            {{ /unless }}
+                        </div>
+                    {{ /date_and_location }}
+
+                </div>
+
+                {{ if description_text }}
+                    <div class="custom">{{ description_text }}</div>
+                {{ /if }}
+                <div class="flex flex-col md:flex-row gap-5">
+                    {{ partial:partials/sets/button_group }}
+                </div>
                 <!-- Enhanced Event Details Section -->
             </div>
 
-            <div class="w-auto flex flex-col  gap-10">
-                <div>
-                    {{ second_button }}
-                        {{ partial:partials/sets/fancy_button }}
-                    {{ /second_button }}
+            {{#
+                <div class="w-auto flex flex-col  gap-10">
+                    <div>
+                        {{ second_button }}
+                            {{ partial:partials/sets/fancy_button }}
+                        {{ /second_button }}
+                    </div>
+                
+                    <div class="grid grid-cols-2 md:flex flex-row bg-back-gradient w-fit p-5   gap-5 rounded-2xl ">
+                        {{ more_info }}
+                            <div class="text-white text-4xl "> {{ info_year }}</div>
+                            <div class="text-white text-sm   "> {{ info_date }}</div>
+                            <div class="h-auto w-[1px] md:block  hidden bg-white"></div>
+                            <div class=" text-white custom"> {{ info_location }}</div>
+                            {{ heroicon variant="outline" icon="arrow-down-left" class="h-full  w-12 text-white " }}
+                        {{ /more_info }}
+                    </div>
+                
+                
                 </div>
-
-                <div class="grid grid-cols-2 md:flex flex-row bg-back-gradient w-fit p-5   gap-5 rounded-2xl ">
-                    {{ more_info }}
-                        <div class="text-white text-4xl "> {{ info_year }}</div>
-                        <div class="text-white text-sm   "> {{ info_date }}</div>
-                        <div class="h-auto w-[1px] md:block  hidden bg-white"></div>
-                        <div class=" text-white custom"> {{ info_location }}</div>
-                        {{ heroicon variant="outline" icon="arrow-down-left" class="h-full  w-12 text-white " }}
-                    {{ /more_info }}
-                </div>
-
-
-            </div>
+            #}}
         </div>
-        
-              {{ partial:partials/sets/banner_statistics }} 
+
+        {{# {{ partial:partials/sets/banner_statistics }} #}}
     </div>
- 
+
 </div>

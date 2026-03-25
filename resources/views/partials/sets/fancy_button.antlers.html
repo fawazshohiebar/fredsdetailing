@@ -1,17 +1,16 @@
-      <a class=" h-fit py-3  px-5 gap-4 w-fit 
+      <a class=" h-fit py-4  px-5 gap-4 w-fit 
 
-      {{if button_size == 'fit'}}
+    {{if button_size == 'fit'}}
         px-5
-      {{elseif button_size == 'lg'  }}
+    {{elseif button_size == 'lg'  }}
       flex justify-center
-        px-10 lg:px-20    
-      {{/if}}
-        {{ if design == 'orangefilled' }} 
-          text-white md:text-base text-sm bg-gradient-to-br from-orange-400 via-amber-700 to-orange-400 leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
-        {{ elseif design == 'whitefilled' }}
+        px-5 lg:px-10    
+    {{/if}}
+    {{ if design == 'whitefilled' }}
           bg-white outline outline-1 outline-offset-[-1px] text-Blue-600 capitalize md:text-base text-sm font-medium leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
-        {{ elseif design == 'whiteoutlined'}}
-            outline outline-1 outline-offset-[-1px] outline-white  text-white md:text-base text-sm font-medium  rounded-2xl leading-normal [text-shadow:_0px_0px_10px_rgb(0_0_0_/_0.30)]
+    {{ elseif design == 'whiteoutlined'}}
+    hover:bg-white hover:text-black    
+    outline outline-2 outline-offset-[-1px] outline-white  text-white md:text-base text-sm font-semibold  rounded-md leading-normal 
         [&_svg]:bg-white 
           [&_svg]:p-[10px] 
           [&_svg]:rounded-[15px]
@@ -19,54 +18,55 @@
           [&_svg]:h-auto
           [&_svg]:text-primary
           flex flex-row-reverse rtl:flex-row
-          items-center
-          
+          items-center  
              {{if  icon != "none"}}
              !py-0 pl-0
               {{/if}}
-          
-            {{elseif design == 'purpleoutine' }}
-            outline outline-1 outline-offset-[-1px] outline-indigo-950 text-indigo-950 md:text-base text-sm
-        {{elseif design=='Orangenogradient'}}
+              {{elseif design=='Orangenogradient'}}
           text-white md:text-base text-sm bg-accent leading-normal 
-        {{elseif design == 'redgradient' }}
-        md:text-base text-sm font-bold text-white bg-gradient-to-br from-red-600 to-slate-900 rounded-[70px]
-{{elseif design == 'whiterounded' }}
-  text-black md:text-base text-sm font-bold bg-white rounded-[70px]
+    {{elseif design == 'whiterounded' }}
+       text-black md:text-base text-sm font-bold bg-white rounded-[70px]
            
-{{elseif design == 'greengradient' }}
-bg-gradient-to-br w-full !h-24 from-lime-500 via-blue-800 to-slate-500 rounded-3xl items-center flex text-xl !font-light text-white [&_svg]:w-10 [&_svg]:h-10 justify-between
-{{elseif design == 'blackbggroup' }}
-justify-between
-w-full
-!px-0
-font-normal text-white [div:has(>&)]:bg-black [div:has(>&)]:rounded-[20px] [div:has(>&)]:p-6
-[&_svg]:bg-white
-[&_svg]:text-black
-[&_svg]:rounded-[38px]
-[&_svg]:w-8 [&_svg]:h-8
-[&_svg]:p-2
-{{elseif design == 'whitebgblacksvg' }}
-items-center
-bg-white
-!py-0
-pl-0
-rounded-[16px]
-font-normal
- flex-row-reverse rtl:flex-row
-[&_svg]:bg-primary 
-[&_svg]:p-[10px] 
-[&_svg]:rounded-[15px]
-[&_svg]:w-[40px]
-[&_svg]:h-auto
-[&_svg]:text-white
-border border-primary
-{{ /if }}
-        font-bold flex flex-row uppercase
+    {{elseif design == 'greengradient' }}
+        bg-gradient-to-br w-full !h-24 from-lime-500 via-blue-800 to-slate-500 rounded-3xl items-center flex text-xl !font-light text-white [&_svg]:w-10 [&_svg]:h-10 justify-between
+    {{elseif design == 'blackbggroup' }}
+        justify-between
+        w-full
+        !px-0
+        font-normal text-white [div:has(>&)]:bg-black [div:has(>&)]:rounded-[20px] [div:has(>&)]:p-6
+        [&_svg]:bg-white
+        [&_svg]:text-black
+        [&_svg]:rounded-[38px]
+        [&_svg]:w-8 [&_svg]:h-8
+        [&_svg]:p-2
+    {{elseif design == 'whitefilledbluetxt' }}
+          bg-white   text-blue  md:text-base text-sm rounded-md font-semibold leading-normal   items-center [&_svg]:text-blue [&_svg]:w-4 [&_svg]:h-4
+    {{elseif design == 'bluebgwhitetxt' }}
+          bg-blue   text-white  md:text-base text-sm rounded-md font-semibold leading-normal   items-center [&_svg]:text-white [&_svg]:w-4 [&_svg]:h-4
+    {{elseif design == 'blackbgwhitetxt' }}
+          bg-black   hover:bg-gray-800  text-white  md:text-base text-sm rounded-md font-semibold leading-normal   items-center [&_svg]:text-white [&_svg]:w-4 [&_svg]:h-4
+   
+          {{elseif design == 'whitebgblacksvg' }}
+        items-center
+        bg-white
+        !py-0
+        pl-0
+        rounded-[16px]
+        font-normal
+         flex-row-reverse rtl:flex-row
+        [&_svg]:bg-primary 
+        [&_svg]:p-[10px] 
+        [&_svg]:rounded-[15px]
+        [&_svg]:w-[40px]
+        [&_svg]:h-auto
+        [&_svg]:text-white
+        border border-primary
+    {{ /if }}
+        font-bold flex flex-row  
          " {{ if open_new_tab }}target="_blank" rel="noopener noreferrer"{{ /if }} href="{{ link }}">
-<div class="flex flex-row">
-        {{ label }}
-      </div>
+        <div class="flex flex-row">
+          {{ label }}
+        </div>
         {{ if icon != "none" }}
           {{ heroicon variant="outline" icon="{{icon}}" class="w-5 h-6 " /}}
         {{ /if }}

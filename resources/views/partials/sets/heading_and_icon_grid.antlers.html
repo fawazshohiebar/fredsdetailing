@@ -2,14 +2,13 @@
     class="w-full  bg-cover bg-center ">
     <div class="adnec-container py-10">
     <div class="custom text-center mb-8"> {{ heading }}</div>
-    <div class=" grid   grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 border-1 border-[#bbcae1]">
+    <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6  ">
         {{ grid_items }}
-            <div class="icon-grid-item group  flex flex-col items-center justify-center gap-5 p-8 border-1 border-[#bbcae1] cursor-auto
-">
+            <div class="icon-grid-item group  flex flex-col items-center justify-center gap-5 p-8 border-2 shadow  rounded-[12px] border-[#e5e5e5] cursor-auto  hover:border-cyan-500 hover:shadow-xl transition-all hover:-translate-y-1">
                 <div class="svg-icon-wrapper transition-all duration-300 items-center">
                     <img src="{{ grid_image:url }}" alt="" class="svg-icon">
                 </div>
-                <div class="text-center text-base font-mont text-primary font-[600] svgtext">{{ grid_text }}</div>
+                <div class="text-center   font-mont text-sm font-semibold text-gray-800   svgtext">{{ grid_text }}</div>
             </div>
         {{ /grid_items }}
     </div>
@@ -28,7 +27,7 @@
 
 
 
-    <style>
+    {{# <style>
         .svg-icon-wrapper img {
             transition: filter 0.3s ease;
         }
@@ -47,6 +46,6 @@
         .icon-grid-item:hover {
             background: var(--color-second-gradient);
         }
-    </style>
+    </style> #}}
 
 </div>

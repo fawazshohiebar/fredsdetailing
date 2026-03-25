@@ -20,23 +20,14 @@ fields:
     field:
       options:
         -
-          key: orangefilled
-          value: 'Orange Filled'
-        -
           key: whitefilled
           value: 'White Filled'
         -
           key: whiteoutlined
           value: 'White Outlined'
         -
-          key: purpleoutine
-          value: 'Purple Outline'
-        -
           key: Orangenogradient
           value: 'Orange without gradient'
-        -
-          key: redgradient
-          value: 'Red Gradient'
         -
           key: whiterounded
           value: 'White Filled Rounded'
@@ -49,6 +40,15 @@ fields:
         -
           key: whitebgblacksvg
           value: 'White Background Black Bg'
+        -
+          key: whitefilledbluetxt
+          value: 'white bg blue txt'
+        -
+          key: bluebgwhitetxt
+          value: 'blue bg white txt'
+        -
+          key: blackbgwhitetxt
+          value: 'black bg white txt'
       type: select
       display: Design
       localizable: false

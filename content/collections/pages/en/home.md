@@ -19,39 +19,15 @@ page_builder:
   -
     type: set
     attrs:
-      id: mkm5seo1
-      enabled: false
+      id: mn5rkw6t
       values:
-        type: reusable_block
-        entry:
-          - b9f04a93-1fe6-4d5b-a510-46c516cb7d4b
-  -
-    type: set
-    attrs:
-      id: mkfh91sa
-      values:
-        type: overview
-        bread_crumb: OVERVIEW
-        heading:
+        type: ctav1
+        spaces: p
+        heading_text:
           -
             type: heading
             attrs:
-              level: 6
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#000'
-                text: 'Driving Industrial'
-          -
-            type: paragraph
-          -
-            type: heading
-            attrs:
-              level: 3
+              level: 2
             content:
               -
                 type: text
@@ -62,161 +38,41 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#000'
-                text: 'Growth and '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: Innovation
-        bard_fiedeld:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Make it in the Emirates 2026 concluded as a landmark edition, solidifying its position as the UAE’s premier event for industrial growth and investment.'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Over four dynamic days, the event brought together government leaders, global manufacturers, and innovators to unlock industrial opportunities. With packed halls and high-level dialogue, the 2025 edition reinforced the UAE’s position as a global hub for advanced, sustainable manufacturing.'
-        fancy_button_group:
-          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
-          label: 'About Make it in the Emirates'
-          design: whitebgblacksvg
-          icon: arrow-right
-          open_new_tab: true
-          button_size: fit
-        registration_button:
-          link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
-          label: 'Register to Visit'
-          design: greengradient
-          icon: arrow-right
-          open_new_tab: true
-          button_size: fit
-        button_redirecting:
-          -
-            id: mkfhaca0
-            label: 'Download Sales Brochure'
-            open_new_tab: true
-            type: new_set
-            enabled: true
-            design: blackbggroup
-            icon: arrow-right
-            link: 'entry::3799b6c9-b451-4438-8a56-8e20a2e0013d'
-          -
-            id: ml7peb1t
-            label: 'Enquire to Exhibit'
-            open_new_tab: true
-            type: new_set
-            enabled: true
-            design: blackbggroup
-            icon: arrow-right
-            link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
-            button_size: fit
-          -
-            id: mkfhadkn
-            label: 'Enquire to Sponsor'
-            open_new_tab: true
-            type: new_set
-            enabled: true
-            design: blackbggroup
-            icon: arrow-right
-            link: 'entry::cabc7362-fac9-46ad-962c-4209557ab113'
+                text: 'The Ultimate Marine Destination for the Middle East'
         background: bgcolor
-        background_color: light-accent
+        background_color: white
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Marking its fifth anniversary,'
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#E7443C'
-                text: ' '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#000'
-                text: 'Make it in the Emirates 2026'
-              -
-                type: text
-                text: ', stands as the UAE’s flagship platform for delivering national industrial transformation, designed to convert ambition into production and deliver industrial growth at scale.'
+                text: 'Prepare to immerse yourself in a world where luxury yachting, marine craftsmanship, and the lifestyle of the sea come together at the Abu Dhabi International Boat Show.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: ' '
-          -
-            type: paragraph
+                text: "Abu Dhabi International Boat Show is more than just a boat show—it's a celebration of the marine lifestyle, where elegance meets adventure and the world's best marine brands meet the stunning waterfront views of Abu Dhabi."
+        section_image: photo-1540946485063-a40da27545f8.jpeg
+        section_label:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Aligned with the UAE’s industrial strategy, Make it in the Emirates is where advanced technology, national ambition, and execution converge. The platform strengthens local manufacturing, deepens industrial value chains, and enables companies of all sizes to manufacture, scale and export from the UAE.'
-  -
-    type: set
-    attrs:
-      id: mkm5sxz1
-      values:
-        type: speaker_section
-        design: centered
-        heading:
+                text: 'Welcome to ADIBS 2026'
+        buttons:
           -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: '2026 Speakers'
-        speakers_entries:
-          - 03c97f84-a9fc-469c-9bf7-169e3afabe80
-          - 01838dac-298c-42d4-af0c-6d774215f115
-          - f6d8d009-4790-4a5a-a99a-9329c5e432c6
-          - 8850b82c-6d45-4139-914c-29b9890837e7
-          - 395ad83a-5159-469a-9191-c6bfa43cfaea
-          - 4004c466-e084-4880-9b42-40205ed5f212
-          - fa3652a1-0225-4fda-8165-d74c450821b7
-          - aafaf312-a29a-494f-b26e-bd243f7e3ee9
-          - 0125976a-0ac8-40fb-8a71-32825dcaabdd
-          - d4da0e68-33e2-4244-b7d0-0a5df8bbce99
-          - 59448bcd-486c-4435-95ce-0b26f36fe37d
-        button_group:
-          link: 'entry::886de752-6b15-4b12-9365-925f3781935e'
-          label: 'View All Speakers'
-          design: whitebgblacksvg
-          icon: arrow-right
-          open_new_tab: true
-          button_size: fit
-        background: bgcolor
-        background_color: light-secondary
-        breadcrumb: false
+            id: mn5rznmm
+            label: 'Learn More'
+            design: blackbgwhitetxt
+            icon: arrow-right
+            open_new_tab: false
+            button_size: fit
+            type: button_set
+            enabled: true
+        text_image_alignment: v1
   -
     type: set
     attrs:
@@ -232,12 +88,23 @@ page_builder:
       values:
         type: heading_icon_grids
         background: bgcolor
-        background_color: light-accent
+        background_color: white
         heading:
           -
             type: heading
             attrs:
-              level: 3
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: "The Industry's Best, All Under One Roof"
+          -
+            type: heading
+            attrs:
+              level: 6
             content:
               -
                 type: text
@@ -248,12 +115,101 @@ page_builder:
                     type: textColor
                     attrs:
                       color: '#000'
-                text: '<d>12</d> Unique Sectors '
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
+                text: 'Connecting every sector of the marine industry'
+        group_buttons:
+          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
+          label: 'Find Out More'
+          design: bluebgwhitetxt
+          icon: arrow-right
+          open_new_tab: true
+          button_size: fit
+        grid_items:
+          -
+            id: mkgxsyfc
+            grid_image: sector-icons/tracktor.svg
+            grid_text: 'Boat Builder'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgxukjv
+            grid_image: sector-icons/jet-fighter.svg
+            grid_text: 'Boat Dealers'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgxunk2
+            grid_image: sector-icons/capsules-(1).svg
+            grid_text: 'Superyacht & Charter'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy1abm
+            grid_image: sector-icons/ship.svg
+            grid_text: 'Marinas & Services'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy19c4
+            grid_image: sector-icons/ball-pile.svg
+            grid_text: 'Engines & Equipment'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy18dc
+            grid_image: sector-icons/hand-heart.svg
+            grid_text: 'Finance & Insurance'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy17lk
+            grid_image: sector-icons/microchip-ai.svg
+            grid_text: 'Travel & Tourism'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy16le
+            grid_image: sector-icons/flask.svg
+            grid_text: 'Government Agencies'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy15kc
+            grid_image: sector-icons/buildings.svg
+            grid_text: Watersports
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy1d35
+            grid_image: sector-icons/bolt-lightning.svg
+            grid_text: 'Real Estate'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgy14od
+            grid_image: sector-icons/hammer.svg
+            grid_text: 'Marine Lifestyle'
+            type: grid_item
+            enabled: true
+          -
+            id: mkgxumg1
+            grid_image: sector-icons/wind-turbine.svg
+            grid_text: 'Training & Schools'
+            type: grid_item
+            enabled: true
+  -
+    type: set
+    attrs:
+      id: mn5us7vz
+      values:
+        type: ctav1
+        text_image_alignment: v2
+        spaces: p
+        heading_text:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
               -
                 type: text
                 marks:
@@ -262,92 +218,69 @@ page_builder:
                   -
                     type: textColor
                     attrs:
-                      color: redgrad
-                text: 'One Global Platform'
-        group_buttons:
-          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
-          label: 'Find Out More'
-          design: whitebgblacksvg
-          icon: arrow-right
-          open_new_tab: true
-          button_size: fit
-        grid_items:
+                      color: '#fff'
+                text: 'A First for the Region.'
+              -
+                type: hardBreak
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: 'A New Standard in Chartering.'
+        section_label:
           -
-            id: mkgxsyfc
-            grid_image: sector-icons/tracktor.svg
-            grid_text: 'Food Beverage & Agricultural'
-            type: grid_item
-            enabled: true
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'NEW FOR 2026'
+        description:
           -
-            id: mkgxukjv
-            grid_image: sector-icons/jet-fighter.svg
-            grid_text: 'Aerospace, Automobile and Defence'
-            type: grid_item
-            enabled: true
+            type: heading
+            attrs:
+              level: 6
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: "Experience the region's premier charter showcase featuring the world's most luxurious yachts available for charter."
+        section_image: photo-1567899378494-47b22a2ae96a.jpeg
+        buttons:
           -
-            id: mkgxunk2
-            grid_image: sector-icons/capsules-(1).svg
-            grid_text: 'Pharma &  Medical Tech'
-            type: grid_item
+            id: mn5utb9l
+            label: 'Discover Charter Show'
+            design: whitefilledbluetxt
+            icon: arrow-right
+            open_new_tab: false
+            type: button_set
             enabled: true
-          -
-            id: mkgy1abm
-            grid_image: sector-icons/ship.svg
-            grid_text: 'Ship Maritime & Boat Manufacturing'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy19c4
-            grid_image: sector-icons/ball-pile.svg
-            grid_text: 'Metals &  Fabrications'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy18dc
-            grid_image: sector-icons/hand-heart.svg
-            grid_text: Handicrafts
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy17lk
-            grid_image: sector-icons/microchip-ai.svg
-            grid_text: 'Advanced Manufacturing, AI Industry 4.0'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy16le
-            grid_image: sector-icons/flask.svg
-            grid_text: 'Chemicals, Plastics & Sustainable Materials'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy15kc
-            grid_image: sector-icons/buildings.svg
-            grid_text: 'Machinery Equipment'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy1d35
-            grid_image: sector-icons/bolt-lightning.svg
-            grid_text: 'Electrical Equipment & Electronics'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy14od
-            grid_image: sector-icons/hammer.svg
-            grid_text: 'Construction &  Material'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgxumg1
-            grid_image: sector-icons/wind-turbine.svg
-            grid_text: 'Future Energy & Industrial Decarbonisation'
-            type: grid_item
-            enabled: true
+        background: bgcolor
+        background_color: second-gradient
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
   -
     type: set
     attrs:
       id: mkmk5ivi
+      enabled: false
       values:
         type: reusable_block
         entry:
@@ -356,6 +289,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5x4of
+      enabled: false
       values:
         type: awards_element
         background: bgcolor
@@ -504,6 +438,7 @@ page_builder:
     type: set
     attrs:
       id: mkqjboue
+      enabled: false
       values:
         type: reusable_block
         entry:
@@ -512,6 +447,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5uodt
+      enabled: false
       values:
         type: partner_word_carousel
         background: bgcolor
@@ -622,6 +558,7 @@ page_builder:
     type: set
     attrs:
       id: ml63m85a
+      enabled: false
       values:
         type: reusable_block
         entry:
@@ -670,6 +607,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5x8c5
+      enabled: false
       values:
         type: heading_comp
         background: bgimg
@@ -771,8 +709,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1774329589
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1774432013
 reusable_popup: false
 fine_seo_title: Miite
 ---

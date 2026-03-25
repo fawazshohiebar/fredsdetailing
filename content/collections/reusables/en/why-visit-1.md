@@ -1,9 +1,9 @@
 ---
 id: ad9887da-c222-4817-9af6-cba4a6eb2345
 blueprint: tabs_with_accordions
-title: 'From First Factories to Global Industrial Powerhouse (Duplicated)'
-updated_by: c9f43739-6778-4755-8aa6-6964344da17a
-updated_at: 1774329574
+title: "Showcase Your Brand to the World's Elite"
+updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
+updated_at: 1774430878
 heading:
   -
     type: heading
@@ -19,7 +19,7 @@ heading:
             type: textColor
             attrs:
               color: '#fff'
-        text: 'From First Factories to Global Industrial Powerhouse'
+        text: "Showcase Your Brand to the World's Elite"
 background: bgimg
 tab_creator:
   -
@@ -58,8 +58,8 @@ tab_creator:
         id: mlgiblr7
         link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
         label: 'Enquire to exhibit'
-        design: whitebgblacksvg
-        icon: arrow-right
+        design: whiteoutlined
+        icon: none
         open_new_tab: true
         type: button_set
         enabled: true

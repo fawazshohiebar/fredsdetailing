@@ -10,11 +10,11 @@
                           {{ taxonomy:sponsor_level sort="order:asc" }}
                                   {{ sponsors_entries :sponsor_level:contains="slug" as="sponsors" sort="order:asc" }}
                                           {{ if sponsors | length > 0 }}
-                                                  <div class="mb-5" x-data="{}"
+                                                  <div class="mb-5 w-full" x-data="{}"
                                                           x-intersect="$el.classList.add('animate-fade-in')">
-                                                          <div class="mx-auto flex flex-wrap justify-center gap-6 mb-5">
+                                                          <div class="mx-auto flex flex-wrap justify-center gap-6 mb-5 w-full">
                                                                   {{ sponsors }}
-                                                                          <div  class=" bg-white rounded-lg p-4 flex flex-col  hover:shadow-md transition  items-center w-[calc(50%-0.75rem)] sm:w-[calc(50%-1.2rem)]  md:w-[calc(33.33%-1.2rem)]  xl:w-[calc(20%-1.2rem)]">
+                                                                          <div  class=" bg-white rounded-lg p-4 flex flex-col  hover:shadow-md transition  items-center w-[calc(50%-0.75rem)] sm:w-[calc(50%-1.2rem)]  md:w-[calc(33.33%-1.2rem)]  xl:w-[calc(20%-1.2rem)]   border-2 shadow  rounded-[12px] border-[#e5e5e5] cursor-auto  hover:border-cyan-500 hover:shadow-xl transition-all hover:-translate-y-1">
                                                                                   <a href="{{ sponsor_link }}">
                                                                                          
                                                                                           {{ glide:sponsors_logos preset="medium" }}

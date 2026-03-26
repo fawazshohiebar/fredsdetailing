@@ -1,5 +1,6 @@
 title: 'Make it in the Emirates 2026'
-logo: brand/adibs_logo_size1_horizontal_cmyk_black.svg
+logo: brand/picture2.png-(1)-(1).png
+patronage: "Held under the patronage of His Highness Sheikh Hamdan bin Zayed Al Nahyan, Ruler's Representative in Al Dhafra Region."
 location: 'ADNEC Centre Abu Dhabi'
 location_link: 'https://maps.app.goo.gl/QfKJxAySQC8fabao9?g_st=iw'
 date: '29 Aug - 6 Sept'
@@ -8,11 +9,11 @@ button_replicator:
   -
     id: mglevgrk
     label: 'Book Your Stand'
-    design: Orangenogradient
+    design: blackbgwhitetxt
     open_new_tab: false
     button_size: fit
     type: button
-    enabled: false
+    enabled: true
     icon: none
 navbar_text:
   left_text: 'ALIGNED <br> WITH THE'
@@ -28,7 +29,7 @@ logos_and_partners:
         type: new_set
         enabled: true
         image:
-          - brand/group-6-(2).png
+          - picture2.png-(1)-(2).png
     type: new_set
     enabled: true
 footer_text:
@@ -43,7 +44,7 @@ footer_text:
           -
             type: textColor
             attrs:
-              color: '#000'
+              color: '#fff'
         text: "The region's largest industrial gathering, driving growth, innovation, and investment in the UAE's manufacturing sector."
 link_bottom_footer:
   -

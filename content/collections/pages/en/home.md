@@ -126,76 +126,76 @@ page_builder:
         grid_items:
           -
             id: mkgxsyfc
-            grid_image: sector-icons/tracktor.svg
+            grid_image: sector-icons/image-(5).svg
             grid_text: 'Boat Builder'
             type: grid_item
             enabled: true
           -
             id: mkgxukjv
-            grid_image: sector-icons/jet-fighter.svg
             grid_text: 'Boat Dealers'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(6).svg
           -
             id: mkgxunk2
-            grid_image: sector-icons/capsules-(1).svg
             grid_text: 'Superyacht & Charter'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(7).svg
           -
             id: mkgy1abm
-            grid_image: sector-icons/ship.svg
             grid_text: 'Marinas & Services'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(8).svg
           -
             id: mkgy19c4
-            grid_image: sector-icons/ball-pile.svg
+            grid_image: sector-icons/image-(9).svg
             grid_text: 'Engines & Equipment'
             type: grid_item
             enabled: true
           -
             id: mkgy18dc
-            grid_image: sector-icons/hand-heart.svg
             grid_text: 'Finance & Insurance'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(10).svg
           -
             id: mkgy17lk
-            grid_image: sector-icons/microchip-ai.svg
             grid_text: 'Travel & Tourism'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(11).svg
           -
             id: mkgy16le
-            grid_image: sector-icons/flask.svg
             grid_text: 'Government Agencies'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(12).svg
           -
             id: mkgy15kc
-            grid_image: sector-icons/buildings.svg
             grid_text: Watersports
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(13).svg
           -
             id: mkgy1d35
-            grid_image: sector-icons/bolt-lightning.svg
             grid_text: 'Real Estate'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(14).svg
           -
             id: mkgy14od
-            grid_image: sector-icons/hammer.svg
             grid_text: 'Marine Lifestyle'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(15).svg
           -
             id: mkgxumg1
-            grid_image: sector-icons/wind-turbine.svg
             grid_text: 'Training & Schools'
             type: grid_item
             enabled: true
+            grid_image: sector-icons/image-(16).svg
   -
     type: set
     attrs:
@@ -272,10 +272,6 @@ page_builder:
             enabled: true
         background: bgcolor
         background_color: second-gradient
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
   -
     type: set
     attrs:
@@ -696,10 +692,6 @@ page_builder:
         width: full
         image_style: contain
         use_image_height: true
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
 header_scripts:
   code: null
   mode: htmlmixed
@@ -710,7 +702,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774432013
+updated_at: 1774444890
 reusable_popup: false
 fine_seo_title: Miite
 ---

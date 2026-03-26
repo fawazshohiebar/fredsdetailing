@@ -85,10 +85,88 @@ tabs:
               validate:
                 - required
           -
-            handle: company_information
+            handle: sector
+            field:
+              options:
+                -
+                  key: 'Boat Builder'
+                  value: 'Boat Builder'
+                -
+                  key: 'Boat Dealer'
+                  value: 'Boat Dealer'
+                -
+                  key: 'Boat Charter'
+                  value: 'Boat Charter'
+                -
+                  key: 'Marinas & Services'
+                  value: 'Marinas & Services'
+                -
+                  key: 'Engines, Equipment & Accessories'
+                  value: 'Engines, Equipment & Accessories'
+                -
+                  key: 'Finance & Insurance'
+                  value: 'Finance & Insurance'
+                -
+                  key: 'Travel, Tourism & Destinations'
+                  value: 'Travel, Tourism & Destinations'
+                -
+                  key: 'Government Agencies & Associations'
+                  value: 'Government Agencies & Associations'
+                -
+                  key: 'Water Sports'
+                  value: 'Water Sports'
+                -
+                  key: 'Waterfront Development & Real Estate'
+                  value: 'Waterfront Development & Real Estate'
+                -
+                  key: 'Marina Lifestyle Retails'
+                  value: 'Marina Lifestyle Retails'
+                -
+                  key: 'Training & Sea Schools'
+                  value: 'Training & Sea Schools'
+                -
+                  key: Other
+                  value: Other
+              placeholder: 'Select Option Below'
+              type: select
+              display: Sector
+              localizable: false
+              validate:
+                - required
+          -
+            handle: space_options
+            field:
+              options:
+                -
+                  key: Indoor
+                  value: Indoor
+                -
+                  key: 'Outdoor (land)'
+                  value: 'Outdoor (land)'
+                -
+                  key: Marina
+                  value: Marina
+              placeholder: 'Select Option Below'
+              type: select
+              display: 'Space Options'
+              localizable: false
+              validate:
+                - required
+          -
+            handle: additional_branding_opportunities_exist
+            field:
+              options:
+                -
+                  key: "I'm interested in learning more"
+                  value: null
+              type: checkboxes
+              display: 'Additional Branding Opportunities Exist'
+              localizable: false
+          -
+            handle: message
             field:
               type: textarea
-              display: 'Company Information'
+              display: Message
               localizable: false
           -
             handle: turnstile_token

@@ -2,47 +2,14 @@ tree:
   -
     entry: home
   -
-    entry: ac7fc44d-477e-4417-9668-a0f21ac7b461
-    children:
-      -
-        entry: 394e9a07-b845-4538-9872-92213381e955
+    entry: 8c3f2786-1215-41b9-b78f-5029b1dab989
   -
-    entry: 2d082ca2-98dc-4c25-aebf-e22b252be4f0
-    children:
-      -
-        entry: 914a9cbb-292d-419a-b11d-c611688aeb84
-      -
-        entry: 79fa49fa-1873-4edc-8fed-999830754e37
+    entry: 9c43175a-03da-41f5-81f2-2e1789de8d68
   -
-    entry: cdc5ab21-7efd-49d2-b81c-cd986636757a
-    children:
-      -
-        entry: ef9cb030-63c2-4843-9b88-031d244cea96
-      -
-        entry: ac885f0f-1521-4be4-b591-b5f531231678
-      -
-        entry: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4
-      -
-        entry: 99e9a628-4410-46f4-9d39-8397f8bc36c4
+    entry: dc29f9eb-3952-4d45-9979-ed589610af57
   -
-    entry: 66943f73-fee3-4e30-bc72-de33101d79dc
+    entry: 7dc66541-f2e6-4a94-b2ac-8386f62baa4c
   -
-    entry: 38daf340-86e2-4d56-8408-b2abce79f7db
+    entry: 8fffaf8b-7cd2-4942-994d-73e5ccf03387
   -
-    entry: 117255ff-a479-4010-be88-7e6eedbf2b3c
-  -
-    entry: 608f22f0-c075-4cbc-92cb-94cab7a6bee3
-  -
-    entry: 886de752-6b15-4b12-9365-925f3781935e
-  -
-    entry: c5e740f9-47d1-4a13-ab6b-f94aa1cd1cc5
-  -
-    entry: 2d9aedca-1448-49a8-9827-6bc910822619
-  -
-    entry: 6dcd6318-f640-487e-92e2-2b29cd88595d
-  -
-    entry: ede61c25-81a8-47e3-8cd9-4cd9de5973d3
-  -
-    entry: 58b67eee-1d4e-4036-bb61-96d1532ec103
-  -
-    entry: 1223db7c-1454-4374-8017-6e6ca328959f
+    entry: 6d91c2d1-0156-4a36-8bbb-5f0a3d738ee5

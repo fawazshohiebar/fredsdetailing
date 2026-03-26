@@ -5,10 +5,13 @@
     <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6  ">
         {{ grid_items }}
             <div class="icon-grid-item group  flex flex-col items-center justify-center gap-5 p-8 border-2 shadow  rounded-[12px] border-[#e5e5e5] cursor-auto  hover:border-cyan-500 hover:shadow-xl transition-all hover:-translate-y-1">
-                <div class="svg-icon-wrapper transition-all duration-300 items-center">
-                    <img src="{{ grid_image:url }}" alt="" class="svg-icon">
+                <div class="svg-icon-wrapper transition-all duration-300 items-center relative inline-block">
+                    <div class="icon-mask-container relative w-12 h-12">
+                        <img src="{{ grid_image:url }}" alt="" class="svg-icon w-12 h-12 block original-icon">
+                        <div class="colored-icon-overlay"></div>
+                    </div>
                 </div>
-                <div class="text-center   font-mont text-sm font-semibold text-gray-800   svgtext">{{ grid_text }}</div>
+                <div class="text-center   font-mont text-sm font-semibold text-gray-800  transition-colors svgtext">{{ grid_text }}</div>
             </div>
         {{ /grid_items }}
     </div>
@@ -20,6 +23,9 @@
 </div>
 {{/if}}
 </div>
+
+
+
 
 
 
@@ -47,5 +53,85 @@
             background: var(--color-second-gradient);
         }
     </style> #}}
+
+
+
+
+<style>
+    .icon-mask-container {
+        position: relative;
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Original icon - hidden by default */
+    .original-icon {
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    /* Colored overlay - visible always */
+    .colored-icon-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #40B6D4;
+        opacity: 1;
+        z-index: 3;
+        pointer-events: none;
+        /* This creates a mask from the image below */
+        mask-image: var(--mask-image);
+        -webkit-mask-image: var(--mask-image);
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+        mask-position: center;
+        -webkit-mask-position: center;
+    }
+
+    /* Set the mask image dynamically */
+    .icon-mask-container {
+        --mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><rect width="48" height="48" fill="black"/></svg>');
+    }
+
+    /* Color variations for each icon in sequence */
+    .icon-grid-item:nth-child(4n+1) .colored-icon-overlay {
+        background-color: #40B6D4; /* Cyan */
+    }
+
+    .icon-grid-item:nth-child(4n+2) .colored-icon-overlay {
+        background-color: #3B82F6; /* Blue */
+    }
+
+    .icon-grid-item:nth-child(4n+3) .colored-icon-overlay {
+        background-color: #3EB8A6; /* Teal */
+    }
+
+    .icon-grid-item:nth-child(4n+4) .colored-icon-overlay {
+        background-color: #6366F1; /* Indigo */
+    }
+</style>
+
+<script>
+    // Apply the actual image as a mask for each icon
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.icon-mask-container').forEach(container => {
+            const img = container.querySelector('.original-icon');
+            const overlay = container.querySelector('.colored-icon-overlay');
+            
+            if (img && overlay) {
+                // Use the image source as the mask
+                overlay.style.maskImage = `url('${img.src}')`;
+                overlay.style.webkitMaskImage = `url('${img.src}')`;
+            }
+        });
+    });
+</script>
+
 
 </div>

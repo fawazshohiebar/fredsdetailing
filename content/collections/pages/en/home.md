@@ -275,135 +275,16 @@ page_builder:
   -
     type: set
     attrs:
-      id: mkmk5ivi
-      enabled: false
-      values:
-        type: reusable_block
-        entry:
-          - 17d9d52b-9e14-46fa-b11d-a98c06e3ba81
-  -
-    type: set
-    attrs:
-      id: mkm5x4of
-      enabled: false
-      values:
-        type: awards_element
-        background: bgcolor
-        background_color: light-accent
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'MAKE IT IN THE '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'EMIRATES AWARDS'
-        description:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'The MIITE Awards is one of MoIAT’s key initiatives, recognizing excellence and innovation in the industrial sector. It celebrates the pioneers, visionaries, and game-changers that are shaping the future of industry in the UAE and beyond.'
-        awards:
-          -
-            id: mkgqjvzk
-            awards_names: 'Tech Frontier Award'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqjztt
-            awards_names: 'Quality & Compliance Award'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqk3v9
-            awards_names: 'National Industrial Growth Award'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqk8ea
-            awards_names: 'Next-generation Industrial Leader Award'
-            type: award_set
-            enabled: true
-          -
-            id: mkgqkcjr
-            awards_names: 'Inspirational Industrial Leader Award'
-            type: award_set
-            enabled: true
-          -
-            id: mmj32iup
-            awards_names: 'UAE Traditional Craft Award'
-            type: award_set
-            enabled: true
-        button_group:
-          link: 'entry::66943f73-fee3-4e30-bc72-de33101d79dc'
-          label: 'Find Out More'
-          design: whiteoutlined
-          icon: sparkles
-          open_new_tab: true
-          button_size: fit
-  -
-    type: set
-    attrs:
-      id: mkm5udik
-      enabled: false
+      id: mn7fefrt
       values:
         type: heading_and_sponsors
-        background: bgcolor
-        background_color: light-secondary
-        design: devided
-        sponsors_entries:
-          - 9060f0b8-47a3-441c-a992-d05487b34147
-          - ea70f702-48a8-431c-8230-f640ad1c63a3
-          - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
-          - 29176424-c90c-433e-b05d-459b5239f3ef
-          - 88272bdd-d6f5-47d3-84c3-66f60f146210
-          - 157b338d-c0b4-4712-bca1-8c71cca67717
-          - ad7b0f6c-a307-4aea-811f-471c05202a99
-          - 5899d87c-a218-4037-84b9-420a4e62cc61
+        breadcrumb: false
         heading:
           -
             type: heading
             attrs:
               level: 3
             content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Partners & '
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
               -
                 type: text
                 marks:
@@ -413,14 +294,7 @@ page_builder:
                     type: textColor
                     attrs:
                       color: redgrad
-                text: Sponsors
-        description:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'We work closely with sponsors and partners who share our commitment to excellence, collaboration, and meaningful industry impact.'
+                text: 'Partners & Sponsors 2025'
         button_group:
           link: null
           label: null
@@ -428,270 +302,23 @@ page_builder:
           icon: none
           open_new_tab: false
           button_size: null
-        bread_crumb_text: 'Key CONTRIBUTERS'
-        breadcrumb: true
-  -
-    type: set
-    attrs:
-      id: mkqjboue
-      enabled: false
-      values:
-        type: reusable_block
-        entry:
-          - fc8763b2-beae-4488-86b8-6cd2c0de8272
-  -
-    type: set
-    attrs:
-      id: mkm5uodt
-      enabled: false
-      values:
-        type: partner_word_carousel
-        background: bgcolor
-        background_color: light-accent
+        sponsors_entries:
+          - 9060f0b8-47a3-441c-a992-d05487b34147
+          - ea70f702-48a8-431c-8230-f640ad1c63a3
+          - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
+          - 29176424-c90c-433e-b05d-459b5239f3ef
+          - 88272bdd-d6f5-47d3-84c3-66f60f146210
+          - a81bf28d-a9aa-4e6b-8ecf-5c9548ed2a1b
+          - 0e06b3da-fd6e-46ec-a54e-c8af419bc0fc
+          - 62b1ae79-d067-4c65-af1b-24f6ed07a14e
+          - db3ab7c0-cc6d-4232-a316-31c643b1dcae
+          - fef6641c-d2a0-4892-b66b-239a175b6574
+          - 4963d577-eede-4358-95fa-6382c9e2f2a2
         design: centered
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Words from our'
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'ICV Partners'
-        description:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Make it in the Emirates is packed with dynamic features designed to drive collaboration, showcase innovation, and enable growth'
-        partner_words_creator:
-          -
-            id: mkkpr65n
-            image: edge-(2).png
-            partner_name: 'EDGE Group'
-            partner_word:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"Aligned with ''Operation 300bn'', EDGE is building a defence industrial base to boost in-country value (ICV) and sovereign capabilities, positioning the UAE as a tech leader and exporter of UAE-made products."'
-            type: partner_word_set
-            enabled: true
-          -
-            id: mkkpv1dl
-            image: icons/gracia-group-logo-(1).png
-            partner_name: 'Gracia Group'
-            partner_word:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "“'Make it in the Emirates' highlights the United Arab Emirates focus on expanding the industrial sector, including greenhouses and food processing, with government support playing a vital role in Emirati business success.”"
-            type: partner_word_set
-            enabled: true
-          -
-            id: mkkpvdw5
-            image: g42.png
-            partner_name: 'G42 Healthcare'
-            partner_word:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"The UAE''s dynamic landscape is ideal for AI-powered startups, SMEs, and MNCs. With a favorable tax system, world-class infrastructure, and forward-thinking leadership, the UAE is an early adopter of AI in key sectors like healthcare and energy."'
-            type: partner_word_set
-            enabled: false
-          -
-            id: mkkpvcg0
-            image: schneider-(1).png
-            partner_name: 'Schneider Electric'
-            partner_word:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"MoIAT is transforming the UAE into a global Industry 4.0 hub, focusing on advanced technologies and sustainable factories. We proudly support its initiatives to shape future-ready industries in the UAE.'
-            type: partner_word_set
-            enabled: true
-          -
-            id: ml7osazw
-            image: ega.png
-            partner_name: 'Emirates Global Aluminium'
-            partner_word:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"Our collaboration with MoIAT and the In-Country Value program helps Emirates Global Aluminium grow its local economic contribution, currently at 1.4% of the UAE economy, and supports the goals of Operation 300bn."'
-            type: partner_word_set
-            enabled: true
-        breadcrumb: false
   -
-    type: set
+    type: paragraph
     attrs:
-      id: ml63m85a
-      enabled: false
-      values:
-        type: reusable_block
-        entry:
-          - b1eff661-0244-48ed-851c-36299473254f
-  -
-    type: set
-    attrs:
-      id: mkm5uwkd
-      enabled: false
-      values:
-        type: exhibitor_carousel
-        design: centered
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: '<d>1,000</d>+ Exhibitors'
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'One Global Platform'
-        ezone_base_url_duplicate: 'https://ezone.adihex.com/exhibitors-list-top-with-images-resource/'
-        event_id: 4
-        count: 20
-        random: true
-        ezone_base_url: 'https://ezone.adihex.com/exhibitors-list-top-with-images-resource/'
-  -
-    type: set
-    attrs:
-      id: mkm5x8c5
-      enabled: false
-      values:
-        type: heading_comp
-        background: bgimg
-        image: brand/background-(1).png
-        design: centered
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: '85,900+ SQM'
-          -
-            type: heading
-            attrs:
-              level: 4
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'At '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'ADNEC CENTRE ABU DHABI, UAE'
-          -
-            type: heading
-            attrs:
-              level: 4
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'Your platform for innovative manufacturing solutions.'
-        buttons:
-          -
-            id: mkgu04lt
-            label: 'ENQUIRE TO EXHIBIT'
-            design: whitebgblacksvg
-            icon: arrow-right
-            open_new_tab: true
-            type: new_set
-            enabled: true
-            link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
-  -
-    type: set
-    attrs:
-      id: mlrnmxa8
-      enabled: false
-      values:
-        type: banner_carousel
-        images:
-          -
-            id: vwBqeF1J
-            image: 20250519-ron_1836-(1).jpg
-          -
-            id: mlrnmz30
-            image: adnec-group-a-modon-company-(1).png
-          -
-            id: mlrnn8z9
-            image: downloaded-image-2025-06-02t114743.748.jpg
-        new_tab: false
-        width: full
-        image_style: contain
-        use_image_height: true
+      textAlign: left
 header_scripts:
   code: null
   mode: htmlmixed
@@ -702,7 +329,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774444890
+updated_at: 1774527842
 reusable_popup: false
 fine_seo_title: Miite
 ---

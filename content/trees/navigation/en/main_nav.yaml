@@ -3,58 +3,51 @@ tree:
     id: d5c07ee1-cada-4e80-999b-4a9a613865d4
     entry: home
   -
-    id: 5b640c8a-9536-41c1-8774-06e34e10e693
-    title: Visit
-    children:
-      -
-        id: 353b303e-a3ac-46db-9989-2a67a139a287
-        entry: 2d082ca2-98dc-4c25-aebf-e22b252be4f0
-      -
-        id: 8d578a1e-7413-4d8f-9f1c-f88566f7667a
-        entry: 914a9cbb-292d-419a-b11d-c611688aeb84
-      -
-        id: 65b145ac-bf61-41b3-ab4e-39f4cb4a5414
-        entry: 79fa49fa-1873-4edc-8fed-999830754e37
-  -
-    id: c725af5b-ba5d-4355-9b81-e1d3a572c780
+    id: a18c5460-68e4-4150-8a9d-9ce5651b0649
     title: Exhibit
     children:
       -
-        id: 2f205ec6-ac5c-4c88-95d0-59ed45babfdd
-        entry: 2d9aedca-1448-49a8-9827-6bc910822619
+        id: 1e2e89f5-712f-4cf2-9ac3-4159513f530a
+        entry: 7dc66541-f2e6-4a94-b2ac-8386f62baa4c
       -
-        id: d52dab1a-6056-43c8-a7f1-0c1b79110931
-        entry: 38daf340-86e2-4d56-8408-b2abce79f7db
+        id: b34c1e54-f81f-4ed2-86b9-b8e5451a4fd4
+        entry: 8fffaf8b-7cd2-4942-994d-73e5ccf03387
+      -
+        id: c66cff35-fca4-40be-9029-8535b7c5f78a
+        entry: 6d91c2d1-0156-4a36-8bbb-5f0a3d738ee5
   -
-    id: d2a782c7-f966-468b-97d8-ac8cd581f959
-    entry: cdc5ab21-7efd-49d2-b81c-cd986636757a
+    id: 57fb34c9-217b-4e39-9026-0c36955b6484
+    title: Visit
     children:
       -
-        id: 5f520d52-1e4d-4b33-8e05-04129fcc0093
-        entry: 99e9a628-4410-46f4-9d39-8397f8bc36c4
+        id: 8a6a80c9-fabb-4dfd-b984-f75916a68af8
+        entry: 8c3f2786-1215-41b9-b78f-5029b1dab989
       -
-        id: 09c18c2e-93bb-40d1-a9ec-56ef0baac6cf
-        entry: 1dd3bdfc-0e73-4349-ab98-45089ae3f2c4
+        id: 89ecea99-2e8b-4a24-b987-4d2ee829bf44
+        entry: 9c43175a-03da-41f5-81f2-2e1789de8d68
       -
-        id: 4bcb1bd7-d396-42a7-85b6-3840ee69b60e
-        entry: ef9cb030-63c2-4843-9b88-031d244cea96
-      -
-        id: f4d1c6f1-c90b-4e17-81e0-0372d2aabf2e
-        entry: ac885f0f-1521-4be4-b591-b5f531231678
+        id: 343510dd-3b75-4a1e-b7bb-1839ea637930
+        entry: dc29f9eb-3952-4d45-9979-ed589610af57
   -
-    id: 8aa74158-9964-4b89-9363-862671e0cf54
-    entry: c5e740f9-47d1-4a13-ab6b-f94aa1cd1cc5
-  -
-    id: f514772b-3c56-4f90-8196-57e438d6d828
-    entry: 6dcd6318-f640-487e-92e2-2b29cd88595d
+    id: d8552068-a3dd-4ab5-a963-a13b2ea8bd32
+    title: Media
     children:
       -
-        id: 04580189-5aad-48f4-afdd-c35925b3662d
-        title: 'Register as Media'
-        url: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'
+        id: 0a4deaca-105a-4f46-8c0b-7102ff3debf9
+        entry: b5adab3d-6ccb-49e8-a472-254021b2ccd9
       -
-        id: 34a24da6-05d3-4349-b1ec-1e6944fb30b3
-        entry: 58b67eee-1d4e-4036-bb61-96d1532ec103
+        id: 2e56ae60-3508-4ffc-a8c5-fc1151a8a50d
+        entry: 850f9efc-55d5-4321-b37c-911945db23c8
+  -
+    id: a188df57-82ef-4ed8-8d72-e55657ba1370
+    entry: 772a61b2-f3d9-40a6-99bf-4367d4b8d047
+  -
+    id: eedcde43-2cdd-43d6-976a-af142710b5ec
+    title: Info
+    children:
       -
-        id: 3d9d0093-646c-4920-b20f-6d3af0bc5d14
-        entry: 1223db7c-1454-4374-8017-6e6ca328959f
+        id: 8b7df54b-911e-40dd-916a-4c0071a6124c
+        entry: b4148957-467a-4ae1-8882-7efb101ae0bf
+      -
+        id: 0fa64b1d-e89d-4844-a707-70f47bc6f7e6
+        entry: 7fd6133c-544c-4db2-bc3f-0a279ed0df05

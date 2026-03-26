@@ -1,0 +1,143 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: first_name
+            field:
+              autocomplete: given-name
+              type: text
+              display: 'First Name'
+              localizable: false
+              width: 50
+          -
+            handle: last_name
+            field:
+              autocomplete: family-name
+              type: text
+              display: 'Last Name'
+              localizable: false
+              width: 50
+          -
+            handle: job_title
+            field:
+              type: text
+              display: 'Job Title'
+              localizable: false
+              width: 50
+          -
+            handle: company
+            field:
+              type: text
+              display: Company
+              localizable: false
+              width: 50
+          -
+            handle: email
+            field:
+              input_type: email
+              autocomplete: email
+              type: text
+              display: Email
+              localizable: false
+              width: 50
+          -
+            handle: phone
+            field:
+              input_type: tel
+              autocomplete: tel
+              type: text
+              display: Phone
+              localizable: false
+              width: 50
+          -
+            handle: nationality
+            field:
+              options:
+                -
+                  key: AE
+                  value: 'United Arab Emirates'
+              default: AE
+              type: select
+              display: Nationality
+              localizable: false
+              width: 50
+          -
+            handle: country
+            field:
+              options:
+                -
+                  key: AE
+                  value: 'United Arab Emirates'
+              default: AE
+              type: select
+              display: Country
+              localizable: false
+              width: 50
+          -
+            handle: emirate
+            field:
+              options:
+                -
+                  key: 'Abu Dhabi'
+                  value: 'Abu Dhabi'
+                -
+                  key: Ajman
+                  value: Ajman
+                -
+                  key: Dubai
+                  value: Dubai
+                -
+                  key: Fujairah
+                  value: Fujairah
+                -
+                  key: 'Ras Al Khaimah'
+                  value: 'Ras Al Khaimah'
+                -
+                  key: Sharjah
+                  value: Sharjah
+                -
+                  key: 'Umm Al Quwain'
+                  value: 'Umm Al Quwain'
+              type: select
+              display: Emirate
+              localizable: false
+              width: 50
+          -
+            handle: date_of_birth
+            field:
+              input_type: date
+              autocomplete: bday
+              type: text
+              display: 'Date of Birth'
+              localizable: false
+              width: 50
+          -
+            handle: gender
+            field:
+              options:
+                -
+                  key: Male
+                  value: Male
+                -
+                  key: Female
+                  value: Female
+              type: select
+              display: Gender
+              localizable: false
+              width: 50
+          -
+            handle: media_id
+            field: basics.image
+            config:
+              max_files: 3
+              display: 'Media ID'
+              validate:
+                - image
+                - 'max_filesize:9216'
+                - 'mimes:png,jpg,jpeg,gif,webp,svg'
+              width: 50
+              instructions: 'Accepted file types: jpg, jpeg, gif, png, pdf, Max. file size: 10 MB, Max. files: 3.'
+              instructions_position: below

@@ -26,6 +26,14 @@
                         {{ label !== null ? label : country }}
                     </option>
                 {{ /foreach:countries }}
+            {{ elseif handle == 'nationality' }}
+                {{?$countries = \App\Helpers\CountryHelper::getCountries($site)  ?}}
+                {{ foreach:countries as="country|label" }}
+                    <option value="{{ country }}"
+                        {{ if multiple }}{{ if value|in_array:country }} selected{{ /if }}{{ else }}{{ if country == value }} selected{{ /if }}{{ /if }}>
+                        {{ label !== null ? label : country }}
+                    </option>
+                {{ /foreach:countries }}
             {{ else }}
                 {{ foreach:options as="option|label" }}
                     <option value="{{ option }}"

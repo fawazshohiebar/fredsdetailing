@@ -27,6 +27,10 @@ fields:
         - bold
         - color
         - anchor
+        - h5
+        - h6
+        - unorderedlist
+        - orderedlist
       remove_empty_nodes: false
       type: bard
       display: Heading
@@ -42,6 +46,10 @@ fields:
         - bold
         - color
         - anchor
+        - h5
+        - h6
+        - unorderedlist
+        - orderedlist
       remove_empty_nodes: false
       type: bard
       display: 'Sub Heading'
@@ -58,6 +66,9 @@ fields:
         - color
         - unorderedlist
         - anchor
+        - h5
+        - h6
+        - orderedlist
       remove_empty_nodes: false
       type: bard
       display: Description

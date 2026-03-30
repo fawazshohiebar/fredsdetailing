@@ -77,8 +77,12 @@ tabs:
           -
             handle: country
             field:
-              autocomplete: country
-              type: text
+              options:
+                -
+                  key: AE
+                  value: 'United Arab Emirates'
+              default: AE
+              type: select
               display: Country
               localizable: false
               width: 50

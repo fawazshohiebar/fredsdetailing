@@ -63,8 +63,12 @@ tabs:
           -
             handle: country
             field:
-              autocomplete: address-level2
-              type: text
+              options:
+                -
+                  key: AE
+                  value: 'United Arab Emirates'
+              default: AE
+              type: select
               display: Country
               localizable: false
               width: 50

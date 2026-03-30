@@ -31,10 +31,6 @@ page_builder:
            
            
           ADNEC recognizes that the continued success of its developments is dependent upon commitment to the Event Sustainability Management System requirements and all those who endeavor to carry it out. We understand that our interested parties are who we serve and depend upon for our company’s continued financial success.
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
 layout: layout
 reusable_popup: false
 template: default
@@ -49,7 +45,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774525757
+updated_at: 1774847465
 fine_seo_title: 'Capital Events LLC Sustainable Development Policy'
 fine_seo_preview: 'Capital Events LLC Sustainable Development Policy'
 ---

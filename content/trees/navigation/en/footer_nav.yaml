@@ -1,23 +1,16 @@
 tree:
   -
-    id: 75dcd8ae-4a51-4261-86bf-d5e56eb5dad3
-    title: About
+    id: 1cd7a908-0b80-4d04-8524-fbd5a9ae84c7
+    entry: 8c3f2786-1215-41b9-b78f-5029b1dab989
   -
-    id: 998660e2-6c1f-40d2-b888-e2e6ba789723
-    title: 'Visitor Info'
-    url: 'https://www.miite.ae/en/why-visit'
+    id: 198e5078-8f48-408a-ae54-f4087ef86565
+    entry: 8fffaf8b-7cd2-4942-994d-73e5ccf03387
   -
-    id: 234629e9-4511-403c-8ec5-237ea277a5f5
-    title: 'Exhibitor Info'
+    id: 0fa83cda-2dc1-4526-af88-8cfee4a0c436
+    entry: dc29f9eb-3952-4d45-9979-ed589610af57
   -
-    id: d7809438-5101-47dd-b428-e6fe66ca364c
-    title: Agenda
-    url: 'https://miite-staging.adnecdev.ae/en/agenda'
+    id: 147999b6-d6be-4bf1-997f-48742ab72b0a
+    entry: 9c43175a-03da-41f5-81f2-2e1789de8d68
   -
-    id: e8e3503e-a9a9-4b66-bdad-e6c6657d663e
-    title: 'Register as Media'
-    url: 'https://registration.xporience.com/registration/?badge_name=media&token=EvDHs6IS9OIztII'
-  -
-    id: 3e38344a-e0a1-4f59-ac11-6cb8c4871261
-    title: Experience
-    url: 'https://miite-staging.adnecdev.ae/en/experience'
+    id: c6f4286f-4574-4207-95ce-3f19c4a5f094
+    entry: 7dc66541-f2e6-4a94-b2ac-8386f62baa4c

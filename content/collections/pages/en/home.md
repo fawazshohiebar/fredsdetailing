@@ -72,11 +72,13 @@ page_builder:
             button_size: fit
             type: button_set
             enabled: true
+            link: 'entry::8c3f2786-1215-41b9-b78f-5029b1dab989'
         text_image_alignment: v1
   -
     type: set
     attrs:
       id: mkghxhcs
+      enabled: false
       values:
         type: reusable_block
         entry:
@@ -117,7 +119,7 @@ page_builder:
                       color: '#000'
                 text: 'Connecting every sector of the marine industry'
         group_buttons:
-          link: 'entry::ac7fc44d-477e-4417-9668-a0f21ac7b461'
+          link: 'entry::8fffaf8b-7cd2-4942-994d-73e5ccf03387'
           label: 'Find Out More'
           design: bluebgwhitetxt
           icon: arrow-right
@@ -270,12 +272,14 @@ page_builder:
             open_new_tab: false
             type: button_set
             enabled: true
+            link: 'entry::8fffaf8b-7cd2-4942-994d-73e5ccf03387'
         background: bgcolor
         background_color: second-gradient
   -
     type: set
     attrs:
       id: mn7fefrt
+      enabled: false
       values:
         type: heading_and_sponsors
         breadcrumb: false
@@ -315,10 +319,6 @@ page_builder:
           - fef6641c-d2a0-4892-b66b-239a175b6574
           - 4963d577-eede-4358-95fa-6382c9e2f2a2
         design: centered
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
 header_scripts:
   code: null
   mode: htmlmixed
@@ -329,7 +329,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774527842
+updated_at: 1774853799
 reusable_popup: false
-fine_seo_title: Miite
+fine_seo_title: ADIBS
 ---

@@ -1,4 +1,4 @@
-title: 'Make it in the Emirates 2026'
+title: 'ABU DHABI INTERNATIONAL BOAT SHOW'
 logo: brand/picture2.png-(1)-(1).png
 patronage: "Held under the patronage of His Highness Sheikh Hamdan bin Zayed Al Nahyan, Ruler's Representative in Al Dhafra Region."
 location: 'ADNEC Centre Abu Dhabi'
@@ -8,17 +8,17 @@ time: '11 AM - 10 PM'
 button_replicator:
   -
     id: mglevgrk
-    label: 'Book Your Stand'
     design: blackbgwhitetxt
     open_new_tab: false
     button_size: fit
     type: button
-    enabled: true
+    enabled: false
     icon: none
+    label: 'Book Your Stand'
 navbar_text:
-  left_text: 'ALIGNED <br> WITH THE'
-  middle_text: "UAE's"
-  right_text: 'INDUSTRIAL <br> STRATEGY'
+  left_text: null
+  middle_text: null
+  right_text: null
 logos_and_partners:
   -
     id: mke1fi5t
@@ -45,11 +45,11 @@ footer_text:
             type: textColor
             attrs:
               color: '#fff'
-        text: "The region's largest industrial gathering, driving growth, innovation, and investment in the UAE's manufacturing sector."
+        text: 'The Abu Dhabi International Boat Show showcases luxury yachts, marine innovations, and water sports in Abu Dhabi.'
 link_bottom_footer:
   -
     id: mkgv7vyw
-    footer_botom_links: Terms
+    footer_botom_links: 'entry::671d4b18-ed0c-4736-8658-4ef1ccd61619'
     bottom_footer_links_text: 'Privacy Policy'
     type: new_set
     enabled: true
@@ -79,15 +79,14 @@ social_media:
     id: mlt0bxyo
     platform: youtube
     social_media_link: 'https://www.youtube.com/@MakeItInTheEmirates'
-ai_search_url: 'https://aisearch.miite.ae/'
 footer_sales:
   -
     id: mglexqz2
-    sales_text: info@challenge-sirbaniyas.com
+    sales_text: carol.stoneman@adnec.ae
     icon: envelope
     type: sales_set
     enabled: true
-    link: 'mailto:info@challenge-sirbaniyas.com'
+    link: 'mailto:carol.stoneman@adnec.ae'
   -
     id: mih2vsf6
     sales_text: '+97124063839'

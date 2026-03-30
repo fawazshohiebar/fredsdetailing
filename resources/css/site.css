@@ -451,3 +451,8 @@ background: var(--MidNight-100, #DFE6F1);
 .prose.prose-sm ul li p {
   margin: 5px;
 }
+
+.prose.prose-sm h2{
+        margin-top: 30px!important;
+        margin-bottom: 20px!important;
+      }

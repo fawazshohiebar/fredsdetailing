@@ -3,7 +3,7 @@ id: ad9887da-c222-4817-9af6-cba4a6eb2345
 blueprint: tabs_with_accordions
 title: "Showcase Your Brand to the World's Elite"
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774430878
+updated_at: 1774850026
 heading:
   -
     type: heading
@@ -56,7 +56,7 @@ tab_creator:
     button_container:
       -
         id: mlgiblr7
-        link: 'entry::38daf340-86e2-4d56-8408-b2abce79f7db'
+        link: 'entry::7dc66541-f2e6-4a94-b2ac-8386f62baa4c'
         label: 'Enquire to exhibit'
         design: whiteoutlined
         icon: none
@@ -141,13 +141,12 @@ tab_creator:
       -
         id: mkgi59w4
         label: 'Register to Visit'
-        design: whitebgblacksvg
-        icon: arrow-right
+        design: whiteoutlined
+        icon: none
         open_new_tab: true
         button_size: fit
         type: button_set
         enabled: true
-        link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
     accordion_creator:
       -
         id: mkgi6kv0

@@ -26,7 +26,7 @@ heading:
       -
         type: text
         text: 'BOAT SHOW'
-video: c7tKPy5LoP8
+video: JhB0PoC9P4c
 hero_actions:
   -
     id: mkfb0241
@@ -37,7 +37,7 @@ hero_actions:
     type: button
     enabled: true
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774426127
+updated_at: 1774853846
 first_button:
   link: 'https://registration.xporience.com/registration/?token=JzKm6Alim3lxsVt&badge_name=visitor'
   label: 'Register to Visit'
@@ -284,7 +284,7 @@ button_group:
     icon: arrow-right
     open_new_tab: false
     type: new_set
-    enabled: true
+    enabled: false
     design: bluebgwhitetxt
     button_size: lg
   -
@@ -296,6 +296,7 @@ button_group:
     enabled: true
     design: whiteoutlined
     button_size: lg
+    link: 'entry::7dc66541-f2e6-4a94-b2ac-8386f62baa4c'
 date_and_location:
   -
     id: mn5obv1x

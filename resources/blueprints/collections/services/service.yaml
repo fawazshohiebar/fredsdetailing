@@ -1,0 +1,90 @@
+title: Service
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              width: 50
+              localizable: false
+              validate:
+                - required
+          -
+            handle: thumbnail_image
+            field:
+              container: assets
+              type: assets
+              display: 'Thumbnail Image'
+              localizable: false
+              width: 50
+          -
+            handle: description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - color
+                - h1
+                - h4
+                - h5
+                - h6
+              remove_empty_nodes: false
+              type: bard
+              display: Description
+              localizable: false
+          -
+            handle: long_description
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - color
+                - h1
+                - h4
+                - h5
+                - h6
+              remove_empty_nodes: false
+              type: bard
+              display: 'Long description'
+              localizable: false
+          -
+            handle: carousel_images
+            field:
+              container: assets
+              type: assets
+              display: 'Carousel Images'
+              localizable: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

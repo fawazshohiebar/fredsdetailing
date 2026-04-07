@@ -1,14 +1,13 @@
     
     <header class="sticky top-0 left-0 flex flex-col w-full z-40 h-auto"
         {{# x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" #}}
-    class="  bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200"
+    class="  bg-primary  z-50 border-b  "
     >
-    {{ partial:patronage }}
-    {{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
+     {{# {{if !is_homepage}} bg-back-gradient {{/if}} #}}
     <nav class="w-full flex-grow transition-all duration-300 ease-in-out"
-        x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }} bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200{{ elseif is_homepage }}bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200  {{else}}bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200{{ /if }}' }"
+        x-data="{ scrolled: false, initialBg: '{{ if feature_banner_image }} bg-primary z-50 border-b {{ elseif is_homepage }}bg-primary z-50 border-b   {{else}}bg-primary z-50 border-b {{ /if }}' }"
         x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" x-cloak
-        :class="scrolled ? 'bg-white/95 backdrop-blur-sm z-50 border-b border-gray-200' : initialBg">
+        :class="scrolled ? 'bg-primary z-50 border-b ' : initialBg">
         <div class="adnec-container h-full pt-0 gap-2 mx-auto  flex flex-row md:items-center justify-between ">
             <!-- Logo and Event Info -->
 
@@ -32,7 +31,7 @@
                                 <input type="checkbox" id="dropdown-{{ index }}" class="dropdown-checkbox">
 
                                 <label for="dropdown-{{ index }}" tabindex="0"
-                                    class="dropdown-label py-3 text-black xl:text-base text-[14px] font-medium leading-relaxed cursor-pointer flex items-center gap-1">
+                                    class="dropdown-label py-3 text-white xl:text-base text-[14px] font-medium leading-relaxed cursor-pointer flex items-center gap-1">
                                     <p>{{ title }}</p>
                                     {{ heroicon variant="outline" icon="chevron-down" class="h-5 w-5 text-black transition-transform duration-300" }}
                                 </label>
@@ -48,7 +47,7 @@
                                 </div>
                             {{ else }}
                                 <h3 class="text-white py-3 xl:text-base lg:text-[14px] font-medium">
-                                    <a href="{{ url }}" class="hover:text-gray-300 transition-colors text-black">
+                                    <a href="{{ url }}" class="hover:text-gray-300 transition-colors text-white">
                                         {{ title }}
                                     </a>
                                 </h3>
@@ -62,7 +61,7 @@
             </div>
 
 
-            <div class="hidden lg:flex flex-row gap-2">
+            <div class="hidden   flex-row gap-2">
                 {{ partial:language-switcher /}}
                 {{ if brand:ai_search_url }}
                     <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
@@ -89,17 +88,17 @@
 
 
             <!-- Mobile Menu Button -->
-            <div class="lg:hidden items-center py-4 gap-2 block">
+            <div class="lg:hidden flex items-center py-4 gap-2 block">
                 <div class="flex justify-end gap-2 lg:gap-4 items-center">
-                    {{ partial:language-switcher /}}
+                    {{# {{ partial:language-switcher /}} #}}
                     {{# {{ partial:partials/sets/countdown_date_picker countdown_end="{brand:countdown_date_picker format='Y-m-d\TH:i:s'}" }} #}}
-                    {{ if brand:ai_search_url }}
+                    {{# {{ if brand:ai_search_url }}
                         <a title="{{ 'AI Search' | trans }}" href="{{ brand:ai_search_url }}" target="_blank"
                             class="text-white hover:underline  bg-gray-900/40  h-[50px] w-[50px] justify-center rounded-3xl flex gap-2 items-center">
                             <span class="sr-only">{{ 'AI Search' | trans }}</span>
                             {{ heroicon variant="outline" icon="magnifying-glass" class="w-6 h-6" /}}
                         </a>
-                    {{ /if }}
+                    {{ /if }} #}}
                     {{# {{ partial:language-switcher /}} #}}
                     <button command="show-modal" commandfor="drawer"
                         class=" focus:outline-none flex flex-row items-center bg-white p-[1px] rounded-[15px] "

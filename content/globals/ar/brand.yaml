@@ -1,18 +1,12 @@
-title: 'ABU DHABI INTERNATIONAL BOAT SHOW'
+title: Fredsdetailing
 logo: brand/mittelogo.png
-location: 'مركز أدنيك أبوظبي'
-location_link: 'https://maps.app.goo.gl/QfKJxAySQC8fabao9?g_st=iw'
-date: '29 أغسطس - 6 سبتمبر'
-time: '11 صباحاً - 10 مساءً'
-countdown_date_picker: '2026-02-01 08:00:00'
 navbar_text:
-  left_text: 'جزء من <br> عمليات دولة الإمارات'
-  middle_text: 300Bn
-  right_text: 'التحول <br> الاستراتيجي'
+  left_text: null
+  middle_text: null
+  right_text: null
 logos_and_partners:
   -
     id: mkp3iv9d
-    title: 'Headline Partner'
     logo:
       -
         id: mkp3j60m
@@ -37,26 +31,19 @@ social_media:
   -
     id: mdwxv1og
     platform: instagram
-    social_media_link: 'https://www.instagram.com/adihex/?hl=en'
   -
     id: mdwxv8jc
     platform: facebook
-    social_media_link: 'https://www.facebook.com/adihex/'
   -
     id: mdwxve32
     platform: linkedin
-    social_media_link: 'https://www.linkedin.com/company/adihex/about/'
   -
     id: mdwxvkeh
     platform: youtube
-    social_media_link: 'https://www.youtube.com/channel/UCp3mg-yFzWguXXxhz69JYzQ'
   -
     id: mdwxvst1
     platform: twitter
-    social_media_link: 'https://twitter.com/ADIHEX'
   -
     id: mdwxw06k
     platform: tiktok
-    social_media_link: 'https://www.tiktok.com/@adihex_official'
-ai_search_url: 'https://aisearch.miite.ae/'
 form: news_letter

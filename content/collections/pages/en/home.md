@@ -15,7 +15,7 @@ page_builder:
       values:
         type: reusable_block
         entry:
-          - 53baade7-f514-4e7e-809b-55474c0d097e
+          - f821cd58-05f0-4173-bdd0-04d33866d594
   -
     type: set
     attrs:
@@ -27,7 +27,7 @@ page_builder:
           -
             type: heading
             attrs:
-              level: 2
+              level: 4
             content:
               -
                 type: text
@@ -37,43 +37,48 @@ page_builder:
                   -
                     type: textColor
                     attrs:
-                      color: '#000'
-                text: 'The Ultimate Marine Destination for the Middle East'
+                      color: '#fff'
+                text: 'Passion for Automotive Excellence'
         background: bgcolor
-        background_color: white
+        background_color: primary
         description:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Prepare to immerse yourself in a world where luxury yachting, marine craftsmanship, and the lifestyle of the sea come together at the Abu Dhabi International Boat Show.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "Abu Dhabi International Boat Show is more than just a boat show—it's a celebration of the marine lifestyle, where elegance meets adventure and the world's best marine brands meet the stunning waterfront views of Abu Dhabi."
-        section_image: photo-1540946485063-a40da27545f8.jpeg
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#EDF1F7'
+                text: "Founded by enthusiasts for enthusiasts, our studio is dedicated to the art of vehicle preservation. We don't just wash cars; we restore their soul. Every curve, every vent, and every stitch is treated with the utmost care using industry-leading products."
         section_label:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Welcome to ADIBS 2026'
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#ED84A6'
+                text: 'Our Story'
         buttons:
           -
             id: mn5rznmm
-            label: 'Learn More'
-            design: blackbgwhitetxt
+            label: 'Book Now'
+            design: bluebgwhitetxt
             icon: arrow-right
             open_new_tab: false
             button_size: fit
             type: button_set
             enabled: true
-            link: 'entry::8c3f2786-1215-41b9-b78f-5029b1dab989'
         text_image_alignment: v1
+        section_image: unnamed.png
   -
     type: set
     attrs:
@@ -87,6 +92,7 @@ page_builder:
     type: set
     attrs:
       id: mkm5to1m
+      enabled: false
       values:
         type: heading_icon_grids
         background: bgcolor
@@ -128,7 +134,6 @@ page_builder:
         grid_items:
           -
             id: mkgxsyfc
-            grid_image: sector-icons/image-(5).svg
             grid_text: 'Boat Builder'
             type: grid_item
             enabled: true
@@ -137,22 +142,18 @@ page_builder:
             grid_text: 'Boat Dealers'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(6).svg
           -
             id: mkgxunk2
             grid_text: 'Superyacht & Charter'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(7).svg
           -
             id: mkgy1abm
             grid_text: 'Marinas & Services'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(8).svg
           -
             id: mkgy19c4
-            grid_image: sector-icons/image-(9).svg
             grid_text: 'Engines & Equipment'
             type: grid_item
             enabled: true
@@ -161,47 +162,41 @@ page_builder:
             grid_text: 'Finance & Insurance'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(10).svg
           -
             id: mkgy17lk
             grid_text: 'Travel & Tourism'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(11).svg
           -
             id: mkgy16le
             grid_text: 'Government Agencies'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(12).svg
           -
             id: mkgy15kc
             grid_text: Watersports
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(13).svg
           -
             id: mkgy1d35
             grid_text: 'Real Estate'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(14).svg
           -
             id: mkgy14od
             grid_text: 'Marine Lifestyle'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(15).svg
           -
             id: mkgxumg1
             grid_text: 'Training & Schools'
             type: grid_item
             enabled: true
-            grid_image: sector-icons/image-(16).svg
   -
     type: set
     attrs:
       id: mn5us7vz
+      enabled: false
       values:
         type: ctav1
         text_image_alignment: v2
@@ -262,7 +257,6 @@ page_builder:
                     attrs:
                       color: '#fff'
                 text: "Experience the region's premier charter showcase featuring the world's most luxurious yachts available for charter."
-        section_image: photo-1567899378494-47b22a2ae96a.jpeg
         buttons:
           -
             id: mn5utb9l
@@ -319,6 +313,53 @@ page_builder:
           - fef6641c-d2a0-4892-b66b-239a175b6574
           - 4963d577-eede-4358-95fa-6382c9e2f2a2
         design: centered
+  -
+    type: set
+    attrs:
+      id: mninswk3
+      values:
+        type: services_element
+        breadcrumb: false
+        design: centered
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 6
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#0ca5f2'
+                text: 'Precision Services'
+        background: bgcolor
+        background_color: primary
+        services:
+          - 3b56ef45-a2ef-4e4a-8361-893e25fe5b0c
+          - e8aadbd3-25b5-4db9-8b58-e04132ce7e6b
+          - 7958e4ee-5b5c-4ff3-b56f-420b17051275
+          - adc3d384-44f8-498e-a840-a0aacbb243d2
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: 'Our Detailing Solutions'
 header_scripts:
   code: null
   mode: htmlmixed
@@ -329,7 +370,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1774853799
+updated_at: 1775213158
 reusable_popup: false
 fine_seo_title: ADIBS
 ---

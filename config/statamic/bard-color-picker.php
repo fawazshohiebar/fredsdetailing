@@ -17,8 +17,11 @@ return [
         '#000',
         '#E7443C',
         '#EDF1F7',
+        '#ED84A6',
+        '#0ca5f2',
         '#D8DCE3',
         'redgrad'
+        
 
     ],  
     

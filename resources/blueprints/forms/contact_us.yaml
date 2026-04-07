@@ -12,6 +12,7 @@ tabs:
               display: 'First Name'
               localizable: false
               width: 50
+              prepend: contact
           -
             handle: last_name
             field:

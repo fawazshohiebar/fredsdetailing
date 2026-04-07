@@ -945,6 +945,11 @@ fields:
                     type: code
                     display: 'Html Block'
                     localizable: false
+            services_element:
+              display: 'Services Element'
+              fields:
+                -
+                  import: heading_with_services
         forms:
           display: Forms
           icon: form-drop-down-menu

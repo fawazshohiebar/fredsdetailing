@@ -1,9 +1,0 @@
-title: 'News Letter'
-email:
-  -
-    id: mmkgy08r
-    to: 'sumaya.almarzooqi@adnec.ae,rawdha.alhameli@adnec.ae'
-    html: emails/new_enquiry
-    text: emails/new_enquiry
-    markdown: true
-    mailer: smtp

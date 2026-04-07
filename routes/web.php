@@ -28,3 +28,4 @@ Route::get('/{locale}/agenda/{agenda}/{date}', GetAgendaByDateController::class)
 
 // redirect all /ar starting routes to homepage (including /ar)
 // Route::permanentRedirect('/en/{any?}', '/ar')->where('any', '.*');
+Route::statamic('/{locale}/services/{slug}', 'Services.index')->name('services.show');

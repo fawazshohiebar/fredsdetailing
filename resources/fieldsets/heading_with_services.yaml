@@ -1,0 +1,16 @@
+title: 'heading with services'
+fields:
+  -
+    import: background_design
+  -
+    import: heading_group_with_breadcrumbs
+  -
+    handle: services
+    field:
+      collections:
+        - services
+      type: entries
+      display: Services
+      localizable: false
+  -
+    import: button_group

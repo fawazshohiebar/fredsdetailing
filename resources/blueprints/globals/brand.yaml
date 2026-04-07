@@ -44,54 +44,6 @@ tabs:
                 - image
                 - 'mimes:jpg,jpeg,png,gif,webp,svg'
           -
-            handle: patronage
-            field:
-              type: text
-              display: Patronage
-              localizable: true
-          -
-            handle: location
-            field:
-              type: text
-              display: Location
-              localizable: true
-              width: 50
-          -
-            handle: location_link
-            field:
-              type: text
-              display: 'Location Link'
-              localizable: false
-              width: 50
-          -
-            handle: date
-            field:
-              type: text
-              display: Date
-              localizable: true
-              width: 50
-          -
-            handle: date_link
-            field:
-              type: text
-              display: 'Date Link'
-              localizable: false
-              width: 50
-          -
-            handle: time
-            field:
-              type: text
-              display: Time
-              localizable: true
-              width: 50
-          -
-            handle: time_link
-            field:
-              type: text
-              display: 'Time Link'
-              localizable: false
-              width: 50
-          -
             handle: button_replicator
             field:
               type: replicator
@@ -106,42 +58,64 @@ tabs:
                       fields:
                         -
                           import: fancy_button
-          -
-            handle: countdown_date_picker
-            field:
-              time_enabled: true
-              time_seconds_enabled: true
-              type: date
-              display: 'Countdown Date Picker'
-              localizable: false
-          -
-            handle: navbar_text
-            field:
-              type: group
-              display: 'NavBar Text'
-              localizable: false
-              fields:
-                -
-                  handle: left_text
-                  field:
-                    type: text
-                    display: 'Left Text'
-                    localizable: false
-                -
-                  handle: middle_text
-                  field:
-                    type: text
-                    display: 'Middle Text'
-                    localizable: false
-                -
-                  handle: right_text
-                  field:
-                    type: text
-                    display: 'Right Text'
-                    localizable: false
       -
-        display: 'Footer Logos'
+        display: 'Extra Event Info'
         fields:
+          -
+            handle: footer_sales
+            field:
+              type: replicator
+              display: 'Footer Sales'
+              localizable: false
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    sales_set:
+                      display: 'Sales Set'
+                      fields:
+                        -
+                          handle: sales_label
+                          field:
+                            type: text
+                            display: 'Sales Label'
+                            localizable: false
+                            width: 66
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+                            localizable: false
+                            width: 50
+                        -
+                          handle: sales_text
+                          field:
+                            type: text
+                            display: 'Sales Text'
+                            localizable: false
+                            width: 50
+                        -
+                          handle: icon
+                          field: basics.icon
+                          config:
+                            width: 33
+          -
+            handle: footer_text
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - color
+                - h1
+                - h4
+                - h5
+                - h6
+              remove_empty_nodes: false
+              type: bard
+              display: 'Footer Text'
+              localizable: false
           -
             handle: logos_and_partners
             field:
@@ -197,21 +171,10 @@ tabs:
                                           localizable: false
                                           width: 33
           -
-            handle: footer_text
-            field:
-              buttons:
-                - h2
-                - h3
-                - bold
-                - color
-                - h1
-                - h4
-                - h5
-                - h6
-              remove_empty_nodes: false
-              type: bard
-              display: 'Footer Text'
-              localizable: false
+            import: form_box
+      -
+        display: 'Footer Logos'
+        fields:
           -
             handle: link_bottom_footer
             field:
@@ -283,56 +246,4 @@ tabs:
                     localizable: false
                     width: 50
       -
-        display: 'Extra Event Info'
-        fields:
-          -
-            handle: ai_search_url
-            field:
-              input_type: url
-              placeholder: 'https://aisearch.adihex.com/'
-              type: text
-              display: 'Ai Search Url'
-              instructions: 'Link will be used for AI Search'
-              localizable: false
-          -
-            handle: footer_sales
-            field:
-              type: replicator
-              display: 'Footer Sales'
-              localizable: false
-              sets:
-                new_set_group:
-                  display: 'New Set Group'
-                  sets:
-                    sales_set:
-                      display: 'Sales Set'
-                      fields:
-                        -
-                          handle: link
-                          field:
-                            type: link
-                            display: Link
-                            localizable: false
-                            width: 50
-                        -
-                          handle: sales_text
-                          field:
-                            type: text
-                            display: 'Sales Text'
-                            localizable: false
-                            width: 50
-                        -
-                          handle: icon
-                          field: basics.icon
-                          config:
-                            width: 33
-      -
         display: Form
-        fields:
-          -
-            handle: form
-            field:
-              max_items: 1
-              type: form
-              display: Form
-              localizable: false

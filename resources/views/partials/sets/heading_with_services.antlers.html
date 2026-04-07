@@ -1,0 +1,143 @@
+<div style="{{ if background == 'bgimg' }}background-image: url('{{ image.url }}');{{ else }}background-color: var(--color-{{ background_color }});{{ /if }}"
+    class="w-full  bg-cover bg-center ">
+    <div class=" relative  {{if overflow_position == "top"}}  section-light-second {{elseif overflow_position == "bottom"}} section-light-first{{else}}  {{/if}}"
+        style="--section-bg-color: var(--color-{{ background_color }})">
+
+        <div class="adnec-container py-15">
+
+            {{ partial:partials/sets/heading_group_with_breadcrumbs }}
+            <div class="pressrelease-carousel  relative pb-5 mb-15" x-data="{ 
+         swiper: null,
+         initSwiper() {
+             this.$nextTick(() => {
+                 if (window.Swiper && this.$refs.swiperContainer) {
+                     this.swiper = new window.Swiper(this.$refs.swiperContainer, {
+                         slidesPerView: 1,
+                         spaceBetween: 10,
+                         grabCursor: true,
+                         autoHeight: false,
+                         centeredSlides: false,
+                         loop: false,
+                         pagination: {
+                            el: '.pressrelease-pagination',
+                            type: 'progressbar',
+                         },
+                         navigation: {
+                             nextEl: '.pressrelease-carousel-button-next',
+                             prevEl: '.pressrelease-carousel-button-prev',
+                         },
+                         breakpoints: {
+                          550: {
+                                 slidesPerView: 2,
+                                 spaceBetween: 20,
+                                 centeredSlides: false,
+                             },
+                             1024: {
+                                 slidesPerView: 3,
+                                 spaceBetween: 25,
+                                 centeredSlides: false,
+                             },
+                             1400: {
+                                 slidesPerView: 4,
+                                 spaceBetween: 25,
+                                 centeredSlides: false,
+                             },
+                         }
+                     });
+                 } else {
+                     console.error('Swiper not loaded or container not found');
+                 }
+             });
+         }
+     }" x-init="initSwiper()">
+
+                <div class="swiper pt-8 relative " x-ref="swiperContainer">
+                    <div class="swiper-wrapper">
+
+                        {{ services }}
+                            <div class="swiper-slide !h-auto
+                             ">
+                                <a class="h-full block" href="/{{ site:short_locale }}/services/{{ slug }}">
+                                    <div class=" h-full flex flex-col gap-4 bg-[#1e293b] rounded-[8px] overflow-hidden">
+                                        {{ glide:thumbnail_image format="webp" }}
+                                            <img  class="h-48 overflow-hidden object-cover" src="{{ url }}" alt="">
+                                        {{ /glide:thumbnail_image }}
+
+
+
+                                        <div class="flex flex-col gap-3 px-5 py-5  ">
+                                            <div class="flex flex-row gap-6 justify-between ">
+                                                <div class="text-xl font-bold  text-white">
+                                                    {{ title }}
+                                                </div>
+                                                {{#
+                                                    <div>
+                                                        {{ heroicon variant="outline" icon="arrow-up-right" class="xl:h-[30px] xl:w-[30px] lg:h-[25px] lg:w-[25px] h-[20px] w-[20px]  text-white" }}
+                                                    </div>
+                                                #}}
+                                            </div>
+
+                                            <div class="text-slate-400 text-sm mb-6  ">
+                                                {{ description }}
+                                            </div>
+                                            <div
+                                                class="text-secondary font-semibold text-sm inline-flex items-center hover:gap-2 transition-all">
+                                                Read More
+                                                {{ heroicon variant="outline" icon="arrow-right" class=" h-[20px] w-[20px]  text-secondary" }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        {{ /services }}
+                    </div>
+                </div>
+                <div class="pressrelease-pagination text-center mt-5"></div>
+
+                <div class="absolute top-[30%] -left-[2.5%] hidden sm:flex flex-row w-[105%] justify-between z-9">
+                    <div
+                        class="rtl:rotate-180 pressrelease-carousel-button-prev flex !bg-white w-[45px] h-[45px] justify-center items-center rounded-[30px]">
+                        {{ heroicon variant="outline" icon="chevron-left" class="h-5 w-5 " }}
+                    </div>
+                    <div
+                        class=" rtl:rotate-180 pressrelease-carousel-button-next flex !bg-white w-[45px] h-[45px] justify-center items-center rounded-[30px]">
+                        {{ heroicon variant="outline" icon="chevron-right" class="h-5 w-5" }}
+                    </div>
+                </div>
+
+            </div>
+            {{ if under_press_release_text || button_group }}
+                <div class="flex flex-col gap-5  py-5 ">
+
+                    <div class="prose prose-lg flex  py-5 flex-row justify-center text-center mx-auto custom max-w-lg">
+                        {{ under_press_release_text }}
+                    </div>
+                    <div class="flex flex-row justify-center">
+                        {{ partial:partials/sets/button_group }}
+                    </div>
+                </div>
+            {{ /if }}
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .pressrelease-pagination .swiper-pagination-progressbar-fill {
+        background: var(--color-primary) !important;
+    }
+
+    .pressrelease-pagination {
+        height: 3px !important;
+        left: 50% !important;
+        z-index: 9;
+        background-color: #CDD0DA !important;
+        width: 200px !important;
+        transform: translate(-50%, 50%);
+        top: 100% !important;
+    }
+
+    html[dir="rtl"] .pressrelease-pagination {
+        transform: translate(-50%, 50%) rotate(180deg);
+    }
+</style>

@@ -56,15 +56,15 @@ html {
 
 :root {
 
-  --color-primary: #000;
-  --color-secondary: #EFF7FF;
+  --color-primary: #0F172A;
+  --color-secondary: #ED84A6;
   --color-white:#FFFFFF;
-  --color-accent:#d8e3ee;
-  --color-blue: #4bd3ee;
+  --color-accent:#64748b;
+  --color-blue: #0ca5f2;
   --color-light-accent: #EDF1F7;
   --color-semiblack:#D8DCE3;
   --color-light-secondary: #EEFDFE;
-  --color-gradient :linear-gradient(90deg, #4BD3EF 0%, #2864EA 100%);
+  --color-gradient :linear-gradient(to right, #ed84ad, #0CA5F2);
   --color-second-gradient : linear-gradient(90deg, #4BD3EF 0%, #2864EA 100%);
 --color-red:#E7443C;
 }
@@ -74,11 +74,11 @@ html {
   --font-audio:"Audiowide", sans-serif;
   --font-noto: "noto-sans-arabic", sans-serif;
 
-  --color-primary: #000;
-  --color-secondary:#EFF7FF;
+  --color-primary: #0F172A;
+  --color-secondary:#ED84A6;
   --color-white:#FFFFFF;
-  --color-accent: #D9E4EE;
-  --color-blue: #4bd3ee;
+  --color-accent: #64748b;
+  --color-blue: #0ca5f2;
   --color-semiblack:#D8DCE3;
   --color-light-accent: #EDF1F7;
   --color-light-secondary: #EEFDFE;
@@ -91,7 +91,7 @@ html {
 
   /* --color-gradient : linear-gradient(275deg, #0F193C, #dd001c); */
 
-   --color-gradient :linear-gradient(90deg, #4BD3EF 0%, #2864EA 100%);
+   --color-gradient :linear-gradient(to right, #ed84ad, #0CA5F2);
   --color-second-gradient :linear-gradient(90deg, #E7443C 0%, #383091 100%);
 --color-greenandblue-gradient:linear-gradient(180deg,rgba(143, 193, 137, 1) 4%, rgba(51, 150, 167, 1) 54%);
   --color-primary-50: #211551;
@@ -299,7 +299,7 @@ li{
 
 .customcolors{
    /* @apply  bg-gradient-to-r from-[#E2001A] to-[#0F193C] bg-clip-text text-transparent ; */
-   @apply bg-gradient-to-r from-[#4BD3EF]   to-[#60A6FA] bg-clip-text text-transparent text-shadow-none;
+   @apply bg-gradient-to-r from-[#ED84A6]   to-[#0ca5f2] bg-clip-text text-transparent text-shadow-none;
 
   }
 

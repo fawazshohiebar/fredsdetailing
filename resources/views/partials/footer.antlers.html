@@ -1,5 +1,44 @@
-<footer class="bg-[#0B0F18] bg-cover text-primary">
+<footer class="bg-primary bg-cover text-primary">
 
+
+
+
+    <div class="adnec-container bg-[#1e293b]  ">
+        {{# bg-[#1e293b] #}}
+        <div class="grid grid-cols-[30%_70%]">
+            <div class="px-2 py-10 lg:px-8 prose prose-sm custom">
+                {{ brand }}
+                    {{ footer_text }}
+                {{ /brand }}
+
+                {{ brand:footer_sales }}
+                    <li>
+                        <a class="flex items-center text-white flex-row no-underline" href="{{ link }}">
+                        <div class="bg-blue/10 p-3   rounded-[8px] mr-2">  
+                            {{ heroicon variant="outline" :icon="icon" class="w-6 h-6 text-blue   " /}}
+                        </div>
+                            <div class="flex flex-col  ">    
+                           <div class="font-bold text-white text-[18px] ">{{sales_label}}</div>
+                           <div class=" text-semiblack text-[16px]  ">{{ sales_text }}</div>
+                        </div>
+                        </a>
+                    </li>
+                {{ /brand:footer_sales }}
+            </div>
+
+
+
+            <div>
+                {{ brand }}
+                    {{ if form }}
+                        {{ partial:shared.form.form_alpine }}
+                    {{ /if }}
+                {{ /brand }}
+            </div>
+        </div>
+
+
+    </div>
     <div class="adnec-container mx-auto py-[45px] md:py-[50px] lg:py-[50px] relative">
         <div
             class="flex flex-col sm:grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-[40px] gap-x-[15px] md:gap-[30px] ">
@@ -56,18 +95,20 @@
 
 
 
-                {{# <div>
-                    <h3 class="text-xl font-semibold mb-6 relative inline-block">
-                        {{ 'STAY UPDATED' | trans }}
-                    </h3>
-                    <div class="footer-form" >
-                        {{ brand }}
-                            {{ if form }}
-                                {{ partial:shared.form.form_alpine }}
-                            {{ /if }}
-                        {{ /brand }}
+                {{#
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6 relative inline-block">
+                            {{ 'STAY UPDATED' | trans }}
+                        </h3>
+                        <div class="footer-form">
+                            {{ brand }}
+                                {{ if form }}
+                                    {{ partial:shared.form.form_alpine }}
+                                {{ /if }}
+                            {{ /brand }}
+                        </div>
                     </div>
-                </div> #}}
+                #}}
 
 
                 <div>
@@ -75,24 +116,16 @@
                         {{ 'FOLLOW US' | trans }}
                     </h3>
                     {{ partial:footer_social_media }}
-                    
-<br>
+                    <br>
 
                     <h3 class="text-xl font-semibold mb-6 relative inline-block text-white">
                         {{ 'Contact' | trans }}
                     </h3>
-                        <ul class="space-y-2">
-                            {{ brand:footer_sales }}
-                                <li>
-                                    <a class="flex items-center text-white flex-row" href="{{ link }}">
-                                        {{ heroicon variant="outline" :icon="icon" class="h-5 w-[30px] inline-block mr-2  " /}}
-                                        {{ sales_text }}
-                                    </a>
-                                </li>
-                            {{ /brand:footer_sales }}
-                            {{ < li class="flex items-start" class="text-[#fff]" }}
-                        </ul>
-                   
+                    <ul class="space-y-2">
+
+                        {{ < li class="flex items-start" class="text-[#fff]" }}
+                    </ul>
+
                 </div>
             </div>
 
@@ -112,11 +145,12 @@
 
             <div class="flex flex-col-reverse  md:flex-row justify-between w-full gap-3 md:gap-5">
                 <div class="text-[#fff]  text-sm mb-4 md:mb-0 w-full">
-                  {{# <a class="text-primary text-center" href="https://www.adnecgroup.ae" target="_blank"
-                        rel="noopener noreferrer">
-                        &copy;{{ 'Make it in the Emirates' }} {{ now format="Y" }}
-                        {{ ',organised by ADNEC Group' | trans }}
-                    </a>   #}}
+                    {{#
+                        <a class="text-primary text-center" href="https://www.adnecgroup.ae" target="_blank" rel="noopener noreferrer">
+                            &copy;{{ 'Make it in the Emirates' }} {{ now format="Y" }}
+                            {{ ',organised by ADNEC Group' | trans }}
+                        </a>
+                    #}}
                 </div>
 
                 <div class="flex w-max flex-row gap-2 ">

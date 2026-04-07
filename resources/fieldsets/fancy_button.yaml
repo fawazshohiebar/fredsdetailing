@@ -49,6 +49,12 @@ fields:
         -
           key: blackbgwhitetxt
           value: 'black bg white txt'
+        -
+          key: pinkbgwhitetxt
+          value: 'Pink bg white txt'
+        -
+          key: blueoutlined
+          value: 'Blue outline'
       type: select
       display: Design
       localizable: false

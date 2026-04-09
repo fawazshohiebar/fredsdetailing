@@ -82,240 +82,6 @@ page_builder:
   -
     type: set
     attrs:
-      id: mkghxhcs
-      enabled: false
-      values:
-        type: reusable_block
-        entry:
-          - ad9887da-c222-4817-9af6-cba4a6eb2345
-  -
-    type: set
-    attrs:
-      id: mkm5to1m
-      enabled: false
-      values:
-        type: heading_icon_grids
-        background: bgcolor
-        background_color: white
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: "The Industry's Best, All Under One Roof"
-          -
-            type: heading
-            attrs:
-              level: 6
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#000'
-                text: 'Connecting every sector of the marine industry'
-        group_buttons:
-          link: 'entry::8fffaf8b-7cd2-4942-994d-73e5ccf03387'
-          label: 'Find Out More'
-          design: bluebgwhitetxt
-          icon: arrow-right
-          open_new_tab: true
-          button_size: fit
-        grid_items:
-          -
-            id: mkgxsyfc
-            grid_text: 'Boat Builder'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgxukjv
-            grid_text: 'Boat Dealers'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgxunk2
-            grid_text: 'Superyacht & Charter'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy1abm
-            grid_text: 'Marinas & Services'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy19c4
-            grid_text: 'Engines & Equipment'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy18dc
-            grid_text: 'Finance & Insurance'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy17lk
-            grid_text: 'Travel & Tourism'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy16le
-            grid_text: 'Government Agencies'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy15kc
-            grid_text: Watersports
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy1d35
-            grid_text: 'Real Estate'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgy14od
-            grid_text: 'Marine Lifestyle'
-            type: grid_item
-            enabled: true
-          -
-            id: mkgxumg1
-            grid_text: 'Training & Schools'
-            type: grid_item
-            enabled: true
-  -
-    type: set
-    attrs:
-      id: mn5us7vz
-      enabled: false
-      values:
-        type: ctav1
-        text_image_alignment: v2
-        spaces: p
-        heading_text:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'A First for the Region.'
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'A New Standard in Chartering.'
-        section_label:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'NEW FOR 2026'
-        description:
-          -
-            type: heading
-            attrs:
-              level: 6
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: "Experience the region's premier charter showcase featuring the world's most luxurious yachts available for charter."
-        buttons:
-          -
-            id: mn5utb9l
-            label: 'Discover Charter Show'
-            design: whitefilledbluetxt
-            icon: arrow-right
-            open_new_tab: false
-            type: button_set
-            enabled: true
-            link: 'entry::8fffaf8b-7cd2-4942-994d-73e5ccf03387'
-        background: bgcolor
-        background_color: second-gradient
-  -
-    type: set
-    attrs:
-      id: mn7fefrt
-      enabled: false
-      values:
-        type: heading_and_sponsors
-        breadcrumb: false
-        heading:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: redgrad
-                text: 'Partners & Sponsors 2025'
-        button_group:
-          link: null
-          label: null
-          design: null
-          icon: none
-          open_new_tab: false
-          button_size: null
-        sponsors_entries:
-          - 9060f0b8-47a3-441c-a992-d05487b34147
-          - ea70f702-48a8-431c-8230-f640ad1c63a3
-          - aecbd68a-b239-4cf2-b62e-37c26d0f9b55
-          - 29176424-c90c-433e-b05d-459b5239f3ef
-          - 88272bdd-d6f5-47d3-84c3-66f60f146210
-          - a81bf28d-a9aa-4e6b-8ecf-5c9548ed2a1b
-          - 0e06b3da-fd6e-46ec-a54e-c8af419bc0fc
-          - 62b1ae79-d067-4c65-af1b-24f6ed07a14e
-          - db3ab7c0-cc6d-4232-a316-31c643b1dcae
-          - fef6641c-d2a0-4892-b66b-239a175b6574
-          - 4963d577-eede-4358-95fa-6382c9e2f2a2
-        design: centered
-  -
-    type: set
-    attrs:
       id: mninswk3
       values:
         type: services_element
@@ -360,6 +126,114 @@ page_builder:
                     attrs:
                       color: '#fff'
                 text: 'Our Detailing Solutions'
+  -
+    type: set
+    attrs:
+      id: mnr4xbl5
+      values:
+        type: google_reviews
+        design: centered
+        heading:
+          -
+            type: heading
+            attrs:
+              level: 6
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#0ca5f2'
+                text: Testimonials
+        sub_heading:
+          -
+            type: heading
+            attrs:
+              level: 4
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: textColor
+                    attrs:
+                      color: '#fff'
+                text: 'What Our Clients Say'
+        google_review_creator:
+          -
+            id: mnr7y5r6
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+          -
+            id: mnr7zb20
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+          -
+            id: mnr7zd6x
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+          -
+            id: mnr7zfty
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+          -
+            id: mnr7ziax
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+          -
+            id: mnr7zkw1
+            number_of_stars: 5
+            profile_image:
+              - unnamed-(5).png
+            profile_name: 'Muotassem Abd Alrazek'
+            review_description: |-
+              What a great service!! Extremely convenient and top notch detailing. The car looks brand new with very reasonable price!
+              I definitely recommend Fred’s Detailing!
+            type: new_set
+            enabled: true
+        background: bgcolor
+        background_color: primary
 header_scripts:
   code: null
   mode: htmlmixed
@@ -370,7 +244,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775213158
+updated_at: 1775724554
 reusable_popup: false
 fine_seo_title: ADIBS
 ---

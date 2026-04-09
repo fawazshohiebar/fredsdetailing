@@ -950,6 +950,70 @@ fields:
               fields:
                 -
                   import: heading_with_services
+            google_reviews:
+              display: 'Google Reviews'
+              fields:
+                -
+                  import: background_design
+                -
+                  import: heading_group_component
+                -
+                  handle: google_review_creator
+                  field:
+                    type: replicator
+                    display: 'Google Review Creator'
+                    localizable: false
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            fields:
+                              -
+                                handle: number_of_stars
+                                field:
+                                  options:
+                                    -
+                                      key: 0
+                                      value: null
+                                    -
+                                      key: 1
+                                      value: null
+                                    -
+                                      key: 2
+                                      value: null
+                                    -
+                                      key: 3
+                                      value: null
+                                    -
+                                      key: 4
+                                      value: null
+                                    -
+                                      key: 5
+                                      value: null
+                                  type: select
+                                  display: 'Number Of Stars'
+                                  localizable: false
+                              -
+                                handle: profile_image
+                                field:
+                                  container: assets
+                                  type: assets
+                                  display: 'Profile Image'
+                                  localizable: false
+                              -
+                                handle: profile_name
+                                field:
+                                  type: text
+                                  display: 'Profile Name'
+                                  localizable: false
+                              -
+                                handle: review_description
+                                field:
+                                  type: markdown
+                                  display: 'Review Description'
+                                  localizable: false
         forms:
           display: Forms
           icon: form-drop-down-menu

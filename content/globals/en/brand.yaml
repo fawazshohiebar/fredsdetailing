@@ -1,5 +1,5 @@
 title: Fredsdetailingd
-logo: brand/picture2.png-(1)-(1).png
+logo: brand/freddylogo.png
 button_replicator:
   -
     id: mglevgrk
@@ -18,6 +18,7 @@ footer_sales:
     type: sales_set
     enabled: true
     sales_label: Phone
+    link: 'tel:0559082211'
   -
     id: mih2vsf6
     sales_text: fredetailing@gmail.com
@@ -25,6 +26,7 @@ footer_sales:
     type: sales_set
     enabled: true
     sales_label: Email
+    link: 'mailto:fredetailing@gmail.com'
 footer_text:
   -
     type: heading
@@ -62,21 +64,12 @@ logos_and_partners:
         id: mke1fj81
         type: new_set
         enabled: true
+        image:
+          - brand/freddylogo.png
     type: new_set
     enabled: true
 form: contact_us
 show_labels: true
-link_bottom_footer:
-  -
-    id: mkgv7vyw
-    type: new_set
-    enabled: true
-    bottom_footer_links_text: 'Privacy Policy'
-  -
-    id: mkgv8448
-    type: new_set
-    enabled: true
-    bottom_footer_links_text: 'Terms & Conditions'
 social_media:
   -
     id: mkgvv6rc
@@ -84,12 +77,10 @@ social_media:
   -
     id: mkgvva9a
     platform: instagram
+footer_ending_text:
   -
-    id: mlt0ato3
-    platform: twitter
-  -
-    id: mlt0b3sc
-    platform: linkedin
-  -
-    id: mlt0bxyo
-    platform: youtube
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '@2023 Premium Detail Automotive. All rights reserved.'

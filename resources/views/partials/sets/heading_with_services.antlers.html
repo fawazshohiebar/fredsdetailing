@@ -3,10 +3,10 @@
     <div class=" relative  {{if overflow_position == "top"}}  section-light-second {{elseif overflow_position == "bottom"}} section-light-first{{else}}  {{/if}}"
         style="--section-bg-color: var(--color-{{ background_color }})">
 
-        <div class="adnec-container py-15">
+        <div class="adnec-container py-10">
 
             {{ partial:partials/sets/heading_group_with_breadcrumbs }}
-            <div class="pressrelease-carousel  relative pb-5 mb-15" x-data="{ 
+            <div class="pressrelease-carousel  relative pb-5  " x-data="{ 
          swiper: null,
          initSwiper() {
              this.$nextTick(() => {

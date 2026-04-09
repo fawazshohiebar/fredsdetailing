@@ -1,0 +1,93 @@
+<div style="{{ if background == 'bgimg' }}background-size:cover; background-image: url('{{ image.url }}');{{ else }}background:var(--color-{{ background_color }}){{ /if }}"
+    class="w-full  bg-cover bg-center ">
+    <div class="adnec-container py-10">
+        {{ partial:partials/sets/heading_group_component }}
+        <div class="partnerwords-carousel mb-0 relative" x-data="{ 
+         swiper: null,
+         initSwiper() {
+             this.$nextTick(() => {
+                 if (window.Swiper && this.$refs.swiperContainer) {
+                     this.swiper = new window.Swiper(this.$refs.swiperContainer, {
+                         slidesPerView: 1.2,
+                         spaceBetween: 16,
+                         grabCursor: true,
+                         autoHeight: false,
+                         centeredSlides: false,
+                         loop: true,
+                         autoplay: {
+                             delay: 3000,
+                             disableOnInteraction: false,
+                             pauseOnMouseEnter: true,
+                         },
+                         pagination: {
+                             el: '.carousel-pagination',
+                             clickable: true,
+                             dynamicBullets: false,
+                             bulletClass: 'swiper-pagination-bullet custom-bullet',
+                             bulletActiveClass: 'swiper-pagination-bullet-active custom-bullet-active',
+                         },
+                         navigation: {
+                             nextEl: '.carousel-button-next',
+                             prevEl: '.carousel-button-prev',
+                         },
+                         breakpoints: {
+                             640: {
+                                 slidesPerView: 2,
+                                 spaceBetween: 20,
+                                 centeredSlides: false,
+                             },
+                             1200: {
+                                 slidesPerView: 3,
+                                 spaceBetween: 24,
+                                 centeredSlides: false,
+                             },
+                             1400: {
+                                 slidesPerView: 4,
+                                 spaceBetween: 24,
+                                 centeredSlides: false,
+                             },
+                         }
+                     });
+                 } else {
+                     console.error('Swiper not loaded or container not found');
+                 }
+             });
+         }
+     }" x-init="initSwiper()">
+
+            <!-- Navigation buttons positioned at top right -->
+
+            <div class="swiper pt-8" x-ref="swiperContainer">
+                <div class="swiper-wrapper">
+
+
+                    {{ google_review_creator }}
+                        <div class="swiper-slide  ">
+                            <div class=" bg-[#1e293b] rounded-[8px] p-8 border-1 border-[#1e293b] ">
+                                {{ if number_of_stars != "0" }}
+                                    <div class="flex flex-row mb-4"">
+                                        {{ range from="1" to="{number_of_stars}" }}
+                                            {{ heroicon variant="outline" icon="star" class="!h-5 !w-5 text-secondary" }}
+                                        {{ /range }}
+                                    </div>
+                                {{ /if }}
+                               
+                                <div class="text-[#cbd5e1] italic text-[13px] font-[500] mb-6">{{ review_description }}
+                                    
+                                </div>
+                                
+                                <div class="grid  items-center gap-4 grid-cols-[50px_auto]">
+                                    {{ profile_image }}
+                                        <img class="w-12 h-12  rounded-full" src="{{ url }}" alt="">
+                                    {{ /profile_image }}
+
+                                    <div class="text-[#cbd5e1] font-bold text-[14px]"> {{ profile_name }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    {{ /google_review_creator }}
+
+                </div>   
+
+
+            </div>

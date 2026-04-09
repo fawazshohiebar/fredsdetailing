@@ -1,11 +1,7 @@
 title: 'Reusable Gallery with Heading'
 fields:
   -
-    handle: heading
-    field: basics.heading_group
-    config:
-      display: 'Section Heading'
-      localizable: true
+    import: heading_group_component
   -
     handle: gallery_items
     field:

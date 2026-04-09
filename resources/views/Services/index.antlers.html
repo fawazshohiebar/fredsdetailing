@@ -1,20 +1,28 @@
 {{ collection:services :slug="segment_2" limit="1" }}
 
-
-
-    <div class="bg-grey py-15">
+    <div class=" py-15 bg-primary bg-cover">
         <div class="adnec-container ">
 
-            <div class="flex flex-row gap-2 text-primary mb-8 pb-5 border-b-[1px] border-[#00000012]
- ">
+            {{# <div class="flex flex-row gap-2 text-primary mb-8 pb-5 border-b-[1px] border-[#00000012]">
                 {{ heroicon variant="outline" icon="calendar-days" class="w-5 h-6 " /}}
-              
-            </div>
-            <div class="mb-5">
-                <img class=" rounded-[10px] object-cover  h-[300px] md:h-[350px] lg:h-[400px] xl:h-[500px]" src="{{ glide:press_release_image }}" alt="{{ press_release_title }}" />
+            </div> #}}
+   
+            <div class="grid grid-cols-2 items-center py-10 ">
+                <div class="custom text-white">
+                    {{ long_description }}
+                </div>
+
+                {{ thumbnail_image }}
+                    <img src="{{ url }}" alt="">
+                {{ /thumbnail_image }}
+
             </div>
 
-            <div class="press-release-content">
+            <div class="grid grid-cols-3 gap-5  flex-wrap py-10">
+                {{ carousel_images }}
+                  <div class="rounded-[8px] overflow-hidden">  <img src="{{ url }}" alt=""></div>
+                {{ /carousel_images }}
+
             </div>
 
         </div>

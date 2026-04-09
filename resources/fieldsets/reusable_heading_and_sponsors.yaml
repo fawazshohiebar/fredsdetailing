@@ -10,7 +10,6 @@ fields:
       type: entries
       display: 'Sponsors Entries'
       localizable: false
-      collections:
-        - sponsors
+      collections: []
   -
     import: button_group

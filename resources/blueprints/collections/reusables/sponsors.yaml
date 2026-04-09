@@ -20,8 +20,7 @@ tabs:
           -
             handle: sponsors_entries
             field:
-              collections:
-                - sponsors
+              collections: []
               type: entries
               display: 'Sponsors Entries'
               localizable: false

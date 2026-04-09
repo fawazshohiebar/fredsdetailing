@@ -1,10 +1,8 @@
 <?php
 
-use App\Helpers\AgendaHelper;
 use Illuminate\Support\Carbon;
 use App\Http\Controllers\FormSubmissionExportController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GetAgendaByDateController;
 
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
@@ -23,8 +21,6 @@ Route::post('/cp/forms/{form}/export', [FormSubmissionExportController::class, '
 
     
 // Route::permanentRedirect('/ar', '/en');
-
-Route::get('/{locale}/agenda/{agenda}/{date}', GetAgendaByDateController::class)->name('show_agenda_by_date');
 
 // redirect all /ar starting routes to homepage (including /ar)
 // Route::permanentRedirect('/en/{any?}', '/ar')->where('any', '.*');

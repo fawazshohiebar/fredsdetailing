@@ -20,7 +20,7 @@
 
     <div class="adnec-container flex flex-col items-center justify-center relative z-10">
         {{# Page Title with elegant animation - left aligned #}}
-        <div class="max-w-3xl mb-8 " x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
+        <div class=" mb-8 " x-data="{}" x-intersect="$el.classList.add('animate-fade-in')">
             {{ if title }}
                 <h1
                     class="ltr:text-3xl ltr:leading-tight rtl:leading-snug rtl:text-3xl ltr:md:text-4xl rtl:md:text-4xl font-bold text-white mb-4 drop-shadow-lg">
@@ -37,9 +37,9 @@
 
 
         <!-- Beautiful breadcrumb design with subtle accent - more compact -->
-        <div class="border-white border-[1px]  px-2 py-1 rounded-2xl">
+        {{# <div class="border-white border-[1px]  px-2 py-1 rounded-2xl">
         {{ partial:breadcrumbs }}
-        </div>
+        </div> #}}
     </div>
 </section>
 {{ popup }}

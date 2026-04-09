@@ -15,19 +15,28 @@ description:
         text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
 long_description:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: '#0ca5f2'
         text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 6
     content:
       -
         type: text
         text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775202060
+updated_at: 1775751982
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png

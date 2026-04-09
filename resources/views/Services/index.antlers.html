@@ -1,28 +1,81 @@
-{{ collection:services :slug="segment_2" limit="1" }}
+{{ collection:services slug:is="{segment_2}" limit="1" }}
 
-    <div class=" py-15 bg-primary bg-cover">
+    {{ partial:innert_page_heading :title="title" }}
+
+    <div class=" py-10 bg-primary bg-cover">
         <div class="adnec-container ">
 
             {{# <div class="flex flex-row gap-2 text-primary mb-8 pb-5 border-b-[1px] border-[#00000012]">
                 {{ heroicon variant="outline" icon="calendar-days" class="w-5 h-6 " /}}
             </div> #}}
    
-            <div class="grid grid-cols-2 items-center py-10 ">
+            <div class=" flex flex-col-reverse items-start md:grid  md:grid-cols-2 md:items-center py-10 gap-5 ">
                 <div class="custom text-white">
                     {{ long_description }}
                 </div>
-
+<div class="w-full object-cover md:w-auto">
                 {{ thumbnail_image }}
-                    <img src="{{ url }}" alt="">
+                    <img class="w-full object-cover md:w-auto" src="{{ url }}" alt="">
                 {{ /thumbnail_image }}
-
+</div>
             </div>
 
-            <div class="grid grid-cols-3 gap-5  flex-wrap py-10">
-                {{ carousel_images }}
-                  <div class="rounded-[8px] overflow-hidden">  <img src="{{ url }}" alt=""></div>
-                {{ /carousel_images }}
+            <div class="relative py-10"
+                 x-data="{
+                     swiper: null,
+                     initSwiper() {
+                         this.$nextTick(() => {
+                             if (window.Swiper && this.$refs.serviceCarousel) {
+                                 this.swiper = new window.Swiper(this.$refs.serviceCarousel, {
+                                     slidesPerView: 1,
+                                     spaceBetween: 20,
+                                     grabCursor: true,
+                                     loop: true,
+                                     autoplay: {
+                                         delay: 3000,
+                                         disableOnInteraction: false,
+                                     },
+                                     pagination: {
+                                         el: this.$refs.serviceCarouselPagination,
+                                         clickable: true,
+                                     },
+                                     navigation: {
+                                         nextEl: this.$refs.serviceCarouselNext,
+                                         prevEl: this.$refs.serviceCarouselPrev,
+                                     },
+                                     breakpoints: {
+                                         640: { slidesPerView: 2 },
+                                         1024: { slidesPerView: 3 },
+                                     },
+                                 });
+                             }
+                         });
+                     }
+                 }"
+                 x-init="initSwiper()">
 
+                <div class="swiper" x-ref="serviceCarousel">
+                    <div class="swiper-wrapper">
+                        {{ carousel_images }}
+                            <div class="swiper-slide">
+                                <div class="rounded-[8px] overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="{{ url }}" alt="">
+                                </div>
+                            </div>
+                        {{ /carousel_images }}
+                    </div>
+                </div>
+
+                {{# Navigation arrows #}}
+                <button x-ref="serviceCarouselPrev" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
+                </button>
+                <button x-ref="serviceCarouselNext" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/70 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                </button>
+
+                {{# Pagination dots #}}
+                <div x-ref="serviceCarouselPagination" class="mt-4 flex justify-center"></div>
             </div>
 
         </div>

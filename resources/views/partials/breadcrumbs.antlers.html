@@ -29,6 +29,16 @@
                             {{ /if }}
                         </li>
                     {{ /nav:breadcrumbs }}
+
+                    {{# Fallback breadcrumb for custom routes (e.g. services) where nav:breadcrumbs doesn't include the current page #}}
+                    {{ if template == "Services/index" && title }}
+                        <li class="flex items-center">
+                            <span class="text-white mx-2">
+                                {{heroicon variant="outline" icon="chevron-right" class="h-3 w-3 rtl:rotate-180"}}
+                            </span>
+                            <span class="font-medium text-white">{{ title }}</span>
+                        </li>
+                    {{ /if }}
                 </ol>
             </nav>
         </div>

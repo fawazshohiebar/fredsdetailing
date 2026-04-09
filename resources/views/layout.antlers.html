@@ -44,7 +44,9 @@
 
   {{ partial:partials/header }}
   <main class="relative">
-    {{ partial:innert_page_heading }}
+    {{ if segment_1 != "services" }}
+        {{ partial:innert_page_heading }}
+    {{ /if }}
     {{ template_content }}
   </main>
 

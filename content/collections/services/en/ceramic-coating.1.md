@@ -30,7 +30,9 @@ long_description:
               color: '#fff'
         text: 'Ceramic Coating Is the best'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 6
     content:
       -
         type: hardBreak
@@ -38,7 +40,7 @@ long_description:
         type: text
         text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
 updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775751119
+updated_at: 1775751286
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png

@@ -1,13 +1,13 @@
-title: Fredsdetailingd
+title: Fredsdetailing
 logo: brand/freddylogo.png
 button_replicator:
   -
     id: mglevgrk
-    design: blackbgwhitetxt
+    design: bluebgwhitetxt
     open_new_tab: false
     button_size: fit
     type: button
-    enabled: false
+    enabled: true
     icon: none
     label: 'Book Now'
 footer_sales:
@@ -83,4 +83,4 @@ footer_ending_text:
     content:
       -
         type: text
-        text: '@2023 Premium Detail Automotive. All rights reserved.'
+        text: "@2026 Fred's Detailing. All rights reserved."

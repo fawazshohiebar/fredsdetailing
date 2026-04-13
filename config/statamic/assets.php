@@ -14,7 +14,7 @@ return [
         |
         */
 
-        'route' => 'glide-resizer',
+        'route' => 'img',
 
         /*
         |--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return [
         |
         */
 
-        'cache' => false,
+        'cache' => true,
         'cache_path' => public_path('img'),
 
         /*

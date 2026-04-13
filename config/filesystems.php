@@ -64,12 +64,6 @@ return [
                 'ACL' => 'private',
             ]
         ],
-       'glide' => [
-    'driver' => 'local',
-    'root'   => storage_path('framework/cache/glide'),
-    'url'    => '/img', // Or whatever your route is in assets.php
-    'visibility' => 'public',
-],
         'assets' => [
             'driver' => 'local',
             'root' => public_path('assets'),

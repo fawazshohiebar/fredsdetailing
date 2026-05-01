@@ -4,3 +4,4 @@ roles:
 groups:
   - managers
 id: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
+password_hash: $2y$12$.N.G3IpUiECE.6jFpP2itunIJJDyUZBkEJISAI8b1ZegJnYzD92wm

@@ -31,7 +31,7 @@ long_description:
   -
     type: paragraph
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341831
+updated_at: 1778342222
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png

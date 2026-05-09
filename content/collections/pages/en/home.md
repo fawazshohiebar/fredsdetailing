@@ -249,7 +249,8 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341972
+updated_at: 1778342066
 reusable_popup: false
-fine_seo_title: "Fred's Detailing"
+fine_seo_title: "Mobile Car Detailing Calgary | Fred's Detailing"
+fine_seo_description: "Fred's Detailing offers professional mobile car detailing across Calgary. Interior detailing, ceramic coating, pet hair removal & more delivered to your door."
 ---

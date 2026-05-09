@@ -12,35 +12,29 @@ description:
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: 'Deep cleaning of seats, carpets, dashboard, door panels, and upholstery — performed right at your location.'
 long_description:
   -
     type: heading
     attrs:
-      level: 4
+      level: 3
     content:
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: textColor
-            attrs:
-              color: '#fff'
-        text: 'Ceramic Coating Is the best'
+        text: 'Interior Car Detailing'
   -
     type: heading
     attrs:
       level: 6
     content:
       -
-        type: hardBreak
-      -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: 'Deep cleaning of seats, carpets, dashboard, door panels, and upholstery — performed right at your location. We extract dirt, eliminate odours, and restore your cabin to a fresh, like-new condition.'
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341684
+updated_at: 1778341723
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png

@@ -3,53 +3,24 @@ id: f821cd58-05f0-4173-bdd0-04d33866d594
 blueprint: hero
 title: 'hero section'
 video: eMBlkjCA298
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775205552
+updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
+updated_at: 1778341270
 heading:
   -
     type: heading
     attrs:
-      level: 2
+      level: 1
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'ELEVATE YOUR'
-      -
-        type: hardBreak
-        marks:
-          -
-            type: bold
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textColor
-            attrs:
-              color: redgrad
-        text: 'DRIVING EXPERIENCE'
-description_text:
-  -
-    type: heading
-    attrs:
-      level: 5
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textColor
-            attrs:
-              color: '#EDF1F7'
-        text: 'Professional automotive detailing for those who demand perfection. We bring the showroom shine back to your vehicle with precision and passion.'
+        text: 'Calgary Mobile Car Detailing — We Come to You'
 button_group:
   -
     id: mnihshnt
-    label: 'Our Services'
+    label: 'Book Your Detail'
     design: pinkbgwhitetxt
     icon: none
     open_new_tab: false
@@ -57,10 +28,11 @@ button_group:
     enabled: true
   -
     id: mnii9fhy
-    label: 'Contact Us'
+    label: 'View Our Services'
     design: blueoutlined
     icon: none
     open_new_tab: false
     type: new_set
     enabled: true
+subheading: "Fred's Detailing brings professional automotive care directly to your driveway, office, or anywhere in Calgary. No drop-offs, no waiting rooms — just showroom-level results delivered on your schedule."
 ---

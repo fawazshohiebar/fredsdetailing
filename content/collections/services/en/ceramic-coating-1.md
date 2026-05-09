@@ -1,7 +1,7 @@
 ---
 id: e8aadbd3-25b5-4db9-8b58-e04132ce7e6b
 blueprint: service
-title: 'Ceramic Coating (Duplicated)'
+title: 'Exterior Car Detailing'
 thumbnail_image:
   - unnamed.png
 description:
@@ -12,21 +12,16 @@ description:
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: 'Full exterior wash, clay bar treatment, paint decontamination, and hand polish to remove light swirls, road grime, and oxidation'
 long_description:
   -
     type: heading
     attrs:
-      level: 4
+      level: 3
     content:
       -
         type: text
-        marks:
-          -
-            type: textColor
-            attrs:
-              color: '#0ca5f2'
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: 'Exterior Car Detailing'
   -
     type: heading
     attrs:
@@ -34,9 +29,11 @@ long_description:
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775751982
+        text: 'Full exterior wash, clay bar treatment, paint decontamination, and hand polish to remove light swirls, road grime, and oxidation — leaving your paintwork clean, smooth, and protected.'
+  -
+    type: paragraph
+updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
+updated_at: 1778341781
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png

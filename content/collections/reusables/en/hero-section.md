@@ -4,7 +4,7 @@ blueprint: hero
 title: 'hero section'
 video: eMBlkjCA298
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341270
+updated_at: 1778341300
 heading:
   -
     type: heading
@@ -17,6 +17,15 @@ heading:
           -
             type: bold
         text: 'Calgary Mobile Car Detailing — We Come to You'
+description_text:
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: "Fred's Detailing brings professional automotive care directly to your driveway, office, or anywhere in Calgary. No drop-offs, no waiting rooms — just showroom-level results delivered on your schedule."
 button_group:
   -
     id: mnihshnt
@@ -34,5 +43,4 @@ button_group:
     open_new_tab: false
     type: new_set
     enabled: true
-subheading: "Fred's Detailing brings professional automotive care directly to your driveway, office, or anywhere in Calgary. No drop-offs, no waiting rooms — just showroom-level results delivered on your schedule."
 ---

@@ -27,18 +27,14 @@ page_builder:
           -
             type: heading
             attrs:
-              level: 4
+              level: 2
             content:
               -
                 type: text
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'Passion for Automotive Excellence'
+                text: 'Professional Car Detailing, Delivered to Your Door'
         background: bgcolor
         background_color: primary
         description:
@@ -47,12 +43,15 @@ page_builder:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#EDF1F7'
-                text: "Founded by enthusiasts for enthusiasts, our studio is dedicated to the art of vehicle preservation. We don't just wash cars; we restore their soul. Every curve, every vent, and every stitch is treated with the utmost care using industry-leading products."
+                text: "Fred's Detailing was built around one simple idea: premium car detailing shouldn't mean rearranging your day. We bring everything needed to deliver a full professional detail — equipment, products, and expertise — straight to wherever your vehicle is parked in Calgary."
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Whether it's your home, your workplace, or anywhere across the city, our mobile detailing service delivers the same meticulous results you'd expect from a high-end studio — without the trip."
+          -
+            type: paragraph
         section_label:
           -
             type: paragraph
@@ -243,8 +242,8 @@ body_start_scripts:
 body_end_scripts:
   code: null
   mode: htmlmixed
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1776071570
+updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
+updated_at: 1778341529
 reusable_popup: false
 fine_seo_title: "Fred's Detailing"
 ---

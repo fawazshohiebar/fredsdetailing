@@ -109,22 +109,28 @@ page_builder:
           - e8aadbd3-25b5-4db9-8b58-e04132ce7e6b
           - 7958e4ee-5b5c-4ff3-b56f-420b17051275
           - adc3d384-44f8-498e-a840-a0aacbb243d2
+          - 8d8499ed-6af1-41f3-89bf-73e8d6d7bcb4
+          - 7a8431e2-80a4-497d-bbf3-c00c4f925737
+          - 53ec8cba-3e7d-4139-a738-1d160494c2cb
         sub_heading:
           -
             type: heading
             attrs:
-              level: 4
+              level: 2
             content:
               -
                 type: text
                 marks:
                   -
                     type: bold
-                  -
-                    type: textColor
-                    attrs:
-                      color: '#fff'
-                text: 'Our Detailing Solutions'
+                text: 'Mobile Car Detailing Services in Calgary'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Every service is performed on-location, using professional-grade products and equipment brought directly to you. No fixed location. No inconvenience.'
   -
     type: set
     attrs:
@@ -243,7 +249,7 @@ body_end_scripts:
   code: null
   mode: htmlmixed
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341529
+updated_at: 1778341972
 reusable_popup: false
 fine_seo_title: "Fred's Detailing"
 ---

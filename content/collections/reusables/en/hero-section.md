@@ -1,10 +1,11 @@
 ---
 id: f821cd58-05f0-4173-bdd0-04d33866d594
+published: false
 blueprint: hero
 title: 'hero section'
 video: eMBlkjCA298
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341450
+updated_at: 1778341476
 heading:
   -
     type: heading

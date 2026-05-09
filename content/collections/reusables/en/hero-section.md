@@ -4,7 +4,7 @@ blueprint: hero
 title: 'hero section'
 video: eMBlkjCA298
 updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
-updated_at: 1778341316
+updated_at: 1778341450
 heading:
   -
     type: heading
@@ -16,9 +16,7 @@ heading:
         text: 'Calgary Mobile Car Detailing — We Come to You'
 description_text:
   -
-    type: heading
-    attrs:
-      level: 5
+    type: paragraph
     content:
       -
         type: text

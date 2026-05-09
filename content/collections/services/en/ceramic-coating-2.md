@@ -1,7 +1,7 @@
 ---
 id: 7958e4ee-5b5c-4ff3-b56f-420b17051275
 blueprint: service
-title: 'Ceramic Coating (Duplicated) (2)'
+title: 'Ceramic Coating'
 thumbnail_image:
   - unnamed.png
 description:
@@ -12,22 +12,26 @@ description:
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: "Long-term paint protection applied on-site. Our ceramic coating bonds to your vehicle's clear coat, delivering hydrophobic properties, UV resistance, and a deep gloss that lasts years, not weeks."
 long_description:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
+        text: 'Ceramic Coating'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.Ultimate hydrophobic protection and gloss that lasts for years, not weeks.'
-updated_by: ac775259-f1c4-4a12-b768-668149cb0e1a
-updated_at: 1775202060
+        text: "Long-term paint protection applied on-site. Our ceramic coating bonds to your vehicle's clear coat, delivering hydrophobic properties, UV resistance, and a deep gloss that lasts years, not weeks."
+  -
+    type: paragraph
+updated_by: f2ebeb8c-ec9d-4e91-bc7f-cc1957cabb6e
+updated_at: 1778341831
 carousel_images:
   - unnamed-(4).png
   - unnamed-(3).png
